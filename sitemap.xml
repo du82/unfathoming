@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/unfathoming/blog/firstpost/</loc>
+		<loc>https://unfathom.ing/unfathoming/blog/firstpost/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/blog/secondpost/</loc>
+		<loc>https://unfathom.ing/unfathoming/blog/secondpost/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/blog/thirdpost/</loc>
+		<loc>https://unfathom.ing/unfathoming/blog/thirdpost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/blog/fourthpost/</loc>
+		<loc>https://unfathom.ing/unfathoming/blog/fourthpost/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/blog/2024/the-tragedy-of-discord/</loc>
+		<loc>https://unfathom.ing/unfathoming/blog/2024/the-tragedy-of-discord/</loc>
 		<lastmod>2024-01-05</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/about/</loc>
+		<loc>https://unfathom.ing/unfathoming/about/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/blog/</loc>
+		<loc>https://unfathom.ing/unfathoming/blog/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/</loc>
+		<loc>https://unfathom.ing/unfathoming/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/tags/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/tags/another-tag/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/another-tag/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/tags/number-2/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/number-2/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/tags/second-tag/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/second-tag/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/unfathoming/tags/posts-with-two-tags/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/posts-with-two-tags/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 </urlset>
