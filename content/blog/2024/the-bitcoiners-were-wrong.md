@@ -1,6 +1,5 @@
 ---
-title: My review of the private messaging ecosystem
-description: Here's what I think about the current state of encrypted messaging.
+title: The Bitcooiners were wrong
 date: 2024-05-15
 tags:
   - privacy
