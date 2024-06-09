@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/blog/firstpost/</loc>
-		<lastmod>2018-05-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/unfathoming/blog/secondpost/</loc>
-		<lastmod>2018-07-04</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/unfathoming/blog/2024/the-tragedy-of-discord/</loc>
 		<lastmod>2024-01-05</lastmod>
 	</url>
@@ -57,27 +47,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/another-tag/</loc>
-		<lastmod>2024-06-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/number-2/</loc>
-		<lastmod>2024-06-09</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/unfathoming/tags/privacy/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/security/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/software/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/software/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/security/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
