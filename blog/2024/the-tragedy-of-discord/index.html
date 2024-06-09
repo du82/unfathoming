@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>The tragedy of Discord</title>
+		<meta name="description" content="This is a post on My Blog about agile frameworks.">
+		<link rel="alternate" href="/eleventy-base-blog/feed/feed.xml" type="application/atom+xml" title="Eleventy Base Blog v8">
+		<link rel="alternate" href="/eleventy-base-blog/feed/feed.json" type="application/json" title="Eleventy Base Blog v8">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/eleventy-base-blog/" class="home-link">Eleventy Base Blog v8</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/eleventy-base-blog/">Home</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>The tragedy of Discord</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2024-01-05">05 January 2024</time></li>
+	<li><a href="/eleventy-base-blog/tags/another-tag/" class="post-tag">another tag</a></li>
+</ul>
+
+<p>Recently I’ve seen more and more communities utilizing Discord (the social chat app) as a means of organization and communication. It’s not just the big names either, it seems to be every community that isn’t privacy focused, as well as most “Web3” communities.</p>
+<blockquote>
+<p>Note: To help migrate users away from IRC, Discord chose to name their communities “servers”. Servers in this context are nothing more than folders where text files (which they call channels) are stored. It is impossible to host a Discord server on your own hardware.</p>
+</blockquote>
+<h2 id="discord-is-bad-for-the-open-web" tabindex="-1">Discord is bad for the open web <a class="header-anchor" href="#discord-is-bad-for-the-open-web">#</a></h2>
+<p>You’ve probably heard someone complain about the LinkedIn authentication popups that require you to sign in to view content. The frustration you feel when you go to check on someones profile, only to be hit with a “sign up to LinkedIn” prompt is the same frustration I and others feel towards communities on Discord.
+Instead of the answer to your problem existing on a forum that’s indexed by the major search engines, you spend hours digging around just to realize that the solution is buried deep inside of a community on Discord, and the only way to view it is to let them collect your data so you can join what should’ve been a public forum.</p>
+<h2 id="centralization" tabindex="-1">Centralization <a class="header-anchor" href="#centralization">#</a></h2>
+<p>We put a huge emphasis on privacy and do not track the user or attempt to associate their queries with any identifiers like an IP or cookie. Both our clearnet and Tor mirrors run all logic on the backend, meaning no JavaScript or WASM on the frontend. The entire search engine has been designed with the idea that someday we may get a subpoena, and we want to confidently tell the lawyers that we collect only the absolute minimum required to operate and we don’t even store it on disk (memory-only).</p>
+<p>We see no reason for Google, Bing, or others to store every search you make over the entire history of your account, unless they’re selling it to the CIA or something. Spooky!</p>
+<h2 id="absolutely-proprietary" tabindex="-1">Absolutely proprietary <a class="header-anchor" href="#absolutely-proprietary">#</a></h2>
+<p>Despite the claims by the company that “Discord loves open-source” they in fact do not. Nothing about Discord is open source beyond some of the GPL licensed projects that they rely on for their own code. This doesn’t sound like a company that loves open source and wants to contribute back. This sounds like a company that loves open source because it makes their own development cheaper.</p>
+<p>Those that have attempted to reverse engineer and re-implement the Discord technology stack in an open-source way have been hit with legal notices. Just look at what they did to Fosscord and other projects that are re-implementations of their specification.</p>
+<h2 id="server-operators-are-powerless" tabindex="-1">Server operators are powerless <a class="header-anchor" href="#server-operators-are-powerless">#</a></h2>
+<p>As a server operator, you are powerless against the platform. You have no say in what features they decide to add or remove, and what other things they do. There have been instances where Discord have purposely made the platform worse for some users as an April Fools joke. Is that the kind of platform you want to rely on?</p>
+<h2 id="moderators-have-no-say" tabindex="-1">Moderators have no say <a class="header-anchor" href="#moderators-have-no-say">#</a></h2>
+<p>When the company introduces new features, they are typically Nitro (their 10 dollar monthly subscription) exclusive, or severely limited unless you pay. To access some of these features, your community must be paying for Nitro in order to get “Boosts” which can be used to make your server significantly more useful to everyone. The main problem? This collectively costs 140 dollars per month for the highest tier, and it is on a per-server basis. Every server that wants a decent experience must expect their members to collectively cough up $140 a month.</p>
+<h2 id="moderators-have-no-power" tabindex="-1">Moderators have no power <a class="header-anchor" href="#moderators-have-no-power">#</a></h2>
+<p>Unlike hosting your own community forum or Matrix server, you cannot ban a block of IPs that are used by adversaries to evade bans on Discord. Why? You do not own your server, the company does. The only one with power over your community is Discord themselves. This is a problem for server operators since Discord has very weak alt detection and ban evasion is trivial, as the checks happen client side.</p>
+<p>Discord lulls you into a false sense of ownership and control, when in reality you own nothing beyond the branding of the server and the messages you send. Put bluntly, if Discord decides you don't make them enough money, or you mention alternative platforms, they can delete a community you've built over years and you can do nothing about it.</p>
+<h2 id="moderators-have-no-privacy" tabindex="-1">Moderators have no privacy <a class="header-anchor" href="#moderators-have-no-privacy">#</a></h2>
+<p>Neither do their communities. For the communities that are intentionally private (meaning they have no public invite links), they also have no privacy. All it takes is one data breach or a misconfiguring of permissions, and your entire chat history including deleted messages is open to the world.</p>
+<p>End users are powerless as well
+As an end user, you have no power or control over the platform. Just like server operators, you have no say in what features the company chooses to add or remove, and without using a custom client, you have no way to fix the intentionally bad design unless you pay for the Nitro monthly or yearly subscription.</p>
+<p>Users have no say
+As a user of Discord, you have absolutely zero say in how the platform is run. In fact, the platform is designed to push users towards its Nitro subscription by restricting users who don’t pay, and imposing artificial limitations upon them.</p>
+<p>A good example of this is themes. Users have been using tools like BetterDiscord to customize the look and feel of the platform. Some users do this for accessibility, although most do it because the default experience is just plain awful. What does Discord do in this case? They add themes for 10 dollars a month and start banning users who openly talk about their use of client modifications.</p>
+<p>Users have no power
+You have no power or control over Discord, your data, or your account. You can’t even have the option to sue them unless you let them know and tell them your legal name and other personal information within a month of creating your account, regardless of if you actually plan to sue them, which is not something you should want to give a company that works with the Chinese government.</p>
+<p>Users have no privacy
+You have no control or insight into how Discord uses your data. This should scare you, especially considering their investment and data sharing agreements with Tencent; a company with an awful track record regarding privacy.</p>
+<p>Your DMs on Discord are not end-to-end encrypted, which means employ ees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.</p>
+<p>The platform is a disaster
+Discord compels users to follow their Terms Of Service by threatening to delete their accounts, but then never does anything about the outsiders who abuse the platform. This leads to a situation where consequences only apply to legitimate users who want to keep their accounts. Bots, spammers, and loggers can do whatever they want.
+Funny how that works, isn't it.</p>
+<p>What makes this a tragedy?
+People have willingly given up the freedoms and privacy that they had on IRC and Matrix to move towards a centralized platform that is hostile towards them, does not care about them, and actively exploits them for monetary benefit.</p>
+<p>Instead of decentralized communities that are truly owned by their leaders / moderators, millions of people moved away from IRC and other decentralized offerings towards the flashy marketing and gamer aesthetic™. People have willingly given up freedoms and privacy for convenience and in the process they’ve also lost what made the early internet communities special; their sovereignty.</p>
+<p>Discord does not care about you, despite the flashy marketing. Discord does not care about people with disabilities, despite their modern UI. Your privacy is an obstacle to their success. If you’re thinking about starting a Discord server, please consider an alternative such as self hosting Element, or if you must have the Discord UI and don't mind a strong liberal bias, Revolt is an open-source option that might work for you.</p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/eleventy-base-blog/blog/fourthpost/">This is my fourth post!</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/eleventy-base-blog/blog/2024/the-tragedy-of-discord/` was built on 2024-06-09T01:16:16.074Z -->
+	</body>
+</html>

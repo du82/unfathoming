@@ -22,6 +22,11 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/eleventy-base-blog/blog/2024/the-tragedy-of-discord/</loc>
+		<lastmod>2024-01-05</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/eleventy-base-blog/about/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
@@ -47,17 +52,17 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/eleventy-base-blog/tags/number-2/</loc>
-		<lastmod>2024-06-09</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/eleventy-base-blog/tags/second-tag/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/eleventy-base-blog/tags/posts-with-two-tags/</loc>
+		<lastmod>2024-06-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/eleventy-base-blog/tags/number-2/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 </urlset>
