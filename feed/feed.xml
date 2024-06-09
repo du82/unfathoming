@@ -13,6 +13,43 @@
 	
 	<entry>
 		<title>My review of the private messaging ecosystem</title>
+		<link href="https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/"/>
+		<updated>2024-05-15T00:00:00Z</updated>
+		<id>https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/</id>
+		<content type="html">&lt;p&gt;So too were the Ethereum...ers? Ethers? The people that shill Ethereum and Web3 as the solution to the world&#39;s problems.&lt;/p&gt;
+&lt;h2 id=&quot;the-seven-principles&quot; tabindex=&quot;-1&quot;&gt;The seven principles &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There&#39;s seven fairly well known and agreed upon principles of Bitcoin. They are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Self-custody: Bitcoin allows users to have full control over their own funds without relying on a third party.&lt;/li&gt;
+&lt;li&gt;Inclusion: Bitcoin is open and accessible to anyone with an internet connection, without discrimination or restrictions.&lt;/li&gt;
+&lt;li&gt;Transparency: The Bitcoin blockchain is a public, transparent ledger that records all transactions.&lt;/li&gt;
+&lt;li&gt;Privacy: Bitcoin transactions can be made with a high degree of privacy, without revealing users&#39; identities.&lt;/li&gt;
+&lt;li&gt;Decentralization: The Bitcoin network is decentralized and not controlled by any single entity, government, or organization.&lt;/li&gt;
+&lt;li&gt;No censorship: The Bitcoin network cannot prevent valid transactions from being confirmed.&lt;/li&gt;
+&lt;li&gt;Open-source: The Bitcoin software is open-source, allowing anyone to view and contribute to the codebase.&lt;/li&gt;
+&lt;li&gt;Every one of these seven principles are theoretically possible, but in reality near impossible to achieve. Lets break them down:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;self-custody&quot; tabindex=&quot;-1&quot;&gt;Self-custody &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&amp;quot;Not your keys, not your coins&amp;quot;. This is one of the biggest topics that bitcoiners talk about. It can be true depending on how you obtain and store your bitcoins. The problem I have with this is that the average person is using a custodial exchange, so while they think the bitcoins are stored in the app on their phone, they never even receive the seed phrase for them. This isn&#39;t necessarily a flaw with Bitcoin, but Bitcoin does nothing to prevent custodial exchanges, in the way something like Monero does.&lt;/p&gt;
+&lt;h2 id=&quot;inclusion&quot; tabindex=&quot;-1&quot;&gt;Inclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bitcoin is inclusive for the most part, but its transparent design lacks plausible deniability, which means people in countries like China where Bitcoin is banned cannot safely use it in secret without hiding their trail. More on that in the next paragraph.&lt;/p&gt;
+&lt;h2 id=&quot;transparency&quot; tabindex=&quot;-1&quot;&gt;Transparency &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This has been a tragic success, and goes well with the next principle. The Bitcoin (and Ethereum) blockchain is too transparent. Anyone can see everything, meaning there is no privacy. If you were trying to hide your use of Bitcoin from your government, all it takes is one mistake to tie your entire transaction history back to you.&lt;/p&gt;
+&lt;h2 id=&quot;privacy&quot; tabindex=&quot;-1&quot;&gt;Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bitcoin offers no privacy. Absolutely none. The best you can do is use a non-KYC exchange or mine it yourself, then be very careful of who you send it to. Bitcoin is actually less private than your bank account, since the visibility into your bank account is regulated. Anyone with the time can dig through your Bitcoin (or Ethereum) transaction history, put the pieces together, and figure out who you are.&lt;/p&gt;
+&lt;p&gt;Compare this to a bank account. Lets say you want to hide your donation to a political party from the world. With a bank account, you can just send the funds and in most cases, at least in the United States, they won&#39;t censor the transaction. With Bitcoin, you would have to use a mixer or similar tool to obfuscate the trace, which is yet another fee, and not actually private.&lt;/p&gt;
+&lt;p&gt;##Decentralization
+This is one of those things that is &amp;quot;in theory, but rarely in practice&amp;quot;. Most people use things like Coinbase, which are essentially PayPal for crypto. How Coinbase works, is if you send money to another user on Coinbase, no crypto is actually exchanged. The transaction is just stored on their centralized ledger (essentially just a database). For those who are using Bitcoin through non-KYC means, you&#39;re still going to interact with Coinbase and other centralized exchanges even if you aren&#39;t a user of them.&lt;/p&gt;
+&lt;p&gt;Another point that I&#39;d like to make on centralization, is that the vast majority of the Bitcoin network is operated by giant companies that run mining operations. It&#39;s become near impossible to actually mine bitcoin without hardware that costs thousands of dollars, leading to a few companies controlling all of it.&lt;/p&gt;
+&lt;h2 id=&quot;open-source&quot; tabindex=&quot;-1&quot;&gt;Open-source &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This one I can&#39;t really argue with. Bitcoin is open source, anyone can fork it and create their own blockchain.&lt;/p&gt;
+&lt;h2 id=&quot;financial-privacy&quot; tabindex=&quot;-1&quot;&gt;Financial privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lots of the problems that we see with Bitcoin, Ethereum, and derivatives are because there&#39;s no privacy. I wouldn&#39;t want to use a currency that anyone in the world can trace. China and North Korea are two countries that are known to track people overseas. Why should we give them one more tool to do so?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My review of the private messaging ecosystem</title>
 		<link href="https://unfathom.ing/unfathoming/blog/2024/my-review-of-the-private-messaging-ecosystem/"/>
 		<updated>2024-05-15T00:00:00Z</updated>
 		<id>https://unfathom.ing/unfathoming/blog/2024/my-review-of-the-private-messaging-ecosystem/</id>
