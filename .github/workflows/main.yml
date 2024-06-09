@@ -31,7 +31,7 @@ jobs:
         uses: actions/deploy-pages@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages  # The branch where the built site will be deployed
+          branch: main  # The branch where the built site will be deployed
           source: ./_site  # Change "./public" to your output directory if different
           folder: .  # Keep this as "." to deploy the entire branch content
 
