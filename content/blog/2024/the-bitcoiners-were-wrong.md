@@ -1,5 +1,5 @@
 ---
-title: The Bitcooiners were wrong
+title: The Bitcoiners were wrong
 date: 2024-05-15
 tags:
   - privacy
