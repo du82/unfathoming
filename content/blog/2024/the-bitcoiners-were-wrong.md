@@ -35,7 +35,7 @@ Bitcoin offers no privacy. Absolutely none. The best you can do is use a non-KYC
 
 Compare this to a bank account. Lets say you want to hide your donation to a political party from the world. With a bank account, you can just send the funds and in most cases, at least in the United States, they won't censor the transaction. With Bitcoin, you would have to use a mixer or similar tool to obfuscate the trace, which is yet another fee, and not actually private.
 
-##Decentralization
+## Decentralization
 This is one of those things that is "in theory, but rarely in practice". Most people use things like Coinbase, which are essentially PayPal for crypto. How Coinbase works, is if you send money to another user on Coinbase, no crypto is actually exchanged. The transaction is just stored on their centralized ledger (essentially just a database). For those who are using Bitcoin through non-KYC means, you're still going to interact with Coinbase and other centralized exchanges even if you aren't a user of them.
 
 Another point that I'd like to make on centralization, is that the vast majority of the Bitcoin network is operated by giant companies that run mining operations. It's become near impossible to actually mine bitcoin without hardware that costs thousands of dollars, leading to a few companies controlling all of it.
