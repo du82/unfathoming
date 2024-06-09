@@ -12,11 +12,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/blog/thirdpost/</loc>
-		<lastmod>2018-08-24</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/unfathoming/blog/fourthpost/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
@@ -77,16 +72,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/second-tag/</loc>
-		<lastmod>2024-06-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/posts-with-two-tags/</loc>
-		<lastmod>2024-06-09</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/unfathoming/tags/privacy/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
@@ -103,6 +88,11 @@
 	
 	<url>
 		<loc>https://unfathom.ing/unfathoming/tags/sovereignty/</loc>
+		<lastmod>2024-06-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/unfathoming/tags/second-tag/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 </urlset>
