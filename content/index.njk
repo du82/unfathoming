@@ -5,9 +5,12 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
+<p>I'm an aspiring generalist in the field of computer science with a focus on offensive cybersecurity. I care a lot about privacy and freedom, and I write (usually open source) software that helps restore and improve privacy.</p>
+<p>This site, Unfathoming, is a capsule of my thoughts and ideas over time so that others may benefit from the things that float around in my head. In the event that I disappear, this site will serve as a reference as to who I am/was.</p>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h3>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h3>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
