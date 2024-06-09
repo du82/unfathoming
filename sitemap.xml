@@ -27,6 +27,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/unfathoming/blog/2024/why-linux/</loc>
+		<lastmod>2024-03-25</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/unfathoming/about/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
@@ -52,6 +57,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/unfathoming/tags/number-2/</loc>
+		<lastmod>2024-06-09</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/unfathoming/tags/second-tag/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
@@ -72,7 +82,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/number-2/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/security/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 </urlset>

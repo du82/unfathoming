@@ -4,12 +4,43 @@
 	<subtitle>I am writing about my experiences.</subtitle>
 	<link href="https://unfathom.ing/unfathoming/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/unfathoming/"/>
-	<updated>2024-01-05T00:00:00Z</updated>
+	<updated>2024-03-25T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Why I use Linux</title>
+		<link href="https://unfathom.ing/unfathoming/blog/2024/why-linux/"/>
+		<updated>2024-03-25T00:00:00Z</updated>
+		<id>https://unfathom.ing/unfathoming/blog/2024/why-linux/</id>
+		<content type="html">&lt;p&gt;Lots of people ask me why I use Linux, so I thought I&#39;d put it here. TLDR; I use Linux because its the only option that respects the user and doesn&#39;t spy on them.&lt;/p&gt;
+&lt;p&gt;If you&#39;ve used Windows in recent years, you&#39;ve probably noticed a sharp decline in usability, an increase in ads, and a general enshittification of the platform. I&#39;ll break down all of the things that anger me with other operating systems. Prepare for a rant.&lt;/p&gt;
+&lt;h2 id=&quot;control&quot; tabindex=&quot;-1&quot;&gt;Control &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When I use Windows and (especially) MacOS, I feel like I don&#39;t have much control over the system. I want to do updates if and when I want. I do not want the Microsoft Corporation telling me its time to update.&lt;/p&gt;
+&lt;p&gt;In addition to controlling if and when I update, I also want to control what background processes are happening on my system. I do not want Teams, Edge, Bing, or anything else running around on my system without my consent. I want to be able to uninstall any software I want, even if it has the possibility of breaking my system. Windows and MacOS come with lots of bloatware, and there&#39;s no easy way to remove it, thus, you do not truly own your computer when you run Windows or MacOS on it.&lt;/p&gt;
+&lt;h2 id=&quot;privacy&quot; tabindex=&quot;-1&quot;&gt;Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don&#39;t want Microsoft or Apple virtually looking over my shoulder or scanning my files. I deal with a lot of sensitive information, and the files on my machines need to be under my control. I do not want Microsoft enabling OneDrive and uploading all of my data to their cloud after one of the many mandatory updates. Privacy is one of my core values, and is something that both Windows and MacOS violate.&lt;/p&gt;
+&lt;p&gt;From the moment you set up a Windows machine, you&#39;re begged for a Microsoft account, and you either need to use registry hacks or change your location to the United Kingdom to bypass the mandatory Microsoft account page. Most users sigh and create an account or sign in with an existing one, without realizing that this ties all of what you do to that account.&lt;/p&gt;
+&lt;p&gt;Both of these problems are eliminated with Linux. None of the popular distributions require online accounts, and the majority don&#39;t even ask for them at all.&lt;/p&gt;
+&lt;h2 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Without a doubt, Windows is a security shitshow. Downloading EXEs from the internet should&#39;ve been deprecated long ago in favor of a package manager, yet here were are in 2024 with malicious downloads still being a huge problem.&lt;/p&gt;
+&lt;p&gt;This is also not a big problem on #linux. Sure, malware exists, but if you stick to verified repositories and don&#39;t download random .deb files from the first search result you see, you&#39;ll be fine.&lt;/p&gt;
+&lt;h2 id=&quot;drivers&quot; tabindex=&quot;-1&quot;&gt;Drivers &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hunting down and installing drivers feels like something that should&#39;ve been solved for in the year 2000, yet I did that just last week for someone. Shipping drivers with the kernel causes less issues, improves security, and makes installing the distro a far more seamless experience.&lt;/p&gt;
+&lt;h2 id=&quot;politics&quot; tabindex=&quot;-1&quot;&gt;Politics &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I just want my computer to do the basics without getting political. I don&#39;t care about pride month, black history month, or anything else that Windows loves to shove into the search box or other UI elements. None of it interests me, I just want a computer that does computing, not American politics.&lt;/p&gt;
+&lt;p&gt;Linux distro developers don&#39;t try to force American politics on users. Keep up the great work.&lt;/p&gt;
+&lt;h2 id=&quot;respects-default-settings&quot; tabindex=&quot;-1&quot;&gt;Respects default settings &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you&#39;ve used Windows 11, you probably have had the experience of having to change your default browser back to Chrome or Firefox from Edge every few months.&lt;/p&gt;
+&lt;p&gt;Firefox is usually the default, and while I don&#39;t use non-chromium browsers (besides Tor), I appreciate that it&#39;s not forced and I can change it to whatever I want.&lt;/p&gt;
+&lt;p&gt;AI (or lack thereof)
+AI can be great (when its not politically biased), but I don&#39;t want it in my OS or apps. Both Windows and MacOS fall into the &amp;quot;shiny hype train&amp;quot; trap by including AI. If I want AI, then I will visit the ChatGPT website or install an offline AI program for more privacy, but don&#39;t force it on me.&lt;/p&gt;
+&lt;p&gt;Sadly there are some Linux distros that have hopped on the AI hype train, but thankfully none of the more popular ones have.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The tragedy of Discord</title>
