@@ -8,7 +8,6 @@ tags:
   - sovereignty
 ---
 
-TEST
 Lots of people ask me why I use Linux, so I thought I'd put it here. TLDR; I use Linux because its the only option that respects the user and doesn't spy on them.
 
 If you've used Windows in recent years, you've probably noticed a sharp decline in usability, an increase in ads, and a general enshittification of the platform. I'll break down all of the things that anger me with other operating systems. Prepare for a rant.
