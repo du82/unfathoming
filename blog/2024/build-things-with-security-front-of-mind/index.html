@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Why I created the Privacy Spreadsheet</title>
-		<meta name="description" content="Here&#39;s why I created the Privacy Spreadsheet site.">
+		<title>Build things with security front of mind</title>
+		<meta name="description" content="Its time we build things with security in mind.">
 		<link rel="alternate" href="/unfathoming/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/unfathoming/feed/feed.json" type="application/json" title="Unfathoming">
 		
@@ -465,26 +465,30 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Why I created the Privacy Spreadsheet</h1>
+<h1>Build things with security front of mind</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-02-14">14 February 2024</time></li>
-	<li><a href="/unfathoming/tags/privacy/" class="post-tag">privacy</a>, </li>
+	<li><time datetime="2024-03-24">24 March 2024</time></li>
+	<li><a href="/unfathoming/tags/security/" class="post-tag">security</a>, </li>
 	<li><a href="/unfathoming/tags/software/" class="post-tag">software</a></li>
 </ul>
 
-<p>You might've seen the website <a href="https://privacyspreadsheet.com">PrivacySpreadsheet.com</a> floating around if you're in the larger privacy communities. If you haven't, you should take a look, it's a spreadsheet which lists the privacy features (or lack thereof) of a wide variety of messaging apps, and soon other software and hardware products.</p>
-<p>This was a project that I started to give people a well-researched and visual display of how they can improve their privacy and take back control over their data. It started as a small project that I thought no one woud notice, and now people in the privacy and security communities are taking notice.</p>
-<h2 id="accuracy" tabindex="-1">Accuracy <a class="header-anchor" href="#accuracy">#</a></h2>
-<p>I've done over 100 hours of research into the real privacy of a variety of messaging apps. This includes data from public sources like freely available legal documents and analyzing data breaches, as well as private sources like company insiders who talk about how the company handles user data.</p>
-<p>I believe that this is one of the most accurate, if not the most accurate resource regarding data collection and privacy, largely because it considers things that aren't on the terms of service, such as internal handling of user data.</p>
-<h2 id="ease-of-use" tabindex="-1">Ease of use <a class="header-anchor" href="#ease-of-use">#</a></h2>
-<p>There's been other attempts to list the privacy benefits and drawbacks of tools in the past, but all of them are overwhelming to read since they require a lot of reading.</p>
-<p>I created my spreadsheet to be simple to parse. The more green boxes below the product name, the more private it is.</p>
-<h2 id="objective-criteria" tabindex="-1">Objective criteria <a class="header-anchor" href="#objective-criteria">#</a></h2>
-<p>All of the criteria (on the left side) is objective facts that can be proven. I've done my best to keep opinion and politics out of the dataset, and this helps keep the data factual rather than based on opinion. Is Facebook Messenger creepy spyware? Absolutely. Is it the worst option according to the data? No. Let the data speak for itself.</p>
+<p>Its time we build things with security in mind.</p>
+<p>This is a relatively new idea in the world of consumer software development; to build a product around security requirements, and to not back down when it gets challenging to work within the limitations that have been set.</p>
+<p>Cybersecurity threats are everywhere. Unless you already do something programming / security / government / supply chain related or are an enthusiast in this space, you probably don’t give much thought into how the software you use is designed. You likely hear about data breaches and wonder if it impacts you.</p>
+<p>The truth is, most consumer facing software is developed in what I believe is the completely wrong order. Currently the standard is to develop the software as cheaply as possible, then patch vulnerabilities when they inevitably come up. This is how I used to design my software, and it’s led to much personal headache and loss of user data.</p>
+<h2 id="my-personal-experience" tabindex="-1">My personal experience <a class="header-anchor" href="#my-personal-experience">#</a></h2>
+<p>Years ago (2019) I released a gaming app for kids, as a safe way to download content for Minecraft. At the time, I was relatively new to developing software on a relatively large scale (500k downloads in the first two years), and had no clue about security, software supply chains, or anything related. The backend utilized a standard LAMP stack, and the frontend was written in Android’s dialect of Java.</p>
+<p>This project was a perfect example of the sad state of consumer software design. It was released quickly to be able to capture market share from the upcoming COVID pandemic, and it was written with a standard tech stack that is still very popular today.</p>
+<p>Eventually (it took a year) it was hacked due to a SQL injection vulnerability (of course!) and it was a particularly bad hack, because every user was sent a notification with a link to an adult porn website. Due to this, Google pulled the app from the play store and while I did re-release it later, I gave up for a while.</p>
+<p>This was my first real adventure into the world of cybersecurity, and a constant reminder of what can go wrong if I follow current industry standards.</p>
+<h2 id="battle-tested-software" tabindex="-1">Battle-tested software <a class="header-anchor" href="#battle-tested-software">#</a></h2>
+<p>Just like those who design military vehicles, software developers must also battle test our software as we’re building to ensure that when it ends up in the hands of end users (and adversaries) the virtual armor is not going to be destroyed before it even has a chance to do its job.</p>
+<p>One way to do this is by releasing development builds to communities eager to break whatever you’ve made. With my project where I’m Building a programmatic search engine, I released it as a Tor hidden service (on the dark web) and shared it around. I had no idea what to expect, but within minutes the project started getting attacked, and I was able to take note of what worked, what didn’t, and what needed fixing. A week later I did another security release, analyzed the attacks, and and am in the process of fixing the issues that came up during the 12 hour test window.</p>
+<p>This is a fairly unique approach to securing consumer software, but it’s already proven successful where I’ve implemented it.</p>
+<p>As part of My programming journey I’m learning the Rust programming language, and this is the second part of my approach to building things with security front of mind. Rust enforces relatively safe programming practices (beyond just memory safety) at the compiler level, which forces the developer to consider their actions.</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/unfathoming/blog/2024/the-tragedy-of-discord/">The tragedy of Discord</a></li><li>Next: <a href="/unfathoming/blog/2024/build-things-with-security-front-of-mind/">Build things with security front of mind</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/unfathoming/blog/2024/privacy-spreadsheet/">Why I created the Privacy Spreadsheet</a></li><li>Next: <a href="/unfathoming/blog/2024/why-linux/">Why I use Linux</a></li>
 </ul>
 
 		</main>
@@ -493,6 +497,6 @@ h2 + .header-anchor {
 			<i>Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/unfathoming/blog/2024/privacy-spreadsheet/` was built on 2024-06-09T14:34:22.946Z -->
+		<!-- This page `/unfathoming/blog/2024/build-things-with-security-front-of-mind/` was built on 2024-06-09T14:34:22.946Z -->
 	</body>
 </html>
