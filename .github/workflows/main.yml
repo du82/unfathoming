@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: read  # Need read access to repository contents
+  id-token: write
   pages: write   # Need write access to publish to GitHub Pages
 
 jobs:
