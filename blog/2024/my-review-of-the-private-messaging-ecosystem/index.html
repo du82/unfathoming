@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>This is my fourth post!</title>
-		<meta name="description" content="This is a post on My Blog about touchpoints and circling wagons.">
+		<title>My review of the private messaging ecosystem</title>
+		<meta name="description" content="Here&#39;s what I think about the current state of encrypted messaging.">
 		<link rel="alternate" href="/unfathoming/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/unfathoming/feed/feed.json" type="application/json" title="Unfathoming">
 		
@@ -465,26 +465,47 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>This is my fourth post!</h1>
+<h1>My review of the private messaging ecosystem</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2018-09-30">30 September 2018</time></li>
-	<li><a href="/unfathoming/tags/second-tag/" class="post-tag">second tag</a></li>
+	<li><time datetime="2024-05-15">15 May 2024</time></li>
+	<li><a href="/unfathoming/tags/privacy/" class="post-tag">privacy</a>, </li>
+	<li><a href="/unfathoming/tags/security/" class="post-tag">security</a>, </li>
+	<li><a href="/unfathoming/tags/software/" class="post-tag">software</a></li>
 </ul>
 
-<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-<p><picture><source type="image/avif" srcset="/unfathoming/img/IdthKOzqFA-350.avif 350w"><source type="image/webp" srcset="/unfathoming/img/IdthKOzqFA-350.webp 350w"><img alt="A possum parent and two possum kids hanging from the iconic red balloon" loading="lazy" decoding="async" src="/unfathoming/img/IdthKOzqFA-350.png" width="350" height="685"></picture></p>
-<h2 id="section-header" tabindex="-1">Section Header <a class="header-anchor" href="#section-header">#</a></h2>
-<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+<blockquote>
+<p>Commentary: I have considered lots of factors, including reviewing the latest data from the privacy spredsheet, but the content in this post is opinion, not fact.</p>
+</blockquote>
+<p>I've been watching the state of private messaging for years, and have seen new companies enter with fresh ideas, which makes me excited to try out their products. I've used just about every private messenger out there, and here's my review of them.</p>
+<h2 id="element" tabindex="-1">Element <a class="header-anchor" href="#element">#</a></h2>
+<p>I like Element, but their encryption has me wary of using it for anything sensitive because they've had a few critical vulnerabilities in their rust crypto implementation.</p>
+<p>Other than that, it's a great discord-like platform, especially since you can self-host the whole thing and run your own community without having to follow any terms of service. They recently did a rewrite of their mobile apps and they look amazing. The web/desktop app is still a bloated JavaScript mess that feels disjointed. They could really use a native rewrite of the desktop app using something like QT.</p>
+<h2 id="signal" tabindex="-1">Signal <a class="header-anchor" href="#signal">#</a></h2>
+<p>I'm a longtime user of Signal, and I've seen it get worse over the years with bugs, calls dropping, and messages never sending. With the update that brought usernames, they seemed to fix a lot of that, and it works well for my needs. The Mobilecoin rugpull was disappointing, especially considering they allow you to disable stories but not crypto features. They should've gone with Monero.</p>
+<p>Please Signal, if you're reading this, allow us to get rid of the crypto features like you did for stories.</p>
+<h2 id="simplex-chat" tabindex="-1">SimpleX Chat <a class="header-anchor" href="#simplex-chat">#</a></h2>
+<p>This is the one I'm most hopeful for, due to its innovative lack of identifiers for users. I've reviewed some of the code, as well as the designs, and while the app UI is quite ugly, the rest of it is excellent. It also has a 1GB per file upload limit, and it's quite fast to transfer files as well. I think this one will succeed, since it's also got mostly-functional large group support (it breaks around 600 members).</p>
+<p>I like the fact that it doesn't rely on DNS for user identifiers, which boosts resiliency against censorship. This also removes the problem of bots picking up the best usernames and reselling them for 500x their listing price.</p>
+<h2 id="status" tabindex="-1">Status <a class="header-anchor" href="#status">#</a></h2>
+<p>I waited years for Status. I don't like how crypto is forced on users. Couldn't we have gotten a standalone messenger and been fine without the crypto integrations? It's not even Monero, it's a surveillance coin (ethereum). Their UI framework is top notch, but the way they executed on the mobile app is... questionable... and not the easiest to use.</p>
+<p>Status touts &quot;true ownership and self sovereignty&quot; above all else. That's great, until you realize that you cannot export your account data for a backup which would be real ownership. The whole app also relies on the Waku network, which has limitations so severe that I can't use the app for anything useful. Seriously, 1MB per file, and only horribly compressed images allowed?</p>
+<p>The metadata protection is great, until you use wireshark to analyze the app and you find out that it's connecting to about a dozen crypto providers, bittorrent.com (which is an advertiser nowadays), and a bunch of the company's own servers.</p>
+<p>Back on the topic of true ownership, if I can't self-host it on an airgapped network, I don't consider it true ownership. Showing off that I have some stupid .eth name or a picture of a poorly drawn monkey does not prove ownership, but being able to run the app myself on my LAN, as well as modify the code does.</p>
+<h2 id="telegram" tabindex="-1">Telegram <a class="header-anchor" href="#telegram">#</a></h2>
+<p>I feel gross calling this a private messenger, but it has optional, off-by-default, poorly implemented end-to-end encryption that only works on one-to-one chats, so I'll include it.</p>
+<p>Ever since they introduced Telegram Premium, the app has become awful to use. Half of the features are paid, and many free features are now behind the paywall. It feels desperate and it's sad to see a decent (but bloated) messenger with useful features become an advertisement for their premium stuff.</p>
+<p>They've also gotten in on the crypto hype with TON coin, their crypto which (like most crypto projects) is a solution in search of a problem. You can buy usernames with it and that's about it. Just more bloat in an already bloated messenger.</p>
+<h2 id="whatsapp" tabindex="-1">WhatsApp <a class="header-anchor" href="#whatsapp">#</a></h2>
+<p>This is the one I've used least out of them all. They recently overhauled it with AI integrations in places that are quite odd and very inappropriate for a messenger that advertises itself as private, but what can you expect from Facebook?</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/unfathoming/blog/thirdpost/">This is my third post.</a></li><li>Next: <a href="/unfathoming/blog/2024/the-tragedy-of-discord/">The tragedy of Discord</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/unfathoming/blog/2024/why-linux/">Why I use Linux</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/unfathoming/blog/fourthpost/` was built on 2024-06-09T01:55:17.440Z -->
+		<!-- This page `/unfathoming/blog/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-06-09T01:55:17.440Z -->
 	</body>
 </html>

@@ -32,6 +32,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/unfathoming/blog/2024/my-review-of-the-private-messaging-ecosystem/</loc>
+		<lastmod>2024-05-15</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/unfathoming/about/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
@@ -52,7 +57,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/another-tag/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/number-2/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
@@ -67,7 +72,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/unfathoming/tags/number-2/</loc>
+		<loc>https://unfathom.ing/unfathoming/tags/another-tag/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 	
@@ -83,6 +88,11 @@
 	
 	<url>
 		<loc>https://unfathom.ing/unfathoming/tags/security/</loc>
+		<lastmod>2024-06-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/unfathoming/tags/software/</loc>
 		<lastmod>2024-06-09</lastmod>
 	</url>
 </urlset>
