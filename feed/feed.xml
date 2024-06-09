@@ -112,6 +112,24 @@ AI can be great (when its not politically biased), but I don&#39;t want it in my
 	</entry>
 	
 	<entry>
+		<title>Why I created the Privacy Spreadsheet</title>
+		<link href="https://unfathom.ing/unfathoming/blog/2024/privacy-spreadsheet/"/>
+		<updated>2024-02-14T00:00:00Z</updated>
+		<id>https://unfathom.ing/unfathoming/blog/2024/privacy-spreadsheet/</id>
+		<content type="html">&lt;p&gt;You might&#39;ve seen the website &lt;a href=&quot;https://privacyspreadsheet.com&quot;&gt;PrivacySpreadsheet.com&lt;/a&gt; floating around if you&#39;re in the larger privacy communities. If you haven&#39;t, you should take a look, it&#39;s a spreadsheet which lists the privacy features (or lack thereof) of a wide variety of messaging apps, and soon other software and hardware products.&lt;/p&gt;
+&lt;p&gt;This was a project that I started to give people a well-researched and visual display of how they can improve their privacy and take back control over their data. It started as a small project that I thought no one woud notice, and now people in the privacy and security communities are taking notice.&lt;/p&gt;
+&lt;h2 id=&quot;accuracy&quot; tabindex=&quot;-1&quot;&gt;Accuracy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve done over 100 hours of research into the real privacy of a variety of messaging apps. This includes data from public sources like freely available legal documents and analyzing data breaches, as well as private sources like company insiders who talk about how the company handles user data.&lt;/p&gt;
+&lt;p&gt;I believe that this is one of the most accurate, if not the most accurate resource regarding data collection and privacy, largely because it considers things that aren&#39;t on the terms of service, such as internal handling of user data.&lt;/p&gt;
+&lt;h2 id=&quot;ease-of-use&quot; tabindex=&quot;-1&quot;&gt;Ease of use &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There&#39;s been other attempts to list the privacy benefits and drawbacks of tools in the past, but all of them are overwhelming to read since they require a lot of reading.&lt;/p&gt;
+&lt;p&gt;I created my spreadsheet to be simple to parse. The more green boxes below the product name, the more private it is.&lt;/p&gt;
+&lt;h2 id=&quot;objective-criteria&quot; tabindex=&quot;-1&quot;&gt;Objective criteria &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;All of the criteria (on the left side) is objective facts that can be proven. I&#39;ve done my best to keep opinion and politics out of the dataset, and this helps keep the data factual rather than based on opinion. Is Facebook Messenger creepy spyware? Absolutely. Is it the worst option according to the data? No. Let the data speak for itself.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>The tragedy of Discord</title>
 		<link href="https://unfathom.ing/unfathoming/blog/2024/the-tragedy-of-discord/"/>
 		<updated>2024-01-05T00:00:00Z</updated>
