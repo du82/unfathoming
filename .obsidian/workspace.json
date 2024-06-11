@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "fab922e7f1313ba2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f877fa8092a7bdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d4ae0c0cf4a0098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/2024/rejecting-platform-trajectory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e467584e52b77cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "295308a933e15fef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e629390421e4c352",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cdef950b0ca599cd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "25386f7141005916",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c494c30795996b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "97db45eec3985a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a7fa2e8caeb8de1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/blog/2024/rejecting-platform-trajectory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b84f4556a3ab6963",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/blog/2024/rejecting-platform-trajectory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d9795898d597b08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2c0513b19bb081a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/blog/2024/rejecting-platform-trajectory.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0d4ae0c0cf4a0098",
+  "lastOpenFiles": [
+    "content/blog/2024/why-linux.md",
+    "content/blog/2024/rejecting-platform-trajectory.md",
+    "rejecting-platform-trajectory.md",
+    "content/blog/2024/the-tragedy-of-discord.md",
+    "content/blog/2024/the-bitcoiners-were-wrong.md",
+    "content/blog/2024/privacy-spreadsheet.md",
+    "content/blog/2024/my-review-of-the-private-messaging-ecosystem.md",
+    "content/blog/2024/build-things-with-security-front-of-mind.md"
+  ]
+}
