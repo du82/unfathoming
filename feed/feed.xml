@@ -4,12 +4,29 @@
 	<subtitle>I am writing about my experiences.</subtitle>
 	<link href="https://unfathom.ing/unfathoming/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/unfathoming/"/>
-	<updated>2024-05-15T00:00:00Z</updated>
+	<updated>2024-06-11T03:18:11Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Rejecting platform trajectory</title>
+		<link href="https://unfathom.ing/unfathoming/blog/2024/rejecting-platform-trajectory/"/>
+		<updated>2024-06-11T03:18:11Z</updated>
+		<id>https://unfathom.ing/unfathoming/blog/2024/rejecting-platform-trajectory/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;As Mircea Popescu once said: &amp;quot;A platform is a shitty website providing shitty services for the poor and the dumb.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It doesn&#39;t take a genius to look online and see the state of the internet to know that this is generally true. Most platforms have fallen to &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Enshittification&quot; title=&quot;enshittification&quot;&gt;enshittification&lt;/a&gt;, political correctness, and &lt;a href=&quot;https://www.reddit.com/r/OutOfTheLoop/comments/1bk81at/comment/kvx1jzw&quot; title=&quot;sterilization&quot;&gt;sterilization&lt;/a&gt;. This has led to a more closed off internet where ideas outside of the mainstream, any amount of controversy, as well as workarounds to the established rules will get you &lt;a href=&quot;https://discord.com/safety/off-platform-behaviors-policy-explainer&quot; title=&quot;deplatformed&quot;&gt;deplatformed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t need to be this way. Platforms don&#39;t &lt;em&gt;have&lt;/em&gt; to treat their users as cattle to be counted and rewarded based on output. You can &lt;em&gt;reject platform trajectory&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;what-needs-to-be-done&quot; tabindex=&quot;-1&quot;&gt;What needs to be done? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/rejecting-platform-trajectory/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I saw Telegram as the last &amp;quot;free&amp;quot; (as in speech and beer) platform in the Western world. That was until they put most users behind a paywall and &lt;a href=&quot;https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066&quot; title=&quot;raised $330m in corporate bond sales&quot;&gt;raised $330m in corporate bond sales&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;matrix&quot; tabindex=&quot;-1&quot;&gt;Matrix &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/rejecting-platform-trajectory/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Matrix network inspired me to create this post, as it&#39;s a network and platform that&#39;s not afflicted with the disease of centralization.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Bitcoiners were wrong</title>
