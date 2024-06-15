@@ -3,6 +3,7 @@ title: Why I created the Privacy Spreadsheet
 description: Here's why I created the Privacy Spreadsheet site.
 date: 2024-02-14
 tags:
+	- projects
   - privacy
   - software
 ---
