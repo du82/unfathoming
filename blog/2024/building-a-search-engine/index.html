@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Build things with security front of mind</title>
+		<title>Building a programmatic search engine</title>
 		<meta name="description" content="Its time we build things with security in mind.">
 		<link rel="alternate" href="/unfathoming/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/unfathoming/feed/feed.json" type="application/json" title="Unfathoming">
@@ -465,30 +465,51 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Build things with security front of mind</h1>
+<h1>Building a programmatic search engine</h1>
 
 <ul class="post-metadata">
 	<li><time datetime="2024-03-24">24 March 2024</time></li>
+	<li><a href="/unfathoming/tags/projects/" class="post-tag">projects</a>, </li>
+	<li><a href="/unfathoming/tags/privacy/" class="post-tag">privacy</a>, </li>
 	<li><a href="/unfathoming/tags/security/" class="post-tag">security</a>, </li>
 	<li><a href="/unfathoming/tags/software/" class="post-tag">software</a></li>
 </ul>
 
-<p>Its time we build things with security in mind.</p>
-<p>This is a relatively new idea in the world of consumer software development; to build a product around security requirements, and to not back down when it gets challenging to work within the limitations that have been set.</p>
-<p>Cybersecurity threats are everywhere. Unless you already do something programming / security / government / supply chain related or are an enthusiast in this space, you probably don’t give much thought into how the software you use is designed. You likely hear about data breaches and wonder if it impacts you.</p>
-<p>The truth is, most consumer facing software is developed in what I believe is the completely wrong order. Currently the standard is to develop the software as cheaply as possible, then patch vulnerabilities when they inevitably come up. This is how I used to design my software, and it’s led to much personal headache and loss of user data.</p>
-<h2 id="my-personal-experience" tabindex="-1">My personal experience <a class="header-anchor" href="#my-personal-experience">#</a></h2>
-<p>Years ago (2019) I released a gaming app for kids, as a safe way to download content for Minecraft. At the time, I was relatively new to developing software on a relatively large scale (500k downloads in the first two years), and had no clue about security, software supply chains, or anything related. The backend utilized a standard LAMP stack, and the frontend was written in Android’s dialect of Java.</p>
-<p>This project was a perfect example of the sad state of consumer software design. It was released quickly to be able to capture market share from the upcoming COVID pandemic, and it was written with a standard tech stack that is still very popular today.</p>
-<p>Eventually (it took a year) it was hacked due to a SQL injection vulnerability (of course!) and it was a particularly bad hack, because every user was sent a notification with a link to an adult porn website. Due to this, Google pulled the app from the play store and while I did re-release it later, I gave up for a while.</p>
-<p>This was my first real adventure into the world of cybersecurity, and a constant reminder of what can go wrong if I follow current industry standards.</p>
-<h2 id="battle-tested-software" tabindex="-1">Battle-tested software <a class="header-anchor" href="#battle-tested-software">#</a></h2>
-<p>Just like those who design military vehicles, software developers must also battle test our software as we’re building to ensure that when it ends up in the hands of end users (and adversaries) the virtual armor is not going to be destroyed before it even has a chance to do its job.</p>
-<p>One way to do this is by releasing development builds to communities eager to break whatever you’ve made. With my project where I’m Building a programmatic search engine, I released it as a Tor hidden service (on the dark web) and shared it around. I had no idea what to expect, but within minutes the project started getting attacked, and I was able to take note of what worked, what didn’t, and what needed fixing. A week later I did another security release, analyzed the attacks, and and am in the process of fixing the issues that came up during the 12 hour test window.</p>
-<p>This is a fairly unique approach to securing consumer software, but it’s already proven successful where I’ve implemented it.</p>
-<p>As part of My programming journey I’m learning the Rust programming language, and this is the second part of my approach to building things with security front of mind. Rust enforces relatively safe programming practices (beyond just memory safety) at the compiler level, which forces the developer to consider their actions.</p>
+<p>Since as young as I can remember writing code, I’ve cared a lot about privacy and security and have always wanted a search engine that does, while giving me complete control over the results page by letting me write code (or some other syntax) to filter with extreme precision.</p>
+<p>I’ve held off on releasing this post until we had a name, but I’m proud to announce Aragoniteα which is our attempt to build a search engine with the quality of 2010s Google and the intelligence of WolframAlpha, plus a syntax that feels like writing code.</p>
+<p>This is what I am calling a &quot;programmatic&quot; search engine, since the syntax allows you to set complex rules and even run some operations such as generating graphs and running commands on a real (sandboxed) host.</p>
+<h2 id="why-a-new-engine" tabindex="-1">Why a new engine? <a class="header-anchor" href="#why-a-new-engine">#</a></h2>
+<p>Google is full of ads, SEO spam, listicles, and has a bias problem. WolframAlpha doesn’t let you see webpages, only facts. I and others at dkwc.org wanted an engine with the intelligence of WolframAlpha that also had the ability to search the web.
+Designed for privacy</p>
+<p>We put a huge emphasis on privacy and do not track the user or attempt to associate their queries with any identifiers like an IP or cookie. Both our clearnet and Tor mirrors run all logic on the backend, meaning no JavaScript or WASM on the frontend. The entire search engine has been designed with the idea that someday we may get a subpoena, and we want to confidently tell the lawyers that we collect only the absolute minimum required to operate and we don’t even store it on disk (memory-only).</p>
+<p>We see no reason for Google, Bing, or others to store every search you make over the entire history of your account, unless they’re selling it to the CIA or something. Spooky!</p>
+<h2 id="syntax" tabindex="-1">Syntax <a class="header-anchor" href="#syntax">#</a></h2>
+<p>We have a syntax that allows programmers and data scientists to utilize the full power of our engine. The syntax itself feels like writing code with hints of natural language. A search for category:news in language:spanish about bridges will return news in Spanish about bridges, and nothing else. Using in and about is the “proper” way to do it, but our engine is also smart enough to figure out that the intent is the same if you were to type category:news language:spanish bridges.</p>
+<p>The syntax supports + (mandatory inclusion), - (mandatory exclusion), and, or, and a wide variety of other rules, which are also compatible with each other and can be combined. +subject_type:privacy -category:reddit messaging apps will force-include results with privacy in the subject_type and force-exclude results where the category is reddit for the query messaging apps.</p>
+<h2 id="database" tabindex="-1">Database <a class="header-anchor" href="#database">#</a></h2>
+<p>The database itself is also completely custom, and is somewhat similar to NoSQL without the SQL. In fact, we don’t utilize SQL or anything similar which greatly increases speed and security. I won’t share exactly how it works, but it’s two-stage and read-only which cuts down on the potential for security vulnerabilities, particularly injections.
+Index and datasets</p>
+<p>We maintain a 100% sovereign index, meaning we do not rely on indexes from other companies. Aragoniteα is independent and can even be operated on airgapped networks with zero external connections.</p>
+<p>Unlike most, we don't scrape Google because it doesn't offer nearly enough metadata. Instead, we utilize curl to download raw HTML, then extract the useful information and add it to its own table for insertion into the index.</p>
+<h2 id="dark-web-indexing" tabindex="-1">Dark web indexing <a class="header-anchor" href="#dark-web-indexing">#</a></h2>
+<p>This whole project was started because someone I know wanted to be able to search the dark web. I spent the next three days pulling all-nighters to build a basic search engine that can search the dark web. That data is still in the datasets, and we also show the word “Onion” to the left of regular URLs when the engine detected an equivalent hidden service.
+Speed</p>
+<p>Did I mention it’s super fast? I’m talkin’ average &lt;20ms per query including query parsing, syntax analysis, formatting, and queueing for HTML generation. Results pages are guaranteed to be under 256kb and are typically under 128kb in size. We’re part of the 512kb club! Take that, Google!</p>
+<h2 id="it-s-not-ai" tabindex="-1">It's not AI <a class="header-anchor" href="#it-s-not-ai">#</a></h2>
+<p>During my market research, I discovered that People don’t really want AI and our product has absolutely no user-facing artificial intelligence, and we intend to keep it that way. We rely on having a well designed, Turing complete syntax that feels like programming to deliver quality results instead of using a biased AI that we can’t control. Shoving AI into everything is trendy, but its also stupid. <em>Take that, Microsoft!</em>
+Tor friendly</p>
+<p>Our engine is compatible with Tor’s strictest settings, and we offer an official hidden service for those who require extra privacy or don’t trust our claim about not logging IPs. Subpoenas be damned!</p>
+<h2 id="no-censorship" tabindex="-1">No censorship <a class="header-anchor" href="#no-censorship">#</a></h2>
+<p>Being a programmatic search engine, we do not censor anything. You get what you search for. If you want to hide or show a specific keyword, try putting + or - directly in front of it without a space. See the section on Programmatic search for more info.
+Mirrors and censorship evasion</p>
+<p>We offer mirrors from a variety of public clouds and residential hosts. If a country censors our engine because we don’t do regional censorship (looking at you, Germany) we’ll just deploy more mirrors and proxies to evade the censorship, similar to what Telegram does. We're building a search engine, not a machine to force you into &quot;politically correct&quot; ways of thought, as there is no one &quot;correct&quot; way to think. <em>Free your mind.</em></p>
+<h2 id="business-model" tabindex="-1">Business model <a class="header-anchor" href="#business-model">#</a></h2>
+<p>We haven’t figured it out yet. We’ve been using organizational savings to pay for things like our AWS bills and domains. Maybe an enterprise or government would like a managed, airgapped instance like what WolframAlpha offers?</p>
+<p>We’d prefer not to run ads, but if we need to, we’ll keep them text-only, and keep them far away from the search results, in the bottom right corner of the screen. If we do end up running ads, it means nothing else worked out, but we will not sell you out, and our ads would not track anything beyond an anonymous click counter that just counts up when someone clicks an ad.</p>
+<h2 id="credential" tabindex="-1">Credential <a class="header-anchor" href="#credential">#</a></h2>
+<p>I know some people will ask what credentials I have to be building a programmatic search engine from scratch. I don’t have a college degree or any certifications, but I’ve built many many many many search engines before from scratch. College doesn’t teach you practical things, they take your money and teach you algorithms that you’ll never use in production. <em>Take that, LeetCode pussies!</em></p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/unfathoming/blog/2024/privacy-spreadsheet/">Why I created the Privacy Spreadsheet</a></li><li>Next: <a href="/unfathoming/blog/2024/building-a-search-engine/">Building a programmatic search engine</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/unfathoming/blog/2024/build-things-with-security-front-of-mind/">Build things with security front of mind</a></li><li>Next: <a href="/unfathoming/blog/2024/why-linux/">Why I use Linux</a></li>
 </ul>
 
 		</main>
@@ -497,6 +518,6 @@ h2 + .header-anchor {
 			<i>Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/unfathoming/blog/2024/build-things-with-security-front-of-mind/` was built on 2024-06-15T23:42:22.169Z -->
+		<!-- This page `/unfathoming/blog/2024/building-a-search-engine/` was built on 2024-06-15T23:42:22.169Z -->
 	</body>
 </html>
