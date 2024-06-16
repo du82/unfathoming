@@ -15,39 +15,6 @@ This was part of my market research for my most recent project where I am [build
 
 ![](https://unfathom.ing/media/people-dont-really-want-ai/fig1.png) Recreate this graph
 
-```
-import matplotlib.pyplot as plt
-
-# Data for both charts
-data1 = [5800, 44500, 3000]
-data2 = [6500, 23000, 14000, 15000]
-categories1 = ["Yes", "No", "No opinion"]
-categories2 = ["Privacy", "Security", "Job loss", "Fake news"]
-
-# Create the figure and subplolets width and height
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
-
-# Plot the first bar chart
-ax1.barh(categories1, data1, color='skyblue')
-ax1.set_xlabel('Response count')
-ax1.set_title('Do you want AI in the software you use?')
-ax1.set_yticks(categories1)  # Set y-axis labels same as categories
-
-# Plot the second bar chart
-ax2.barh(categories2, data2, color='lightgreen')
-ax2.set_xlabel('Response count')
-ax2.set_title('Whats your biggest fear?')
-ax2.set_yticks(categories2)
-
-# Adjust layout to avoid overlapping labels
-plt.tight_layout()
-
-# Display the plot
-plt.show()
-
-```
-
-
 ## Forced on users
 
 Just like Edge on Windows, Copilot is a “feature” that no one wants. Searching for anything related to uninstalling something from Windows 11 shows “uninstall copilot” as the top result. Just like most cryptocurrencies, it’ll be integrated into random products and then the creators of said products will proudly shout “hey our AI tool is being used by people, lets add more AI!“. In reality, every time copilot is opened, even by accident or if it opens itself, that’s counted as a usage.
