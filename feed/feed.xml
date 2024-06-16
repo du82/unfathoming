@@ -119,7 +119,7 @@ I wrote a mini-game that utilized &lt;code&gt;Three.js&lt;/code&gt; for graphics
 This is where I learned to hate JavaScipt&lt;/p&gt;
 &lt;h1 id=&quot;2020&quot; tabindex=&quot;-1&quot;&gt;2020 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;I didn&#39;t do much this year due to prolonged health struggles. (Not COVID)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;#2021&lt;/p&gt;
+&lt;h1 id=&quot;2021&quot; tabindex=&quot;-1&quot;&gt;2021 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Tor storefront&lt;/strong&gt;&lt;br&gt;
 I wrote a storefront that worked over Tor despite its limitations (like functioning without javascript) and other strict security mechanisms. I did not sell anything, it was a just functional proof of concept. I reinstalled my OS a week later without remembering to back up anything, and lost the source code (I use LUKS so recovery was impossible).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Dapp development&lt;/strong&gt;&lt;br&gt;
