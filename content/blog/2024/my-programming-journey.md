@@ -1,8 +1,9 @@
 ---
-title My programming journey
+title: My programming journey
 date: 2024-04-14
 tags:
   - software
+  - evergreen
 ---
 
 Here's what I've been up to over the years. I'll provide source code and/or proof where possible. Many previous projects are deprecated but I still keep the code around.
