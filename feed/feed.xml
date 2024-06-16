@@ -99,6 +99,59 @@
 	</entry>
 	
 	<entry>
+		<title>My programming journey</title>
+		<link href="https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/"/>
+		<updated>2024-04-14T00:00:00Z</updated>
+		<id>https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/</id>
+		<content type="html">&lt;p&gt;Here&#39;s what I&#39;ve been up to over the years. I&#39;ll provide source code and/or proof where possible. Many previous projects are deprecated but I still keep the code around.&lt;/p&gt;
+&lt;h1 id=&quot;2018&quot; tabindex=&quot;-1&quot;&gt;2018 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;311: Anonymous permanent file host&lt;/strong&gt;&lt;br&gt;
+This is a project to create an unlimited file hosting service with zero identifiers. It was created because I was annoyed that the chat software I used limited file uploads to 25MB (which is still better than what Discord offers to this day lol). At its peak, it was storing over 40TB of data.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/simple-storage&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kowloon Networks&lt;/strong&gt;&lt;br&gt;
+This is probably what led to you hearing about me as it is for most. &lt;em&gt;Digital Kowloon Walled City&lt;/em&gt; is an invite-only chat network dedicated to exposing the deep dark secrets of our world, specifically &lt;em&gt;that Asian country with a billion people&lt;/em&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;2019&quot; tabindex=&quot;-1&quot;&gt;2019 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Android (java) app development&lt;/strong&gt;&lt;br&gt;
+This year, I focused my efforts on the development of Bedrock Addons, a full stack Android app written in Java with a backend utilizing a standard LAMP stack, with an admin panel written in JavaScript.&lt;br&gt;
+&lt;a href=&quot;https://github.com/bedrock-addons&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Three.js&lt;/strong&gt;&lt;br&gt;
+I wrote a mini-game that utilized &lt;code&gt;Three.js&lt;/code&gt; for graphics and real-time interaction. This mini-game was playable inside of Bedrock Addons and the first ten people to complete it won a Minecraft gift card.&lt;br&gt;
+This is where I learned to hate JavaScipt&lt;/p&gt;
+&lt;h1 id=&quot;2020&quot; tabindex=&quot;-1&quot;&gt;2020 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;I didn&#39;t do much this year due to prolonged health struggles. (Not COVID)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;#2021&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tor storefront&lt;/strong&gt;&lt;br&gt;
+I wrote a storefront that worked over Tor despite its limitations (like functioning without javascript) and other strict security mechanisms. I did not sell anything, it was a just functional proof of concept. I reinstalled my OS a week later without remembering to back up anything, and lost the source code (I use LUKS so recovery was impossible).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dapp development&lt;/strong&gt;&lt;br&gt;
+I developed a Web3 decentralized app (dapp) that used &lt;code&gt;Web3.js&lt;/code&gt; and quickly gave up after I realized that most Web3 dapps aren’t even decentralized, but instead hosted on Vercel, GitHub Pages, or other centralized providers with artificial requirements to log in with Ethereum added on top.&lt;/p&gt;
+&lt;h1 id=&quot;2022&quot; tabindex=&quot;-1&quot;&gt;2022 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Flutter app development&lt;/strong&gt;&lt;br&gt;
+This year I changed focus to developing a full stack mobile superapp utilizing Flutter and Dart. This was so much more enjoyable for me, since you design the page UI and logic in one file, compared to having a Java and XML file like you’d have in traditional Android development.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/client&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clojure and React Native&lt;/strong&gt;&lt;br&gt;
+I worked for &lt;a href=&quot;https://status.app&quot;&gt;Status.app&lt;/a&gt; and got to learn about React Native and Clojure development. Not a tech stack that I’d ever personally choose, but it worked and was fast enough to be usable. Status if you’re reading this, consider a rewrite using Flutter, it’ll save thousands of hours and headaches&lt;br&gt;
+&lt;a href=&quot;https://github.com/status-im/status-mobile&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2023&quot; tabindex=&quot;-1&quot;&gt;2023 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Flutter app development&lt;/strong&gt;&lt;br&gt;
+This year I changed focus to developing a full stack mobile superapp utilizing Flutter and Dart. This was so much more enjoyable for me, since you design the page UI and logic in one file, compared to having a Java and XML file like you’d have in traditional Android development.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/client&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Learning Rust&lt;/strong&gt;&lt;br&gt;
+This year I focused on learning the Rust programming language. I saw its intuitive packaging system for dependencies (which reminded me a lot of pub.dev) as well as the very helpful error messages, and I was immediately hooked.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/scripts&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matrix development&lt;/strong&gt;&lt;br&gt;
+I also focused on the Matrix ecosystem and ended up writing lots of my software for it in the form of chat bots. I wrote every one of these chat bots in Rust as a test of my skills and a practical and fun way to learn the language.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/scripts&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2024&quot; tabindex=&quot;-1&quot;&gt;2024 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/unfathoming/blog/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Writing this website&lt;/strong&gt;&lt;br&gt;
+On January 1st, 2024 I started this website. I’m not sure how it’ll go just yet, but I’m going to give it my best shot so I can improve my writing skills. The whole site is written in pure HTML and CSS, no CMS or anything in the middle.&lt;br&gt;
+&lt;a href=&quot;https://unfathom.ing&quot;&gt;You&#39;re on the site right now.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aragoniteα&lt;/strong&gt;&lt;br&gt;
+I have been building a programmatic search engine from scratch in Rust with an anonymous friend. I do the backend and some frontend, and my friend manages the datasets and some frontend UX design.&lt;br&gt;
+&lt;a href=&quot;https://unfathom.ing/unfathoming/blog/2024/building-a-search-engine&quot;&gt;Here&#39;s a link to the blog post&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>Why I use Linux</title>
 		<link href="https://unfathom.ing/unfathoming/blog/2024/why-linux/"/>
 		<updated>2024-03-25T00:00:00Z</updated>
