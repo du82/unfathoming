@@ -91,6 +91,14 @@
 		}
 		,
 		{
+			"id": "https://unfathom.ing/blog/2024/chaos-bingo/",
+			"url": "https://unfathom.ing/blog/2024/chaos-bingo/",
+			"title": "Chaos bingo",
+			"content_html": "<p>This is my prediction for 2024's notable events in the tech industry.</p>\n<table>\n<thead>\n<tr>\n<th>C</th>\n<th>H</th>\n<th>A</th>\n<th>O</th>\n<th>S</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Chat Control law passes</td>\n<td>There's at least three boating accidents this year</td>\n<td>==AI is used in the court room==</td>\n<td>Dread forum gets shut down</td>\n<td>The US drops support for Ukraine</td>\n</tr>\n<tr>\n<td>My platform gets subpoenaed or shut down</td>\n<td>==AI is captured by a government agency==</td>\n<td>Telegram hits a billion users</td>\n<td>==Discord has a massive scandal==</td>\n<td>==Apple does AI integration (beyond Siri)==</td>\n</tr>\n<tr>\n<td>The feds crack Monero</td>\n<td>==Minecraft gets AI integration==</td>\n<td>==TikTok gets banned in the US==</td>\n<td>Telegram caught selling user data</td>\n<td>Snapchat copies Twitter's short posts</td>\n</tr>\n<tr>\n<td>==Android gets mandatory AI integration==</td>\n<td>China takes over Taiwan or Hong Kong</td>\n<td>Facebook stock hits $500</td>\n<td>Status finally releases a mobile app</td>\n<td>==A federal agency pays me a visit==</td>\n</tr>\n<tr>\n<td>Elon smokes another blunt</td>\n<td>Facebook the social app loses markrt share globally</td>\n<td>Element the company goes bankrupt</td>\n<td>==Microsoft markets a PC with AI software preinstalled==</td>\n<td>==DuckDuckGo does an AI integration==</td>\n</tr>\n</tbody>\n</table>\n",
+			"date_published": "2024-01-03T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://unfathom.ing/blog/2024/hello-world/",
 			"url": "https://unfathom.ing/blog/2024/hello-world/",
 			"title": "Hello World!",

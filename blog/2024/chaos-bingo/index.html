@@ -3,12 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Unfathoming</title>
+		<title>Chaos bingo</title>
 		<meta name="description" content="I am writing about my experiences.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Unfathoming">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -297,39 +465,64 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Tags</h1>
+<h1>Chaos bingo</h1>
 
-<ul>
-
-	
-	<li><a href="/tags/beginnings/" class="post-tag">beginnings</a></li>
-
-	
-	<li><a href="/tags/learning/" class="post-tag">learning</a></li>
-
-	
-	<li><a href="/tags/privacy/" class="post-tag">privacy</a></li>
-
-	
-	<li><a href="/tags/sovereignty/" class="post-tag">sovereignty</a></li>
-
-	
-	<li><a href="/tags/projects/" class="post-tag">projects</a></li>
-
-	
-	<li><a href="/tags/security/" class="post-tag">security</a></li>
-
-	
-	<li><a href="/tags/software/" class="post-tag">software</a></li>
-
-	
-	<li><a href="/tags/ai/" class="post-tag">ai</a></li>
-
-	
-	<li><a href="/tags/evergreen/" class="post-tag">evergreen</a></li>
-
+<ul class="post-metadata">
+	<li><time datetime="2024-01-03">03 January 2024</time></li>
 </ul>
 
+<p>This is my prediction for 2024's notable events in the tech industry.</p>
+<table>
+<thead>
+<tr>
+<th>C</th>
+<th>H</th>
+<th>A</th>
+<th>O</th>
+<th>S</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chat Control law passes</td>
+<td>There's at least three boating accidents this year</td>
+<td>==AI is used in the court room==</td>
+<td>Dread forum gets shut down</td>
+<td>The US drops support for Ukraine</td>
+</tr>
+<tr>
+<td>My platform gets subpoenaed or shut down</td>
+<td>==AI is captured by a government agency==</td>
+<td>Telegram hits a billion users</td>
+<td>==Discord has a massive scandal==</td>
+<td>==Apple does AI integration (beyond Siri)==</td>
+</tr>
+<tr>
+<td>The feds crack Monero</td>
+<td>==Minecraft gets AI integration==</td>
+<td>==TikTok gets banned in the US==</td>
+<td>Telegram caught selling user data</td>
+<td>Snapchat copies Twitter's short posts</td>
+</tr>
+<tr>
+<td>==Android gets mandatory AI integration==</td>
+<td>China takes over Taiwan or Hong Kong</td>
+<td>Facebook stock hits $500</td>
+<td>Status finally releases a mobile app</td>
+<td>==A federal agency pays me a visit==</td>
+</tr>
+<tr>
+<td>Elon smokes another blunt</td>
+<td>Facebook the social app loses markrt share globally</td>
+<td>Element the company goes bankrupt</td>
+<td>==Microsoft markets a PC with AI software preinstalled==</td>
+<td>==DuckDuckGo does an AI integration==</td>
+</tr>
+</tbody>
+</table>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/2024/hello-world/">Hello World!</a></li><li>Next: <a href="/blog/2024/the-tragedy-of-discord/">The tragedy of Discord</a></li>
+</ul>
 
 		</main>
 
@@ -337,6 +530,6 @@ h2 + .header-anchor {
 			<i>Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/tags/` was built on 2024-06-16T14:23:52.038Z -->
+		<!-- This page `/blog/2024/chaos-bingo/` was built on 2024-06-16T14:23:52.036Z -->
 	</body>
 </html>
