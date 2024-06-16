@@ -3,9 +3,9 @@ title: Why I created the Privacy Spreadsheet
 description: Here's why I created the Privacy Spreadsheet site.
 date: 2024-02-14
 tags:
-	- projects
+  - projects
   - privacy
-  - software
+  - security
 ---
 
 You might've seen the website [PrivacySpreadsheet.com](https://privacyspreadsheet.com) floating around if you're in the larger privacy communities. If you haven't, you should take a look, it's a spreadsheet which lists the privacy features (or lack thereof) of a wide variety of messaging apps, and soon other software and hardware products.
