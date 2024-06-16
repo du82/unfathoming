@@ -31,7 +31,7 @@ This is where I learned to hate JavaScipt
 
 _I didn't do much this year due to prolonged health struggles. (Not COVID)_
 
-#2021 
+# 2021 
 
 **Tor storefront**  
 I wrote a storefront that worked over Tor despite its limitations (like functioning without javascript) and other strict security mechanisms. I did not sell anything, it was a just functional proof of concept. I reinstalled my OS a week later without remembering to back up anything, and lost the source code (I use LUKS so recovery was impossible).
