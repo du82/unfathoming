@@ -12,7 +12,12 @@ I started college roughly two years ago after pressure from family to go. I relu
 
 The first semester was fine, I expected a slow start becuase they have to bring everyone up to speed with the industry and work with a wide variety of skillsets, from experts to people who have never used a computer before. The first semester was nothing special, it was all content that you could teach yourself in a weekend with some YouTube videos and free software (except for a math class which was pretty good and taught me a lot).
 
-Something that I noticed early on was that most of the course content was 5-10 years out of date. For a cybersecurity degree, this is awful! The virtual machines we used were from 2019 (which was five years ago now!). I thought it was just becuase we're starting out, and I hoped that it would improve. Little did I know, it was foreshadowing.
+Something that I noticed early on was that most of the course content was 5-10 years out of date. For a cybersecurity degree, this is awful! The virtual machines we used were from 2019 (which was five years ago now!). I thought it was just becuase we're starting out, and I hoped that it would improve. *Little did I know, it was foreshadowing*.
 
 I thought to myself:
 > Why am I paying $500 a course for online classes where the teacher takes a week to respond to a simple question, and the course content is purchased from sites like Teachers Pay Teachers?
+
+The rest of the first year was more of the same. At this point I realized that professors were using AI to respond to students, which bothered me considering the cost. Really? Can't they take a few hours out of their day to answer questions that they should know the answers to? *This is more foreshadowing*.
+
+## Summer classes
+I took two online summer courses to maximize the amount of credits per year. One was an interpersonal communications class, the other was a class on ethics, morals, and philosophical things. Lets just say they had a strong liberal bias that even people I know on the left weren't ok with (I'm a centrist) and leave it at that.
