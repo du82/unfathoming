@@ -7,7 +7,7 @@ tags:
   - security
   - sovereignty
 ---
-The European Union has proposed a bill known as [CSAR](https://unfathom.ing) (often referred to as Chat Control), which was marketed as a way to protect children online through the use of mandatory client-side scanning of encrypted messages.
+The European Union has proposed a bill known as [CSAR](https://unfathom.ing) (often referred to as Chat Control), which was proposed as a way to protect children online through the use of mandatory[^1] client-side scanning of encrypted messages.
 
 Specifically, the bill would:
 * Mandate scanning of all private chats, messages, and emails for suspicious content, including on end-to-end encrypted services
@@ -15,3 +15,5 @@ Specifically, the bill would:
 * Apply to all communication services, including messaging apps, email providers, and cloud storage services
 
 Despite the fact that [protecting children's safety requires end-to-end encryption](https://simplex.chat/blog/20240601-protecting-children-safety-requires-e2e-encryption.html), regulators have attempted to push Chat Control as the answer. 
+
+[^1]: Testing footnotes
