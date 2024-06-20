@@ -77,6 +77,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/blog/2024/chat-control-enriches-surveillance-state/</loc>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/</loc>
 		<lastmod>2024-06-20</lastmod>
 	</url>
@@ -87,22 +92,22 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
-		<lastmod>2024-06-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/privacy/</loc>
-		<lastmod>2024-06-20</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/security/</loc>
 		<lastmod>2024-06-20</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/software/</loc>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/privacy/</loc>
 		<lastmod>2024-06-20</lastmod>
 	</url>
 	
@@ -122,17 +127,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/evergreen/</loc>
-		<lastmod>2024-06-20</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-06-20</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/ai/</loc>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/evergreen/</loc>
 		<lastmod>2024-06-20</lastmod>
 	</url>
 </urlset>
