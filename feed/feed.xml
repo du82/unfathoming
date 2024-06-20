@@ -16,7 +16,7 @@
 		<link href="https://unfathom.ing/blog/2024/chat-control-enriches-surveillance-state/"/>
 		<updated>2024-06-20T00:00:00Z</updated>
 		<id>https://unfathom.ing/blog/2024/chat-control-enriches-surveillance-state/</id>
-		<content type="html">&lt;p&gt;The European Union has proposed a bill known as &lt;a href=&quot;https://unfathom.ing&quot;&gt;CSAR&lt;/a&gt; (often referred to as Chat Control), which was marketed as a way to protect children online through the use of mandatory client-side scanning of encrypted messages.&lt;/p&gt;
+		<content type="html">&lt;p&gt;The European Union has proposed a bill known as &lt;a href=&quot;https://unfathom.ing&quot;&gt;CSAR&lt;/a&gt; (often referred to as Chat Control), which was proposed as a way to protect children online through the use of mandatory[^1] client-side scanning of encrypted messages.&lt;/p&gt;
 &lt;p&gt;Specifically, the bill would:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mandate scanning of all private chats, messages, and emails for suspicious content, including on end-to-end encrypted services&lt;/li&gt;
@@ -24,6 +24,7 @@
 &lt;li&gt;Apply to all communication services, including messaging apps, email providers, and cloud storage services&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Despite the fact that &lt;a href=&quot;https://simplex.chat/blog/20240601-protecting-children-safety-requires-e2e-encryption.html&quot;&gt;protecting children&#39;s safety requires end-to-end encryption&lt;/a&gt;, regulators have attempted to push Chat Control as the answer.&lt;/p&gt;
+&lt;p&gt;[^1]: Testing footnotes&lt;/p&gt;
 </content>
 	</entry>
 	
