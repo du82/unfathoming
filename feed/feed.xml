@@ -4,12 +4,23 @@
 	<subtitle>I am writing about my experiences.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-10T00:00:00Z</updated>
+	<updated>2024-06-19T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>My college experience</title>
+		<link href="https://unfathom.ing/blog/2024/my-college-experience/"/>
+		<updated>2024-06-19T00:00:00Z</updated>
+		<id>https://unfathom.ing/blog/2024/my-college-experience/</id>
+		<content type="html">&lt;p&gt;I thought I&#39;d reflect on the past two years of college and share the thoughts with you all.&lt;/p&gt;
+&lt;p&gt;I started college roughly two years ago after pressure from family to go. I reluctantly went, despite people in the industry telling me it didn&#39;t help them.&lt;/p&gt;
+&lt;p&gt;The first semester was fine, I expected a slow start becuase they have to bring everyone up to speed with the industry and work with a wide variety of skillsets, from experts to people who have never used a computer before. The first semester was nothing special, it was all content that you could teach yourself in a weekend with some YouTube videos and free software (except for a math class which was pretty good and taught me a lot).&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Rejecting platform trajectory</title>
