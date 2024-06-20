@@ -1,5 +1,7 @@
 ---
 title: Chat Control enriches Europe's surveillance state
+description:
+date: 2024-06-20
 tags:
   - privacy
   - security
