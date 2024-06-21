@@ -92,22 +92,22 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
-		<lastmod>2024-06-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/privacy/</loc>
-		<lastmod>2024-06-21</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/security/</loc>
 		<lastmod>2024-06-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/software/</loc>
+		<lastmod>2024-06-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
+		<lastmod>2024-06-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/privacy/</loc>
 		<lastmod>2024-06-21</lastmod>
 	</url>
 	
@@ -127,7 +127,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/rant/</loc>
+		<loc>https://unfathom.ing/tags/evergreen/</loc>
 		<lastmod>2024-06-21</lastmod>
 	</url>
 	
@@ -137,7 +137,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/evergreen/</loc>
+		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-06-21</lastmod>
 	</url>
 </urlset>
