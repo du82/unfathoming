@@ -17,3 +17,5 @@ Specifically, the bill would:
 Despite the fact that [protecting children's safety requires end-to-end encryption](https://simplex.chat/blog/20240601-protecting-children-safety-requires-e2e-encryption.html), regulators have attempted to push Chat Control as the answer. 
 
 Lets not sugarcoat it: the chat control proposal is designed to take away freedoms from the average person and enrich governmental surveillance powers. Why else would [EU interior ministers want to exempt themselves](https://www.eureporter.co/business/data/mass-surveillance-data/2024/04/15/leak-eu-interior-ministers-want-to-exempt-themselves-from-chat-control-bulk-scanning-of-private-messages/) from the scanning? Or, why would Germany [want to reduce sentences for those who posess or distribute illegal material](https://www.reuters.com/fact-check/german-lawmakers-have-not-voted-decriminalise-possessing-child-pornography-2024-06-19/)?
+
+*Think about the children* they say out loud, while exempting themselves from their own proposed regulation. It isn't about the children, **it's about control** over the collective consciousness of citizens in the European Union.
