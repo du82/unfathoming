@@ -236,18 +236,22 @@ body {
 	max-width: 40em;
 }
 blockquote {
-  margin: 0;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 blockquote p {
-  padding: 15px;
-  background: #eee;
-  border-radius: 5px;
-}
-blockquote p::before {
-  content: '\201C';
-}
-blockquote p::after {
-  content: '\201D';
+  display: inline;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -544,6 +548,6 @@ I have been building a programmatic search engine from scratch in Rust with an a
 			<i style="padding: 1em">Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/blog/2024/my-programming-journey/` was built on 2024-06-22T22:20:28.982Z -->
+		<!-- This page `/blog/2024/my-programming-journey/` was built on 2024-06-22T22:29:46.131Z -->
 	</body>
 </html>
