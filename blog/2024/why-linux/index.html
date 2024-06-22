@@ -186,7 +186,9 @@ pre[class*="language-diff-"] {
 
 /* Theme colors */
 :root {
-	--color-gray-10: #f9f9f9;
+	--quote-background: #f9f9f9;
+	--quote-accent: #cccccc;
+			
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
@@ -203,7 +205,9 @@ pre[class*="language-diff-"] {
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-10: #f9f9f9;
+		--quote-background: #1b1e1f;
+		--quote-accent: #3e4446;
+		
 		--color-gray-20: #e0e0e0;
 		--color-gray-50: #C0C0C0;
 		--color-gray-90: #dad8d8;
@@ -238,14 +242,14 @@ body {
 	max-width: 40em;
 }
 blockquote {
-  background: var(--color-gray-10);
-  border-left: 10px solid #ccc;
+  background: var(--quote-background);
+  border-left: 10px solid var(--quote-accent);
   margin: 1.5em 0px;
   padding: 0.5em 0px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: var(--color-gray-50);
+  color: var(--quote-accent);
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -529,6 +533,6 @@ AI can be great (when its not politically biased), but I don't want it in my OS 
 			<i style="padding: 1em">Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/blog/2024/why-linux/` was built on 2024-06-22T22:57:42.726Z -->
+		<!-- This page `/blog/2024/why-linux/` was built on 2024-06-22T23:05:48.067Z -->
 	</body>
 </html>
