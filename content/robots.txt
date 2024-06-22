@@ -1,0 +1,48 @@
+User-agent: *
+Disallow: /hidden/
+Disallow: /drafts/
+Disallow: /media/
+
+# Block ChatGPT
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Disallow: /
+
+# Block Gemini AI
+User-agent: Google-Extended
+Disallow: /
+
+# Block CommonCrawl
+User-agent: CCBot
+Disallow: /
+
+# Block Perplexity AI
+User-agent: PerplexityBot
+Disallow: /
+
+# Block Baidu
+User-agent: Baiduspider
+Disallow: /
+
+# Block Yandex
+User-agent: Yandex
+Disallow: /
+
+# Block Bing because fuck Bing
+User-agent: bingbot
+User-agent: msnbot
+Disallow: /
+
+# Block Amazon Alexa
+User-agent: Alexa (+AlexaToolbar; alexa.com)
+Disallow: /
+
+# Block Ask (the legacy search engine)
+User-agent: jeeves
+User-agent: teoma
+Disallow: /
+
+# Block Yahoo
+User-agent: slurp
+User-agent: yahoo
+Disallow: /
