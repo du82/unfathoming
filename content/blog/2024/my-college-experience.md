@@ -42,7 +42,7 @@ During the meeting, I explained that I proxy API access from a variety of paid A
 I logged into one of my **personal** Google accounts, and noticed suspicious activity. I investigated further, and found that whoever it was had snooped through the Gmail, Drive, Pay, Ads, and MyActivity products. I revoked the associated session and forgot about it. Little did I know, this was teachers at the college who had gained access and were poking around.
 
 ## The letter
-I recieved a letter of suspension, which I expected, but I didn't expect their "evidence" to include screenshots of them logged into that **personal** Google account showing the Gemini API with a variety of queries that I wouldn't be dumb enough to type out even if I was drunk, high, and half asleep. *Do you think someone who's [developing a search engine](/building-a-search-engine) in Rust, utiliznig VS Code, and developing exclusively for Unix targets would type "how to open the terminal in ubuntu"?*
+I recieved a letter of suspension, which I expected, but I didn't expect their "evidence" to include screenshots of them logged into that **personal** Google account showing the Gemini API with a variety of queries that I wouldn't be dumb enough to type out even if I was drunk, high, and half asleep. *Do you think someone who's [developing a search engine](/blog/2024/building-a-search-engine) in Rust, utiliznig VS Code, and developing exclusively for Unix targets would type "how to open the terminal in ubuntu"?*
 The policy mentioned that you're not automatically allowed back when the time is up, you have to send an *appology letter* and have them review it to let you back in.
 
 ## Post-letter
