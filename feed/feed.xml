@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Unfathoming</title>
-	<subtitle>I am writing about my experiences.</subtitle>
+	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
 	<updated>2024-06-20T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
-		<email>youremailaddress@example.com</email>
+		<email>493@tuta.io</email>
 	</author>
 	
 	<entry>

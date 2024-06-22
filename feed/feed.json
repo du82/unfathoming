@@ -4,10 +4,10 @@
 	"language": "en",
 	"home_page_url": "https://unfathom.ing/",
 	"feed_url": "https://unfathom.ing/feed/feed.json",
-	"description": "I am writing about my experiences.",
+	"description": "A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.",
 	"author": {
 		"name": "Du Cheng",
-		"url": "https://example.com/about-me/"
+		"url": "https://unfathom.ing/about-me/"
 	},
 	"items": [
 		{
