@@ -4,12 +4,25 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-20T00:00:00Z</updated>
+	<updated>2024-06-22T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>Let there be dark DRAFT</title>
+		<link href="https://unfathom.ing/blog/2024/let-there-be-dark/"/>
+		<updated>2024-06-22T00:00:00Z</updated>
+		<id>https://unfathom.ing/blog/2024/let-there-be-dark/</id>
+		<content type="html">&lt;p&gt;Testing&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unfortunately, the law hasn’t kept pace with technology, and this disconnect has created a significant public safety problem. We call it &amp;quot;Going Dark&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;James Comey, FBI director&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Chat Control enriches Europe&#39;s surveillance state</title>
