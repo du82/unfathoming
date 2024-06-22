@@ -1,6 +1,6 @@
 ---
 title: Chat Control enriches Europe's surveillance state
-description:
+description: Think about the children they say out loud, while exempting themselves from their own proposed regulation. It isn't about the children, it's about control over the collective consciousness of citizens in the European Union.
 date: 2024-06-20
 tags:
   - privacy
