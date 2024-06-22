@@ -140,6 +140,32 @@
 	</entry>
 	
 	<entry>
+		<title>My attempt to daily drive Qubes OS</title>
+		<link href="https://unfathom.ing/blog/2024/daily-driving-qubes-os/"/>
+		<updated>2024-05-01T00:00:00Z</updated>
+		<id>https://unfathom.ing/blog/2024/daily-driving-qubes-os/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been trying out &lt;a href=&quot;https://qubes-os.org&quot;&gt;Qubes OS&lt;/a&gt;, an operating system built around virtual machines with security in mind. Any of you that know me will know that I love virtual machines and I use them for just about everything.&lt;/p&gt;
+&lt;p&gt;This blog post is written using Qubes, and every post after for the next year at least will be as well. I&#39;ll try to keep this updated with my progress.&lt;/p&gt;
+&lt;h2 id=&quot;why-qubes&quot; tabindex=&quot;-1&quot;&gt;Why Qubes? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/daily-driving-qubes-os/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I am a cybersecurity researcher who has a reputation for angering China, so I need to protect myself from threats from a wide variety of bad actors. Historically, my security hasn&#39;t been up to standard for the kind of work I do, and this is my attempt to fix that. Qubes seemed like the perfect option since it is both usable and secure. Win win!&lt;/p&gt;
+&lt;p&gt;I also like the design, with VM windows not being confined to the guest&#39;s display, and allowed to freely coexist with windows from the host. It just works well for my workflow and thought process.&lt;/p&gt;
+&lt;p&gt;My requirements include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Signal messenger&lt;/li&gt;
+&lt;li&gt;Monero GUI wallet&lt;/li&gt;
+&lt;li&gt;VS Code or Lapce editor&lt;/li&gt;
+&lt;li&gt;A variety of programming languages&lt;/li&gt;
+&lt;li&gt;All of my scripts must run just fine&lt;/li&gt;
+&lt;li&gt;Tor (service) and Tor Browser - both included&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;update-1-03-may&quot; tabindex=&quot;-1&quot;&gt;Update #1 - 03 May &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/daily-driving-qubes-os/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve spent some time with Qubes now, and all of my requirements have been met. The only thing that doesn&#39;t quite work is voice calling on Signal. I&#39;m writing this blog post on Qubes, and it&#39;s working great so far.&lt;/p&gt;
+&lt;p&gt;I like Qubes so much that I decided to buy dedicated hardware for it, since the 16gb of memory in my current laptop just doesn&#39;t quite cut it, and the performance of a laptop is significantly less than that of a desktop. The new system has 32gb of memory with the option to upgrade to 64 later on, as well as&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>My programming journey</title>
 		<link href="https://unfathom.ing/blog/2024/my-programming-journey/"/>
 		<updated>2024-04-14T00:00:00Z</updated>
