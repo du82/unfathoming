@@ -29,3 +29,30 @@ One class was essentially using AI to make presentations about a topic and turn 
 
 The rest of my second semester was more of the same from the first semester, but it seemed to have gotten ***worse*** than the first semester! An example of this being configuring an AWS EC2 instance, gaining shell access, and installing some software on it. That part was fine, but there was no instruction on how to secure it. A little odd for a cybersecurity course/degree, right?
 
+## The AI witch hunt
+About half way through the second semester, people started talking on various Signal groups about how they were getting grades changed to zeros. Around this time I also recieved an email telling me that I was on the college's naughty list for using AI (despite a teacher recommending its use and calling it revolutionary). I shrugged this off, moved on, and registered for summer and next semester classes a week later.
+
+I was called in to talk to the dean of the IT department (which is apparently standard practice), and he (along with the assistant dean) told me that they didn't like how I was selling premium versions of AI tools to anyone who was willing to hand over $5 per month.
+
+During the meeting, I explained that I proxy API access from a variety of paid AI services so that others can use them for cheaper than if they paid for them directly (one license for many people vs many licenses for one person). Neither the dean nor the assistant dean seemed to understand, which surprised me considering the field in which they worked. The assistant said "these are free sites", to which I responded with the difference between the free and paid versions, being increased speed, reliability, and accuracy. Neither of them seemed to acknowledge this, and they continued to be condecending. 
+
+> To the dean and assistant dean: Go educate yourselves on what an API is. Also, I will never tell you who was paying me for AI tools, I don't rat people out.
+
+## Suspicious Google account activity
+I logged into one of my **personal** Google accounts, and noticed suspicious activity. I investigated further, and found that whoever it was had snooped through the Gmail, Drive, Pay, Ads, and MyActivity products. I revoked the associated session and forgot about it. Little did I know, this was teachers at the college who had gained access and were poking around.
+
+## The letter
+I recieved a letter of suspension, which I expected, but I didn't expect their "evidence" to include screenshots of them logged into that **personal** Google account showing the Gemini API with a variety of queries that I wouldn't be dumb enough to type out even if I was drunk, high, and half asleep. *Do you think someone who's developing a search engine in Rust, utiliznig VS Code, and developing exclusively for Unix targets would type "how to open the terminal in ubuntu"?*
+The policy mentioned that you're not automatically allowed back when the time is up, you have to send an *appology letter* and have them review it to let you back in.
+
+## Post-letter
+I recieved multiple emails telling me I had a bill due. I shrugged them off because as per the policy, a suspension puts everything on hold, meaning the classes I registered for would be dropped since I couldn't do any of the work. After talking to an enrollment person (who didn't seem to give a flying fuck), I was told that the two classes would still show up on the transcript because they were never dropped, despite me being unable to do anything with them. I was also still going to be billed for them since they had already started.
+
+To recap, I was suspended by people who didn't know the facts and rummaged through a personal account with no relation to the college, then billed for classes that I couldn't drop or do anything with, and then was told they'd also show up on the record, making me take even more classes to up the GPA if I wanted to graduate.
+The funny thing is that in a year or two, AI will be normalized just as the cloud is today.
+
+What has college taught me?
+* Spend more time on opsec
+* Don't buy textbooks, just keep making new O'Riley accounts and use their free trial, then make another account when time is up
+* Don't waste time learning their outdated materials, just teach yourself the modern stuff.
+* College is a capitalist scam, you can succeed without it.
