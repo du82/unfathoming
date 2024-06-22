@@ -19,6 +19,7 @@
 
 /* Theme colors */
 :root {
+	--color-gray-10: #f9f9f9;
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
@@ -35,6 +36,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--color-gray-10: #f9f9f9;
 		--color-gray-20: #e0e0e0;
 		--color-gray-50: #C0C0C0;
 		--color-gray-90: #dad8d8;
@@ -69,14 +71,14 @@ body {
 	max-width: 40em;
 }
 blockquote {
-  background: #f9f9f9;
+  background: var(--color-gray-10);
   border-left: 10px solid #ccc;
-  margin: 0em 10px;
+  margin: 1.5em 0px;
   padding: 0.5em 0px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
+  color: var(--color-gray-50);
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -346,6 +348,6 @@ h2 + .header-anchor {
 			<i style="padding: 1em">Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/tags/evergreen/` was built on 2024-06-22T22:42:53.491Z -->
+		<!-- This page `/tags/evergreen/` was built on 2024-06-22T22:57:42.728Z -->
 	</body>
 </html>
