@@ -1,4 +1,5 @@
 ---
+title: Donate
 layout: layouts/base.njk
 eleventyNavigation:
   key: Donate
