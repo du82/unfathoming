@@ -68,6 +68,20 @@ html {
 body {
 	max-width: 40em;
 }
+blockquote {
+  margin: 0;
+}
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+blockquote p::before {
+  content: '\201C';
+}
+blockquote p::after {
+  content: '\201D';
+}
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
@@ -363,6 +377,6 @@ h2 + .header-anchor {
 			<i style="padding: 1em">Lore runs deep, secrets run deeper.</i>
 		</footer>
 
-		<!-- This page `/tags/privacy/` was built on 2024-06-22T19:28:57.570Z -->
+		<!-- This page `/tags/privacy/` was built on 2024-06-22T22:20:28.985Z -->
 	</body>
 </html>
