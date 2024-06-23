@@ -7,10 +7,6 @@ tags:
 ---
 I’ve never cared much for New Years resolutions, but after being depressed most of 2023, I thought it was time for a change. For my 2024 New Years resolution, I promised myself that I would start a blog and write something every week.
 
-> [!IMPORTANT]
-> Ladybird is in a pre-alpha state, and only suitable for use by developers
->
-
 ## Why?
 As I see it, content creation (especially writing) is the antithesis of content consumption, as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense.
 
