@@ -85,7 +85,7 @@ blockquote p {
 .content-wrapper {
 		margin-top: 1.5em;
     display: flex;
-    gap: 2em;
+    gap: 1em;
 }
 
 .main-content {
