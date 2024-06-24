@@ -123,6 +123,7 @@ blockquote p {
     text-decoration: none;
 }
 
+/* Mobile view */
 @media (max-width: 768px) {
     .content-wrapper {
 				margin-top: 1.5em;
@@ -130,9 +131,7 @@ blockquote p {
     }
     
     .sidebar {
-        border-left: none;
-        border-top: 1px solid var(--color-gray-20);
-        margin-top: 2em;
+        display: none;
     }
 }
 
