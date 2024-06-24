@@ -174,7 +174,7 @@ main {
 }
 
 main :first-child {
-	margin-top: 0;
+	flex: 2;
 }
 
 header {
