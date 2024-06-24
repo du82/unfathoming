@@ -40,7 +40,6 @@
 							{% endif %}
 						{%- endfor %}
 					</ul>
-
 					<h3>Tags</h3>
 					<div class="tag-cloud">
 						{% for tag in collections.all | getAllTags | filterTagList %}
@@ -48,9 +47,6 @@
 							<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
 						{% endfor %}
 					</div>
-
-					<h3>Copyright</h3>
-					<p>© {% year %} {{ metadata.title }}. All rights reserved.</p>
 				</div>
 			</div>
 		</main>
