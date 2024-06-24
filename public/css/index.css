@@ -88,6 +88,10 @@ blockquote p {
     gap: 2em;
 }
 
+.main-content {
+	margin: 1em, 0em, 1em, 1em;
+}
+
 .main-content :first-child {
 	margin-top: 0;
 	flex: 2;
