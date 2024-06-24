@@ -83,6 +83,7 @@ blockquote p {
 /* Sidebar styles */
 
 .content-wrapper {
+		margin-top: 1.5em
     display: flex;
     gap: 2em;
 }
@@ -96,7 +97,7 @@ blockquote p {
     background-color: var(--quote-background);
     padding: 1em;
     border-radius: 5px;
-    border-left: 1px solid var(--color-gray-20);
+    border: 1px solid var(--color-gray-20);
 }
 
 .sidebar h3 {
