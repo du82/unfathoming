@@ -201,6 +201,10 @@ header {
 	text-decoration: underline;
 }
 
+footer {
+	border-top: 1px dashed var(--color-gray-20);
+}
+
 /* Posts list */
 .postlist {
 	list-style: none;
