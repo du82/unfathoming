@@ -88,8 +88,8 @@ blockquote p {
     gap: 2em;
 }
 
-.main-content {
-    flex: 2;
+.main-content :first-child {
+	margin-top: 0;
 }
 
 .sidebar {
@@ -170,9 +170,6 @@ a[href]:active {
 
 main {
 	padding: 0;
-}
-main :first-child {
-	margin-top: 0;
 }
 
 header {
