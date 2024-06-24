@@ -239,7 +239,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 60em;
 }
 blockquote {
   background: var(--quote-background);
@@ -258,6 +258,59 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+/* Sidebar styles */
+
+.content-wrapper {
+    display: flex;
+    gap: 2em;
+}
+
+.main-content {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: var(--quote-background);
+    padding: 1em;
+    border-radius: 5px;
+    border-left: 1px solid var(--color-gray-20);
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    padding-left: 1em;
+}
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.tag-cloud a {
+    background-color: var(--color-gray-20);
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        border-left: none;
+        border-top: 1px solid var(--color-gray-20);
+        margin-top: 2em;
+    }
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -294,7 +347,7 @@ a[href]:active {
 }
 
 main {
-	padding: 1rem;
+	padding: 0;
 }
 main :first-child {
 	margin-top: 0;
@@ -541,6 +594,6 @@ h2 + .header-anchor {
       <i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
 
-		<!-- This page `/blog/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-06-24T04:01:45.566Z -->
+		<!-- This page `/blog/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-06-24T20:49:27.562Z -->
 	</body>
 </html>
