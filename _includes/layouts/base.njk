@@ -5,43 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
-
-		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
-
-		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		<meta name="generator" content="{{ eleventy.generator }}">
-
-		{#-
-		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
-		1. You can add to them using `{% css %}`
-		2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
-		3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
-		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
-		#}
-
-		{#- Add an arbitrary string to the bundle #}
 		{%- css %}* { box-sizing: border-box; }{% endcss %}
-		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
-		{#- Or add from node_modules #}
-		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
-
-		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
 		<style>{% getBundle "css" %}</style>
-		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
-		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
-
-    <script defer data-domain="unfathom.ing" src="https://plausible.io/js/script.js"></script>
+		<script defer data-domain="unfathom.ing" src="https://plausible.io/js/script.js"></script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
@@ -51,16 +26,37 @@
 				</ul>
 			</nav>
 		</header>
-
 		<main id="skip">
-			{{ content | safe }}
-		</main>
+			<div class="content-wrapper">
+				<div class="main-content">
+					{{ content | safe }}
+				</div>
+				<div class="sidebar">
+					<h3>Recent Articles</h3>
+					<ul>
+						{%- for post in collections.posts | reverse %}
+							{% if loop.index <= 3 %}
+								<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+							{% endif %}
+						{%- endfor %}
+					</ul>
 
+					<h3>Tags</h3>
+					<div class="tag-cloud">
+						{%- for tag in collections.tagList %}
+							<a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+						{%- endfor %}
+					</div>
+
+					<h3>Copyright</h3>
+					<p>© {% year %} {{ metadata.title }}. All rights reserved.</p>
+				</div>
+			</div>
+		</main>
 		<footer>
 			<p>Copyright &copy; {% year %} all text and images.<br>
-      <i>Lore runs deep, secrets run deeper.</i></p>
+			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-
 		<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
 	</body>
 </html>
