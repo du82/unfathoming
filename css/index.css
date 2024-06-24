@@ -202,7 +202,6 @@ header {
 }
 
 footer {
-	border-top: 1px dashed var(--color-gray-20);
 	padding: 1em;
 }
 
