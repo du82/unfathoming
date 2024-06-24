@@ -83,6 +83,7 @@ blockquote p {
 /* Sidebar styles */
 
 .content-wrapper {
+		margin-top: 1.5em;
     display: flex;
     gap: 2em;
 }
@@ -123,6 +124,7 @@ blockquote p {
 
 @media (max-width: 768px) {
     .content-wrapper {
+				margin-top: 1.5em;
         flex-direction: column;
     }
     
