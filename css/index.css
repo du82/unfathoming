@@ -183,8 +183,17 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed var(--color-gray-20);
+    padding: 1em;
 }
+
+header nav {
+    margin-left: auto; /* This pushes the nav to the right */
+}
+
 header:after {
 	content: "";
 	display: table;
