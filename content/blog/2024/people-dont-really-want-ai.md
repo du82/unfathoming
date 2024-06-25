@@ -13,7 +13,7 @@ I recently ran two-dozen polls in a wide variety of online communities, and the 
 
 This was part of my market research for my most recent project where I am [building a programmatic search engine from scratch](/blog/2024/building-a-search-engine) with some friends. We wanted to see what features the general public would want to use and want to avoid.
 
-{% image "/assets/graphs/g1.png", "sentiment quiz" %}
+{% image "assets/graphs/g1.png", "sentiment quiz" %}
 
 ## Forced on users
 
