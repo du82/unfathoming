@@ -2,8 +2,16 @@ const path = require("path");
 const eleventyImage = require("@11ty/eleventy-img");
 
 function relativeToInputPath(relativeFilePath) {
-    // Define the base path for your images
-    const basePath = "assets";
+    // Determine the base path based on the first letter of the file name
+    let basePath;
+    if (relativeFilePath.startsWith('g')) {
+        basePath = "assets/graphs";
+    } else if (relativeFilePath.startsWith('i')) {
+        basePath = "assets/images";
+    } else {
+        // Default to assets if it doesn't start with 'g' or 'i'
+        basePath = "assets";
+    }
     
     // Combine the base path with the relative file path
     return path.join(process.cwd(), basePath, relativeFilePath);
