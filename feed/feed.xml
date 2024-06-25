@@ -4,22 +4,12 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-25T17:19:09Z</updated>
+	<updated>2024-06-20T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
-	
-	<entry>
-		<title>Why Matrix succeeded where Mastodon failed</title>
-		<link href="https://unfathom.ing/blog/2024/why-matrix-succeeded-where-mastodon-failed/"/>
-		<updated>2024-06-25T17:19:09Z</updated>
-		<id>https://unfathom.ing/blog/2024/why-matrix-succeeded-where-mastodon-failed/</id>
-		<content type="html">&lt;p&gt;This
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/jJ6npF5eHA-989.avif 989w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/jJ6npF5eHA-989.webp 989w&quot;&gt;&lt;img alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/jJ6npF5eHA-989.png&quot; width=&quot;989&quot; height=&quot;590&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>Chat Control enriches Europe&#39;s surveillance state</title>
