@@ -21,12 +21,12 @@ module.exports = function(eleventyConfig) {
 		"./public/favicon.ico": "/favicon.ico"
 	});
 
-	eleventyConfig.addPassthroughCopy("assets/**/*");
-
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Watch content images for the image pipeline.
+	eleventyConfig.addPassthroughCopy("assets/**/*");
+	eleventyConfig.addWatchTarget("assets/**/*.{svg,webp,png,jpeg}");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
 	// App plugins
