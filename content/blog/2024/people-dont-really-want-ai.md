@@ -13,7 +13,7 @@ I recently ran two-dozen polls in a wide variety of online communities, and the 
 
 This was part of my market research for my most recent project where I am [building a programmatic search engine from scratch](https://unfathom.ing/projects/2024/building-a-search-engine) with some friends. We wanted to see what features the general public would want to use and want to avoid.
 
-![](https://unfathom.ing/media/people-dont-really-want-ai/fig1.png) Recreate this graph
+{% image "/assets/graphs/g1.png" %}
 
 ## Forced on users
 
