@@ -21,6 +21,8 @@ module.exports = function(eleventyConfig) {
 		"./public/favicon.ico": "/favicon.ico"
 	});
 
+	eleventyConfig.addPassthroughCopy("assets/**/*");
+
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
