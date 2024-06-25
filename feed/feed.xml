@@ -4,12 +4,24 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-20T00:00:00Z</updated>
+	<updated>2024-06-25T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>The new site design</title>
+		<link href="https://unfathom.ing/blog/2024/the-new-site-design/"/>
+		<updated>2024-06-25T00:00:00Z</updated>
+		<id>https://unfathom.ing/blog/2024/the-new-site-design/</id>
+		<content type="html">&lt;p&gt;Welcome to the new Unfathoming. I&#39;ve gone through three notable iterations of the site now, first on &lt;a href=&quot;https://unfathom.ing/blog/2024/the-new-site-design/&quot;&gt;quartz&lt;/a&gt; by Jacky Zhao, second entirely static, with me manually writing HTML for every single page (and dealing with the consequences of trying to keep 50+ pages looking consistent), and thirdly (hopefully finally) what you&#39;re looking at right now.&lt;/p&gt;
+&lt;p&gt;The new site is written with the &lt;a href=&quot;https://11ty.dev&quot;&gt;Eleventy&lt;/a&gt; static site generator because it&#39;s super simple with few dependencies and it is something I could learn in a &lt;a href=&quot;https://unfathom.ing/blog/2024/a-rainy-saturday-morning&quot;&gt;morning before sunrise&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While most people use WordPress, I hate how long simple actions take. Even just loading a page can take a long time.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/NLOiXGUdVO-1019.avif 1019w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/NLOiXGUdVO-1019.webp 1019w&quot;&gt;&lt;img alt=&quot;diagram showing the workflow from source code to website&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/NLOiXGUdVO-1019.png&quot; width=&quot;1019&quot; height=&quot;344&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Chat Control enriches Europe&#39;s surveillance state</title>
