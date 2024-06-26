@@ -134,6 +134,10 @@ blockquote p {
     text-decoration: none;
 }
 
+.tag-cloud a:first-child {
+    width: 0;
+}
+
 /* Mobile view */
 @media (max-width: 768px) {
     .content-wrapper {
@@ -325,7 +329,6 @@ footer {
 
 /* Tags */
 .post-tag {
-	width: 0;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
