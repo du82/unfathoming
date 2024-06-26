@@ -42,7 +42,7 @@
 					</ul>
 					<h3>Tags</h3>
 					<div class="tag-cloud">
-						{% for tag in collections.all | getAllTags | filterTagList %}
+						{% for tag in collections.all | getAllTags | filterTagList | sort %}
 						{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 							<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
 						{% endfor %}
