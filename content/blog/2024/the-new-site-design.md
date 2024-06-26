@@ -16,6 +16,6 @@ While most people use WordPress, I hate how long simple actions take. Even just 
 
 Something interesting about the site is that if I want to show the graph above, I type out the following: 
 ```
-{% image "g2.png" %}
+{.% image "g2.png" %.}
 ```
 and it knows to pull the rendered and optimized image from `/assets/graphs/g2.png`. How? It looks for the first letter `g` and knows that's associated with a graph, then looks at the number to determine which numbered graph to use, and the file extension is there to tell it which to render the final output in. I could've just as easily made it say `png2` or something else, but I like how natural it feels. `g2.png` isn't actually the name of the file, its a way of locating and displaying the file.
