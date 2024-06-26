@@ -1,6 +1,10 @@
 ---
 title: The new site design
 date: 2024-06-25
+tags:
+  - software
+  - development
+  - design
 ---
 Welcome to the new Unfathoming. I've gone through three notable iterations of the site now, first on [quartz]() by Jacky Zhao, second entirely static, with me manually writing HTML for every single page (and dealing with the consequences of trying to keep 50+ pages looking consistent), and thirdly (hopefully finally) what you're looking at right now.
 
