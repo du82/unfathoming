@@ -574,12 +574,19 @@ h2 + .header-anchor {
 
 <ul class="post-metadata">
 	<li><time datetime="2024-06-25">25 June 2024</time></li>
+	<li><a href="/tags/software/" class="post-tag">software</a>, </li>
+	<li><a href="/tags/development/" class="post-tag">development</a>, </li>
+	<li><a href="/tags/design/" class="post-tag">design</a></li>
 </ul>
 
 <p>Welcome to the new Unfathoming. I've gone through three notable iterations of the site now, first on <a href="">quartz</a> by Jacky Zhao, second entirely static, with me manually writing HTML for every single page (and dealing with the consequences of trying to keep 50+ pages looking consistent), and thirdly (hopefully finally) what you're looking at right now.</p>
 <p>The new site is written with the <a href="https://11ty.dev">Eleventy</a> static site generator because it's super simple with few dependencies and it is something I could learn in a <a href="/blog/2024/a-rainy-saturday-morning">morning before sunrise</a>.</p>
-<p>While most people use WordPress, I hate how long simple actions take. Even just loading a page can take a long time.</p>
 <p><picture><source type="image/avif" srcset="/img/NLOiXGUdVO-1019.avif 1019w"><source type="image/webp" srcset="/img/NLOiXGUdVO-1019.webp 1019w"><img alt="diagram showing the workflow from source code to website" loading="lazy" decoding="async" src="/img/NLOiXGUdVO-1019.png" width="1019" height="344"></picture></p>
+<p>While most people use WordPress, I hate how long simple actions take. Even just loading a page can take a long time, and I didn't want to deal with the security nightmare of WordPress either. I've operated WP sites in the past, and every single one of them was compromised in some form or another, despite having what I thought was above average security. I guess that's just part of the PHP plague.</p>
+<p>Something interesting about the site is that if I want to show the graph above, I type out the following:</p>
+<pre><code>{.% image &quot;g2.png&quot; %.}
+</code></pre>
+<p>and it knows to pull the rendered and optimized image from <code>/assets/graphs/g2.png</code>. How? It looks for the first letter <code>g</code> and knows that's associated with a graph, then looks at the number to determine which numbered graph to use, and the file extension is there to tell it which to render the final output in. I could've just as easily made it say <code>png2</code> or something else, but I like how natural it feels. <code>g2.png</code> isn't actually the name of the file, its a way of locating and displaying the file.</p>
 
 <ul class="links-nextprev"><li>Previous: <a href="/blog/2024/chat-control-enriches-surveillance-state/">Chat Control enriches Europe&#39;s surveillance state</a></li>
 </ul>
@@ -648,6 +655,12 @@ h2 + .header-anchor {
 						
 							<a href="/tags/rant/" class="post-tag">rant</a>
 						
+						
+							<a href="/tags/development/" class="post-tag">development</a>
+						
+						
+							<a href="/tags/design/" class="post-tag">design</a>
+						
 					</div>
 				</div>
 			</div>
@@ -656,6 +669,6 @@ h2 + .header-anchor {
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/blog/2024/the-new-site-design/` was built on 2024-06-25T22:21:12.558Z -->
+		<!-- This page `/blog/2024/the-new-site-design/` was built on 2024-06-26T03:23:31.319Z -->
 	</body>
 </html>
