@@ -325,6 +325,7 @@ footer {
 
 /* Tags */
 .post-tag {
+	width: 0;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
