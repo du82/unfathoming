@@ -8,7 +8,7 @@ numberOfLatestPostsToShow: 3
 <h2>Hello there,</h2>
 <p>I'm an aspiring generalist in the field of computer science with a focus on offensive cybersecurity. I care a lot about privacy and freedom, and I write (usually open source) software that helps restore and improve privacy.</p>
 <p>This site, Unfathoming, is a capsule of my thoughts and ideas over time so that others may benefit from the things that float around in my head. In the event that I disappear, this site will serve as a reference as to who I am/was.</p>
-
+<p>I recommend reading on a device with a large screen if you can. It gives you the ability to see the sidebar as well as sidenotes and other things that you might enjoy.</p>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h3>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h3>
