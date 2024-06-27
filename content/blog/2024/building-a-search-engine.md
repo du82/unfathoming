@@ -54,7 +54,7 @@ Our engine is compatible with Tor’s strictest settings, and we offer an offici
 Being a programmatic search engine, we do not censor anything. You get what you search for. If you want to hide or show a specific keyword, try putting + or - directly in front of it without a space. See the section on Programmatic search for more info.
 Mirrors and censorship evasion
 
-We offer mirrors from a variety of public clouds and residential hosts. If a country censors our engine because we don’t do regional censorship (looking at you, Germany) we’ll just deploy more mirrors and proxies to evade the censorship, similar to what Telegram does. We're building a search engine, not a machine to force you into "politically correct" ways of thought, as there is no one "correct" way to think. *Free your mind.*
+We offer mirrors from a variety of public clouds and residential hosts. If a country censors our engine because we don’t do regional censorship{% sidenote "Looking at you, Germany", "note1" %} we’ll just deploy more mirrors and proxies to evade the censorship, similar to what Telegram does. We're building a search engine, not a machine to force you into "politically correct" ways of thought, as there is no one "correct" way to think. *Free your mind.*
 
 ## Business model
 We haven’t figured it out yet. We’ve been using organizational savings to pay for things like our AWS bills and domains. Maybe an enterprise or government would like a managed, airgapped instance like what WolframAlpha offers?
@@ -62,4 +62,4 @@ We haven’t figured it out yet. We’ve been using organizational savings to pa
 We’d prefer not to run ads, but if we need to, we’ll keep them text-only, and keep them far away from the search results, in the bottom right corner of the screen. If we do end up running ads, it means nothing else worked out, but we will not sell you out, and our ads would not track anything beyond an anonymous click counter that just counts up when someone clicks an ad.
 
 ## Credential
-I know some people will ask what credentials I have to be building a programmatic search engine from scratch. I don’t have a college degree or any certifications, but I’ve built many many many many search engines before from scratch. College doesn’t teach you practical things, they take your money and teach you algorithms that you’ll never use in production. *Take that, LeetCode pussies!*
+I know some people will ask what credentials I have to be building a programmatic search engine from scratch. I don’t have a college degree or any certifications, but I’ve built many many many many search engines before from scratch. College doesn’t teach you practical things, they take your money and teach you algorithms that you’ll never use in production. *Take that, LeetCode pussies!*{% sidenote "Meow!", "note1" %}
