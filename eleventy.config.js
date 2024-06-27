@@ -88,12 +88,14 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addShortcode("sidenote", function(content, id) {
 	  // Find the first digit in the content
 	  const numberStart = content.search(/\d/);
+	
 	  // Extract the number from the content
 	  const number = numberStart !== -1 ? content.slice(numberStart) : '';
+	
 	  // Update the HTML to show only the number in the sidebar
 	  return (
-	    `<span class="sidenote-anchor" id="${id}">${content}</span>` +
-	    `<span class="sidenote" aria-describedby="${id}">${number}</span>`
+	    `<span class="sidenote-anchor" id="${id}">${number}</span>` +
+	    `<span class="sidenote" aria-describedby="${id}">${content}</span>`
 	  );
 	});
 
