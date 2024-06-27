@@ -9,7 +9,7 @@ tags:
 
 > **Commentary:** Since many people missed the point, it is to say that people don't want AI forced upon them. It's not saying that no one is using AI, as that is obviously false.
 
-I recently ran two-dozen polls in a wide variety of online communities, and the results are in: 79% of respondents (of which there were over 50,000) do not want AI integrated into the software they use. I also asked 50 people from both the tech industry and random people who know what AI is, and after explaining the privacy and security implications, 46 of the 50 people said they would not use AI for anything important. Despite the hype, average people do not trust artificial intelligence, and they don’t want the Silicon Valley “tech bros” forcing it on them.
+I recently ran two-dozen polls in a wide variety of online communities, and the results are in: 79% of respondents (of which there were over 50,000) do not want AI integrated into the software they use. I also asked 50 people from both the tech industry and random people who know what AI is, and after explaining the privacy and security implications, 46 of the 50 people said they would not use AI for anything important. Despite the hype, average people do not trust artificial intelligence, and they don’t want the Silicon Valley “tech bros”{% sidenote "This is a sidenote", "note1" %} forcing it on them.
 
 This was part of my market research for my most recent project where I am [building a programmatic search engine from scratch](/blog/2024/building-a-search-engine) with some friends. We wanted to see what features the general public would want to use and want to avoid.
 
