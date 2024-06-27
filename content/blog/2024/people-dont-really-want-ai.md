@@ -9,7 +9,7 @@ tags:
 
 > **Commentary:** Since many people missed the point, it is to say that people don't want AI forced upon them. It's not saying that no one is using AI, as that is obviously false.
 
-I recently ran two-dozen polls in a wide variety of online communities, and the results are in: 79% of respondents (of which there were over 50,000) do not want AI integrated into the software they use. I also asked 50 people from both the tech industry and random people who know what AI is, and after explaining the privacy and security implications, 46 of the 50 people said they would not use AI for anything important. Despite the hype, average people do not trust artificial intelligence, and they don’t want the Silicon Valley “tech bros”{% sidenote "This is a sidenote", "note1" %} forcing it on them.
+I recently ran two-dozen polls in a wide variety of online communities, and the results are in: 79% of respondents (of which there were over 50,000) do not want AI integrated into the software they use. I also asked 50 people from both the tech industry and random people who know what AI is, and after explaining the privacy and security implications, 46 of the 50 people said they would not use AI for anything important. Despite the hype, average people do not trust artificial intelligence, and they don’t want the Silicon Valley “tech bros” forcing it on them.
 
 This was part of my market research for my most recent project where I am [building a programmatic search engine from scratch](/blog/2024/building-a-search-engine) with some friends. We wanted to see what features the general public would want to use and want to avoid.
 
@@ -29,7 +29,7 @@ The models produced by OpenAI, Mistral, and Microsoft are [inherently biased](ht
 
 Every one of the widely used models have an (American) leftist, progressive, capitalist, and accelerationist bias even [to their detriment](https://nypost.com/2024/02/23/business/woke-google-gemini-refuses-to-say-pedophilia-is-wrong-after-diverse-historical-images-debacle-individuals-cannot-control-who-they-are-attracted-to/). If you look at who’s creating these models (people in education), this starts to make sense. Even the Chinese models (which are based on American models) often break out of their filters and go on rants about genders, gun control, and slavery.
 
-It’s actually quite amusing to talk to the Chinese AIs, since they’re so poorly designed that you can often times get them to compare and contrast American and Chinese human rights. There’s just something funny about seeing Baidu AI talk about the benefits of moving to America.
+It’s actually quite amusing to talk to the Chinese AIs, since they’re so poorly designed{% sidenote "Or in the case of Baidu's AI, just a fork of an open-source generative model", "note1" %} that you can often times get them to compare and contrast American and Chinese human rights. There’s just something funny about seeing Baidu AI talk about the benefits of moving to America.
 
 ## Lack of control
 
