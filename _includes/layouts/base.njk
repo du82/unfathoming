@@ -48,6 +48,12 @@
 						{% endfor %}
 					</div>
 				</div>
+				<div class="sidenotes">
+				  {% set notes = content | getSidenotes %}
+				  {% for id, note in notes %}
+				    <div class="sidenote" id="{{ id }}">{{ note | safe }}</div>
+				  {% endfor %}
+				</div>
 			</div>
 		</main>
 		<footer>
