@@ -84,6 +84,11 @@ module.exports = function(eleventyConfig) {
 	// Get current year with {% year %}
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+	eleventyConfig.addShortcode("sidenote", function(content, id) {
+  return `<span class="sidenote-anchor" id="${id}">${content}</span>
+          <span class="sidenote" aria-describedby="${id}">${content}</span>`;
+	});
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
