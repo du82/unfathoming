@@ -84,11 +84,20 @@ module.exports = function(eleventyConfig) {
 	// Get current year with {% year %}
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-	eleventyConfig.addShortcode("sidenote", function(content, id) {
-  return `<span class="sidenote-anchor" id="${id}">${content}</span>
-          <span class="sidenote" aria-describedby="${id}">${content}</span>`;
-	});
+	// Sidenotes
+	let sidenotes = {};
 
+	eleventyConfig.addPairedShortcode("sidenote", function(content, id) {
+	  sidenotes[id] = content;
+	  return `<sup>${id}</sup>`;
+	});
+	
+	eleventyConfig.addFilter("getSidenotes", function() {
+	  const notes = sidenotes;
+	  sidenotes = {}; // Clear sidenotes after getting them
+	  return notes;
+	});
+	
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
