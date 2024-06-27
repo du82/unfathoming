@@ -57,7 +57,7 @@ You have no control or insight into how Discord uses your data. This should scar
 Your DMs on Discord are not end-to-end encrypted{% sidenote "The company has repeatedly refused to add end-to-end encryption", "note3" %}, which means employees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.
 
 ## The platform is a disaster
-Discord compels users to follow their Terms Of Service by threatening to delete their accounts, but then never does anything about the outsiders who abuse the platform. This leads to a situation where consequences only apply to legitimate users who want to keep their accounts. Bots, spammers, and loggers can do whatever they want.
+Discord compels users to follow their Terms Of Service by threatening to delete their accounts, but then never does anything about the outsiders who abuse the platform. This leads to a situation where consequences only apply to legitimate users who want to keep their accounts. Bots, spammers, and loggers can do whatever they want{% sidenote "Tip: To evade Discord bans, use a fresh gmail, and use mobile data to evade the VPN restrictions", "note4" %}.
 Funny how that works, isn't it.
 
 ## What makes this a tragedy?
