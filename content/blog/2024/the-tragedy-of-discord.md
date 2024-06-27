@@ -27,7 +27,7 @@ Despite the claims by the company that “Discord loves open-source” they in f
 Those that have attempted to reverse engineer and re-implement the Discord technology stack in an open-source way have been hit with legal notices. Just look at what they did to Fosscord and other projects that are re-implementations of their specification.
 
 ## Server operators are powerless
-As a server operator, you are powerless against the platform. You have no say in what features they decide to add or remove, and what other things they do. There have been instances where Discord have purposely made the platform worse for some users as an April Fools joke. Is that the kind of platform you want to rely on?
+As a server operator, you are powerless against the platform. You have no say in what features they decide to add or remove, and what other things they do. There have been instances where Discord have purposely made the platform worse for some users as an April Fools joke{% sidenote "Like the time they tried to force light mode on users for a day", "note1" %}. Is that the kind of platform you want to rely on?
 
 ## Moderators have no say
 When the company introduces new features, they are typically Nitro (their 10 dollar monthly subscription) exclusive, or severely limited unless you pay. To access some of these features, your community must be paying for Nitro in order to get “Boosts” which can be used to make your server significantly more useful to everyone. The main problem? This collectively costs 140 dollars per month for the highest tier, and it is on a per-server basis. Every server that wants a decent experience must expect their members to collectively cough up $140 a month.
@@ -35,7 +35,7 @@ When the company introduces new features, they are typically Nitro (their 10 dol
 ## Moderators have no power
 Unlike hosting your own community forum or Matrix server, you cannot ban a block of IPs that are used by adversaries to evade bans on Discord. Why? You do not own your server, the company does. The only one with power over your community is Discord themselves. This is a problem for server operators since Discord has very weak alt detection and ban evasion is trivial, as the checks happen client side.
 
-Discord lulls you into a false sense of ownership and control, when in reality you own nothing beyond the branding of the server and the messages you send. Put bluntly, if Discord decides you don't make them enough money, or you mention alternative platforms, they can delete a community you've built over years and you can do nothing about it.
+Discord lulls you into a false sense of ownership and control{% sidenote "You will own nothing, and you will be happy about it. Classic SaaS model.", "note2" %}, when in reality you own nothing beyond the branding of the server and the messages you send. Put bluntly, if Discord decides you don't make them enough money, or you mention alternative platforms, they can delete a community you've built over years and you can do nothing about it.
 
 ## Moderators have no privacy
 Neither do their communities. For the communities that are intentionally private (meaning they have no public invite links), they also have no privacy. All it takes is one data breach or a misconfiguring of permissions, and your entire chat history including deleted messages is open to the world.
@@ -54,7 +54,7 @@ You have no power or control over Discord, your data, or your account. You can�
 ## Users have no privacy
 You have no control or insight into how Discord uses your data. This should scare you, especially considering their investment and data sharing agreements with Tencent; a company with an awful track record regarding privacy.
 
-Your DMs on Discord are not end-to-end encrypted, which means employ ees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.
+Your DMs on Discord are not end-to-end encrypted{% sidenote "The company has repeatedly refused to add end-to-end encryption", "note3" %}, which means employees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.
 
 ## The platform is a disaster
 Discord compels users to follow their Terms Of Service by threatening to delete their accounts, but then never does anything about the outsiders who abuse the platform. This leads to a situation where consequences only apply to legitimate users who want to keep their accounts. Bots, spammers, and loggers can do whatever they want.
