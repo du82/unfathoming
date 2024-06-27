@@ -317,6 +317,28 @@ blockquote p {
     width: 0;
 }
 
+/* Sidenotes */
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -33%;
+  width: 30%;
+  font-size: 0.8em;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.sidenote-anchor {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-anchor::after {
+  content: counter(sidenote-counter);
+  vertical-align: super;
+  font-size: 0.7em;
+}
+
 /* Mobile view */
 @media (max-width: 768px) {
     .content-wrapper {
@@ -689,6 +711,6 @@ h2 + .header-anchor {
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/blog/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-06-27T15:00:47.946Z -->
+		<!-- This page `/blog/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-06-27T15:01:44.055Z -->
 	</body>
 </html>
