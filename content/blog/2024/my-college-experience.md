@@ -59,9 +59,9 @@ What has college taught me?
 
 ---
 ## Update #1: 26/6/2024
-The college has blocked multiple of my domains (only about 7% of them lol) and after calling last friday (21st) and getting told to contact the assistant dean, I left a voicemail asking her to call back. No response. I contacted multiple people with no responses or very unhelpful responses.
+The college has blocked multiple of my domains (only about 7% of them lol), which lends credibility to my theory that they don't like my comms platform but they couldn't suspend me over it since it has no relation to the college. After calling last friday (21st) and getting told to contact the assistant dean, I left a voicemail asking the assistant dean to call back. No response. I contacted multiple people with no responses or very unhelpful responses.
 
-I contacted the registrar who told me "they'll be in contact". Who is "they"? After pushing again, I recieved the exact same response. I was also locked out of my school accounts shortly after, and told that I'd still need to pay $1100 for classes that I couldn't attend, drop, or do anything with.
+I contacted the registrar who told me "they'll be in contact". Who is "they"? After pushing again, I recieved the exact same response. I was also locked out of my school accounts shortly after, as well as the place to download my transcripts, and told that I'd still need to pay $1100 for classes *that I couldn't attend, drop, or do anything with*.
 
 The conversation goes as follows, word-for-word:
 > Her: "I'm calling you back about your situation with your tuition and dropping classes, I did talk to a couple people so I emailed them. Everybody has all their information and I'm sure they will get back to you, Ok?"
@@ -81,3 +81,5 @@ Who is They?
 > Her: "Yes, they will."
 
 > Me: "Alright, I appreciate it"
+
+This call just left me with more questions than answers. So far, I keep getting bounced around to different people, and they've definitely 
