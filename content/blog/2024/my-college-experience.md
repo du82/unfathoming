@@ -30,7 +30,7 @@ One class was essentially using AI to make presentations about a topic and turn 
 The rest of my second semester was more of the same from the first semester, but it seemed to have gotten ***worse*** than the first semester! An example of this being configuring an AWS EC2 instance, gaining shell access, and installing some software on it. That part was fine, but there was no instruction on how to secure it. A little odd for a cybersecurity course/degree, right?{% sidenote "Seriously, you're going to teach us about the cloud and not talk about securing it at all? I'm lost for words!", "note1" %}
 
 ## The AI witch hunt
-About half way through the second semester, people started talking on various Signal groups about how they were getting grades changed to zeros. Around this time I also recieved an email telling me that I was on the college's naughty list for using AI (despite a teacher recommending its use and calling it revolutionary). I shrugged this off, moved on, and registered for summer and next semester classes a week later.
+About half way through the second semester, people started talking on various Signal groups about how they were getting grades changed to zeros. Around this time I also recieved an email telling me that I was on the college's naughty list for using AI (despite a teacher recommending its use and calling it revolutionary){% sidenote "That teacher even suggested we use it to create presentations for that class!", "note2" %}. I shrugged this off, moved on, and registered for summer and next semester classes a week later.
 
 I was called in to talk to the dean of the IT department (which is apparently standard practice), and he (along with the assistant dean) told me that they didn't like how I was selling premium versions of AI tools to anyone who was willing to hand over $5 per month.
 
@@ -61,7 +61,7 @@ What has college taught me?
 ## Update #1: 26/6/2024
 The college has blocked multiple of my domains (only about 7% of them lol), which lends credibility to my theory that they don't like my comms platform but they couldn't suspend me over it since it has no relation to the college. After calling last friday (21st) and getting told to contact the assistant dean, I left a voicemail asking the assistant dean to call back. No response. I contacted multiple people with no responses or very unhelpful responses.
 
-I contacted the registrar who told me "they'll be in contact"{% sidenote "Who is They? Does she mean the assistant dean? Or is it enrollment?", "note2" %}. After pushing again, I recieved the exact same response. I was also locked out of my school accounts shortly after, as well as the place to download my transcripts, and told that I'd still need to pay $1100 for classes *that I couldn't attend, drop, or do anything with*.
+I contacted the registrar who told me "they'll be in contact"{% sidenote "Who is They? Does she mean the assistant dean? Or is it enrollment?", "note3" %}. After pushing again, I recieved the exact same response. I was also locked out of my school accounts shortly after, as well as the place to download my transcripts, and told that I'd still need to pay $1100 for classes *that I couldn't attend, drop, or do anything with*.
 
 The conversation goes as follows, word-for-word:
 > Her: "I'm calling you back about your situation with your tuition and dropping classes, I did talk to a couple people so I emailed them. Everybody has all their information and I'm sure they will get back to you, Ok?"
@@ -72,7 +72,7 @@ The conversation goes as follows, word-for-word:
 
 > Me: "So what is that"
 
-> Her: "They'll get back to you"{% sidenote "Again, who is they?", "note3" %}
+> Her: "They'll get back to you"{% sidenote "Again, who is they?", "note4" %}
 
 > Me: "Okay, so they'll let me know what's up? or"
 
