@@ -203,6 +203,7 @@ blockquote p {
   float: right;
   clear: right;
   margin-right: -50%;
+	margin-bottom: 1em;
   width: 40%;
   font-size: 0.8em;
   line-height: 1.3;
