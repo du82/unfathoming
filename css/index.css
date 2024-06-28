@@ -212,10 +212,6 @@ blockquote p {
 }
 
 .sidenote-anchor {
-  counter-increment: sidenote-counter;
-}
-
-.sidenote-anchor::after {
   content: counter(sidenote-counter);
   vertical-align: super;
   font-size: 0.7em;
