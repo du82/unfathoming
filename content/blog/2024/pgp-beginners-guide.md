@@ -3,6 +3,7 @@ title: A beginner's guide to PGP
 date: 2024-04-23
 tags:
   - security
+  - guides
 ---
 Here's my guide on how to set up and use PGP via Gnu Privacy Guard (GPG) to create keys, sign messages, add other's public keys, and verify the integrity of their messages. I couldn't find any simple instructions on how to use it, so I decided to write my own that is easier to understand.
 
