@@ -23,8 +23,8 @@ I'm fluent in American English and know some domain-specific Mandarin.
 ## Current occupation
 Seeking full-time employment
 
-## Personal values or philosophy
-I put Privacy above all else, because without it there is no freedom. Self-sovereignty is also very important to me, as well as the first ammendment rights.
+## Personal values
+I value privacy and self-sovereignty above all.
 
 ## Political lean
 I am a libertarian with some aspects of agorism. Unless it interferes with my rights, I probably don't have an opinion on it.
