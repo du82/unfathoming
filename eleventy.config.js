@@ -91,14 +91,19 @@ module.exports = function(eleventyConfig) {
   });
 
 	// Sidenotes
-	let sidenoteCounter = 0;
+	eleventyConfig.addNunjucksGlobal('getSidenoteCounter', function() {
+	  if (typeof this.sidenoteCounter === 'undefined') {
+	    this.sidenoteCounter = 0;
+	  }
+	  return ++this.sidenoteCounter;
+	});
 	
 	eleventyConfig.addShortcode("sidenote", function(content) {
-	  sidenoteCounter++;
-	  const id = `sidenote-${sidenoteCounter}`;
+	  const counter = this.getSidenoteCounter();
+	  const id = `sidenote-${counter}`;
 	
 	  return (
-	    `<span class="sidenote-anchor" id="${id}">${sidenoteCounter}</span>` +
+	    `<span class="sidenote-anchor" id="${id}">${counter}</span>` +
 	    `<span class="sidenote" aria-describedby="${id}">${content}</span>`
 	  );
 	});
