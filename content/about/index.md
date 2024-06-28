@@ -9,11 +9,10 @@ As stated on the homepage, I am an aspiring generalist in the field of computer 
 
 My one exception is Windows; I grew up on Linux and never found my way over to Windows land. In school we used Chromebooks (which are Linux under the hood), so the Microsoft ecosystem is foreign to me.
 
-## Education
-
 ## Skills and expertise
-I have an extensive background in computer networking, both physically running/terminating cable, as well as software. I am much better at the hardware side of things.
+I have an extensive background in computer networking, both physically as well as in software. I currently specialize in the field of covert communications.
 
+I also write software. See [my programming journey](blog/2024/my-programming-journey) for more info.
 
 ## Languages
 I'm fluent in American English and know some domain-specific Mandarin.
@@ -33,7 +32,7 @@ Programming
 - Freedom of speech, press, assembly
 
 ## Political lean
-I am a libertarian with some aspects of agorism.
+I am a libertarian with some aspects of agorism. I tend to anger moralists and 
 
 ## Fun facts or quirks
 
@@ -44,7 +43,6 @@ I am a libertarian with some aspects of agorism.
 ## Favorite books, movies, or music
 I like reading blogs and websites mostly, so here's a list of my favorites: [Trilema](https://trilema.com), [Gwern.net](https://gwern.net), [LessWrong](https://lesswrong.com)
 
-I used to be an avid [Douyin](https://douyin.com) user, so I like lots of Chinese pop songs.
 ## Pets
 
 ## Family life
