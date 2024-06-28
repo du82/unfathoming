@@ -12,7 +12,9 @@ My one exception is Windows; I grew up on Linux and never found my way over to W
 ## Skills and expertise
 I have an extensive background in computer networking, both physically as well as in software. I currently specialize in the field of covert communications.
 
-I also write software. See [my programming journey](blog/2024/my-programming-journey) for more info.
+I've written, deployed, and secured two full-stack mobile apps on the Google Play store with a combined 900,000 download count. That network was also open to third-party clients, of which there were over 20 million installs connecting back to my infrastructure.
+
+On the topic of infrastructure, I also have experience in virtualization (VMware, Proxmox), real-time communication (Matrix), and building my own cloud from scratch (hardware and software).
 
 ## Languages
 I'm fluent in American English and know some domain-specific Mandarin.
@@ -21,24 +23,15 @@ I'm fluent in American English and know some domain-specific Mandarin.
 ## Current occupation
 Seeking full-time employment
 
-## Hobbies and interests
-Programming
-
-## Travel experiences
-
 ## Personal values or philosophy
-- Privacy
-- Self-sovereignty
-- Freedom of speech, press, assembly
+I put Privacy above all else, because without it there is no freedom. Self-sovereignty is also very important to me, as well as the first ammendment rights.
 
 ## Political lean
-I am a libertarian with some aspects of agorism. I tend to anger moralists and 
+I am a libertarian with some aspects of agorism. Unless it interferes with my rights, I probably don't have an opinion on it.
 
 ## Fun facts or quirks
 
 ## Goals or aspirations
-
-## Volunteer work or causes supported
 
 ## Favorite books, movies, or music
 I like reading blogs and websites mostly, so here's a list of my favorites: [Trilema](https://trilema.com), [Gwern.net](https://gwern.net), [LessWrong](https://lesswrong.com)
