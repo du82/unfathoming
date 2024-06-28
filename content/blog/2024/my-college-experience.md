@@ -46,7 +46,7 @@ I recieved a letter of suspension, which I expected, but I didn't expect their "
 The policy mentioned that you're not automatically allowed back when the time is up, you have to send an *appology letter* and have them review it to let you back in.
 
 ## Post-letter
-I recieved multiple emails telling me I had a bill due. I shrugged them off because as per the policy, a suspension puts everything on hold, meaning the classes I registered for would be dropped since I couldn't do any of the work. After talking to an enrollment person (who didn't seem to give a flying fuck), I was told that the two classes would still show up on the transcript because they were never dropped, despite me being unable to do anything with them. I was also still going to be billed for them since they had already started.
+I recieved multiple emails telling me I had a bill due. I shrugged them off because I couldn't drop the classes or do any of the work. After talking to an enrollment person (who didn't seem to give a flying fuck), I was told that the two classes would still show up on the transcript because they were never dropped, despite me being unable to do anything with them. I was also still going to be billed for them since they had already started.
 
 To recap, I was suspended by people who didn't know the facts and rummaged through a personal account with no relation to the college, then billed for classes that I couldn't drop or do anything with, and then was told they'd also show up on the record, making me take even more classes to up the GPA if I wanted to graduate.
 The funny thing is that in a year or two, AI will be normalized just as the cloud is today.
