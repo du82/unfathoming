@@ -18,9 +18,7 @@ I like Element, but their encryption has me wary of using it for anything sensit
 Other than that, it's a great discord-like platform, especially since you can self-host the whole thing and run your own community without having to follow any terms of service. They recently did a rewrite of their mobile apps and they look amazing. The web/desktop app is still a bloated JavaScript mess that feels disjointed. They could really use a native rewrite of the desktop app using something like QT.
 
 ## Signal
-I'm a longtime user of Signal, and I've seen it get worse over the years with bugs, calls dropping, and messages never sending. With the update that brought usernames, they seemed to fix a lot of that, and it works well for my needs. The Mobilecoin rugpull was disappointing, especially considering they allow you to disable stories but not crypto features. They should've gone with Monero.
-
-Please Signal, if you're reading this, allow us to get rid of the crypto features like you did for stories.
+I'm a longtime user of Signal, and I've seen it get worse over the years with bugs, calls dropping, and messages never sending. With the update that brought usernames, they seemed to fix a lot of that, and it works well for my needs. The Mobilecoin rugpull was disappointing, especially considering they allow you to disable stories but not crypto features{% sidenote "Please Signal, if you're reading this, allow us to get rid of the crypto features like you did for stories.", "note1" %}. They should've gone with Monero.
 
 ## SimpleX Chat
 This is the one I'm most hopeful for, due to its innovative lack of identifiers for users. I've reviewed some of the code, as well as the designs, and while the app UI is quite ugly, the rest of it is excellent. It also has a 1GB per file upload limit, and it's quite fast to transfer files as well. I think this one will succeed, since it's also got mostly-functional large group support (it breaks around 600 members).
