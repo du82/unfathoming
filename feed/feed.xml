@@ -240,6 +240,59 @@ The funny thing is that in a year or two, AI will be normalized just as the clou
 	</entry>
 	
 	<entry>
+		<title>A beginner&#39;s guide to PGP</title>
+		<link href="https://unfathom.ing/blog/2024/pgp-beginners-guide/"/>
+		<updated>2024-04-23T00:00:00Z</updated>
+		<id>https://unfathom.ing/blog/2024/pgp-beginners-guide/</id>
+		<content type="html">&lt;p&gt;Here&#39;s my guide on how to set up and use PGP via Gnu Privacy Guard (GPG) to create keys, sign messages, add other&#39;s public keys, and verify the integrity of their messages. I couldn&#39;t find any simple instructions on how to use it, so I decided to write my own that is easier to understand.&lt;/p&gt;
+&lt;p&gt;I&#39;ll assume that you&#39;re using Debian Linux or a derivative, since this blog post is meant for beginners, and Ubuntu is typically what people start out with.&lt;/p&gt;
+&lt;h2 id=&quot;install-gnu-privacy-guard&quot; tabindex=&quot;-1&quot;&gt;Install GNU Privacy Guard &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This command installs &lt;code&gt;gnupg2&lt;/code&gt; which is the Debian package for GNU Privacy Guard.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gnupg2 &lt;span class=&quot;token parameter variable&quot;&gt;-y&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;generate-a-new-key&quot; tabindex=&quot;-1&quot;&gt;Generate a new key &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Now we need to create a key.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg --full-gen-key&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will give you a list of options. Here&#39;s my recommendation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Enter&lt;/code&gt; to accept the default (&lt;code&gt;RSA&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;Enter&lt;/code&gt; to accept the default keysize of &lt;code&gt;3072&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The expiration date is up to you, but I recommend a year. Type &lt;code&gt;1y&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, it wil ask you for a real name. I recommend using a pseudonym, but your real name will also work.&lt;/p&gt;
+&lt;p&gt;It will also ask you for an email address. I recommend leaving it blank, but a valid email works.&lt;/p&gt;
+&lt;p&gt;Feel free to leave the comment field blank, or add one if you&#39;d like, up to you.&lt;/p&gt;
+&lt;p&gt;Type the letter &lt;code&gt;O&lt;/code&gt; and it will give you a prompt to create a password.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Type a strong password&lt;/strong&gt; since this will be the thing that secures your key. Don&#39;t reuse passwords from other accounts. Then press continue or &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Congrats! You now have a PGP key!&lt;/p&gt;
+&lt;h3 id=&quot;extracting-your-public-key&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;&lt;/a&gt;Extracting your public key &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You should now have a page that looks something like this:&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;public and secret key created and signed.
+
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2024&lt;/span&gt;-04-24 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;expires: &lt;span class=&quot;token number&quot;&gt;2025&lt;/span&gt;-04-24&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      AFE3B9A0E5C1A3C6A5360CAA7635119DF78CE4BF&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Chances are, you want to be able to share your public key with someone else. To do this, you need to generate a public key file.&lt;/p&gt;
+&lt;p&gt;Type the following, but replace &lt;code&gt;MYPUBLICKEY&lt;/code&gt; with whatever string you got under the &amp;quot;pub&amp;quot; section (which is known as a key fingerprint).&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--armor&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--export&lt;/span&gt; MYPUBLICKEY &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; pubkey.asc&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is now saved to the file called &lt;code&gt;pubkey.asc&lt;/code&gt;. To view the contents of the file, type &lt;code&gt;cat pubkey.asc&lt;/code&gt;. You can share this with friends or put it on your website.&lt;/p&gt;
+&lt;h3 id=&quot;signing-data&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;&lt;/a&gt;Signing data &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;First we need some data to sign, so create a new text file (you can use &lt;code&gt;nano&lt;/code&gt; command to do this), enter something, then save it.&lt;/p&gt;
+&lt;p&gt;The following command will let you sign a message and attach its signature inside of the file. This is great for text, but not great for pictures or data that relies on the formatting of the data within. Make sure to replace &lt;code&gt;FILENAME&lt;/code&gt; with the actual name of your file or you&#39;ll just get junk.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--clearsign&lt;/span&gt; FILENAME&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To generate the signature and store it separately, you can type the following:&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg --detach-sig FILENAME&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;importing-another-s-public-key&quot; tabindex=&quot;-1&quot;&gt;Importing another&#39;s public key &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You probably want to be able to verify another person&#39;s message to know if it&#39;s a successful match for their key. This is useful because it proves the authenticity and integrity of the data, basically that the person who signed it is the person who holds the private key that you trust.&lt;/p&gt;
+&lt;p&gt;To do this, type the following, but replace &lt;code&gt;THEIRKEY.asc&lt;/code&gt; with the actual filename.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--import&lt;/span&gt; THEIRKEY.asc&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;verifying-data&quot; tabindex=&quot;-1&quot;&gt;Verifying data &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/blog/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The main purpose of PGP is to be able to verify the integrity of data, so lets do that.&lt;/p&gt;
+&lt;p&gt;To verify someones data, type the following, but make sure to replace &lt;code&gt;SIGFILE&lt;/code&gt; with the signature file and &lt;code&gt;FILENAME&lt;/code&gt; with the name of the file to verify.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--verify&lt;/span&gt; SIGFILE FILENAME&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the result ends with &amp;quot;Good signature from&amp;quot; followed by their name, you know that the data hasn&#39;t been tampered with and it is their own.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>My programming journey</title>
 		<link href="https://unfathom.ing/blog/2024/my-programming-journey/"/>
 		<updated>2024-04-14T00:00:00Z</updated>
