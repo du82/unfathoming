@@ -91,23 +91,26 @@ module.exports = function(eleventyConfig) {
   });
 
 	// Sidenotes
-	eleventyConfig.addNunjucksGlobal('getSidenoteCounter', function() {
-	  if (typeof this.sidenoteCounter === 'undefined') {
-	    this.sidenoteCounter = 0;
-	  }
-	  return ++this.sidenoteCounter;
-	});
-	
-	eleventyConfig.addShortcode("sidenote", function(content) {
-	  const counter = this.getSidenoteCounter();
-	  const id = `sidenote-${counter}`;
-	
-	  return (
-	    `<span class="sidenote-anchor" id="${id}">${counter}</span>` +
-	    `<span class="sidenote" aria-describedby="${id}">${content}</span>`
-	  );
-	});
+  const pageCounters = {};
 
+  eleventyConfig.addShortcode("sidenote", function(content) {
+    // Get a unique identifier for the current page
+    const pageId = this.page.inputPath;
+
+    // Initialize the counter for this page if it doesn't exist
+    if (!pageCounters[pageId]) {
+      pageCounters[pageId] = 0;
+    }
+
+    // Increment the counter for this page
+    const counter = ++pageCounters[pageId];
+    const id = `sidenote-${counter}`;
+
+    return (
+      `<span class="sidenote-anchor" id="${id}">${counter}</span>` +
+      `<span class="sidenote" aria-describedby="${id}">${content}</span>`
+    );
+  });
 	
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
