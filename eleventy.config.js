@@ -91,16 +91,14 @@ module.exports = function(eleventyConfig) {
   });
 
 	// Sidenotes
-	eleventyConfig.addShortcode("sidenote", function(content, id) {
-	  // Find the first digit in the content
-	  const numberStart = content.search(/\d/);
+	let sidenoteCounter = 0;
 	
-	  // Extract the number from the content
-	  const number = numberStart !== -1 ? content.slice(numberStart) : '';
+	eleventyConfig.addShortcode("sidenote", function(content) {
+	  sidenoteCounter++;
+	  const id = `sidenote-${sidenoteCounter}`;
 	
-	  // Update the HTML to show only the number in the sidebar
 	  return (
-	    `<span class="sidenote-anchor" id="${id}">${number}</span>` +
+	    `<span class="sidenote-anchor" id="${id}">${sidenoteCounter}</span>` +
 	    `<span class="sidenote" aria-describedby="${id}">${content}</span>`
 	  );
 	});
