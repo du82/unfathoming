@@ -52,7 +52,7 @@ To recap, I was suspended by people who didn't know the facts and rummaged throu
 The funny thing is that in a year or two, AI will be normalized just as the cloud is today.
 
 What has college taught me?
-* Spend more time on opsec when selling AI tools to other students
+* Spend more time on opsec when selling AI tools to other students{% sidenote "Definitely don't stop selling AI tools to students, keep doing it, just quieter this time!" %}
 * Don't buy textbooks, just keep making new O'Riley accounts and use their free trial, then make another account when time is up
 * Don't waste time learning their outdated materials, just teach yourself the modern stuff.
 * College is a capitalist scam, you can succeed without it.
