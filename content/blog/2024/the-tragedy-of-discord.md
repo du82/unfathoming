@@ -17,9 +17,9 @@ You’ve probably heard someone complain about the LinkedIn authentication popup
 Instead of the answer to your problem existing on a forum that’s indexed by the major search engines, you spend hours digging around just to realize that the solution is buried deep inside of a community on Discord, and the only way to view it is to let them collect your data so you can join what should’ve been a public forum.
 
 ## Centralization
-We put a huge emphasis on privacy and do not track the user or attempt to associate their queries with any identifiers like an IP or cookie. Both our clearnet and Tor mirrors run all logic on the backend, meaning no JavaScript or WASM on the frontend. The entire search engine has been designed with the idea that someday we may get a subpoena, and we want to confidently tell the lawyers that we collect only the absolute minimum required to operate and we don’t even store it on disk (memory-only).
+To the “server” operators out there; have you ever wondered what happens when Discord (the company) shuts down? You probably haven’t. Now, think about the millions of communities that rely on Discord as their only form of communication.
 
-We see no reason for Google, Bing, or others to store every search you make over the entire history of your account, unless they’re selling it to the CIA or something. Spooky!
+Someday the company will fail. Nothing lasts forever{% footnote "Except Facebook sadly. Facebook really needs to go the way of MySpace." %} when it does, your conversation histories and all of the data in your account will go with it. All those precious memories, gone with no way to recover them.
 
 ## Absolutely proprietary
 Despite the claims by the company that “Discord loves open-source” they in fact do not. Nothing about Discord is open source beyond some of the GPL licensed projects that they rely on for their own code. This doesn’t sound like a company that loves open source and wants to contribute back. This sounds like a company that loves open source because it makes their own development cheaper.
@@ -54,7 +54,7 @@ You have no power or control over Discord, your data, or your account. You can�
 ## Users have no privacy
 You have no control or insight into how Discord uses your data. This should scare you, especially considering their investment and data sharing agreements with Tencent; a company with an awful track record regarding privacy.
 
-Your DMs on Discord are not end-to-end encrypted{% sidenote "The company has repeatedly refused to add end-to-end encryption", "note3" %}, which means employees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.
+Your DMs on Discord are not end-to-end encrypted{% sidenote "The company has repeatedly refused to add end-to-end encryption" %}{% sidenote "This means that the messages you send to your friends are not protected by strong encryption that ensures the company cannot man-in-the-middle to read or modify your messages. In this case, Discord only has standard TLS encryption which is useless if a hacker were to break into Discord’s infrastructure." %}, which means employees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.
 
 ## The platform is a disaster
 Discord compels users to follow their Terms Of Service by threatening to delete their accounts, but then never does anything about the outsiders who abuse the platform. This leads to a situation where consequences only apply to legitimate users who want to keep their accounts. Bots, spammers, and loggers can do whatever they want{% sidenote "Tip: To evade Discord bans, use a fresh gmail, and use mobile data to evade the VPN restrictions", "note4" %}.
