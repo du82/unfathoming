@@ -265,19 +265,63 @@ blockquote p {
 
 /* Callout cards */
 .callout {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-left: 4px solid;
+  background: var(--quote-background);
+  border-left: 10px solid;
+  margin: 1.5em 0px;
+  padding: 0.5em 15px;
+  position: relative;
 }
 
+.callout p {
+  margin: 0;
+}
+
+/* Info callout */
 .callout.info {
-  background-color: #e8f4fd;
   border-color: #3498db;
+  background-color: #e8f4fd;
 }
 
+/* Warning callout */
 .callout.warning {
-  background-color: #fcf8e3;
   border-color: #f39c12;
+  background-color: #fef5e7;
+}
+
+/* Danger callout */
+.callout.danger {
+  border-color: #e74c3c;
+  background-color: #fdedeb;
+}
+
+/* Success callout */
+.callout.success {
+  border-color: #2ecc71;
+  background-color: #e9f7ef;
+}
+
+/* Note callout */
+.callout.note {
+  border-color: #9b59b6;
+  background-color: #f4ecf7;
+}
+
+/* Tip callout */
+.callout.tip {
+  border-color: #1abc9c;
+  background-color: #e8f8f5;
+}
+
+/* Question callout */
+.callout.question {
+  border-color: #f1c40f;
+  background-color: #fef9e7;
+}
+
+/* Quote callout */
+.callout.quote {
+  border-color: #34495e;
+  background-color: #ebedef;
 }
 
 /* Sidebar styles */
@@ -735,6 +779,6 @@ AI can be great (when its not politically biased), but I don't want it in my OS 
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/blog/2024/why-linux/` was built on 2024-06-28T02:51:07.365Z -->
+		<!-- This page `/blog/2024/why-linux/` was built on 2024-06-28T03:05:07.489Z -->
 	</body>
 </html>
