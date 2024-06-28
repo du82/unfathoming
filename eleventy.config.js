@@ -84,6 +84,12 @@ module.exports = function(eleventyConfig) {
 	// Get current year with {% year %}
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+	// Callout cards
+	// Example: {% callout "info", "This is an info callout." %}
+	eleventyConfig.addShortcode("callout", function(type, content) {
+    return `<div class="callout ${type}">${content}</div>`;
+  });
+
 	// Sidenotes
 	eleventyConfig.addShortcode("sidenote", function(content, id) {
 	  // Find the first digit in the content
