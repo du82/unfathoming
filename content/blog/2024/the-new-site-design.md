@@ -30,5 +30,9 @@ I've also written a sidenotes mechanism similar to how [Gwern](https://gwern.net
 
 Sidenotes automatically attach themselves to the right side of the text and scroll with the content, which also could act as a nice way to show a timeline of thoughts throughout writing an article or events through a story that didn't make the cut. The sidenotes are only available on devices with large screens. A desktop, laptop, or iPad should work just fine.
 
+## Callouts
+Callouts (also known as callout cards) are also added as a way to draw attention to something specific. Eleventy doesn't support sidenotes or callout cards by default but it was very simple to implement them.
+{% callout "info", "I'm a callout card!" %}
+
 ## What else
 I'm not sure yet, it's still in development, but this is what has been added on the third revision of the site. I'll update this post if more is added or changed.
