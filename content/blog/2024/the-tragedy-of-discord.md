@@ -19,7 +19,7 @@ Instead of the answer to your problem existing on a forum that’s indexed by th
 ## Centralization
 To the “server” operators out there; have you ever wondered what happens when Discord (the company) shuts down? You probably haven’t. Now, think about the millions of communities that rely on Discord as their only form of communication.
 
-Someday the company will fail. Nothing lasts forever{% footnote "Except Facebook sadly. Facebook really needs to go the way of MySpace." %} when it does, your conversation histories and all of the data in your account will go with it. All those precious memories, gone with no way to recover them.
+Someday the company will fail. Nothing lasts forever{% callout "Except Facebook sadly. Facebook really needs to go the way of MySpace." %} when it does, your conversation histories and all of the data in your account will go with it. All those precious memories, gone with no way to recover them.
 
 ## Absolutely proprietary
 Despite the claims by the company that “Discord loves open-source” they in fact do not. Nothing about Discord is open source beyond some of the GPL licensed projects that they rely on for their own code. This doesn’t sound like a company that loves open source and wants to contribute back. This sounds like a company that loves open source because it makes their own development cheaper.
@@ -35,7 +35,7 @@ When the company introduces new features, they are typically Nitro (their 10 dol
 ## Moderators have no power
 Unlike hosting your own community forum or Matrix server, you cannot ban a block of IPs that are used by adversaries to evade bans on Discord. Why? You do not own your server, the company does. The only one with power over your community is Discord themselves. This is a problem for server operators since Discord has very weak alt detection and ban evasion is trivial, as the checks happen client side.
 
-Discord lulls you into a false sense of ownership and control{% sidenote "You will own nothing, and you will be happy about it. Classic SaaS model.", "note2" %}, when in reality you own nothing beyond the branding of the server and the messages you send. Put bluntly, if Discord decides you don't make them enough money, or you mention alternative platforms, they can delete a community you've built over years and you can do nothing about it.
+Discord lulls you into a false sense of ownership and control{% sidenote "You will own nothing, and you will be happy about it. Classic SaaS model." %}, when in reality you own nothing beyond the branding of the server and the messages you send. Put bluntly, if Discord decides you don't make them enough money, or you mention alternative platforms, they can delete a community you've built over years and you can do nothing about it.
 
 ## Moderators have no privacy
 Neither do their communities. For the communities that are intentionally private (meaning they have no public invite links), they also have no privacy. All it takes is one data breach or a misconfiguring of permissions, and your entire chat history including deleted messages is open to the world.
