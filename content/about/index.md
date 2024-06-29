@@ -24,23 +24,21 @@ I'm fluent in American English and know some domain-specific Mandarin.
 Seeking full-time employment
 
 ## Personal values
-I value privacy and self-sovereignty above all.
+I value privacy and self-sovereignty above all. I believe that you should have the right to do as you wish, but also that you should accept the consequences (good or bad) for whatever you do, so you should consider those consequences before doing as you wish.
 
 ## Political lean
-I am a libertarian with some aspects of agorism. Unless it interferes with my rights, I probably don't have an opinion on it.
+I am a libertarian with some aspects of agorism. Unless it interferes with my rights, I probably don't have an opinion on it. Lots of people get angry over headlines and things they don't understand, and I try to not have an opinion until I truly understand a topic I'm learning about.
 
 ## Fun facts or quirks
-
-## Goals or aspirations
 
 ## Favorite books, movies, or music
 I like reading blogs and websites mostly, so here's a list of my favorites: [Trilema](https://trilema.com), [Gwern.net](https://gwern.net), [LessWrong](https://lesswrong.com)
 
 ## Pets
-
-## Family life
+I have a cat named Scout. I found him outside in the freezing cold when I went to let my dog out. The dog ran over and sniffed a pile of snow which I thought was odd, so I ran over in the snow (barefoot of course) and found a scrawny kitten, only a week or two old, freezing to death. I brought him back to life and he's been my companion for a few years now.
 
 ## Awards or achievements
+My work has appeared in a local newspaper and I've successfully completed a few bug bounties.
 
 ## Cultural background
 
@@ -49,5 +47,6 @@ I like reading blogs and websites mostly, so here's a list of my favorites: [Tri
 ## Writing style or blog focus
 
 ## Social media handles
+I don't use social media. None at all {% callout "Especially [not Discord](/blog/2024/the-tragedy-of-discord)" %}. I am [against social media](/blog/2024/against-social-media) and if you find people claiming to be me on Reddit or whatever, they are liars.
 
 ## Contact information
