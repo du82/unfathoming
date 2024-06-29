@@ -37,12 +37,8 @@ module.exports = function(eleventyConfig) {
 		preAttributes: { tabindex: 0 }
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
-	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
-
-	// Redirect pages from old blog links to new archive links
-	eleventyConfig.addRedirect("/blog/2024/*", "/archive/2024/:splat", 301);
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
