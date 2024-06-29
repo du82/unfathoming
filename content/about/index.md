@@ -42,10 +42,6 @@ My work has appeared in a local newspaper and I've successfully completed a few 
 
 ## Cultural background
 
-## Location or places you've lived
-
-## Writing style or blog focus
-
 ## Social media handles
 I don't use social media. None at all {% callout "I really hate Discord with a passion" %}. I am [against social media](/blog/2024/against-social-media) and if you find people claiming to be me on Reddit or whatever, they are liars.
 
