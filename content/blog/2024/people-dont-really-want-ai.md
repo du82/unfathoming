@@ -20,8 +20,6 @@ Just like Edge on Windows, Copilot is a “feature” that no one wants. Searchi
 
 If people wanted AI, they would search for it, but don’t force it on people just because its the hot new thing and VCs are pouring billions into it.
 
-![](https://unfathom.ing/media/people-dont-really-want-ai/fig2.png)
-
 ## Bias
 
 The models produced by OpenAI, Mistral, and Microsoft are [inherently biased](https://archive.org/details/s11127-023-01097-2). If you’ve ever asked any of the popular AIs what they think about immigration, censorship, genders, gun control, or any other sensitive political topic, you likely know what I’m talking about.
