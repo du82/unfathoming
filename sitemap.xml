@@ -87,6 +87,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/blog/2024/operating-in-hostile-computing-environments/</loc>
+		<lastmod>2024-06-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/about/</loc>
 		<lastmod>2024-06-29</lastmod>
 	</url>
@@ -112,22 +117,22 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
-		<lastmod>2024-06-29</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/privacy/</loc>
-		<lastmod>2024-06-29</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/security/</loc>
 		<lastmod>2024-06-29</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/software/</loc>
+		<lastmod>2024-06-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
+		<lastmod>2024-06-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/privacy/</loc>
 		<lastmod>2024-06-29</lastmod>
 	</url>
 	
