@@ -40,6 +40,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
 
+	// Redirect pages from old blog links to new archive links
+	eleventyConfig.addRedirect("/blog/2024/*", "/archive/2024/:splat", 301);
+
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
