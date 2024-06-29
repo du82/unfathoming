@@ -250,9 +250,9 @@ blockquote p {
 .sidenote {
 	float: right;
 	clear: right;
-	margin-right: -50%;
+	margin-right: -55%;
 	margin-bottom: 1em;
-	width: 40%;
+	width: 45%;
 	font-size: 0.8em;
 	line-height: 1.3;
 	vertical-align: baseline;
