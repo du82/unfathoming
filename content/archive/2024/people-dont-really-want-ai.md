@@ -32,7 +32,7 @@ There’s a noticeable lack of control with today’s AI. User data goes all ove
 
 This clearly signals to me that people who understand the technology beyond “This thing can do my homework” don’t want anything to do with it either. Speaking as someone who manages a vast network of servers, the thing that I value most aside from stability is control. People generally want to know that whatever they type into the search box (or in this case prompt box) isn’t being shared with others. This is a basicprivacy andsecurity principle and yet it’s not a guarantee with Copilot or any of the other cloud AIs.
 
-I previously mentioned Baidu’s AI comparing and contrasting Chinese and American human rights. This is another instance that proves my point on lack of control. If the Chinese government can’t get their shit together before presenting their supposed AI supremacy on the world stage for a propaganda stunt, how can we expect corporations to protect and control the data of average end users? Psst! We cant!
+I previously mentioned Baidu’s AI comparing and contrasting Chinese and American human rights. This is another instance that proves my point on lack of control. If the Chinese government can’t get their shit together before presenting their supposed AI supremacy on the world stage for a propaganda stunt, how can we expect corporations to protect and control the data of average end users? Psst! We cant!{% sidenote "What do you want to bet the CIA wedges themselves inside of OpenAI like they did with PRISM?" %}
 
 ## Child safety
 
