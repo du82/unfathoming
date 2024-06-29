@@ -6,10 +6,7 @@ tags:
   - privacy
   - sovereignty
 ---
-
-Recently I’ve seen more and more communities utilizing Discord (the social chat app) as a means of organization and communication. It’s not just the big names either, it seems to be every community that isn’t privacy focused, as well as most “Web3” communities.
-
-> Note: To help migrate users away from IRC, Discord chose to name their communities “servers”. Servers in this context are nothing more than folders where text files (which they call channels) are stored. It is impossible to host a Discord server on your own hardware.
+{% callout "info", "To help migrate users away from IRC, Discord chose to name their communities “servers”. Servers in this context are nothing more than folders where text files (which they call channels) are stored. It is impossible to host a Discord server on your own hardware." %}
 
 ## Discord is bad for the open web
 You’ve probably heard someone complain about the LinkedIn authentication popups that require you to sign in to view content. The frustration you feel when you go to check on someones profile, only to be hit with a “sign up to LinkedIn” prompt is the same frustration I and others feel towards communities on Discord.
@@ -19,7 +16,7 @@ Instead of the answer to your problem existing on a forum that’s indexed by th
 ## Centralization
 To the “server” operators out there; have you ever wondered what happens when Discord (the company) shuts down? You probably haven’t. Now, think about the millions of communities that rely on Discord as their only form of communication.
 
-Someday the company will fail. Nothing lasts forever{% callout "Except Facebook sadly. Facebook really needs to go the way of MySpace." %} when it does, your conversation histories and all of the data in your account will go with it. All those precious memories, gone with no way to recover them.
+Someday the company will fail. Nothing lasts forever{% sidenote "Except Facebook sadly. Facebook really needs to go the way of MySpace." %} when it does, your conversation histories and all of the data in your account will go with it. All those precious memories, gone with no way to recover them.
 
 ## Absolutely proprietary
 Despite the claims by the company that “Discord loves open-source” they in fact do not. Nothing about Discord is open source beyond some of the GPL licensed projects that they rely on for their own code. This doesn’t sound like a company that loves open source and wants to contribute back. This sounds like a company that loves open source because it makes their own development cheaper.
