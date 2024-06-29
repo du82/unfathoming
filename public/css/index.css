@@ -43,8 +43,8 @@
   --callout-question-border: #f1c40f;
   --callout-question-background: #fef9e7;
   
-  --callout-quote-border: #34495e;
-  --callout-quote-background: #ebedef;
+  --callout-quote-border: #4b6a88;
+  --callout-quote-background: #222526;
 }
 
 @media (prefers-color-scheme: dark) {
