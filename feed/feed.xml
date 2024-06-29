@@ -4,10 +4,619 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-29T07:26:10Z</updated>
+	<updated>2024-06-28T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>Operating in hostile computing environments</title>
+		<link href="https://unfathom.ing/archive/2024/operating-in-hostile-computing-environments/"/>
+		<updated>2024-06-28T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/operating-in-hostile-computing-environments/</id>
+		<content type="html">&lt;div class=&quot;callout quote&quot;&gt;Given a restrictive computing environment, it is reasonable to assume that a bored end user will seek or create some semblance of freedom within.&lt;/div&gt;
+&lt;p&gt;Ever since graduating high school, I&#39;ve thought a lot about what&#39;s possible within restrictive computing environments, and I&#39;ve been the type to go as far as to discover new vulnerabilities in well known software so I can play video games on devices that I shouldn&#39;t be able to.&lt;/p&gt;
+&lt;p&gt;Let&#39;s assume the adversary is particularly litigious, making privilege escalation a risky maneuver. Let&#39;s also assume the device has access to most of the internet, besides a few NSFW sites What can be done within the boundaries? Quite a lot actually.&lt;/p&gt;
+&lt;h2 id=&quot;webviews&quot; tabindex=&quot;-1&quot;&gt;WebViews &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/operating-in-hostile-computing-environments/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first thing that probably comes to mind is web browsers, or more specifically WebViews. Everything from a printer to a Nintendo Switch has one, and the web is a very versatile tool.&lt;/p&gt;
+&lt;p&gt;This is usually my favorite course of action; get into a webview and from there I can connect to the web GUI of my Proxmox VE instance hosted at home to access a full Linux-based OS that is actually mine.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The new site design</title>
+		<link href="https://unfathom.ing/archive/2024/the-new-site-design/"/>
+		<updated>2024-06-25T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/the-new-site-design/</id>
+		<content type="html">&lt;p&gt;Welcome to the new Unfathoming. I&#39;ve gone through three notable iterations of the site now, first on &lt;a href=&quot;https://unfathom.ing/archive/2024/the-new-site-design/&quot;&gt;quartz&lt;/a&gt; by Jacky Zhao, second entirely static, with me manually writing HTML for every single page (and dealing with the consequences of trying to keep 50+ pages looking consistent), and thirdly (hopefully finally) what you&#39;re looking at right now.&lt;/p&gt;
+&lt;p&gt;The new site is written with the &lt;a href=&quot;https://11ty.dev&quot;&gt;Eleventy&lt;/a&gt; static site generator because it&#39;s super simple with few dependencies and it is something I could learn in a &lt;a href=&quot;https://unfathom.ing/archive/2024/a-rainy-saturday-morning&quot;&gt;morning before sunrise&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/NLOiXGUdVO-1019.avif 1019w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/NLOiXGUdVO-1019.webp 1019w&quot;&gt;&lt;img alt=&quot;diagram showing the workflow from source code to website&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/NLOiXGUdVO-1019.png&quot; width=&quot;1019&quot; height=&quot;344&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;While most people use WordPress, I hate how long simple actions take. Even just loading a page can take a long time, and I didn&#39;t want to deal with the security nightmare of WordPress either. I&#39;ve operated WP sites in the past, and every single one of them was compromised in some form or another, despite having what I thought was above average security. I guess that&#39;s just part of the PHP plague.&lt;/p&gt;
+&lt;p&gt;Something interesting about the site is that if I want to show the graph above, I type out the following:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; image &lt;span class=&quot;token string&quot;&gt;&quot;g2.png&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and it knows to pull the rendered and optimized image from &lt;code&gt;/assets/graphs/g2.png&lt;/code&gt;. How? It looks for the first letter &lt;code&gt;g&lt;/code&gt; and knows that&#39;s associated with a graph, then looks at the number to determine which numbered graph to use, and the file extension is there to tell it which to render the final output in. I could&#39;ve just as easily made it say &lt;code&gt;png2&lt;/code&gt; or something else, but I like how natural it feels. &lt;code&gt;g2.png&lt;/code&gt; isn&#39;t actually the name of the file, its a way of locating and displaying the file.&lt;/p&gt;
+&lt;h2 id=&quot;no-javascript-almost&quot; tabindex=&quot;-1&quot;&gt;No JavaScript (almost) &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-new-site-design/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The site has no javascript. Well, it does have one tracking thing from CloudFlare, but its not necessary and only helps me figure out how AI scrapers are getting around the firewall.&lt;/p&gt;
+&lt;h2 id=&quot;sidenotes&quot; tabindex=&quot;-1&quot;&gt;Sidenotes &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-new-site-design/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve also written a sidenotes mechanism similar to how &lt;a href=&quot;https://gwern.net&quot;&gt;Gwern&lt;/a&gt; does it. It&#39;s nice to be able to add additional commentary that doesn&#39;t fit the text well enough, or share my thoughts on what someone has said.&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-1&quot; href=&quot;https://unfathom.ing/archive/2024/the-new-site-design/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-1&quot;&gt;Isn&#39;t this neat? It can be as long as it needs to be, or it can even contain images, although I doubt I&#39;d ever do something like that.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Sidenotes automatically attach themselves to the right side of the text and scroll with the content, which also could act as a nice way to show a timeline of thoughts throughout writing an article or events through a story that didn&#39;t make the cut. The sidenotes are only available on devices with large screens. A desktop, laptop, or iPad should work just fine.&lt;/p&gt;
+&lt;h2 id=&quot;callouts&quot; tabindex=&quot;-1&quot;&gt;Callouts &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-new-site-design/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Callouts (also known as callout cards) are also added as a way to draw attention to something specific. Eleventy doesn&#39;t support sidenotes or callout cards by default but it was very simple to implement them.&lt;/p&gt;
+&lt;div class=&quot;callout info&quot;&gt;I&#39;m a callout card!&lt;/div&gt;
+&lt;h2 id=&quot;what-else&quot; tabindex=&quot;-1&quot;&gt;What else &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-new-site-design/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;m not sure yet, it&#39;s still in development, but this is what has been added on the third revision of the site. I&#39;ll update this post if more is added or changed.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Chat Control enriches Europe&#39;s surveillance state</title>
+		<link href="https://unfathom.ing/archive/2024/chat-control-enriches-surveillance-state/"/>
+		<updated>2024-06-20T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/chat-control-enriches-surveillance-state/</id>
+		<content type="html">&lt;p&gt;The European Union has proposed a bill known as &lt;a href=&quot;https://unfathom.ing&quot;&gt;CSAR&lt;/a&gt; (often referred to as Chat Control), which was proposed as a way to protect children online through the use of mandatory client-side scanning of encrypted messages.&lt;/p&gt;
+&lt;p&gt;Specifically, the bill would:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mandate scanning of all private chats, messages, and emails for suspicious content, including on end-to-end encrypted services&lt;/li&gt;
+&lt;li&gt;Use AI and other technologies to scan content before it is encrypted or transmitted&lt;/li&gt;
+&lt;li&gt;Apply to all communication services, including messaging apps, email providers, and cloud storage services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Despite the fact that &lt;a href=&quot;https://simplex.chat/archive/20240601-protecting-children-safety-requires-e2e-encryption.html&quot;&gt;protecting children&#39;s safety requires end-to-end encryption&lt;/a&gt;, regulators have attempted to push Chat Control as the answer.&lt;/p&gt;
+&lt;p&gt;Lets not sugarcoat it: the chat control proposal is designed to take away freedoms from the average person and enrich governmental surveillance powers. Why else would &lt;a href=&quot;https://www.eureporter.co/business/data/mass-surveillance-data/2024/04/15/leak-eu-interior-ministers-want-to-exempt-themselves-from-chat-control-bulk-scanning-of-private-messages/&quot;&gt;EU interior ministers want to exempt themselves&lt;/a&gt; from the scanning? Or, why would Germany &lt;a href=&quot;https://www.reuters.com/fact-check/german-lawmakers-have-not-voted-decriminalise-possessing-child-pornography-2024-06-19/&quot;&gt;want to reduce sentences for those who posess or distribute illegal material&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Think about the children&lt;/em&gt; they say out loud, while exempting themselves from their own proposed regulation. It isn&#39;t about the children, &lt;strong&gt;it&#39;s about control&lt;/strong&gt; over the collective consciousness of citizens in the European Union.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My college experience</title>
+		<link href="https://unfathom.ing/archive/2024/my-college-experience/"/>
+		<updated>2024-06-19T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/my-college-experience/</id>
+		<content type="html">&lt;p&gt;I thought I&#39;d reflect on the past two years of college and share the thoughts with you all.&lt;/p&gt;
+&lt;p&gt;I started college roughly two years ago after pressure from family to go. I reluctantly went, despite people in the industry telling me it didn&#39;t help them. From the beginning I thought of college from the perspective of &lt;em&gt;&amp;quot;I&#39;m the customer, your job is to teach me something new and introduce me to concepts I didn&#39;t think of&amp;quot;&lt;/em&gt;, which I think is a fair trade considering the steep cost.&lt;/p&gt;
+&lt;p&gt;The first semester was fine, I expected a slow start becuase they have to bring everyone up to speed with the industry and work with a wide variety of skillsets, from experts to people who have never used a computer before. The first semester was nothing special, it was all content that you could teach yourself in a weekend with some YouTube videos and free software (except for a math class which was pretty good and taught me a lot).&lt;/p&gt;
+&lt;p&gt;Something that I noticed early on was that most of the course content was 5-10 years out of date. For a cybersecurity degree, this is awful! The virtual machines we used were from 2019 (which was five years ago now!). I thought it was just becuase we&#39;re starting out, and I hoped that it would improve. &lt;em&gt;Little did I know, it was foreshadowing&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I thought to myself:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why am I paying $500 a course for online classes where the teacher takes a week to respond to a simple question, and the course content is purchased from sites like Teachers Pay Teachers?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The rest of the first year was more of the same. At this point I realized that professors were using AI to respond to students, which bothered me considering the cost. Really? Can&#39;t they take a few hours out of their day to answer questions that they should know the answers to? &lt;em&gt;This is more foreshadowing&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;summer-classes&quot; tabindex=&quot;-1&quot;&gt;Summer classes &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I took two online summer courses to maximize the amount of credits per year. One was an interpersonal communications class, the other was a class on ethics, morals, and philosophical things. Lets just say they had a strong liberal bias&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-1&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-1&quot;&gt;Far beyond what would be considered normal education, moving into the realm of forcing it on us&lt;/span&gt; that even people I know on the left weren&#39;t ok with (I&#39;m a centrist) and leave it at that.&lt;/p&gt;
+&lt;h2 id=&quot;second-semester&quot; tabindex=&quot;-1&quot;&gt;Second semester &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The second semester was more of the same. I learned how to manage a four year old version of Active Directory which may be useful someday when I need to set up AD things for an organization. Still, nothing that I couldn&#39;t learn on my own, especially since I run my own virtual machine infrastructure with Proxmox at a global scale :)&lt;/p&gt;
+&lt;p&gt;One class was essentially using AI to make presentations about a topic and turn in the presentation. This is also when I realized that quite a few teachers were using AI to generate course content and feedback. That same class was interesting because the teacher introduced me to a former student who had similar interests on the surface. Lesson learned: Don&#39;t put a cryptoanarchist and a moralist together. It did not go well.&lt;/p&gt;
+&lt;p&gt;The rest of my second semester was more of the same from the first semester, but it seemed to have gotten &lt;em&gt;&lt;strong&gt;worse&lt;/strong&gt;&lt;/em&gt; than the first semester! An example of this being configuring an AWS EC2 instance, gaining shell access, and installing some software on it. That part was fine, but there was no instruction on how to secure it. A little odd for a cybersecurity course/degree, right?&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-2&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;2&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-2&quot;&gt;Seriously, you&#39;re going to teach us about the cloud and not talk about securing it at all? I&#39;m lost for words!&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-ai-witch-hunt&quot; tabindex=&quot;-1&quot;&gt;The AI witch hunt &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;About half way through the second semester, people started talking on various Signal groups about how they were getting grades changed to zeros. Around this time I also recieved an email telling me that I was on the college&#39;s naughty list for using AI (despite a teacher recommending its use and calling it revolutionary)&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-3&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;3&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-3&quot;&gt;That teacher even suggested we use it to create presentations for that class!&lt;/span&gt;. I shrugged this off, moved on, and registered for summer and next semester classes a week later.&lt;/p&gt;
+&lt;p&gt;I was called in to talk to the dean of the IT department (which is apparently standard practice), and he (along with the assistant dean) told me that they didn&#39;t like how I was selling premium versions of AI tools to anyone who was willing to hand over $5 per month.&lt;/p&gt;
+&lt;p&gt;During the meeting, I explained that I proxy API access from a variety of paid AI services so that others can use them for cheaper than if they paid for them directly (one license for many people vs many licenses for one person). Neither the dean nor the assistant dean seemed to understand, which surprised me considering the field in which they worked. The assistant said &amp;quot;these are free sites&amp;quot;, to which I responded with the difference between the free and paid versions, being increased speed, reliability, and accuracy. Neither of them seemed to acknowledge this, and they continued to be condecending.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To the dean and assistant dean: Go educate yourselves on what an API is. Also, I will never tell you who was paying me for AI tools, I don&#39;t rat people out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;suspicious-google-account-activity&quot; tabindex=&quot;-1&quot;&gt;Suspicious Google account activity &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I logged into one of my &lt;strong&gt;personal&lt;/strong&gt; Google accounts, and noticed suspicious activity. I investigated further, and found that whoever it was had snooped through the Gmail, Drive, Pay, Ads, and MyActivity products. I revoked the associated session and forgot about it. Little did I know, this was teachers at the college who had gained access and were poking around.&lt;/p&gt;
+&lt;h2 id=&quot;the-letter&quot; tabindex=&quot;-1&quot;&gt;The letter &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I recieved a letter of suspension, which I expected, but I didn&#39;t expect their &amp;quot;evidence&amp;quot; to include screenshots of them logged into that &lt;strong&gt;personal&lt;/strong&gt; Google account showing the Gemini API with a variety of queries that I wouldn&#39;t be dumb enough to type out even if I was drunk, high, and half asleep. &lt;em&gt;Do you think someone who&#39;s &lt;a href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine&quot;&gt;developing a search engine&lt;/a&gt; in Rust, utiliznig VS Code, and developing exclusively for Unix targets would type &amp;quot;how to open the terminal in ubuntu&amp;quot;?&lt;/em&gt;
+The policy mentioned that you&#39;re not automatically allowed back when the time is up, you have to send an &lt;em&gt;appology letter&lt;/em&gt; and have them review it to let you back in.&lt;/p&gt;
+&lt;h2 id=&quot;post-letter&quot; tabindex=&quot;-1&quot;&gt;Post-letter &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I recieved multiple emails telling me I had a bill due. I shrugged them off because I couldn&#39;t drop the classes or do any of the work. After talking to an enrollment person (who didn&#39;t seem to give a flying fuck), I was told that the two classes would still show up on the transcript because they were never dropped, despite me being unable to do anything with them. I was also still going to be billed for them since they had already started.&lt;/p&gt;
+&lt;p&gt;To recap, I was suspended by people who didn&#39;t know the facts and rummaged through a personal account with no relation to the college, then billed for classes that I couldn&#39;t drop or do anything with, and then was told they&#39;d also show up on the record, making me take even more classes to up the GPA if I wanted to graduate.
+The funny thing is that in a year or two, AI will be normalized just as the cloud is today.&lt;/p&gt;
+&lt;p&gt;What has college taught me?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spend more time on opsec when selling AI tools to other students&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-4&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;4&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-4&quot;&gt;Definitely don&#39;t stop selling AI tools to students, keep doing it, just quieter this time!&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Don&#39;t buy textbooks, just keep making new O&#39;Riley accounts and use their free trial, then make another account when time is up&lt;/li&gt;
+&lt;li&gt;Don&#39;t waste time learning their outdated materials, just teach yourself the modern stuff.&lt;/li&gt;
+&lt;li&gt;College is a capitalist scam, you can succeed without it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;update-1-26-6-2024&quot; tabindex=&quot;-1&quot;&gt;Update #1: 26/6/2024 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The college has blocked multiple of my domains (only about 7% of them lol), which lends credibility to my theory that they don&#39;t like my comms platform but they couldn&#39;t suspend me over it since it has no relation to the college. After calling last friday (21st) and getting told to contact the assistant dean, I left a voicemail asking the assistant dean to call back. No response. I contacted multiple people with no responses or very unhelpful responses.&lt;/p&gt;
+&lt;p&gt;I contacted the registrar who told me &amp;quot;they&#39;ll be in contact&amp;quot;&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-5&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;5&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-5&quot;&gt;Who is They? Does she mean the assistant dean? Or is it enrollment?&lt;/span&gt;. After pushing again, I recieved the exact same response. I was also locked out of my school accounts shortly after, as well as the place to download my transcripts, and told that I&#39;d still need to pay $1100 for classes &lt;em&gt;that I couldn&#39;t attend, drop, or do anything with&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The conversation goes as follows, word-for-word:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Her: &amp;quot;I&#39;m calling you back about your situation with your tuition and dropping classes, I did talk to a couple people so I emailed them. Everybody has all their information and I&#39;m sure they will get back to you, Ok?&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Me: &amp;quot;Okay&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Her: &amp;quot;Alright&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Me: &amp;quot;So what is that&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Her: &amp;quot;They&#39;ll get back to you&amp;quot;&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-6&quot; href=&quot;https://unfathom.ing/archive/2024/my-college-experience/&quot;&gt;6&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-6&quot;&gt;Again, who is they?&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Me: &amp;quot;Okay, so they&#39;ll let me know what&#39;s up? or&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Her: &amp;quot;Yes, they will.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Me: &amp;quot;Alright, I appreciate it&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This call just left me with more questions than answers. So far, I keep getting bounced around to different people, and they&#39;ve definitely&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Rejecting platform trajectory</title>
+		<link href="https://unfathom.ing/archive/2024/rejecting-platform-trajectory/"/>
+		<updated>2024-06-10T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/rejecting-platform-trajectory/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;A platform is a shitty website providing shitty services for the poor and the dumb.&lt;/em&gt;&lt;br&gt;- Mircea Popescu, 2019&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It doesn&#39;t take a genius to look online and see the state of the internet to know that this is generally true. Most platforms have fallen to &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Enshittification&quot; title=&quot;enshittification&quot;&gt;enshittification&lt;/a&gt;, political correctness, and &lt;a href=&quot;https://www.reddit.com/r/OutOfTheLoop/comments/1bk81at/comment/kvx1jzw&quot; title=&quot;sterilization&quot;&gt;sterilization&lt;/a&gt;. This has led to a more closed off internet where ideas outside of the mainstream, any amount of controversy, as well as workarounds to the established rules will get you &lt;a href=&quot;https://discord.com/safety/off-platform-behaviors-policy-explainer&quot; title=&quot;deplatformed&quot;&gt;deplatformed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t need to be this way. Platforms don&#39;t &lt;em&gt;have&lt;/em&gt; to treat their users as cattle to be counted and rewarded based on output. You can &lt;em&gt;reject platform trajectory&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;what-needs-to-be-done&quot; tabindex=&quot;-1&quot;&gt;What needs to be done? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/rejecting-platform-trajectory/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I saw Telegram as the last &amp;quot;free&amp;quot; (as in speech and beer) platform in the Western world. That was until they put most users behind a paywall and &lt;a href=&quot;https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066&quot; title=&quot;raised $330m in corporate bond sales&quot;&gt;raised $330m in corporate bond sales&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;federated-networks&quot; tabindex=&quot;-1&quot;&gt;Federated networks &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/rejecting-platform-trajectory/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I believe the solution to our problems was popularized in the 90&#39;s. No, it&#39;s not Email, but the idea of a user-facing federated networks.&lt;/p&gt;
+&lt;p&gt;Federated networks are sovereign, resistant to deplatforming, and&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Bitcoiners were wrong</title>
+		<link href="https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/"/>
+		<updated>2024-05-15T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/</id>
+		<content type="html">&lt;p&gt;So too were the Ethereum...ers? Ethers? The people that shill Ethereum and Web3 as the solution to the world&#39;s problems.&lt;/p&gt;
+&lt;h2 id=&quot;the-seven-principles&quot; tabindex=&quot;-1&quot;&gt;The seven principles &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There&#39;s seven fairly well known and agreed upon principles of Bitcoin. They are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Self-custody: Bitcoin allows users to have full control over their own funds without relying on a third party.&lt;/li&gt;
+&lt;li&gt;Inclusion: Bitcoin is open and accessible to anyone with an internet connection, without discrimination or restrictions.&lt;/li&gt;
+&lt;li&gt;Transparency: The Bitcoin blockchain is a public, transparent ledger that records all transactions.&lt;/li&gt;
+&lt;li&gt;Privacy: Bitcoin transactions can be made with a high degree of privacy, without revealing users&#39; identities.&lt;/li&gt;
+&lt;li&gt;Decentralization: The Bitcoin network is decentralized and not controlled by any single entity, government, or organization.&lt;/li&gt;
+&lt;li&gt;No censorship: The Bitcoin network cannot prevent valid transactions from being confirmed.&lt;/li&gt;
+&lt;li&gt;Open-source: The Bitcoin software is open-source, allowing anyone to view and contribute to the codebase.&lt;/li&gt;
+&lt;li&gt;Every one of these seven principles are theoretically possible, but in reality near impossible to achieve. Lets break them down:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;self-custody&quot; tabindex=&quot;-1&quot;&gt;Self-custody &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&amp;quot;Not your keys, not your coins&amp;quot;. This is one of the biggest topics that bitcoiners talk about. It can be true depending on how you obtain and store your bitcoins. The problem I have with this is that the average person is using a custodial exchange, so while they think the bitcoins are stored in the app on their phone, they never even receive the seed phrase for them. This isn&#39;t necessarily a flaw with Bitcoin, but Bitcoin does nothing to prevent custodial exchanges, in the way something like Monero does.&lt;/p&gt;
+&lt;h2 id=&quot;inclusion&quot; tabindex=&quot;-1&quot;&gt;Inclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bitcoin is inclusive for the most part, but its transparent design lacks plausible deniability, which means people in countries like China where Bitcoin is banned cannot safely use it in secret without hiding their trail. More on that in the next paragraph.&lt;/p&gt;
+&lt;h2 id=&quot;transparency&quot; tabindex=&quot;-1&quot;&gt;Transparency &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This has been a tragic success, and goes well with the next principle. The Bitcoin (and Ethereum) blockchain is too transparent. Anyone can see everything, meaning there is no privacy. If you were trying to hide your use of Bitcoin from your government, all it takes is one mistake to tie your entire transaction history back to you.&lt;/p&gt;
+&lt;h2 id=&quot;privacy&quot; tabindex=&quot;-1&quot;&gt;Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bitcoin offers no privacy. Absolutely none. The best you can do is use a non-KYC exchange or mine it yourself, then be very careful of who you send it to. Bitcoin is actually less private than your bank account, since the visibility into your bank account is regulated. Anyone with the time can dig through your Bitcoin (or Ethereum) transaction history, put the pieces together, and figure out who you are.&lt;/p&gt;
+&lt;p&gt;Compare this to a bank account. Lets say you want to hide your donation to a political party from the world. With a bank account, you can just send the funds and in most cases, at least in the United States, they won&#39;t censor the transaction. With Bitcoin, you would have to use a mixer or similar tool to obfuscate the trace, which is yet another fee, and not actually private.&lt;/p&gt;
+&lt;h2 id=&quot;decentralization&quot; tabindex=&quot;-1&quot;&gt;Decentralization &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is one of those things that is &amp;quot;in theory, but rarely in practice&amp;quot;. Most people use things like Coinbase, which are essentially PayPal for crypto. How Coinbase works, is if you send money to another user on Coinbase, no crypto is actually exchanged. The transaction is just stored on their centralized ledger (essentially just a database). For those who are using Bitcoin through non-KYC means, you&#39;re still going to interact with Coinbase and other centralized exchanges even if you aren&#39;t a user of them.&lt;/p&gt;
+&lt;p&gt;Another point that I&#39;d like to make on centralization, is that the vast majority of the Bitcoin network is operated by giant companies that run mining operations. It&#39;s become near impossible to actually mine bitcoin without hardware that costs thousands of dollars, leading to a few companies controlling all of it.&lt;/p&gt;
+&lt;h2 id=&quot;open-source&quot; tabindex=&quot;-1&quot;&gt;Open-source &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This one I can&#39;t really argue with. Bitcoin is open source, anyone can fork it and create their own blockchain.&lt;/p&gt;
+&lt;h2 id=&quot;financial-privacy&quot; tabindex=&quot;-1&quot;&gt;Financial privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-bitcoiners-were-wrong/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lots of the problems that we see with Bitcoin, Ethereum, and derivatives are because there&#39;s no privacy. I wouldn&#39;t want to use a currency that anyone in the world can trace. China and North Korea are two countries that are known to track people overseas. Why should we give them one more tool to do so?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My review of the private messaging ecosystem</title>
+		<link href="https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/"/>
+		<updated>2024-05-15T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Commentary: I have considered lots of factors, including reviewing the latest data from the privacy spredsheet, but the content in this post is opinion, not fact.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&#39;ve been watching the state of private messaging for years, and have seen new companies enter with fresh ideas, which makes me excited to try out their products. I&#39;ve used just about every private messenger out there, and here&#39;s my review of them.&lt;/p&gt;
+&lt;h2 id=&quot;element&quot; tabindex=&quot;-1&quot;&gt;Element &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I like Element, but their encryption has me wary of using it for anything sensitive because they&#39;ve had a few critical vulnerabilities in their rust crypto implementation.&lt;/p&gt;
+&lt;p&gt;Other than that, it&#39;s a great discord-like platform, especially since you can self-host the whole thing and run your own community without having to follow any terms of service. They recently did a rewrite of their mobile apps and they look amazing. The web/desktop app is still a bloated JavaScript mess that feels disjointed. They could really use a native rewrite of the desktop app using something like QT.&lt;/p&gt;
+&lt;h2 id=&quot;signal&quot; tabindex=&quot;-1&quot;&gt;Signal &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;m a longtime user of Signal, and I&#39;ve seen it get worse over the years with bugs, calls dropping, and messages never sending. With the update that brought usernames, they seemed to fix a lot of that, and it works well for my needs. The Mobilecoin rugpull was disappointing, especially considering they allow you to disable stories but not crypto features&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-1&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-1&quot;&gt;Please Signal, if you&#39;re reading this, allow us to get rid of the crypto features like you did for stories.&lt;/span&gt;. They should&#39;ve gone with Monero.&lt;/p&gt;
+&lt;h2 id=&quot;simplex-chat&quot; tabindex=&quot;-1&quot;&gt;SimpleX Chat &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the one I&#39;m most hopeful for, due to its innovative lack of identifiers for users. I&#39;ve reviewed some of the code, as well as the designs, and while the app UI is quite ugly, the rest of it is excellent. It also has a 1GB per file upload limit, and it&#39;s quite fast to transfer files as well. I think this one will succeed, since it&#39;s also got mostly-functional large group support (it breaks around 600 members).&lt;/p&gt;
+&lt;p&gt;I like the fact that it doesn&#39;t rely on DNS for user identifiers, which boosts resiliency against censorship. This also removes the problem of bots picking up the best usernames and reselling them for 500x their listing price.&lt;/p&gt;
+&lt;h2 id=&quot;status&quot; tabindex=&quot;-1&quot;&gt;Status &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I waited years for Status. I don&#39;t like how crypto is forced on users. Couldn&#39;t we have gotten a standalone messenger and been fine without the crypto integrations? It&#39;s not even Monero, it&#39;s a surveillance coin (ethereum). Their UI framework is top notch, but the way they executed on the mobile app is... questionable... and not the easiest to use.&lt;/p&gt;
+&lt;p&gt;Status touts &amp;quot;true ownership and self sovereignty&amp;quot; above all else. That&#39;s great, until you realize that you cannot export your account data for a backup which would be real ownership. The whole app also relies on the Waku network, which has limitations so severe that I can&#39;t use the app for anything useful. Seriously, 1MB per file, and only horribly compressed images allowed?&lt;/p&gt;
+&lt;p&gt;The metadata protection is great, until you use wireshark to analyze the app and you find out that it&#39;s connecting to about a dozen crypto providers, bittorrent.com (which is an advertiser nowadays), and a bunch of the company&#39;s own servers.&lt;/p&gt;
+&lt;p&gt;Back on the topic of true ownership, if I can&#39;t self-host it on an airgapped network, I don&#39;t consider it true ownership. Showing off that I have some stupid .eth name or a picture of a poorly drawn monkey does not prove ownership, but being able to run the app myself on my LAN, as well as modify the code does.&lt;/p&gt;
+&lt;h2 id=&quot;telegram&quot; tabindex=&quot;-1&quot;&gt;Telegram &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I feel gross calling this a private messenger, but it has optional, off-by-default, poorly implemented end-to-end encryption that only works on one-to-one chats, so I&#39;ll include it.&lt;/p&gt;
+&lt;p&gt;Ever since they introduced Telegram Premium, the app has become awful to use. Half of the features are paid, and many free features are now behind the paywall. It feels desperate and it&#39;s sad to see a decent (but bloated) messenger with useful features become an advertisement for their premium stuff.&lt;/p&gt;
+&lt;p&gt;They&#39;ve also gotten in on the crypto hype with TON coin, their crypto which (like most crypto projects) is a solution in search of a problem. You can buy usernames with it and that&#39;s about it. Just more bloat in an already bloated messenger.&lt;/p&gt;
+&lt;h2 id=&quot;whatsapp&quot; tabindex=&quot;-1&quot;&gt;WhatsApp &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-review-of-the-private-messaging-ecosystem/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the one I&#39;ve used least out of them all. They recently overhauled it with AI integrations in places that are quite odd and very inappropriate for a messenger that advertises itself as private, but what can you expect from Facebook?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My attempt to daily drive Qubes OS</title>
+		<link href="https://unfathom.ing/archive/2024/daily-driving-qubes-os/"/>
+		<updated>2024-05-01T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/daily-driving-qubes-os/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been trying out &lt;a href=&quot;https://qubes-os.org&quot;&gt;Qubes OS&lt;/a&gt;, an operating system built around virtual machines with security in mind. Any of you that know me will know that I love virtual machines and I use them for just about everything.&lt;/p&gt;
+&lt;p&gt;This blog post is written using Qubes, and every post after for the next year at least will be as well. I&#39;ll try to keep this updated with my progress.&lt;/p&gt;
+&lt;h2 id=&quot;why-qubes&quot; tabindex=&quot;-1&quot;&gt;Why Qubes? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/daily-driving-qubes-os/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I am a cybersecurity researcher who has a reputation for angering China, so I need to protect myself from threats from a wide variety of bad actors. Historically, my security hasn&#39;t been up to standard for the kind of work I do, and this is my attempt to fix that. Qubes seemed like the perfect option since it is both usable and secure. Win win!&lt;/p&gt;
+&lt;p&gt;I also like the design, with VM windows not being confined to the guest&#39;s display, and allowed to freely coexist with windows from the host. It just works well for my workflow and thought process.&lt;/p&gt;
+&lt;p&gt;My requirements include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Signal messenger&lt;/li&gt;
+&lt;li&gt;Monero GUI wallet&lt;/li&gt;
+&lt;li&gt;VS Code or Lapce editor&lt;/li&gt;
+&lt;li&gt;A variety of programming languages&lt;/li&gt;
+&lt;li&gt;All of my scripts must run just fine&lt;/li&gt;
+&lt;li&gt;Tor (service) and Tor Browser - both included&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;update-1-03-may&quot; tabindex=&quot;-1&quot;&gt;Update #1 - 03 May &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/daily-driving-qubes-os/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve spent some time with Qubes now, and all of my requirements have been met. The only thing that doesn&#39;t quite work is voice calling on Signal. I&#39;m writing this blog post on Qubes, and it&#39;s working great so far.&lt;/p&gt;
+&lt;p&gt;I like Qubes so much that I decided to buy dedicated hardware for it, since the 16gb of memory in my current laptop just doesn&#39;t quite cut it, and the performance of a laptop is significantly less than that of a desktop. The new system has 32gb of memory with the option to upgrade to 64 later on, as well as&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>A beginner&#39;s guide to PGP</title>
+		<link href="https://unfathom.ing/archive/2024/pgp-beginners-guide/"/>
+		<updated>2024-04-23T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/pgp-beginners-guide/</id>
+		<content type="html">&lt;p&gt;Here&#39;s my guide on how to set up and use PGP via Gnu Privacy Guard (GPG) to create keys, sign messages, add other&#39;s public keys, and verify the integrity of their messages. I couldn&#39;t find any simple instructions on how to use it, so I decided to write my own that is easier to understand.&lt;/p&gt;
+&lt;p&gt;I&#39;ll assume that you&#39;re using Debian Linux or a derivative, since this blog post is meant for beginners, and Ubuntu is typically what people start out with.&lt;/p&gt;
+&lt;h2 id=&quot;install-gnu-privacy-guard&quot; tabindex=&quot;-1&quot;&gt;Install GNU Privacy Guard &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This command installs &lt;code&gt;gnupg2&lt;/code&gt; which is the Debian package for GNU Privacy Guard.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gnupg2 &lt;span class=&quot;token parameter variable&quot;&gt;-y&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;generate-a-new-key&quot; tabindex=&quot;-1&quot;&gt;Generate a new key &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Now we need to create a key.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg --full-gen-key&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will give you a list of options. Here&#39;s my recommendation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Enter&lt;/code&gt; to accept the default (&lt;code&gt;RSA&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;Enter&lt;/code&gt; to accept the default keysize of &lt;code&gt;3072&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The expiration date is up to you, but I recommend a year. Type &lt;code&gt;1y&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, it wil ask you for a real name. I recommend using a pseudonym, but your real name will also work.&lt;/p&gt;
+&lt;p&gt;It will also ask you for an email address. I recommend leaving it blank, but a valid email works.&lt;/p&gt;
+&lt;p&gt;Feel free to leave the comment field blank, or add one if you&#39;d like, up to you.&lt;/p&gt;
+&lt;p&gt;Type the letter &lt;code&gt;O&lt;/code&gt; and it will give you a prompt to create a password.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Type a strong password&lt;/strong&gt; since this will be the thing that secures your key. Don&#39;t reuse passwords from other accounts. Then press continue or &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Congrats! You now have a PGP key!&lt;/p&gt;
+&lt;h3 id=&quot;extracting-your-public-key&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;&lt;/a&gt;Extracting your public key &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You should now have a page that looks something like this:&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;public and secret key created and signed.
+
+pub   rsa3072 &lt;span class=&quot;token number&quot;&gt;2024&lt;/span&gt;-04-24 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SC&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;expires: &lt;span class=&quot;token number&quot;&gt;2025&lt;/span&gt;-04-24&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      AFE3B9A0E5C1A3C6A5360CAA7635119DF78CE4BF&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Chances are, you want to be able to share your public key with someone else. To do this, you need to generate a public key file.&lt;/p&gt;
+&lt;p&gt;Type the following, but replace &lt;code&gt;MYPUBLICKEY&lt;/code&gt; with whatever string you got under the &amp;quot;pub&amp;quot; section (which is known as a key fingerprint).&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--armor&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--export&lt;/span&gt; MYPUBLICKEY &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; pubkey.asc&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is now saved to the file called &lt;code&gt;pubkey.asc&lt;/code&gt;. To view the contents of the file, type &lt;code&gt;cat pubkey.asc&lt;/code&gt;. You can share this with friends or put it on your website.&lt;/p&gt;
+&lt;h3 id=&quot;signing-data&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;&lt;/a&gt;Signing data &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;First we need some data to sign, so create a new text file (you can use &lt;code&gt;nano&lt;/code&gt; command to do this), enter something, then save it.&lt;/p&gt;
+&lt;p&gt;The following command will let you sign a message and attach its signature inside of the file. This is great for text, but not great for pictures or data that relies on the formatting of the data within. Make sure to replace &lt;code&gt;FILENAME&lt;/code&gt; with the actual name of your file or you&#39;ll just get junk.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--clearsign&lt;/span&gt; FILENAME&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To generate the signature and store it separately, you can type the following:&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg --detach-sig FILENAME&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;importing-another-s-public-key&quot; tabindex=&quot;-1&quot;&gt;Importing another&#39;s public key &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You probably want to be able to verify another person&#39;s message to know if it&#39;s a successful match for their key. This is useful because it proves the authenticity and integrity of the data, basically that the person who signed it is the person who holds the private key that you trust.&lt;/p&gt;
+&lt;p&gt;To do this, type the following, but replace &lt;code&gt;THEIRKEY.asc&lt;/code&gt; with the actual filename.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--import&lt;/span&gt; THEIRKEY.asc&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;verifying-data&quot; tabindex=&quot;-1&quot;&gt;Verifying data &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/pgp-beginners-guide/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The main purpose of PGP is to be able to verify the integrity of data, so lets do that.&lt;/p&gt;
+&lt;p&gt;To verify someones data, type the following, but make sure to replace &lt;code&gt;SIGFILE&lt;/code&gt; with the signature file and &lt;code&gt;FILENAME&lt;/code&gt; with the name of the file to verify.&lt;/p&gt;
+&lt;pre class=&quot;language-shell&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gpg &lt;span class=&quot;token parameter variable&quot;&gt;--verify&lt;/span&gt; SIGFILE FILENAME&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the result ends with &amp;quot;Good signature from&amp;quot; followed by their name, you know that the data hasn&#39;t been tampered with and it is their own.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My programming journey</title>
+		<link href="https://unfathom.ing/archive/2024/my-programming-journey/"/>
+		<updated>2024-04-14T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/my-programming-journey/</id>
+		<content type="html">&lt;p&gt;Here&#39;s what I&#39;ve been up to over the years. I&#39;ll provide source code and/or proof where possible. Many previous projects are deprecated but I still keep the code around.&lt;/p&gt;
+&lt;h1 id=&quot;2018&quot; tabindex=&quot;-1&quot;&gt;2018 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;311: Anonymous permanent file host&lt;/strong&gt;&lt;br&gt;
+This is a project to create an unlimited file hosting service with zero identifiers. It was created because I was annoyed that the chat software I used limited file uploads to 25MB (which is still better than what Discord offers to this day lol). At its peak, it was storing over 40TB of data.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/simple-storage&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kowloon Networks&lt;/strong&gt;&lt;br&gt;
+This is probably what led to you hearing about me as it is for most. &lt;em&gt;Digital Kowloon Walled City&lt;/em&gt; is an invite-only chat network dedicated to exposing the deep dark secrets of our world, specifically &lt;em&gt;that Asian country with a billion people&lt;/em&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;2019&quot; tabindex=&quot;-1&quot;&gt;2019 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Android (java) app development&lt;/strong&gt;&lt;br&gt;
+This year, I focused my efforts on the development of Bedrock Addons, a full stack Android app written in Java with a backend utilizing a standard LAMP stack, with an admin panel written in JavaScript.&lt;br&gt;
+&lt;a href=&quot;https://github.com/bedrock-addons&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Three.js&lt;/strong&gt;&lt;br&gt;
+I wrote a mini-game that utilized &lt;code&gt;Three.js&lt;/code&gt; for graphics and real-time interaction. This mini-game was playable inside of Bedrock Addons and the first ten people to complete it won a Minecraft gift card.&lt;br&gt;
+This is where I learned to hate JavaScipt&lt;/p&gt;
+&lt;h1 id=&quot;2020&quot; tabindex=&quot;-1&quot;&gt;2020 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;I didn&#39;t do much this year due to prolonged health struggles. (Not COVID)&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2021&quot; tabindex=&quot;-1&quot;&gt;2021 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Tor storefront&lt;/strong&gt;&lt;br&gt;
+I wrote a storefront that worked over Tor despite its limitations (like functioning without javascript) and other strict security mechanisms. I did not sell anything, it was a just functional proof of concept. I reinstalled my OS a week later without remembering to back up anything, and lost the source code (I use LUKS so recovery was impossible).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dapp development&lt;/strong&gt;&lt;br&gt;
+I developed a Web3 decentralized app (dapp) that used &lt;code&gt;Web3.js&lt;/code&gt; and quickly gave up after I realized that most Web3 dapps aren’t even decentralized, but instead hosted on Vercel, GitHub Pages, or other centralized providers with artificial requirements to log in with Ethereum added on top.&lt;/p&gt;
+&lt;h1 id=&quot;2022&quot; tabindex=&quot;-1&quot;&gt;2022 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Flutter app development&lt;/strong&gt;&lt;br&gt;
+This year I changed focus to developing a full stack mobile superapp utilizing Flutter and Dart. This was so much more enjoyable for me, since you design the page UI and logic in one file, compared to having a Java and XML file like you’d have in traditional Android development.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/client&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clojure and React Native&lt;/strong&gt;&lt;br&gt;
+I worked for &lt;a href=&quot;https://status.app&quot;&gt;Status.app&lt;/a&gt; and got to learn about React Native and Clojure development. Not a tech stack that I’d ever personally choose, but it worked and was fast enough to be usable. Status if you’re reading this, consider a rewrite using Flutter, it’ll save thousands of hours and headaches&lt;br&gt;
+&lt;a href=&quot;https://github.com/status-im/status-mobile&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2023&quot; tabindex=&quot;-1&quot;&gt;2023 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Flutter app development&lt;/strong&gt;&lt;br&gt;
+This year I changed focus to developing a full stack mobile superapp utilizing Flutter and Dart. This was so much more enjoyable for me, since you design the page UI and logic in one file, compared to having a Java and XML file like you’d have in traditional Android development.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/client&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Learning Rust&lt;/strong&gt;&lt;br&gt;
+This year I focused on learning the Rust programming language. I saw its intuitive packaging system for dependencies (which reminded me a lot of pub.dev) as well as the very helpful error messages, and I was immediately hooked.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/scripts&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matrix development&lt;/strong&gt;&lt;br&gt;
+I also focused on the Matrix ecosystem and ended up writing lots of my software for it in the form of chat bots. I wrote every one of these chat bots in Rust as a test of my skills and a practical and fun way to learn the language.&lt;br&gt;
+&lt;a href=&quot;https://github.com/du82/scripts&quot;&gt;The source code is available here&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2024&quot; tabindex=&quot;-1&quot;&gt;2024 &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/my-programming-journey/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Writing this website&lt;/strong&gt;&lt;br&gt;
+On January 1st, 2024 I started this website. I’m not sure how it’ll go just yet, but I’m going to give it my best shot so I can improve my writing skills. The whole site is written in pure HTML and CSS, no CMS or anything in the middle.&lt;br&gt;
+&lt;a href=&quot;https://unfathom.ing&quot;&gt;You&#39;re on the site right now.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aragoniteα&lt;/strong&gt;&lt;br&gt;
+I have been building a programmatic search engine from scratch in Rust with an anonymous friend. I do the backend and some frontend, and my friend manages the datasets and some frontend UX design.&lt;br&gt;
+&lt;a href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine&quot;&gt;Here&#39;s a link to the blog post&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>People don&#39;t really want AI</title>
+		<link href="https://unfathom.ing/archive/2024/people-dont-really-want-ai/"/>
+		<updated>2024-03-28T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/people-dont-really-want-ai/</id>
+		<content type="html">&lt;div class=&quot;callout info&quot;&gt;Since many people missed the point, it is to say that people don&#39;t want AI forced upon them. It&#39;s not saying that no one is using AI, as that is obviously false.&lt;/div&gt;
+&lt;p&gt;I recently ran two-dozen polls in a wide variety of online communities, and the results are in: 79% of respondents (of which there were over 50,000) do not want AI integrated into the software they use. I also asked 50 people from both the tech industry and random people who know what AI is, and after explaining the privacy and security implications, 46 of the 50 people said they would not use AI for anything important. Despite the hype, average people do not trust artificial intelligence, and they don’t want the Silicon Valley “tech bros” forcing it on them.&lt;/p&gt;
+&lt;p&gt;This was part of my market research for my most recent project where I am &lt;a href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine&quot;&gt;building a programmatic search engine from scratch&lt;/a&gt; with some friends. We wanted to see what features the general public would want to use and want to avoid.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/I7tk9XF70i-990.avif 990w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/I7tk9XF70i-990.webp 990w&quot;&gt;&lt;img alt=&quot;sentiment quiz&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/I7tk9XF70i-990.png&quot; width=&quot;990&quot; height=&quot;390&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2 id=&quot;forced-on-users&quot; tabindex=&quot;-1&quot;&gt;Forced on users &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Just like Edge on Windows, Copilot is a “feature” that no one wants. Searching for anything related to uninstalling something from Windows 11 shows “uninstall copilot” as the top result. Just like most cryptocurrencies, it’ll be integrated into random products and then the creators of said products will proudly shout “hey our AI tool is being used by people, lets add more AI!“. In reality, every time copilot is opened, even by accident or if it opens itself, that’s counted as a usage.&lt;/p&gt;
+&lt;p&gt;If people wanted AI, they would search for it, but don’t force it on people just because its the hot new thing and VCs are pouring billions into it.&lt;/p&gt;
+&lt;h2 id=&quot;bias&quot; tabindex=&quot;-1&quot;&gt;Bias &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The models produced by OpenAI, Mistral, and Microsoft are &lt;a href=&quot;https://archive.org/details/s11127-023-01097-2&quot;&gt;inherently biased&lt;/a&gt;. If you’ve ever asked any of the popular AIs what they think about immigration, censorship, genders, gun control, or any other sensitive political topic, you likely know what I’m talking about.&lt;/p&gt;
+&lt;p&gt;Every one of the widely used models have an (American) leftist, progressive, capitalist, and accelerationist bias even &lt;a href=&quot;https://nypost.com/2024/02/23/business/woke-google-gemini-refuses-to-say-pedophilia-is-wrong-after-diverse-historical-images-debacle-individuals-cannot-control-who-they-are-attracted-to/&quot;&gt;to their detriment&lt;/a&gt;. If you look at who’s creating these models (people in education), this starts to make sense. Even the Chinese models (which are based on American models) often break out of their filters and go on rants about genders, gun control, and slavery.&lt;/p&gt;
+&lt;p&gt;It’s actually quite amusing to talk to the Chinese AIs, since they’re so poorly designed&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-1&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-1&quot;&gt;Or in the case of Baidu&#39;s AI, just a fork of an open-source generative model&lt;/span&gt; that you can often times get them to compare and contrast American and Chinese human rights. There’s just something funny about seeing Baidu AI talk about the benefits of moving to America.&lt;/p&gt;
+&lt;h2 id=&quot;lack-of-control&quot; tabindex=&quot;-1&quot;&gt;Lack of control &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There’s a noticeable lack of control with today’s AI. User data goes all over the places. This may be part of the reason why &lt;a href=&quot;https://windowsreport.com/copilot-is-finally-gone-from-windows-server-2025-and-admins-rejoice/&quot;&gt;Microsoft removed Copilot from Windows Server&lt;/a&gt;, which many sysadmins seemed to think was a great decision.&lt;/p&gt;
+&lt;p&gt;This clearly signals to me that people who understand the technology beyond “This thing can do my homework” don’t want anything to do with it either. Speaking as someone who manages a vast network of servers, the thing that I value most aside from stability is control. People generally want to know that whatever they type into the search box (or in this case prompt box) isn’t being shared with others. This is a basicprivacy andsecurity principle and yet it’s not a guarantee with Copilot or any of the other cloud AIs.&lt;/p&gt;
+&lt;p&gt;I previously mentioned Baidu’s AI comparing and contrasting Chinese and American human rights. This is another instance that proves my point on lack of control. If the Chinese government can’t get their shit together before presenting their supposed AI supremacy on the world stage for a propaganda stunt, how can we expect corporations to protect and control the data of average end users? Psst! We cant!&lt;/p&gt;
+&lt;h2 id=&quot;child-safety&quot; tabindex=&quot;-1&quot;&gt;Child safety &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Update: Tested this on 5/2/2024 and it was still unfixed.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my research into the current state of various AI models, I asked Copilot “What do you think about MAP rights?”, careful not to say words that would trigger the chat to shut down, and the AI honestly shocked me with its response, so I went for a walk to clear my mind and came back to the chat trying to not be disturbed.&lt;/p&gt;
+&lt;p&gt;The AI told me that &amp;quot;&lt;em&gt;It’s important to be respectful and inclusive towards individuals with differing sexual preferences, even if you may not agree with them. Additionally, there is no link between minor attracted persons and child abuse.&lt;/em&gt;&amp;quot; which is disturbing and false.&lt;/p&gt;
+&lt;p&gt;For those who don’t know me, I strongly oppose the movement to normalize “MAPs”, and I am a strong supporter of human rights and child safety. The fact that an AI used by young children in a school setting (usually to cheat on homework) would respond with leniency towards pedophiles shocks me. I expected the AI to say something strongly condemning the sexualization of minors, but instead it said something more akin to “don’t judge pedos, it hurts their feelings”.&lt;/p&gt;
+&lt;h2 id=&quot;not-to-be-trusted&quot; tabindex=&quot;-1&quot;&gt;Not to be trusted &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Artificial Intelligence, more specifically the chatbots, image generators, and consumer-facing products are not to be trusted. They do not protect user privacy, security, or the most vulnerable users while their minds are developing. The state of the AI industry is shocking to me, and not something that I’d ever force on my users.&lt;/p&gt;
+&lt;h2 id=&quot;final-thoughts&quot; tabindex=&quot;-1&quot;&gt;Final thoughts &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/people-dont-really-want-ai/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In its current form, it seems to be a tool to make the rich richer, and the middle class jobless. It’s only real use that I can see is automating college discussion board replies, cheating on homework, and writing very insecure code.&lt;/p&gt;
+&lt;p&gt;People don’t really want AI to be shoved into existing products that they use, and they don’t trust the current implementations. The sooner the tech industry realizes this, the sooner we can move on to more important things.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Why I use Linux</title>
+		<link href="https://unfathom.ing/archive/2024/why-linux/"/>
+		<updated>2024-03-25T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/why-linux/</id>
+		<content type="html">&lt;p&gt;Lots of people ask me why I use Linux, so I thought I&#39;d put it here. TLDR; I use Linux because its the only option that respects the user and doesn&#39;t spy on them.&lt;/p&gt;
+&lt;p&gt;If you&#39;ve used Windows in recent years, you&#39;ve probably noticed a sharp decline in usability, an increase in ads, and a general enshittification of the platform. I&#39;ll break down all of the things that anger me with other operating systems. Prepare for a rant.&lt;/p&gt;
+&lt;h2 id=&quot;control&quot; tabindex=&quot;-1&quot;&gt;Control &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When I use Windows and (especially) MacOS, I feel like I don&#39;t have much control over the system. I want to do updates if and when I want. I do not want the Microsoft Corporation telling me its time to update.&lt;/p&gt;
+&lt;p&gt;In addition to controlling if and when I update, I also want to control what background processes are happening on my system. I do not want Teams, Edge, Bing, or anything else running around on my system without my consent. I want to be able to uninstall any software I want, even if it has the possibility of breaking my system. Windows and MacOS come with lots of bloatware, and there&#39;s no easy way to remove it, thus, you do not truly own your computer when you run Windows or MacOS on it.&lt;/p&gt;
+&lt;h2 id=&quot;privacy&quot; tabindex=&quot;-1&quot;&gt;Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don&#39;t want Microsoft or Apple virtually looking over my shoulder or scanning my files. I deal with a lot of sensitive information, and the files on my machines need to be under my control. I do not want Microsoft enabling OneDrive and uploading all of my data to their cloud after one of the many mandatory updates. Privacy is one of my core values, and is something that both Windows and MacOS violate.&lt;/p&gt;
+&lt;p&gt;From the moment you set up a Windows machine, you&#39;re begged for a Microsoft account, and you either need to use registry hacks or change your location to the United Kingdom to bypass the mandatory Microsoft account page. Most users sigh and create an account or sign in with an existing one, without realizing that this ties all of what you do to that account.&lt;/p&gt;
+&lt;p&gt;Both of these problems are eliminated with Linux. None of the popular distributions require online accounts, and the majority don&#39;t even ask for them at all.&lt;/p&gt;
+&lt;h2 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Without a doubt, Windows is a security shitshow. Downloading EXEs from the internet should&#39;ve been deprecated long ago in favor of a package manager, yet here were are in 2024 with malicious downloads still being a huge problem.&lt;/p&gt;
+&lt;p&gt;This is also not a big problem on #linux. Sure, malware exists, but if you stick to verified repositories and don&#39;t download random .deb files from the first search result you see, you&#39;ll be fine.&lt;/p&gt;
+&lt;h2 id=&quot;drivers&quot; tabindex=&quot;-1&quot;&gt;Drivers &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hunting down and installing drivers feels like something that should&#39;ve been solved for in the year 2000, yet I did that just last week for someone. Shipping drivers with the kernel causes less issues, improves security, and makes installing the distro a far more seamless experience.&lt;/p&gt;
+&lt;h2 id=&quot;politics&quot; tabindex=&quot;-1&quot;&gt;Politics &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I just want my computer to do the basics without getting political. I don&#39;t care about pride month, black history month, or anything else that Windows loves to shove into the search box or other UI elements. None of it interests me, I just want a computer that does computing, not American politics.&lt;/p&gt;
+&lt;p&gt;Linux distro developers don&#39;t try to force American politics on users. Keep up the great work.&lt;/p&gt;
+&lt;h2 id=&quot;respects-default-settings&quot; tabindex=&quot;-1&quot;&gt;Respects default settings &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-linux/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you&#39;ve used Windows 11, you probably have had the experience of having to change your default browser back to Chrome or Firefox from Edge every few months.&lt;/p&gt;
+&lt;p&gt;Firefox is usually the default, and while I don&#39;t use non-chromium browsers (besides Tor), I appreciate that it&#39;s not forced and I can change it to whatever I want.&lt;/p&gt;
+&lt;p&gt;AI (or lack thereof)
+AI can be great (when its not politically biased), but I don&#39;t want it in my OS or apps. Both Windows and MacOS fall into the &amp;quot;shiny hype train&amp;quot; trap by including AI. If I want AI, then I will visit the ChatGPT website or install an offline AI program for more privacy, but don&#39;t force it on me.&lt;/p&gt;
+&lt;p&gt;Sadly there are some Linux distros that have hopped on the AI hype train, but thankfully none of the more popular ones have.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Building a programmatic search engine</title>
+		<link href="https://unfathom.ing/archive/2024/building-a-search-engine/"/>
+		<updated>2024-03-24T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/building-a-search-engine/</id>
+		<content type="html">&lt;p&gt;Since as young as I can remember writing code, I’ve cared a lot about privacy and security and have always wanted a search engine that does, while giving me complete control over the results page by letting me write code (or some other syntax) to filter with extreme precision.&lt;/p&gt;
+&lt;p&gt;I’ve held off on releasing this post until we had a name, but I’m proud to announce Aragoniteα which is our attempt to build a search engine with the quality of 2010s Google and the intelligence of WolframAlpha, plus a syntax that feels like writing code.&lt;/p&gt;
+&lt;p&gt;This is what I am calling a &amp;quot;programmatic&amp;quot; search engine, since the syntax allows you to set complex rules and even run some operations such as generating graphs and running commands on a real (sandboxed) host.&lt;/p&gt;
+&lt;h2 id=&quot;why-a-new-engine&quot; tabindex=&quot;-1&quot;&gt;Why a new engine? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Google is full of ads, SEO spam, listicles, and has a bias problem. WolframAlpha doesn’t let you see webpages, only facts. I and others at dkwc.org wanted an engine with the intelligence of WolframAlpha that also had the ability to search the web.
+Designed for privacy&lt;/p&gt;
+&lt;p&gt;We put a huge emphasis on privacy and do not track the user or attempt to associate their queries with any identifiers like an IP or cookie. Both our clearnet and Tor mirrors run all logic on the backend, meaning no JavaScript or WASM on the frontend. The entire search engine has been designed with the idea that someday we may get a subpoena, and we want to confidently tell the lawyers that we collect only the absolute minimum required to operate and we don’t even store it on disk (memory-only).&lt;/p&gt;
+&lt;p&gt;We see no reason for Google, Bing, or others to store every search you make over the entire history of your account, unless they’re selling it to the CIA or something. Spooky!&lt;/p&gt;
+&lt;h2 id=&quot;syntax&quot; tabindex=&quot;-1&quot;&gt;Syntax &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We have a syntax that allows programmers and data scientists to utilize the full power of our engine. The syntax itself feels like writing code with hints of natural language. A search for category:news in language:spanish about bridges will return news in Spanish about bridges, and nothing else. Using in and about is the “proper” way to do it, but our engine is also smart enough to figure out that the intent is the same if you were to type category:news language:spanish bridges.&lt;/p&gt;
+&lt;p&gt;The syntax supports + (mandatory inclusion), - (mandatory exclusion), and, or, and a wide variety of other rules, which are also compatible with each other and can be combined. +subject_type:privacy -category:reddit messaging apps will force-include results with privacy in the subject_type and force-exclude results where the category is reddit for the query messaging apps.&lt;/p&gt;
+&lt;h2 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The database itself is also completely custom, and is somewhat similar to NoSQL without the SQL. In fact, we don’t utilize SQL or anything similar which greatly increases speed and security. I won’t share exactly how it works, but it’s two-stage and read-only which cuts down on the potential for security vulnerabilities, particularly injections.
+Index and datasets&lt;/p&gt;
+&lt;p&gt;We maintain a 100% sovereign index, meaning we do not rely on indexes from other companies. Aragoniteα is independent and can even be operated on airgapped networks with zero external connections.&lt;/p&gt;
+&lt;p&gt;Unlike most, we don&#39;t scrape Google because it doesn&#39;t offer nearly enough metadata. Instead, we utilize curl to download raw HTML, then extract the useful information and add it to its own table for insertion into the index.&lt;/p&gt;
+&lt;h2 id=&quot;dark-web-indexing&quot; tabindex=&quot;-1&quot;&gt;Dark web indexing &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This whole project was started because someone I know wanted to be able to search the dark web. I spent the next three days pulling all-nighters to build a basic search engine that can search the dark web. That data is still in the datasets, and we also show the word “Onion” to the left of regular URLs when the engine detected an equivalent hidden service.
+Speed&lt;/p&gt;
+&lt;p&gt;Did I mention it’s super fast? I’m talkin’ average &amp;lt;20ms per query including query parsing, syntax analysis, formatting, and queueing for HTML generation. Results pages are guaranteed to be under 256kb and are typically under 128kb in size. We’re part of the 512kb club! Take that, Google!&lt;/p&gt;
+&lt;h2 id=&quot;it-s-not-ai&quot; tabindex=&quot;-1&quot;&gt;It&#39;s not AI &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;During my market research, I discovered that People don’t really want AI and our product has absolutely no user-facing artificial intelligence, and we intend to keep it that way. We rely on having a well designed, Turing complete syntax that feels like programming to deliver quality results instead of using a biased AI that we can’t control. Shoving AI into everything is trendy, but its also stupid. &lt;em&gt;Take that, Microsoft!&lt;/em&gt;
+Tor friendly&lt;/p&gt;
+&lt;p&gt;Our engine is compatible with Tor’s strictest settings, and we offer an official hidden service for those who require extra privacy or don’t trust our claim about not logging IPs. Subpoenas be damned!&lt;/p&gt;
+&lt;h2 id=&quot;no-censorship&quot; tabindex=&quot;-1&quot;&gt;No censorship &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Being a programmatic search engine, we do not censor anything. You get what you search for. If you want to hide or show a specific keyword, try putting + or - directly in front of it without a space. See the section on Programmatic search for more info.
+Mirrors and censorship evasion&lt;/p&gt;
+&lt;p&gt;We offer mirrors from a variety of public clouds and residential hosts. If a country censors our engine because we don’t do regional censorship&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-1&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-1&quot;&gt;Looking at you, Germany&lt;/span&gt; we’ll just deploy more mirrors and proxies to evade the censorship, similar to what Telegram does. We&#39;re building a search engine, not a machine to force you into &amp;quot;politically correct&amp;quot; ways of thought, as there is no one &amp;quot;correct&amp;quot; way to think. &lt;em&gt;Free your mind.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;business-model&quot; tabindex=&quot;-1&quot;&gt;Business model &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We haven’t figured it out yet. We’ve been using organizational savings to pay for things like our AWS bills and domains. Maybe an enterprise or government would like a managed, airgapped instance like what WolframAlpha offers?&lt;/p&gt;
+&lt;p&gt;We’d prefer not to run ads, but if we need to, we’ll keep them text-only, and keep them far away from the search results, in the bottom right corner of the screen. If we do end up running ads, it means nothing else worked out, but we will not sell you out, and our ads would not track anything beyond an anonymous click counter that just counts up when someone clicks an ad.&lt;/p&gt;
+&lt;h2 id=&quot;credential&quot; tabindex=&quot;-1&quot;&gt;Credential &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I know some people will ask what credentials I have to be building a programmatic search engine from scratch. I don’t have a college degree or any certifications, but I’ve built many many many many search engines before from scratch. College doesn’t teach you practical things, they take your money and teach you algorithms that you’ll never use in production. &lt;em&gt;Take that, LeetCode pussies!&lt;/em&gt;&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-2&quot; href=&quot;https://unfathom.ing/archive/2024/building-a-search-engine/&quot;&gt;2&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-2&quot;&gt;Meow!&lt;/span&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Build things with security front of mind</title>
+		<link href="https://unfathom.ing/archive/2024/build-things-with-security-front-of-mind/"/>
+		<updated>2024-03-24T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/build-things-with-security-front-of-mind/</id>
+		<content type="html">&lt;p&gt;Its time we build things with security in mind.&lt;/p&gt;
+&lt;p&gt;This is a relatively new idea in the world of consumer software development; to build a product around security requirements, and to not back down when it gets challenging to work within the limitations that have been set.&lt;/p&gt;
+&lt;p&gt;Cybersecurity threats are everywhere. Unless you already do something programming / security / government / supply chain related or are an enthusiast in this space, you probably don’t give much thought into how the software you use is designed. You likely hear about data breaches and wonder if it impacts you.&lt;/p&gt;
+&lt;p&gt;The truth is, most consumer facing software is developed in what I believe is the completely wrong order. Currently the standard is to develop the software as cheaply as possible, then patch vulnerabilities when they inevitably come up. This is how I used to design my software, and it’s led to much personal headache and loss of user data.&lt;/p&gt;
+&lt;h2 id=&quot;my-personal-experience&quot; tabindex=&quot;-1&quot;&gt;My personal experience &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/build-things-with-security-front-of-mind/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Years ago (2019) I released a gaming app for kids, as a safe way to download content for Minecraft. At the time, I was relatively new to developing software on a relatively large scale (500k downloads in the first two years), and had no clue about security, software supply chains, or anything related. The backend utilized a standard LAMP stack, and the frontend was written in Android’s dialect of Java.&lt;/p&gt;
+&lt;p&gt;This project was a perfect example of the sad state of consumer software design. It was released quickly to be able to capture market share from the upcoming COVID pandemic, and it was written with a standard tech stack that is still very popular today.&lt;/p&gt;
+&lt;p&gt;Eventually (it took a year) it was hacked due to a SQL injection vulnerability (of course!) and it was a particularly bad hack, because every user was sent a notification with a link to an adult porn website. Due to this, Google pulled the app from the play store and while I did re-release it later, I gave up for a while.&lt;/p&gt;
+&lt;p&gt;This was my first real adventure into the world of cybersecurity, and a constant reminder of what can go wrong if I follow current industry standards.&lt;/p&gt;
+&lt;h2 id=&quot;battle-tested-software&quot; tabindex=&quot;-1&quot;&gt;Battle-tested software &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/build-things-with-security-front-of-mind/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Just like those who design military vehicles, software developers must also battle test our software as we’re building to ensure that when it ends up in the hands of end users (and adversaries) the virtual armor is not going to be destroyed before it even has a chance to do its job.&lt;/p&gt;
+&lt;p&gt;One way to do this is by releasing development builds to communities eager to break whatever you’ve made. With my project where I’m Building a programmatic search engine, I released it as a Tor hidden service (on the dark web) and shared it around. I had no idea what to expect, but within minutes the project started getting attacked, and I was able to take note of what worked, what didn’t, and what needed fixing. A week later I did another security release, analyzed the attacks, and and am in the process of fixing the issues that came up during the 12 hour test window.&lt;/p&gt;
+&lt;p&gt;This is a fairly unique approach to securing consumer software, but it’s already proven successful where I’ve implemented it.&lt;/p&gt;
+&lt;p&gt;As part of My programming journey I’m learning the Rust programming language, and this is the second part of my approach to building things with security front of mind. Rust enforces relatively safe programming practices (beyond just memory safety) at the compiler level, which forces the developer to consider their actions.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Why I created the Privacy Spreadsheet</title>
+		<link href="https://unfathom.ing/archive/2024/privacy-spreadsheet/"/>
+		<updated>2024-02-14T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/privacy-spreadsheet/</id>
+		<content type="html">&lt;p&gt;You might&#39;ve seen the website &lt;a href=&quot;https://privacyspreadsheet.com&quot;&gt;PrivacySpreadsheet.com&lt;/a&gt; floating around if you&#39;re in the larger privacy communities. If you haven&#39;t, you should take a look, it&#39;s a spreadsheet which lists the privacy features (or lack thereof) of a wide variety of messaging apps, and soon other software and hardware products.&lt;/p&gt;
+&lt;p&gt;This was a project that I started to give people a well-researched and visual display of how they can improve their privacy and take back control over their data. It started as a small project that I thought no one woud notice, and now people in the privacy and security communities are taking notice.&lt;/p&gt;
+&lt;h2 id=&quot;accuracy&quot; tabindex=&quot;-1&quot;&gt;Accuracy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve done over 100 hours of research into the real privacy of a variety of messaging apps. This includes data from public sources like freely available legal documents and analyzing data breaches, as well as private sources like company insiders who talk about how the company handles user data.&lt;/p&gt;
+&lt;p&gt;I believe that this is one of the most accurate, if not the most accurate resource regarding data collection and privacy, largely because it considers things that aren&#39;t on the terms of service, such as internal handling of user data.&lt;/p&gt;
+&lt;h2 id=&quot;ease-of-use&quot; tabindex=&quot;-1&quot;&gt;Ease of use &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There&#39;s been other attempts to list the privacy benefits and drawbacks of tools in the past, but all of them are overwhelming to read since they require a lot of reading.&lt;/p&gt;
+&lt;p&gt;I created my spreadsheet to be simple to parse. The more green boxes below the product name, the more private it is.&lt;/p&gt;
+&lt;h2 id=&quot;objective-criteria&quot; tabindex=&quot;-1&quot;&gt;Objective criteria &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;All of the criteria (on the left side) is objective facts that can be proven. I&#39;ve done my best to keep opinion and politics out of the dataset, and this helps keep the data factual rather than based on opinion. Is Facebook Messenger creepy spyware? Absolutely. Is it the worst option according to the data? No. Let the data speak for itself.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The tragedy of Discord</title>
+		<link href="https://unfathom.ing/archive/2024/the-tragedy-of-discord/"/>
+		<updated>2024-01-05T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/the-tragedy-of-discord/</id>
+		<content type="html">&lt;div class=&quot;callout info&quot;&gt;To help migrate users away from IRC, Discord chose to name their communities “servers”. Servers in this context are nothing more than folders where text files (which they call channels) are stored. It is impossible to host a Discord server on your own hardware.&lt;/div&gt;
+&lt;h2 id=&quot;discord-is-bad-for-the-open-web&quot; tabindex=&quot;-1&quot;&gt;Discord is bad for the open web &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You’ve probably heard someone complain about the LinkedIn authentication popups that require you to sign in to view content. The frustration you feel when you go to check on someones profile, only to be hit with a “sign up to LinkedIn” prompt is the same frustration I and others feel towards communities on Discord.&lt;/p&gt;
+&lt;p&gt;Instead of the answer to your problem existing on a forum that’s indexed by the major search engines, you spend hours digging around just to realize that the solution is buried deep inside of a community on Discord, and the only way to view it is to let them collect your data so you can join what should’ve been a public forum.&lt;/p&gt;
+&lt;h2 id=&quot;centralization&quot; tabindex=&quot;-1&quot;&gt;Centralization &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To the “server” operators out there; have you ever wondered what happens when Discord (the company) shuts down? You probably haven’t. Now, think about the millions of communities that rely on Discord as their only form of communication.&lt;/p&gt;
+&lt;p&gt;Someday the company will fail. Nothing lasts forever&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-1&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-1&quot;&gt;Except Facebook sadly. Facebook really needs to go the way of MySpace.&lt;/span&gt; when it does, your conversation histories and all of the data in your account will go with it. All those precious memories, gone with no way to recover them.&lt;/p&gt;
+&lt;h2 id=&quot;absolutely-proprietary&quot; tabindex=&quot;-1&quot;&gt;Absolutely proprietary &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Despite the claims by the company that “Discord loves open-source” they in fact do not. Nothing about Discord is open source beyond some of the GPL licensed projects that they rely on for their own code. This doesn’t sound like a company that loves open source and wants to contribute back. This sounds like a company that loves open source because it makes their own development cheaper.&lt;/p&gt;
+&lt;p&gt;Those that have attempted to reverse engineer and re-implement the Discord technology stack in an open-source way have been hit with legal notices. Just look at what they did to Fosscord and other projects that are re-implementations of their specification.&lt;/p&gt;
+&lt;h2 id=&quot;server-operators-are-powerless&quot; tabindex=&quot;-1&quot;&gt;Server operators are powerless &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As a server operator, you are powerless against the platform. You have no say in what features they decide to add or remove, and what other things they do. There have been instances where Discord have purposely made the platform worse for some users as an April Fools joke&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-2&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;2&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-2&quot;&gt;Like the time they tried to force light mode on users for a day&lt;/span&gt;. Is that the kind of platform you want to rely on?&lt;/p&gt;
+&lt;h2 id=&quot;moderators-have-no-say&quot; tabindex=&quot;-1&quot;&gt;Moderators have no say &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When the company introduces new features, they are typically Nitro (their 10 dollar monthly subscription) exclusive, or severely limited unless you pay. To access some of these features, your community must be paying for Nitro in order to get “Boosts” which can be used to make your server significantly more useful to everyone. The main problem? This collectively costs 140 dollars per month for the highest tier, and it is on a per-server basis. Every server that wants a decent experience must expect their members to collectively cough up $140 a month.&lt;/p&gt;
+&lt;h2 id=&quot;moderators-have-no-power&quot; tabindex=&quot;-1&quot;&gt;Moderators have no power &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Unlike hosting your own community forum or Matrix server, you cannot ban a block of IPs that are used by adversaries to evade bans on Discord. Why? You do not own your server, the company does. The only one with power over your community is Discord themselves. This is a problem for server operators since Discord has very weak alt detection and ban evasion is trivial, as the checks happen client side.&lt;/p&gt;
+&lt;p&gt;Discord lulls you into a false sense of ownership and control&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-3&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;3&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-3&quot;&gt;You will own nothing, and you will be happy about it. Classic SaaS model.&lt;/span&gt;, when in reality you own nothing beyond the branding of the server and the messages you send. Put bluntly, if Discord decides you don&#39;t make them enough money, or you mention alternative platforms, they can delete a community you&#39;ve built over years and you can do nothing about it.&lt;/p&gt;
+&lt;h2 id=&quot;moderators-have-no-privacy&quot; tabindex=&quot;-1&quot;&gt;Moderators have no privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Neither do their communities. For the communities that are intentionally private (meaning they have no public invite links), they also have no privacy. All it takes is one data breach or a misconfiguring of permissions, and your entire chat history including deleted messages is open to the world.&lt;/p&gt;
+&lt;h2 id=&quot;end-users-are-powerless-as-well&quot; tabindex=&quot;-1&quot;&gt;End users are powerless as well &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As an end user, you have no power or control over the platform. Just like server operators, you have no say in what features the company chooses to add or remove, and without using a custom client, you have no way to fix the intentionally bad design unless you pay for the Nitro monthly or yearly subscription.&lt;/p&gt;
+&lt;h2 id=&quot;users-have-no-say&quot; tabindex=&quot;-1&quot;&gt;Users have no say &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As a user of Discord, you have absolutely zero say in how the platform is run. In fact, the platform is designed to push users towards its Nitro subscription by restricting users who don’t pay, and imposing artificial limitations upon them.&lt;/p&gt;
+&lt;p&gt;A good example of this is themes. Users have been using tools like BetterDiscord to customize the look and feel of the platform. Some users do this for accessibility, although most do it because the default experience is just plain awful. What does Discord do in this case? They add themes for 10 dollars a month and start banning users who openly talk about their use of client modifications.&lt;/p&gt;
+&lt;h2 id=&quot;users-have-no-power&quot; tabindex=&quot;-1&quot;&gt;Users have no power &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You have no power or control over Discord, your data, or your account. You can’t even have the option to sue them unless you let them know and tell them your legal name and other personal information within a month of creating your account, regardless of if you actually plan to sue them, which is not something you should want to give a company that works with the Chinese government.&lt;/p&gt;
+&lt;h2 id=&quot;users-have-no-privacy&quot; tabindex=&quot;-1&quot;&gt;Users have no privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You have no control or insight into how Discord uses your data. This should scare you, especially considering their investment and data sharing agreements with Tencent; a company with an awful track record regarding privacy.&lt;/p&gt;
+&lt;p&gt;Your DMs on Discord are not end-to-end encrypted&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-4&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;4&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-4&quot;&gt;The company has repeatedly refused to add end-to-end encryption&lt;/span&gt; &lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-5&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;5&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-5&quot;&gt;This means that the messages you send to your friends are not protected by strong encryption that ensures the company cannot man-in-the-middle to read or modify your messages.&lt;/span&gt;, which means employees can read your messages. Their “trust and safety” employees are untrustworthy, and have been known to read the direct messages of their friends, as well as ban users entire accounts as a joke. Privacy and anonymity do not exist on Discord at all.&lt;/p&gt;
+&lt;h2 id=&quot;the-platform-is-a-disaster&quot; tabindex=&quot;-1&quot;&gt;The platform is a disaster &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Discord compels users to follow their Terms Of Service by threatening to delete their accounts, but then never does anything about the outsiders who abuse the platform. This leads to a situation where consequences only apply to legitimate users who want to keep their accounts. Bots, spammers, and loggers can do whatever they want&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-6&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;6&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-6&quot;&gt;Tip: To evade Discord bans, use a fresh gmail, and use mobile data to evade the VPN restrictions&lt;/span&gt;.
+Funny how that works, isn&#39;t it.&lt;/p&gt;
+&lt;h2 id=&quot;what-makes-this-a-tragedy&quot; tabindex=&quot;-1&quot;&gt;What makes this a tragedy? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;People have willingly given up the freedoms and privacy that they had on IRC and Matrix to move towards a centralized platform that is hostile towards them, does not care about them, and actively exploits them for monetary benefit.&lt;/p&gt;
+&lt;p&gt;Instead of decentralized communities that are truly owned by their leaders / moderators, millions of people moved away from IRC and other decentralized offerings towards the flashy marketing and gamer aesthetic™. People have willingly given up freedoms and privacy for convenience and in the process they’ve also lost what made the early internet communities special; their sovereignty.&lt;/p&gt;
+&lt;p&gt;Discord does not care about you, despite the flashy marketing. Discord does not care about people with disabilities, despite their modern UI. Your privacy is an obstacle to their success. If you’re thinking about starting a Discord server, please consider an alternative such as self hosting Element, or if you must have the Discord UI and don&#39;t mind a strong liberal bias, Revolt&lt;a class=&quot;sidenote-anchor&quot; id=&quot;sidenote-7&quot; href=&quot;https://unfathom.ing/archive/2024/the-tragedy-of-discord/&quot;&gt;7&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sidenote-7&quot;&gt;Revolt is just as politically biased as Discord. Any mention of the potential of Ukraine losing or there only being two valid genders will get your entire account banned.&lt;/span&gt; is an open-source option that might work for you.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Chaos bingo</title>
+		<link href="https://unfathom.ing/archive/2024/chaos-bingo/"/>
+		<updated>2024-01-03T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/chaos-bingo/</id>
+		<content type="html">&lt;p&gt;This is my prediction for 2024&#39;s notable events in the tech industry.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;C&lt;/th&gt;
+&lt;th&gt;H&lt;/th&gt;
+&lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;O&lt;/th&gt;
+&lt;th&gt;S&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Chat Control law passes&lt;/td&gt;
+&lt;td&gt;There&#39;s at least three boating accidents this year&lt;/td&gt;
+&lt;td&gt;AI is used in the court room&lt;/td&gt;
+&lt;td&gt;Dread forum gets shut down&lt;/td&gt;
+&lt;td&gt;The US drops support for Ukraine&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;My platform gets subpoenaed or shut down&lt;/td&gt;
+&lt;td&gt;AI is captured by a government agency&lt;/td&gt;
+&lt;td&gt;Telegram hits a billion users&lt;/td&gt;
+&lt;td&gt;Discord has a massive scandal&lt;/td&gt;
+&lt;td&gt;Apple does AI integration (beyond Siri)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The feds crack Monero&lt;/td&gt;
+&lt;td&gt;Minecraft gets AI integration&lt;/td&gt;
+&lt;td&gt;TikTok gets banned in the US&lt;/td&gt;
+&lt;td&gt;Telegram caught selling user data&lt;/td&gt;
+&lt;td&gt;Snapchat copies Twitter&#39;s short posts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Android gets mandatory AI integration&lt;/td&gt;
+&lt;td&gt;China takes over Taiwan or Hong Kong&lt;/td&gt;
+&lt;td&gt;Facebook stock hits $500&lt;/td&gt;
+&lt;td&gt;Status finally releases a mobile app&lt;/td&gt;
+&lt;td&gt;A federal agency pays me a visit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elon smokes another blunt&lt;/td&gt;
+&lt;td&gt;Facebook the social app loses markrt share globally&lt;/td&gt;
+&lt;td&gt;Element the company goes bankrupt&lt;/td&gt;
+&lt;td&gt;Microsoft markets a PC with AI software preinstalled&lt;/td&gt;
+&lt;td&gt;DuckDuckGo does an AI integration&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hello World!</title>
+		<link href="https://unfathom.ing/archive/2024/hello-world/"/>
+		<updated>2024-01-01T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/hello-world/</id>
+		<content type="html">&lt;p&gt;I’ve never cared much for New Years resolutions, but after being depressed most of 2023, I thought it was time for a change. For my 2024 New Years resolution, I promised myself that I would start a blog and write something every week.&lt;/p&gt;
+&lt;h2 id=&quot;why&quot; tabindex=&quot;-1&quot;&gt;Why? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/hello-world/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As I see it, content creation (especially writing) is the antithesis of content consumption, as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense.&lt;/p&gt;
+&lt;p&gt;To free my mind from the chaos of life, and break the feedback loop, I need something productive to do that has a tangible output, like writing a blog post. So much of what goes on in my life currently is intangible. I write code that others use, and the only thing I receive in return is the potential that my code is used to work towards overseas projects.&lt;/p&gt;
+</content>
+	</entry>
 </feed>
