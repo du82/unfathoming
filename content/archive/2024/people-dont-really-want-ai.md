@@ -16,9 +16,7 @@ This was part of my market research for my most recent project where I am [build
 
 ## Forced on users
 
-Just like Edge on Windows, Copilot is a “feature” that no one wants. Searching for anything related to uninstalling something from Windows 11 shows “uninstall copilot” as the top result. Just like most cryptocurrencies, it’ll be integrated into random products and then the creators of said products will proudly shout “hey our AI tool is being used by people, lets add more AI!“. In reality, every time copilot is opened, even by accident or if it opens itself, that’s counted as a usage.
-
-If people wanted AI, they would search for it, but don’t force it on people just because its the hot new thing and VCs are pouring billions into it.
+Just like Edge on Windows, Copilot is a “feature” that no one wants. Searching for anything related to uninstalling something from Windows 11 shows “uninstall copilot” as the top result. Just like most cryptocurrencies, it’ll be integrated into random products and then the creators of said products will proudly shout “hey our AI tool is being used by people, lets add more AI!“. In reality, every time copilot is opened, even by accident or if it opens itself, that’s counted as a usage{% sidenote "If people wanted AI, they would search for it, but don’t force it on people just because its the hot new thing and VCs are pouring billions into it." %}.
 
 ## Bias
 
@@ -44,7 +42,7 @@ During my research into the current state of various AI models, I asked Copilot 
 
 The AI told me that "_It’s important to be respectful and inclusive towards individuals with differing sexual preferences, even if you may not agree with them. Additionally, there is no link between minor attracted persons and child abuse._" which is disturbing and false.
 
-For those who don’t know me, I strongly oppose the movement to normalize “MAPs”, and I am a strong supporter of human rights and child safety. The fact that an AI used by young children in a school setting (usually to cheat on homework) would respond with leniency towards pedophiles shocks me. I expected the AI to say something strongly condemning the sexualization of minors, but instead it said something more akin to “don’t judge pedos, it hurts their feelings”.
+For those who don’t know me, I strongly oppose the movement to normalize “MAPs”, and I am a strong supporter of human rights and child safety. The fact that an AI used by young children in a school setting {% sidenote "Usually to cheat on homework" %} would respond with leniency towards pedophiles shocks me. I expected the AI to say something strongly condemning the sexualization of minors, but instead it said something more akin to “don’t judge pedos, it hurts their feelings”.
 
 ## Not to be trusted
 
