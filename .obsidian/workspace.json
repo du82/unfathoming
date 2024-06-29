@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/2024/rejecting-platform-trajectory.md",
+                "file": "content/archive/2024/rejecting-platform-trajectory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/blog/2024/rejecting-platform-trajectory.md",
+                "file": "content/archive/2024/rejecting-platform-trajectory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/blog/2024/rejecting-platform-trajectory.md",
+                "file": "content/archive/2024/rejecting-platform-trajectory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/2024/rejecting-platform-trajectory.md"
+                "file": "content/archive/2024/rejecting-platform-trajectory.md"
               }
             }
           }
@@ -148,23 +148,23 @@
   },
   "active": "0d4ae0c0cf4a0098",
   "lastOpenFiles": [
-    "content/blog/2024/hello-world.md",
+    "content/archive/2024/hello-world.md",
     "hello-world.md",
     "my-2024-new-years-resolution.md",
     "Untitled.md",
-    "content/blog/2024/not-the-future.md",
+    "content/archive/2024/not-the-future.md",
     "not-the-future.md",
-    "content/blog/2024/choosing-a-blogging-platform.md",
-    "content/blog/2024/choosing-a-platform.md",
+    "content/archive/2024/choosing-a-blogging-platform.md",
+    "content/archive/2024/choosing-a-platform.md",
     "choosing-a-platform.md",
     "2024-02-14.md",
-    "content/blog/2024/why-linux.md",
-    "content/blog/2024/rejecting-platform-trajectory.md",
+    "content/archive/2024/why-linux.md",
+    "content/archive/2024/rejecting-platform-trajectory.md",
     "rejecting-platform-trajectory.md",
-    "content/blog/2024/the-tragedy-of-discord.md",
-    "content/blog/2024/the-bitcoiners-were-wrong.md",
-    "content/blog/2024/privacy-spreadsheet.md",
-    "content/blog/2024/my-review-of-the-private-messaging-ecosystem.md",
-    "content/blog/2024/build-things-with-security-front-of-mind.md"
+    "content/archive/2024/the-tragedy-of-discord.md",
+    "content/archive/2024/the-bitcoiners-were-wrong.md",
+    "content/archive/2024/privacy-spreadsheet.md",
+    "content/archive/2024/my-review-of-the-private-messaging-ecosystem.md",
+    "content/archive/2024/build-things-with-security-front-of-mind.md"
   ]
 }

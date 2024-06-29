@@ -71,4 +71,4 @@ On January 1st, 2024 I started this website. I’m not sure how it’ll go just 
 
 **Aragoniteα**  
 I have been building a programmatic search engine from scratch in Rust with an anonymous friend. I do the backend and some frontend, and my friend manages the datasets and some frontend UX design.  
-[Here's a link to the blog post](/blog/2024/building-a-search-engine)
+[Here's a link to the blog post](/archive/2024/building-a-search-engine)
