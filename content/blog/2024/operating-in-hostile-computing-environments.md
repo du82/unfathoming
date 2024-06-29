@@ -4,7 +4,6 @@ date: 2024-06-28
 tags:
   - security
   - musing
-draft: true
 ---
 
 {% callout "quote", "Given a restrictive computing environment, it is reasonable to assume that a bored end user will seek or create some semblance of freedom within." %}
