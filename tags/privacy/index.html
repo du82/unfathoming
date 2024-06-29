@@ -260,16 +260,31 @@ blockquote p {
 
 /* Sidenotes */
 .sidenote {
-  float: right;
-  clear: right;
-  margin-right: -50%;
-  margin-bottom: 1em;
-  width: 40%;
-  font-size: 0.8em;
-  line-height: 1.3;
-  vertical-align: baseline;
-  position: relative;
-  border-top: 3px double var(--color-gray-20);
+	float: right;
+	clear: right;
+	margin-right: -50%;
+	margin-bottom: 1em;
+	width: 40%;
+	font-size: 0.8em;
+	line-height: 1.3;
+	vertical-align: baseline;
+	position: relative;
+	border-top: 3px double #ccc;
+	padding-top: 0.3em;
+	padding-right: 2em;
+}
+
+.sidenote-number {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #333;
+	padding: 2px 6px;
+	font-size: 0.9em;
+	font-weight: bold;
+	border-left: 3px double #ccc;
+	border-right: 3px double #ccc;
+	border-bottom: 3px double #ccc;
 }
 
 .sidenote-anchor {
@@ -682,6 +697,6 @@ h2 + .header-anchor {
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/tags/privacy/` was built on 2024-06-29T20:49:21.347Z -->
+		<!-- This page `/tags/privacy/` was built on 2024-06-29T21:12:19.805Z -->
 	</body>
 </html>

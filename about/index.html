@@ -259,16 +259,31 @@ blockquote p {
 
 /* Sidenotes */
 .sidenote {
-  float: right;
-  clear: right;
-  margin-right: -50%;
-  margin-bottom: 1em;
-  width: 40%;
-  font-size: 0.8em;
-  line-height: 1.3;
-  vertical-align: baseline;
-  position: relative;
-  border-top: 3px double var(--color-gray-20);
+	float: right;
+	clear: right;
+	margin-right: -50%;
+	margin-bottom: 1em;
+	width: 40%;
+	font-size: 0.8em;
+	line-height: 1.3;
+	vertical-align: baseline;
+	position: relative;
+	border-top: 3px double #ccc;
+	padding-top: 0.3em;
+	padding-right: 2em;
+}
+
+.sidenote-number {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #333;
+	padding: 2px 6px;
+	font-size: 0.9em;
+	font-weight: bold;
+	border-left: 3px double #ccc;
+	border-right: 3px double #ccc;
+	border-bottom: 3px double #ccc;
 }
 
 .sidenote-anchor {
@@ -561,7 +576,7 @@ h2 + .header-anchor {
 <p>My work has appeared in a local newspaper and I've successfully completed a few bug bounties.</p>
 <h2 id="cultural-background" tabindex="-1">Cultural background <a class="header-anchor" href="#cultural-background">#</a></h2>
 <h2 id="social-media-handles" tabindex="-1">Social media handles <a class="header-anchor" href="#social-media-handles">#</a></h2>
-<p>I don't use social media. None at all <a class="sidenote-anchor" id="sidenote-1" href="#sidenote-1">1</a><span class="sidenote" aria-describedby="sidenote-1">I really <a href="/archive/2024/the-tragedy-of-discord">hate Discord</a> with a passion</span>. I am <a href="/archive/2024/against-social-media">against social media</a> and if you find people claiming to be me on Reddit or whatever, they are liars.</p>
+<p>I don't use social media. None at all <a class="sidenote-anchor" id="sidenote-1" href="#sidenote-1">1</a><span class="sidenote" aria-describedby="sidenote-1"><span class="sidenote-number">1</span>I really <a href="/archive/2024/the-tragedy-of-discord">hate Discord</a> with a passion</span>. I am <a href="/archive/2024/against-social-media">against social media</a> and if you find people claiming to be me on Reddit or whatever, they are liars.</p>
 <h2 id="contact-information" tabindex="-1">Contact information <a class="header-anchor" href="#contact-information">#</a></h2>
 
 				</div>
@@ -650,6 +665,6 @@ h2 + .header-anchor {
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/about/` was built on 2024-06-29T20:49:21.207Z -->
+		<!-- This page `/about/` was built on 2024-06-29T21:12:19.654Z -->
 	</body>
 </html>
