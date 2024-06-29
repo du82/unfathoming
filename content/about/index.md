@@ -43,6 +43,6 @@ My work has appeared in a local newspaper and I've successfully completed a few 
 ## Cultural background
 
 ## Social media handles
-I don't use social media. None at all {% callout "I really hate Discord with a passion" %}. I am [against social media](/archive/2024/against-social-media) and if you find people claiming to be me on Reddit or whatever, they are liars.
+I don't use social media. None at all {% sidenote "I really [hate Discord](/archive/2024/the-tragedy-of-discord) with a passion" %}. I am [against social media](/archive/2024/against-social-media) and if you find people claiming to be me on Reddit or whatever, they are liars.
 
 ## Contact information
