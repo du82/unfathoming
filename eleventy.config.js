@@ -108,7 +108,7 @@ module.exports = function(eleventyConfig) {
 
     return (
 			`<a class="sidenote-anchor" id="${id}" href="#${id}">${counter}</a>` +
-			`<span class="sidenote" aria-describedby="${id}">${content}</span>`
+			`<span class="sidenote" aria-describedby="${id}"><span class="sidenote-number">${counter}</span>${content}</span>`
     );
   });
 	
