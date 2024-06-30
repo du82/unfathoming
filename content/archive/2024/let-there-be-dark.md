@@ -7,11 +7,7 @@ tags:
   - sovereignty
   - surveillance
 ---
-<<<<<<< HEAD
 {% callout "quote", "Unfortunately, the law hasn’t kept pace with technology, and this disconnect has created a significant public safety problem. We call it 'Going Dark'<br>James Comey, former FBI director" %}
-=======
-{% callout "quote", "*Unfortunately, the law hasn’t kept pace with technology, and this disconnect has created a significant public safety problem. We call it "Going Dark"*<br> - James Comey, former FBI director" %}
->>>>>>> ac842b3288f95d27bdcb2c515bbb43059a54c15b
 
 The idea that the government is generally more anti-privacy than pro-privacy is not a new one. Many governments hide behind the shadow of corporate surveillance to gather information on millions of people through subpoenas and coercion.
 
