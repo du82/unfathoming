@@ -778,7 +778,7 @@ Designed for privacy</p>
 <p>We see no reason for Google, Bing, or others to store every search you make over the entire history of your account, unless they’re selling it to the CIA or something. Spooky!</p>
 <h2 id="syntax" tabindex="-1">Syntax <a class="header-anchor" href="#syntax">#</a></h2>
 <p>We have a syntax that allows programmers and data scientists to utilize the full power of our engine. The syntax itself feels like writing code with hints of natural language. A search for category:news in language:spanish about bridges will return news in Spanish about bridges, and nothing else. Using in and about is the “proper” way to do it, but our engine is also smart enough to figure out that the intent is the same if you were to type category:news language:spanish bridges.</p>
-<p>The syntax supports + (mandatory inclusion), - (mandatory exclusion), and, or, and a wide variety of other rules, which are also compatible with each other and can be combined. +subject_type:privacy -category:reddit messaging apps will force-include results with privacy in the subject_type and force-exclude results where the category is reddit for the query messaging apps.</p>
+<p>The syntax supports <code>+</code> (mandatory inclusion), <code>-</code> (mandatory exclusion), <code>and</code>, <code>or</code>, and a wide variety of other rules, which are also compatible with each other and can be combined. <code>+subject_type:privacy -category:reddit messaging apps</code> will force-include results with privacy in the <code>subject_type</code> and force-exclude results where the category is <code>reddit</code> for the query <code>messaging apps</code>.</p>
 <h2 id="database" tabindex="-1">Database <a class="header-anchor" href="#database">#</a></h2>
 <p>The database itself is also completely custom, and is somewhat similar to NoSQL without the SQL. In fact, we don’t utilize SQL or anything similar which greatly increases speed and security. I won’t share exactly how it works, but it’s two-stage and read-only which cuts down on the potential for security vulnerabilities, particularly injections.
 Index and datasets</p>
@@ -891,6 +891,6 @@ Mirrors and censorship evasion</p>
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/archive/2024/building-a-search-engine/` was built on 2024-06-30T05:00:56.586Z -->
+		<!-- This page `/archive/2024/building-a-search-engine/` was built on 2024-06-30T05:02:27.767Z -->
 	</body>
 </html>
