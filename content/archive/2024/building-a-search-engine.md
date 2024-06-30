@@ -28,7 +28,7 @@ We see no reason for Google, Bing, or others to store every search you make over
 ## Syntax
 We have a syntax that allows programmers and data scientists to utilize the full power of our engine. The syntax itself feels like writing code with hints of natural language. A search for category:news in language:spanish about bridges will return news in Spanish about bridges, and nothing else. Using in and about is the “proper” way to do it, but our engine is also smart enough to figure out that the intent is the same if you were to type category:news language:spanish bridges.
 
-The syntax supports + (mandatory inclusion), - (mandatory exclusion), and, or, and a wide variety of other rules, which are also compatible with each other and can be combined. +subject_type:privacy -category:reddit messaging apps will force-include results with privacy in the subject_type and force-exclude results where the category is reddit for the query messaging apps.
+The syntax supports `+` (mandatory inclusion), `-` (mandatory exclusion), `and`, `or`, and a wide variety of other rules, which are also compatible with each other and can be combined. `+subject_type:privacy -category:reddit messaging apps` will force-include results with privacy in the `subject_type` and force-exclude results where the category is `reddit` for the query `messaging apps`.
 
 ## Database
 The database itself is also completely custom, and is somewhat similar to NoSQL without the SQL. In fact, we don’t utilize SQL or anything similar which greatly increases speed and security. I won’t share exactly how it works, but it’s two-stage and read-only which cuts down on the potential for security vulnerabilities, particularly injections.
