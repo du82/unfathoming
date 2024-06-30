@@ -13,4 +13,4 @@ The idea that the government is generally more anti-privacy than pro-privacy is 
 
 End-to-end encrypted [communications](/archive/2024/chat-control-enriches-surveillance-state/) and [finance](/archive/2024/the-bitcoiners-were-wrong) are the primary of some of the largest governmental alliances. This leads to a problem where your every move is tracked, recorded, and used to build predictiions of what you'll do next. This isn't the future, it's our reality. You're living it right now.
 
-The "Going Dark" problem is a real one for governments as it allows free, unfettered access to send and recieve information and funds at scale. Without control over the narrative, how will the government ensure the 
+While it's true that lawless digital environments *can* cause real world harm{% sidenote "Like the time a guy from Reddit chased me with a gun"%}, the benefits of strong cryptography and "Going Dark" outweigh the downsides.
