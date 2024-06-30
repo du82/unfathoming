@@ -4,61 +4,12 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-30T00:00:00Z</updated>
+	<updated>2024-06-28T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
-	
-	<entry>
-		<title>Why privacy matters</title>
-		<link href="https://unfathom.ing/archive/2024/why-privacy-matters/"/>
-		<updated>2024-06-30T00:00:00Z</updated>
-		<id>https://unfathom.ing/archive/2024/why-privacy-matters/</id>
-		<content type="html">&lt;h2 id=&quot;the-fundamental-right-to-privacy&quot; tabindex=&quot;-1&quot;&gt;The Fundamental Right to Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;historical-context-of-privacy-rights&quot; tabindex=&quot;-1&quot;&gt;Historical Context of Privacy Rights &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;privacy-in-international-human-rights-law&quot; tabindex=&quot;-1&quot;&gt;Privacy in International Human Rights Law &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;cultural-variations-in-privacy-expectations&quot; tabindex=&quot;-1&quot;&gt;Cultural Variations in Privacy Expectations &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;how-privacy-affects-personal-freedom&quot; tabindex=&quot;-1&quot;&gt;How Privacy Affects Personal Freedom &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;the-chilling-effect-of-surveillance&quot; tabindex=&quot;-1&quot;&gt;The Chilling Effect of Surveillance &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;privacy-and-personal-expression&quot; tabindex=&quot;-1&quot;&gt;Privacy and Personal Expression &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;the-impact-on-individual-autonomy&quot; tabindex=&quot;-1&quot;&gt;The Impact on Individual Autonomy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;privacy-and-mental-health-the-importance-of-personal-space&quot; tabindex=&quot;-1&quot;&gt;Privacy and Mental Health: The Importance of Personal Space &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;the-psychological-need-for-privacy&quot; tabindex=&quot;-1&quot;&gt;The Psychological Need for Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;digital-overwhelm-and-mental-well-being&quot; tabindex=&quot;-1&quot;&gt;Digital Overwhelm and Mental Well-being &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;privacy-in-therapy-and-healthcare&quot; tabindex=&quot;-1&quot;&gt;Privacy in Therapy and Healthcare &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;the-economic-impact-of-privacy-breaches&quot; tabindex=&quot;-1&quot;&gt;The Economic Impact of Privacy Breaches &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;direct-costs-of-data-breaches-to-businesses&quot; tabindex=&quot;-1&quot;&gt;Direct Costs of Data Breaches to Businesses &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;consumer-trust-and-brand-reputation&quot; tabindex=&quot;-1&quot;&gt;Consumer Trust and Brand Reputation &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;privacy-as-a-competitive-advantage&quot; tabindex=&quot;-1&quot;&gt;Privacy as a Competitive Advantage &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;privacy-in-the-workplace-balancing-employer-and-employee-rights&quot; tabindex=&quot;-1&quot;&gt;Privacy in the Workplace: Balancing Employer and Employee Rights &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;employee-monitoring-where-to-draw-the-line&quot; tabindex=&quot;-1&quot;&gt;Employee Monitoring: Where to Draw the Line &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;personal-device-use-at-work&quot; tabindex=&quot;-1&quot;&gt;Personal Device Use at Work &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;data-collection-in-hiring-and-performance-evaluation&quot; tabindex=&quot;-1&quot;&gt;Data Collection in Hiring and Performance Evaluation &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;the-role-of-privacy-in-democracy-and-free-speech&quot; tabindex=&quot;-1&quot;&gt;The Role of Privacy in Democracy and Free Speech &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;anonymity-and-political-discourse&quot; tabindex=&quot;-1&quot;&gt;Anonymity and Political Discourse &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;privacy-and-voting-rights&quot; tabindex=&quot;-1&quot;&gt;Privacy and Voting Rights &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;government-surveillance-and-civil-liberties&quot; tabindex=&quot;-1&quot;&gt;Government Surveillance and Civil Liberties &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;privacy-and-innovation-fostering-trust-in-new-technologies&quot; tabindex=&quot;-1&quot;&gt;Privacy and Innovation: Fostering Trust in New Technologies &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;privacy-by-design-principles&quot; tabindex=&quot;-1&quot;&gt;Privacy by Design Principles &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;balancing-data-collection-and-user-privacy&quot; tabindex=&quot;-1&quot;&gt;Balancing Data Collection and User Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;the-role-of-encryption-in-technological-advancement&quot; tabindex=&quot;-1&quot;&gt;The Role of Encryption in Technological Advancement &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;the-social-consequences-of-eroded-privacy&quot; tabindex=&quot;-1&quot;&gt;The Social Consequences of Eroded Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;impact-on-social-norms-and-behavior&quot; tabindex=&quot;-1&quot;&gt;Impact on Social Norms and Behavior &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;the-nothing-to-hide-fallacy&quot; tabindex=&quot;-1&quot;&gt;The &amp;quot;Nothing to Hide&amp;quot; Fallacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;privacy-and-social-equality&quot; tabindex=&quot;-1&quot;&gt;Privacy and Social Equality &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;privacy-and-personal-relationships&quot; tabindex=&quot;-1&quot;&gt;Privacy and Personal Relationships &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;oversharing-on-social-media&quot; tabindex=&quot;-1&quot;&gt;Oversharing on Social Media &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;digital-footprints-and-dating&quot; tabindex=&quot;-1&quot;&gt;Digital Footprints and Dating &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;family-privacy-in-the-connected-home&quot; tabindex=&quot;-1&quot;&gt;Family Privacy in the Connected Home &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h2 id=&quot;the-link-between-privacy-and-personal-security&quot; tabindex=&quot;-1&quot;&gt;The Link Between Privacy and Personal Security &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;identity-theft-and-financial-fraud&quot; tabindex=&quot;-1&quot;&gt;Identity Theft and Financial Fraud &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;physical-safety-and-location-data&quot; tabindex=&quot;-1&quot;&gt;Physical Safety and Location Data &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;cyberstalking-and-online-harassment&quot; tabindex=&quot;-1&quot;&gt;Cyberstalking and Online Harassment &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/why-privacy-matters/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Would you like me to elaborate on any of these subtopics or suggest additional angles to explore?&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>Operating in hostile computing environments</title>
