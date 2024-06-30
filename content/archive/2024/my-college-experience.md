@@ -27,10 +27,10 @@ The second semester was more of the same. I learned how to manage a four year ol
 
 One class was essentially using AI to make presentations about a topic and turn in the presentation. This is also when I realized that quite a few teachers were using AI to generate course content and feedback. That same class was interesting because the teacher introduced me to a former student who had similar interests on the surface. Lesson learned: Don't put a cryptoanarchist and a moralist together. It did not go well.
 
-The rest of my second semester was more of the same from the first semester, but it seemed to have gotten ***worse*** than the first semester! An example of this being configuring an AWS EC2 instance, gaining shell access, and installing some software on it. That part was fine, but there was no instruction on how to secure it. A little odd for a cybersecurity course/degree, right?{% sidenote "Seriously, you're going to teach us about the cloud and not talk about securing it at all? I'm lost for words!", "note1" %}
+The rest of my second semester was more of the same from the first semester, but it seemed to have gotten ***worse*** than the first semester! An example of this being configuring an AWS EC2 instance, gaining shell access, and installing some software on it. That part was fine, but there was no instruction on how to secure it. A little odd for a cybersecurity course/degree, right?{% sidenote "Seriously, you're going to teach us about the cloud and not talk about securing it at all? I'm lost for words!" %}
 
 ## The AI witch hunt
-About half way through the second semester, people started talking on various Signal groups about how they were getting grades changed to zeros. Around this time I also recieved an email telling me that I was on the college's naughty list for using AI (despite a teacher recommending its use and calling it revolutionary){% sidenote "That teacher even suggested we use it to create presentations for that class!", "note2" %}. I shrugged this off, moved on, and registered for summer and next semester classes a week later.
+About half way through the second semester, people started talking on various Signal groups about how they were getting grades changed to zeros. Around this time I also recieved an email telling me that I was on the college's naughty list for using AI (despite a teacher recommending its use and calling it revolutionary){% sidenote "That teacher even suggested we use it to create presentations for that class!" %}. I shrugged this off, moved on, and registered for summer and next semester classes a week later.
 
 I was called in to talk to the dean of the IT department (which is apparently standard practice), and he (along with the assistant dean) told me that they didn't like how I was selling premium versions of AI tools to anyone who was willing to hand over $5 per month.
 
@@ -72,7 +72,7 @@ The conversation goes as follows, word-for-word:
 
 > Me: "So what is that"
 
-> Her: "They'll get back to you"{% sidenote "Again, who is they?", "note4" %}
+> Her: "They'll get back to you"{% sidenote "Again, who is they?" %}
 
 > Me: "Okay, so they'll let me know what's up? or"
 

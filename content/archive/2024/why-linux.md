@@ -20,7 +20,7 @@ In addition to controlling if and when I update, I also want to control what bac
 ## Privacy
 I don't want Microsoft or Apple virtually looking over my shoulder or scanning my files. I deal with a lot of sensitive information, and the files on my machines need to be under my control. I do not want Microsoft enabling OneDrive and uploading all of my data to their cloud after one of the many mandatory updates. Privacy is one of my core values, and is something that both Windows and MacOS violate.
 
-From the moment you set up a Windows machine, you're begged for a Microsoft account, and you either need to use registry hacks or change your location to the United Kingdom to bypass the mandatory Microsoft account page{% sidenote "Neither method is guaranteed to work" %}. Most users sigh and create an account or sign in with an existing one, without realizing that this ties all of what you do to that account.
+From the moment you set up a Windows machine, you're begged for a Microsoft account, and you either need to use registry hacks or change your location to the United Kingdom to bypass the mandatory Microsoft account page{% sidenote "Neither method is guaranteed to work in Windows 10 or 11" %}. Most users sigh and create an account or sign in with an existing one, without realizing that this ties all of what you do to that account.
 
 Both of these problems are eliminated with Linux. None of the popular distributions require online accounts, and the majority don't even ask for them at all.
 
