@@ -406,37 +406,71 @@ code {
 
 /* Header */
 header {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	padding: 1em;
-}
-.home-link {
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
-	margin-right: 2em;
-}
-.home-link:link:not(:hover) {
-	text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 3px double #ccc;
+    padding: 0 10px;
 }
 
-/* Nav */
+.home-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+header nav {
+    margin-left: auto; /* This pushes the nav to the right */
+}
+
 .nav {
-	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
+
 .nav-item {
-	display: inline-block;
-	margin-right: 1em;
+    margin-left: -1px;
 }
-.nav-item a[href]:not(:hover) {
-	text-decoration: none;
+
+.nav-item a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    color: #333;
 }
-.nav a[href][aria-current="page"] {
-	text-decoration: underline;
+
+.nav-item a:hover {
+    background-color: #e8e8e8;
 }
+
+.nav-item a[aria-current="page"] {
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.nav-item a[aria-current="page"]::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+}
+
+/* Remove the header:after pseudo-element as it's not needed with flexbox */
 
 footer {
 	padding: 1em;
@@ -654,6 +688,6 @@ This will work for both GitHub pages and Netlify:
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/404.html` was built on 2024-06-29T23:50:29.814Z -->
+		<!-- This page `/404.html` was built on 2024-06-30T00:30:01.940Z -->
 	</body>
 </html>
