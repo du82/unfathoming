@@ -1,6 +1,8 @@
 ---
 title: Rejecting platform trajectory
 date: 2024-06-10
+tags:
+  - sovereignty
 ---
 {% callout "quote", "A platform is a shitty website providing shitty services for the poor and the dumb.<br>- Mircea Popescu, 2019" %}
 
