@@ -3,12 +3,179 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “beginnings”</title>
+		<title>Why privacy matters</title>
 		<meta name="description" content="A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Unfathoming">
 		<meta name="generator" content="Eleventy v2.0.1">
-		<style>.postlist { counter-reset: start-from 2 }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -590,22 +757,59 @@ h2 + .header-anchor {
 			<div class="content-wrapper">
 				<div class="main-content">
 					
-<h1>Tagged “beginnings”</h1>
+<h2 class="title">Why privacy matters</h2>
 
+<ul class="post-metadata">
+	<li><time datetime="2024-06-30">30 June 2024</time></li>
+  <li><a href="https://archive.ph/http://unfathom.ing/archive/2024/why-privacy-matters/" target="_blank">View Archived</a><li>
+	<li><a href="/tags/privacy/" class="post-tag">privacy</a>, </li>
+	<li><a href="/tags/security/" class="post-tag">security</a></li>
+</ul>
 
+<h2 id="the-fundamental-right-to-privacy" tabindex="-1">The Fundamental Right to Privacy <a class="header-anchor" href="#the-fundamental-right-to-privacy">#</a></h2>
+<h3 id="historical-context-of-privacy-rights" tabindex="-1">Historical Context of Privacy Rights <a class="header-anchor" href="#historical-context-of-privacy-rights">#</a></h3>
+<h3 id="privacy-in-international-human-rights-law" tabindex="-1">Privacy in International Human Rights Law <a class="header-anchor" href="#privacy-in-international-human-rights-law">#</a></h3>
+<h3 id="cultural-variations-in-privacy-expectations" tabindex="-1">Cultural Variations in Privacy Expectations <a class="header-anchor" href="#cultural-variations-in-privacy-expectations">#</a></h3>
+<h2 id="how-privacy-affects-personal-freedom" tabindex="-1">How Privacy Affects Personal Freedom <a class="header-anchor" href="#how-privacy-affects-personal-freedom">#</a></h2>
+<h3 id="the-chilling-effect-of-surveillance" tabindex="-1">The Chilling Effect of Surveillance <a class="header-anchor" href="#the-chilling-effect-of-surveillance">#</a></h3>
+<h3 id="privacy-and-personal-expression" tabindex="-1">Privacy and Personal Expression <a class="header-anchor" href="#privacy-and-personal-expression">#</a></h3>
+<h3 id="the-impact-on-individual-autonomy" tabindex="-1">The Impact on Individual Autonomy <a class="header-anchor" href="#the-impact-on-individual-autonomy">#</a></h3>
+<h2 id="privacy-and-mental-health-the-importance-of-personal-space" tabindex="-1">Privacy and Mental Health: The Importance of Personal Space <a class="header-anchor" href="#privacy-and-mental-health-the-importance-of-personal-space">#</a></h2>
+<h3 id="the-psychological-need-for-privacy" tabindex="-1">The Psychological Need for Privacy <a class="header-anchor" href="#the-psychological-need-for-privacy">#</a></h3>
+<h3 id="digital-overwhelm-and-mental-well-being" tabindex="-1">Digital Overwhelm and Mental Well-being <a class="header-anchor" href="#digital-overwhelm-and-mental-well-being">#</a></h3>
+<h3 id="privacy-in-therapy-and-healthcare" tabindex="-1">Privacy in Therapy and Healthcare <a class="header-anchor" href="#privacy-in-therapy-and-healthcare">#</a></h3>
+<h2 id="the-economic-impact-of-privacy-breaches" tabindex="-1">The Economic Impact of Privacy Breaches <a class="header-anchor" href="#the-economic-impact-of-privacy-breaches">#</a></h2>
+<h3 id="direct-costs-of-data-breaches-to-businesses" tabindex="-1">Direct Costs of Data Breaches to Businesses <a class="header-anchor" href="#direct-costs-of-data-breaches-to-businesses">#</a></h3>
+<h3 id="consumer-trust-and-brand-reputation" tabindex="-1">Consumer Trust and Brand Reputation <a class="header-anchor" href="#consumer-trust-and-brand-reputation">#</a></h3>
+<h3 id="privacy-as-a-competitive-advantage" tabindex="-1">Privacy as a Competitive Advantage <a class="header-anchor" href="#privacy-as-a-competitive-advantage">#</a></h3>
+<h2 id="privacy-in-the-workplace-balancing-employer-and-employee-rights" tabindex="-1">Privacy in the Workplace: Balancing Employer and Employee Rights <a class="header-anchor" href="#privacy-in-the-workplace-balancing-employer-and-employee-rights">#</a></h2>
+<h3 id="employee-monitoring-where-to-draw-the-line" tabindex="-1">Employee Monitoring: Where to Draw the Line <a class="header-anchor" href="#employee-monitoring-where-to-draw-the-line">#</a></h3>
+<h3 id="personal-device-use-at-work" tabindex="-1">Personal Device Use at Work <a class="header-anchor" href="#personal-device-use-at-work">#</a></h3>
+<h3 id="data-collection-in-hiring-and-performance-evaluation" tabindex="-1">Data Collection in Hiring and Performance Evaluation <a class="header-anchor" href="#data-collection-in-hiring-and-performance-evaluation">#</a></h3>
+<h2 id="the-role-of-privacy-in-democracy-and-free-speech" tabindex="-1">The Role of Privacy in Democracy and Free Speech <a class="header-anchor" href="#the-role-of-privacy-in-democracy-and-free-speech">#</a></h2>
+<h3 id="anonymity-and-political-discourse" tabindex="-1">Anonymity and Political Discourse <a class="header-anchor" href="#anonymity-and-political-discourse">#</a></h3>
+<h3 id="privacy-and-voting-rights" tabindex="-1">Privacy and Voting Rights <a class="header-anchor" href="#privacy-and-voting-rights">#</a></h3>
+<h3 id="government-surveillance-and-civil-liberties" tabindex="-1">Government Surveillance and Civil Liberties <a class="header-anchor" href="#government-surveillance-and-civil-liberties">#</a></h3>
+<h2 id="privacy-and-innovation-fostering-trust-in-new-technologies" tabindex="-1">Privacy and Innovation: Fostering Trust in New Technologies <a class="header-anchor" href="#privacy-and-innovation-fostering-trust-in-new-technologies">#</a></h2>
+<h3 id="privacy-by-design-principles" tabindex="-1">Privacy by Design Principles <a class="header-anchor" href="#privacy-by-design-principles">#</a></h3>
+<h3 id="balancing-data-collection-and-user-privacy" tabindex="-1">Balancing Data Collection and User Privacy <a class="header-anchor" href="#balancing-data-collection-and-user-privacy">#</a></h3>
+<h3 id="the-role-of-encryption-in-technological-advancement" tabindex="-1">The Role of Encryption in Technological Advancement <a class="header-anchor" href="#the-role-of-encryption-in-technological-advancement">#</a></h3>
+<h2 id="the-social-consequences-of-eroded-privacy" tabindex="-1">The Social Consequences of Eroded Privacy <a class="header-anchor" href="#the-social-consequences-of-eroded-privacy">#</a></h2>
+<h3 id="impact-on-social-norms-and-behavior" tabindex="-1">Impact on Social Norms and Behavior <a class="header-anchor" href="#impact-on-social-norms-and-behavior">#</a></h3>
+<h3 id="the-nothing-to-hide-fallacy" tabindex="-1">The &quot;Nothing to Hide&quot; Fallacy <a class="header-anchor" href="#the-nothing-to-hide-fallacy">#</a></h3>
+<h3 id="privacy-and-social-equality" tabindex="-1">Privacy and Social Equality <a class="header-anchor" href="#privacy-and-social-equality">#</a></h3>
+<h2 id="privacy-and-personal-relationships" tabindex="-1">Privacy and Personal Relationships <a class="header-anchor" href="#privacy-and-personal-relationships">#</a></h2>
+<h3 id="oversharing-on-social-media" tabindex="-1">Oversharing on Social Media <a class="header-anchor" href="#oversharing-on-social-media">#</a></h3>
+<h3 id="digital-footprints-and-dating" tabindex="-1">Digital Footprints and Dating <a class="header-anchor" href="#digital-footprints-and-dating">#</a></h3>
+<h3 id="family-privacy-in-the-connected-home" tabindex="-1">Family Privacy in the Connected Home <a class="header-anchor" href="#family-privacy-in-the-connected-home">#</a></h3>
+<h2 id="the-link-between-privacy-and-personal-security" tabindex="-1">The Link Between Privacy and Personal Security <a class="header-anchor" href="#the-link-between-privacy-and-personal-security">#</a></h2>
+<h3 id="identity-theft-and-financial-fraud" tabindex="-1">Identity Theft and Financial Fraud <a class="header-anchor" href="#identity-theft-and-financial-fraud">#</a></h3>
+<h3 id="physical-safety-and-location-data" tabindex="-1">Physical Safety and Location Data <a class="header-anchor" href="#physical-safety-and-location-data">#</a></h3>
+<h3 id="cyberstalking-and-online-harassment" tabindex="-1">Cyberstalking and Online Harassment <a class="header-anchor" href="#cyberstalking-and-online-harassment">#</a></h3>
+<p>Would you like me to elaborate on any of these subtopics or suggest additional angles to explore?</p>
 
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/archive/2024/hello-world/" class="postlist-link">Hello World!</a>
-		<time class="postlist-date" datetime="2024-01-01">01 January 2024</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
+<ul class="links-nextprev"><li>Previous: <a href="/archive/2024/operating-in-hostile-computing-environments/">Operating in hostile computing environments</a></li>
+</ul>
 
 				</div>
 				<div class="sidebar">
@@ -694,6 +898,6 @@ h2 + .header-anchor {
 			<p>Copyright &copy; 2024 all text and images.<br>
 			<i>Lore runs deep, secrets run deeper.</i></p>
 		</footer>
-		<!-- This page `/tags/beginnings/` was built on 2024-06-30T05:53:07.065Z -->
+		<!-- This page `/archive/2024/why-privacy-matters/` was built on 2024-06-30T05:53:07.015Z -->
 	</body>
 </html>
