@@ -13,7 +13,7 @@ As I see it, content creation (especially writing) is the antithesis of content 
 To free my mind from the chaos of life, and break the feedback loop, I need something productive to do that has a tangible output, like writing a blog post. So much of what goes on in my life currently is intangible. I write code that others use, and the only thing I receive in return is the potential that my code is used to work towards overseas projects.
 
 ## Why the name "Unfathoming"?
-{% callout "note", "Definition of Unfathoming:<br>*Unfathoming: Synonym of Unfathomable. Present tense. To find hard to believe, not in a way rooted in skepticism, but because it is a difficult reality to process.*"%}
+{% callout "note", "Definition of Unfathoming:<br>Unfathoming: Synonym of Unfathomable. Present tense. To find hard to believe, not in a way rooted in skepticism, but because it is a difficult reality to process."%}
 
 I picked this name because it's a word that represents my life and who I am. I'm one of those people who has a boring life on the surface, but go a little deeper and you'll find that it's anything but boring. I was going to go for "Unfathomed" but I like to live in the present, not in the past, so I went with Unfathoming. Plus the .ing exists and the word wasn't taken yet.
 
