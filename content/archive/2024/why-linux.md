@@ -38,9 +38,9 @@ I just want my computer to do the basics without getting political. I don't care
 Linux distro developers don't try to force Western politics on users{% sidenote "Unless you're RedHat" %}. Keep up the great work.
 
 ## Respects default settings
-If you've used Windows 11, you probably have had the experience of having to change your default browser back to Chrome or Firefox from Edge every few months.
+If you've used Windows 11, you probably have had the experience of having to change your default browser back to Chrome or Firefox from Edge every few months. This is because Microsoft changes the defaults after system updates to encourage users who don't know any better to use the data vacuum known as Edge. This is the most egregious example, but there are many others like it.
 
-Firefox is usually the default, and while I don't use non-chromium browsers{% sidenote "Excluding the Tor Browser" %}, I appreciate that it's not forced and I can change it to whatever I want.
+Firefox is usually the default browser on Linux, and while I don't use non-chromium browsers{% sidenote "Excluding the Tor Browser" %}, I appreciate that it's not forced and I can change it to whatever I want.
 
 ## AI (or lack thereof)
 AI can be great (when its not politically biased), but I don't want it in my OS or apps. Both Windows and MacOS fall into the "shiny hype train" trap by including AI. If I want AI, then I will visit the ChatGPT website or install an offline AI program for more privacy, but don't force it on me{% sidenote "Sadly there are some Linux distros that have hopped on the AI hype train, but thankfully none of the more popular ones have." %}.
