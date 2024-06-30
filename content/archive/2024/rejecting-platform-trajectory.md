@@ -9,11 +9,17 @@ It doesn't take a genius to look online and see the state of the internet to kno
 It doesn't need to be this way. Platforms don't _have_ to treat their users as cattle to be counted and rewarded based on output. You can _reject platform trajectory_.
 
 ## What needs to be done?
+t
 
-I saw Telegram as the last "free" (as in speech and beer) platform in the Western world. That was until they put most features behind a paywall{% sidenote "Telegram Premium was released in 2022 as a way to fund the app. To force users to subscribe, they put popular features behind the Premium paywall." %} and [raised $330m in corporate bond sales](https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066 "raised $330m in corporate bond sales").
+## Centralized networks
+I saw Telegram as the last "free" (as in speech and beer) centralized platform in the Western world. That was until they put most features behind a paywall{% sidenote "Telegram Premium was released in 2022 as a way to fund the app. To force users to subscribe, they put popular features behind the Premium paywall." %} and [raised $330m in corporate bond sales](https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066 "raised $330m in corporate bond sales").
+
+This highlights the primary flaw of centralized networks: the ability for a single operator to control and exploit their users. Centralized platforms offer no guarantee of accountability, as it's been proven time and time again that no matter how bad a platform gets, people will stay because their friends are there. Discord is [another example](/archive/2024/the-tragedy-of-discord) of a network exploiting its users for profit and control.
 
 ## Peer-to-peer networks
-Peer to peer is an interesting option that offers the best resiliance at the cost of stability. Since there is no agreement between peers to maintain a standard of quality, they have no reason or incentive to provide one. 
+Peer to peer is an interesting option that offers the best resiliance at the cost of stability. Since there is no agreement between peers to maintain a standard of quality, they have no reason or incentive to provide one. This makes them impractical for use with large-scale encrypted group messaging.
+
+One example of this is 
 
 ## Federated networks
 I believe the solution to our problems was popularized in the 90's. No, it's not Email, but the idea of a user-facing federated networks.
