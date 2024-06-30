@@ -104,11 +104,11 @@ module.exports = function(eleventyConfig) {
 
     // Increment the counter for this page
     const counter = ++pageCounters[pageId];
-    const id = `sidenote-${counter}`;
+    const id = `sn${counter}`;
 
     return (
-			`<a class="sidenote-anchor" id="${id}" href="#${id}">${counter}</a>` +
-			`<span class="sidenote" aria-describedby="${id}"><span class="sidenote-number">${counter}</span>${content}</span>`
+			`<a class="sidenote-anchor" href="#${id}">${counter}</a>` +
+			`<span class="sidenote" aria-describedby="${id}"><a class="sidenote-number" id="${id}" href="#${id}">${counter}</a>${content}</span>`
     );
   });
 	
