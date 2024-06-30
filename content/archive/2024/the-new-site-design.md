@@ -9,8 +9,7 @@ tags:
 Welcome to the new Unfathoming. I've gone through three notable iterations of the site now, first on [quartz]() by Jacky Zhao, second entirely static, with me manually writing HTML for every single page (and dealing with the consequences of trying to keep 50+ pages looking consistent), and thirdly (hopefully finally) what you're looking at right now.
 
 ## User interface & user experience
-I want my site design to be timeless, consistent, accessible, and work well on all types of content, from super serious topics like privacy to relaxed topics like how I found my cat
-3m
+I want my site design to be timeless, consistent, accessible, and work well on all types of content, from super serious topics like privacy to relaxed topics like how I found my cat. It doesn't need to be boring, but it does need to be a stable design.
 
 My usual style has all the rounded corners, drop shadows, and fancy stuff you see on most modern sites, but within 10 years my usual design style will feel stale and outdated, which is fine because the products can evolve, but I want my personal website to stay the same, so it requires a design that will look good in 50 years.
 
