@@ -10,9 +10,9 @@ It doesn't need to be this way. Platforms don't _have_ to treat their users as c
 
 ## What needs to be done?
 
-I saw Telegram as the last "free" (as in speech and beer) platform in the Western world. That was until they put most users behind a paywall and [raised $330m in corporate bond sales](https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066 "raised $330m in corporate bond sales").
+I saw Telegram as the last "free" (as in speech and beer) platform in the Western world. That was until they put most features behind a paywall{% sidenote "Telegram Premium was released in 2022 as a way to fund the app. To force users to subscribe, they put popular features behind the Premium paywall." %} and [raised $330m in corporate bond sales](https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066 "raised $330m in corporate bond sales").
 
 ## Federated networks
 I believe the solution to our problems was popularized in the 90's. No, it's not Email, but the idea of a user-facing federated networks.
 
-Federated networks are sovereign, resistant to deplatforming, and 
+Federated networks are sovereign, resistant to deplatforming, and potentially the best solution to the problem of censorship. Most{% sidenote "SimpleX Chat fixes this" %} federated networks have one critical flaw; excessive metadata sharing between untrusted servers.
