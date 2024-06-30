@@ -213,7 +213,7 @@ blockquote p {
 
 .sidebar {
     flex: 1;
-	  height: fit-content;
+	height: fit-content;
     background-color: var(--quote-background);
     padding: 1em;
     border-radius: 5px;
@@ -284,7 +284,8 @@ blockquote p {
 /* Mobile view */
 @media (max-width: 768px) {
     .content-wrapper {
-				margin-top: 1.5em;
+		margin-top: 1.5em;
+		margin-right: 1em;
         flex-direction: column;
     }
     
