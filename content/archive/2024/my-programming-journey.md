@@ -29,7 +29,7 @@ This is where I learned to hate JavaScipt
 
 # 2020
 
-_I didn't do much this year due to prolonged health struggles. (Not COVID)_
+_I didn't do much this year due to prolonged health struggles._{% sidenote "Not COVID" %}
 
 # 2021 
 
@@ -42,7 +42,7 @@ I developed a Web3 decentralized app (dapp) that used `Web3.js` and quickly gave
 # 2022
 
 **Flutter app development**  
-This year I changed focus to developing a full stack mobile superapp utilizing Flutter and Dart. This was so much more enjoyable for me, since you design the page UI and logic in one file, compared to having a Java and XML file like you’d have in traditional Android development.  
+This year I changed focus to developing a full stack mobile superapp utilizing Flutter and Dart. This was so much more enjoyable for me, since you design the page UI and logic in one file, compared to having a Java and XML file like you’d have in traditional Android development.{% sidenote "This project failed due to the plague known as dependency hell. I wish to bring it back someday."%}
 [The source code is available here](https://github.com/du82/client)
 
 **Clojure and React Native**  
