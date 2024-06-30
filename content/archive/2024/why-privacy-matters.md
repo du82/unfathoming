@@ -4,9 +4,11 @@ date: 2024-06-30
 tags:
   - privacy
   - security
+draft: true
 ---
 
 ## The Fundamental Right to Privacy
+Whether you know it or not, privacy is a fundamental human right, atleast according to most sane countries. The United States does not 
 ### Historical Context of Privacy Rights
 ### Privacy in International Human Rights Law
 ### Cultural Variations in Privacy Expectations
@@ -52,8 +54,13 @@ tags:
 ### Family Privacy in the Connected Home
 
 ## The Link Between Privacy and Personal Security
+There's a strong link between privacy and personal security.
 ### Identity Theft and Financial Fraud
 ### Physical Safety and Location Data
 ### Cyberstalking and Online Harassment
+<<<<<<< HEAD
+=======
 
 Would you like me to elaborate on any of these subtopics or suggest additional angles to explore?
+
+>>>>>>> f4bc66be928c353228706169f07d81637c9e025c
