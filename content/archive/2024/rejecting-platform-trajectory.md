@@ -12,7 +12,11 @@ It doesn't need to be this way. Platforms don't _have_ to treat their users as c
 
 I saw Telegram as the last "free" (as in speech and beer) platform in the Western world. That was until they put most features behind a paywall{% sidenote "Telegram Premium was released in 2022 as a way to fund the app. To force users to subscribe, they put popular features behind the Premium paywall." %} and [raised $330m in corporate bond sales](https://www.channelnewsasia.com/business/telegram-secures-330-million-bond-sales-4204066 "raised $330m in corporate bond sales").
 
+## Peer-to-peer networks
+Peer to peer is an interesting option that offers the best resiliance at the cost of stability. Since there is no agreement between peers to maintain a standard of quality, they have no reason or incentive to provide one. 
+
 ## Federated networks
 I believe the solution to our problems was popularized in the 90's. No, it's not Email, but the idea of a user-facing federated networks.
 
-Federated networks are sovereign, resistant to deplatforming, and potentially the best solution to the problem of censorship. Most{% sidenote "SimpleX Chat fixes this" %} federated networks have one critical flaw; excessive metadata sharing between untrusted servers.
+Federated networks are sovereign, resistant to deplatforming, and potentially the best solution to the problem of censorship. Most{% sidenote "SimpleX Chat puts in a lot of effort towards the metadata problem, but no solution is perfect." %} federated networks have one critical flaw; excessive metadata sharing between untrusted servers.
+
