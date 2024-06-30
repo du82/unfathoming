@@ -117,16 +117,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
-		<lastmod>2024-06-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/privacy/</loc>
-		<lastmod>2024-06-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/security/</loc>
 		<lastmod>2024-06-30</lastmod>
 	</url>
@@ -137,7 +127,22 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
+		<lastmod>2024-06-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/privacy/</loc>
+		<lastmod>2024-06-30</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/tags/sovereignty/</loc>
+		<lastmod>2024-06-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/beginnings/</loc>
 		<lastmod>2024-06-30</lastmod>
 	</url>
 	
@@ -152,22 +157,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/beginnings/</loc>
-		<lastmod>2024-06-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/surveillance/</loc>
-		<lastmod>2024-06-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-06-30</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/ai/</loc>
+		<lastmod>2024-06-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/surveillance/</loc>
 		<lastmod>2024-06-30</lastmod>
 	</url>
 	
