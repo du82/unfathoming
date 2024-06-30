@@ -6,7 +6,7 @@ tags:
   - security
 draft: true
 ---
-
+Every day, you make thousands of decisions. You don't always tell others why you make them, but you make them nonetheless.
 ## The Fundamental Right to Privacy
 Whether you know it or not, privacy is a fundamental human right, atleast according to most sane countries. The United States does not 
 ### Historical Context of Privacy Rights
