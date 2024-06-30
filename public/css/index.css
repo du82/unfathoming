@@ -442,7 +442,7 @@ header nav {
 }
 
 .nav-item a[aria-current="page"] {
-    background-color: #ffffff;
+    background-color: var(--background-color);
     z-index: 2;
 }
 
