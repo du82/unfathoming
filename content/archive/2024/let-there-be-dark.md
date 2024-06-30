@@ -15,5 +15,8 @@ End-to-end encrypted [communications](/archive/2024/chat-control-enriches-survei
 
 While it's true that lawless digital environments *can* cause real world harm{% sidenote "Like the time a person I met on Reddit chased me with a knife"%}, the benefits of strong cryptography and "Going Dark" outweigh the downsides more often than not.
 
+{% callout "quote", "The mainstream is the samestream"%}
+When I look at the mainstream platforms online, I see much of the same things repeated over and over. Cancel culture is rampant and having ideas outside of the accepted range of normality can get you into a lot of trouble{% sidenote "As someone who runs an encrypted communications platform and has regularly dealt with attacks of multiple varieties, I concur."%}.
+
 ## Build! Build! Build!
 If we wish to "Go Dark" we need to design software that 
