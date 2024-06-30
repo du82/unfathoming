@@ -1,8 +1,9 @@
 ---
 title: Why privacy matters
-date: 2024-6-30
+date: 2024-06-30
 tags:
   - privacy
+  - security
 ---
 
 ## The Fundamental Right to Privacy
