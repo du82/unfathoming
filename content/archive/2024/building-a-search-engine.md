@@ -45,16 +45,16 @@ Speed
 Did I mention it’s super fast? I’m talkin’ average <20ms per query including query parsing, syntax analysis, formatting, and queueing for HTML generation. Results pages are guaranteed to be under 256kb and are typically under 128kb in size. We’re part of the 512kb club! Take that, Google!
 
 ## It's not AI
-During my market research, I discovered that People don’t really want AI and our product has absolutely no user-facing artificial intelligence, and we intend to keep it that way. We rely on having a well designed, Turing complete syntax that feels like programming to deliver quality results instead of using a biased AI that we can’t control. Shoving AI into everything is trendy, but its also stupid. *Take that, Microsoft!*
-Tor friendly
+During my market research, I discovered that [people don’t really want AI](/archive/2024/people-dont-really-want-ai) and our product has absolutely no user-facing artificial intelligence{% sidenote "We do use locally-run artificial intelligence models to interpret webpages especially on the dark web where traditional scraping is more difficult." %}, and we intend to keep it that way. We rely on having a well designed, Turing complete syntax that feels like programming to deliver quality results instead of using a biased AI that we can’t control. Shoving AI into everything is trendy, but its also stupid. *Take that, Microsoft!*
 
+## Tor friendly
 Our engine is compatible with Tor’s strictest settings, and we offer an official hidden service for those who require extra privacy or don’t trust our claim about not logging IPs. Subpoenas be damned!
 
 ## No censorship
 Being a programmatic search engine, we do not censor anything. You get what you search for. If you want to hide or show a specific keyword, try putting + or - directly in front of it without a space. See the section on Programmatic search for more info.
-Mirrors and censorship evasion
 
-We offer mirrors from a variety of public clouds and residential hosts. If a country censors our engine because we don’t do regional censorship{% sidenote "Looking at you, Germany", "note1" %} we’ll just deploy more mirrors and proxies to evade the censorship, similar to what Telegram does. We're building a search engine, not a machine to force you into "politically correct" ways of thought, as there is no one "correct" way to think. *Free your mind.*
+## Mirrors and censorship evasion
+We offer mirrors from a variety of public clouds and residential hosts. If a country censors our engine because we don’t do regional censorship{% sidenote "Looking at you, Germany" %} we’ll just deploy more mirrors and proxies to evade the censorship, similar to what Telegram does. We're building a search engine, not a machine to force you into "politically correct" ways of thought, as there is no one "correct" way to think. *Free your mind.*
 
 ## Business model
 We haven’t figured it out yet. We’ve been using organizational savings to pay for things like our AWS bills and domains. Maybe an enterprise or government would like a managed, airgapped instance like what WolframAlpha offers?

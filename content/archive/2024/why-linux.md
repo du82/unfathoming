@@ -42,5 +42,5 @@ If you've used Windows 11, you probably have had the experience of having to cha
 
 Firefox is usually the default, and while I don't use non-chromium browsers{% sidenote "Excluding the Tor Browser" %}, I appreciate that it's not forced and I can change it to whatever I want.
 
-# AI (or lack thereof)
+## AI (or lack thereof)
 AI can be great (when its not politically biased), but I don't want it in my OS or apps. Both Windows and MacOS fall into the "shiny hype train" trap by including AI. If I want AI, then I will visit the ChatGPT website or install an offline AI program for more privacy, but don't force it on me{% sidenote "Sadly there are some Linux distros that have hopped on the AI hype train, but thankfully none of the more popular ones have." %}.
