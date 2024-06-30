@@ -6,7 +6,6 @@ tags:
   - security
   - sovereignty
   - surveillance
-draft: false
 ---
 {% callout "quote", "*Unfortunately, the law hasn’t kept pace with technology, and this disconnect has created a significant public safety problem. We call it "Going Dark"*<br>James Comey, former FBI director" %}
 
