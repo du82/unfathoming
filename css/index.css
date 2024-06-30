@@ -8,6 +8,7 @@
 :root {
 	--quote-background: #f9f9f9;
 	--quote-accent: #cccccc;
+	--nav-tab-background: #f0f0f0
 			
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
@@ -429,7 +430,7 @@ header nav {
     border: 1px solid var(--color-gray-20);
     border-bottom: none;
     padding: 5px 20px;
-    background-color: var(--quote-background);
+    background-color: var(--nav-tab-background);
     cursor: pointer;
     font-size: 16px;
     transition: all 0.3s ease;
