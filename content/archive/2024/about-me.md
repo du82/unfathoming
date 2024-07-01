@@ -1,6 +1,6 @@
 ---
 title: About Me
-date: 2024-01-01
+date: 2024-01-02
 tags:
   - beginnings
 eleventyNavigation:
