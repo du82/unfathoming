@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Intro
   order: 2
 ---
-I’ve never cared much for New Years resolutions, but after being depressed most of 2023, I thought it was time for a change. For my 2024 New Years resolution, I promised myself that I would start a blog and write something every week.
+Welcome to Unfathoming, a blog born from a New Year's resolution to improve my English writing skills. Inspired by the fascinating niche blogs I've encountered, I decided to carve out my own corner of the internet. Here, I'll explore and share my thoughts, research, and experiences on a variety of topics, typically centered around privacy, security, and other areas of computer science.
 
 ## Why?
 As I see it, content creation (especially writing) is [the antithesis of content consumption](/archive/2024/the-antithesis-of-content-consumption), as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense.
