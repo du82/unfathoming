@@ -116,12 +116,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("footerNavigation", function(collection) {
 		return collection
 		  .filter(item => item.data.footerNavigation)
-		  .map(item => ({
-			url: item.url,
-			key: item.data.footerNavigation.key,
-			order: item.data.footerNavigation.order
-		  }))
-		  .sort((a, b) => (a.order || 0) - (b.order || 0));
+		  .sort((a, b) => ((a.data.footerNavigation.order || 0) - (b.data.footerNavigation.order || 0)));
 	  });
 	
 	// Customize Markdown library settings:
