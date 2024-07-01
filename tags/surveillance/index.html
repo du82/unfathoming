@@ -476,10 +476,55 @@ header nav {
     display: block;
 }
 
-/* Remove the header:after pseudo-element as it's not needed with flexbox */
+/* Footer navigation tabs */
 
 footer {
-	padding: 1em;
+	padding: 0 1em 1em;
+	border-top: 3px double var(--color-gray-20);
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-nav-item {
+    margin-left: -1px;
+}
+
+.footer-nav-item a {
+    display: inline-block;
+    border: 1px solid var(--color-gray-20);
+    border-top: none;
+    padding: 5px 20px;
+    background-color: var(--quote-background);
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer-nav-item a:hover {
+    background-color: #e8e8e8;
+}
+
+.footer-nav-item a[aria-current="page"] {
+    background-color: var(--background-color);
+    z-index: 2;
+}
+
+.footer-nav-item a[aria-current="page"]::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #fff;
+    display: block;
 }
 
 /* Posts list */
@@ -697,9 +742,16 @@ h2 + .header-anchor {
 			</div>
 		</main>
 		<footer>
-			<p>Copyright &copy; 2024 all text and images.<br>
-			<i>Lore runs deep, secrets run deeper.</i></p>
+			<i>Lore runs deep, secrets run deeper.</i>
+			<nav>
+				<ul class="footer-nav">
+					<li class="footer-nav-item"><a href="/">Home</a></li>
+					<li class="footer-nav-item"><a href="/archive/">Archive</a></li>
+					<li class="footer-nav-item"><a href="/about/">About Me</a></li>
+					<li class="footer-nav-item"><a href="/donate/">Donate</a></li>
+				</ul>
+			</nav>
 		</footer>
-		<!-- This page `/tags/surveillance/` was built on 2024-07-01T04:22:14.623Z -->
+		<!-- This page `/tags/surveillance/` was built on 2024-07-01T04:51:24.706Z -->
 	</body>
 </html>
