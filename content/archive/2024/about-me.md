@@ -1,7 +1,8 @@
 ---
 title: About Me
 date: 2024-01-01
-layout: layouts/base.njk
+tags:
+  - beginnings
 eleventyNavigation:
   key: About Me
   order: 4
