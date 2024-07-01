@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://unfathom.ing/archive/2024/about-me/</loc>
+		<lastmod>2024-01-01</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/archive/2024/hello-world/</loc>
 		<lastmod>2024-01-01</lastmod>
 	</url>
@@ -97,11 +102,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/about/</loc>
-		<lastmod>2024-07-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/archive/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
@@ -127,16 +127,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
-		<lastmod>2024-07-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/privacy/</loc>
-		<lastmod>2024-07-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/security/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
@@ -147,12 +137,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/sovereignty/</loc>
+		<loc>https://unfathom.ing/tags/projects/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/beginnings/</loc>
+		<loc>https://unfathom.ing/tags/privacy/</loc>
+		<lastmod>2024-07-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/sovereignty/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
@@ -163,6 +158,11 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/evergreen/</loc>
+		<lastmod>2024-07-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/beginnings/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
@@ -182,12 +182,12 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/musing/</loc>
+		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/guides/</loc>
+		<loc>https://unfathom.ing/tags/musing/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
