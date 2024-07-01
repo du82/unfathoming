@@ -88,29 +88,45 @@ module.exports = function(eleventyConfig) {
 	// Example: {% callout "info", "This is an info callout." %}
 	eleventyConfig.addShortcode("callout", function(type, content) {
     return `<div class="callout ${type}">${content}</div>`;
-  });
+	});
 
-	// Sidenotes
-  const pageCounters = {};
+		// Sidenotes
+	const pageCounters = {};
 
-  eleventyConfig.addShortcode("sidenote", function(content) {
-    // Get a unique identifier for the current page
-    const pageId = this.page.inputPath;
+	eleventyConfig.addShortcode("sidenote", function(content) {
+		// Get a unique identifier for the current page
+		const pageId = this.page.inputPath;
 
-    // Initialize the counter for this page if it doesn't exist
-    if (!pageCounters[pageId]) {
-      pageCounters[pageId] = 0;
-    }
+		// Initialize the counter for this page if it doesn't exist
+		if (!pageCounters[pageId]) {
+		pageCounters[pageId] = 0;
+		}
 
-    // Increment the counter for this page
-    const counter = ++pageCounters[pageId];
-    const id = `sn${counter}`;
+		// Increment the counter for this page
+		const counter = ++pageCounters[pageId];
+		const id = `sn${counter}`;
 
-    return (
-			`<a class="sidenote-anchor" href="#${id}">${counter}</a>` +
-			`<span class="sidenote" aria-describedby="${id}"><a class="sidenote-number" id="${id}" href="#${id}">${counter}</a>${content}</span>`
-    );
-  });
+		return (
+				`<a class="sidenote-anchor" href="#${id}">${counter}</a>` +
+				`<span class="sidenote" aria-describedby="${id}"><a class="sidenote-number" id="${id}" href="#${id}">${counter}</a>${content}</span>`
+		);
+	});
+
+	// Add FooterOrder to navigation
+	eleventyConfig.addCollection("footerNav", function(collection) {
+		// Get all items with eleventyNavigation
+		let nav = collection.getAll().filter(item => item.data.eleventyNavigation);
+	
+		// Sort items based on footerOrder
+		nav.sort((a, b) => {
+		  let orderA = a.data.eleventyNavigation.footerOrder || 9999;
+		  let orderB = b.data.eleventyNavigation.footerOrder || 9999;
+		  return orderA - orderB;
+		});
+	
+		// Filter out items without footerOrder
+		return nav.filter(item => item.data.eleventyNavigation.footerOrder);
+	  });
 	
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
