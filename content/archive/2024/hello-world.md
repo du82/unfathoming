@@ -12,7 +12,7 @@ Welcome to Unfathoming, a blog born from a New Year's resolution to improve my E
 
 Here, I'll explore and share my thoughts, research, and experiences on a variety of topics, primarily centered around privacy, security, and other areas of computer science that interest me. My interests also extend to the darker corners of the internet, including the dark web and its implications for online anonymity, free markets, and censorship resistance.
 
-## Why?
+## Why write?
 As I see it, content creation (especially writing) is [the antithesis of content consumption](/archive/2024/the-antithesis-of-content-consumption), as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense to outsiders.
 
 I've always wanted to improve my English skills, and maintaining a blog is a way to achieve that in a relatively low-stakes environment, away from the noise, trendiness, and engagement-seeking of the rest of the internet. This is also why my blog lacks a comment section or any way to contact me{% sidenote "I actively avoid social media and I don't have any accounts. If you see someone claiming to be me, they are lying." %}.

@@ -7,9 +7,9 @@ eleventyNavigation:
   key: About Me
   order: 4
 ---
-As stated on the homepage, I am an aspiring generalist in the field of computer science. I've worked with [most](/archive/2024/why-linux/) technologies that a consumer could access with a budget of $10,000. I encourage you to check out [my programming journey](/archive/2024/my-programming-journey) and [my research journey](archive/2024/my-research-journey) for more detailed information.
+I'm Du Cheng, an aspiring generalist in the vast world of computer science. My journey began with Linux as a child, and since then, I've been on a mission to understand as much of the tech landscape as possible. This curiosity has led me to explore a wide variety of technologies, from [mobile app development](/archive/2024/my-programming-journey/) to building a [privacy focused search engine from scratch](/archive/2024/building-a-search-engine).
 
-My one exception is Windows; I grew up on Linux and never found my way over to Windows land. In school we used Chromebooks (which are Linux under the hood), so the Microsoft ecosystem is foreign to me.
+One of my guiding principles has been to gain hands-on experience with as many technologies as possible. I've worked with nearly every consumer-accessible tech within a $10,000 budget, bas I believe strongly that practical experience is the best teacher. This approach has given me a unique perspective on the strengths and limitations of various tools and platforms.
 
 ## Skills and expertise
 I have an extensive background in computer networking, both physically as well as in software. I currently specialize in the field of covert communications.
