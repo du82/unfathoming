@@ -110,7 +110,7 @@ body {
 	max-width: 60em;
 }
 h2 {
-	border-bottom: 1px solid var(--quote-accent);
+	border-bottom: 1px dashed var(--color-gray-20);
 }
 img {
 	max-width: 100%;
@@ -365,7 +365,7 @@ header:after {
 
 .links-nextprev {
 	list-style: none;
-	border-top: 1px dashed var(--color-gray-20);
+	border-top: 3px double var(--color-gray-20);
 	padding: 1em 0;
 }
 
