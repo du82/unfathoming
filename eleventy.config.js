@@ -113,9 +113,16 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Footer frontmatter
-	eleventyConfig.addFilter("filterFooterNavigation", function(collection) {
-		return collection.filter(item => item.data.footerNavigation);
-	});
+	eleventyConfig.addFilter("footerNavigation", function(collection) {
+		return collection
+		  .filter(item => item.data.footerNavigation)
+		  .map(item => ({
+			url: item.url,
+			key: item.data.footerNavigation.key,
+			order: item.data.footerNavigation.order
+		  }))
+		  .sort((a, b) => (a.order || 0) - (b.order || 0));
+	  });
 	
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
