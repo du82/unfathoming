@@ -4,6 +4,9 @@ date: 2024-01-01
 tags:
   - beginnings
   - learning
+eleventyNavigation:
+  key: Intro
+  order: 2
 ---
 I’ve never cared much for New Years resolutions, but after being depressed most of 2023, I thought it was time for a change. For my 2024 New Years resolution, I promised myself that I would start a blog and write something every week.
 
