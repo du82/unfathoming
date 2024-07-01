@@ -8,7 +8,9 @@ eleventyNavigation:
   key: Intro
   order: 2
 ---
-Welcome to Unfathoming, a blog born from a New Year's resolution to improve my English writing skills. Inspired by the fascinating niche blogs I've encountered, I decided to carve out my own corner of the internet. Here, I'll explore and share my thoughts, research, and experiences on a variety of topics, typically centered around privacy, security, and other areas of computer science.
+Welcome to Unfathoming, a blog born from a New Year's resolution to improve my English writing skills. Inspired by the fascinating niche blogs I've encountered, I decided to carve out my own corner of the internet.
+
+Here, I'll explore and share my thoughts, research, and experiences on a variety of topics, primarily centered around privacy, security, and other areas of computer science that interest me. My interests also extend to the darker corners of the internet, including the dark web and its implications for online anonymity, free markets, and censorship resistance.
 
 ## Why?
 As I see it, content creation (especially writing) is [the antithesis of content consumption](/archive/2024/the-antithesis-of-content-consumption), as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense.
