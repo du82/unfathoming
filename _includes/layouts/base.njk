@@ -53,9 +53,7 @@
 		<footer>
 			<nav>
 				<ul class="footer-nav">
-				{%- for entry in collections.all | eleventyNavigation 
-				| filter(item => item.footerOrder !== undefined && item.order === undefined) 
-				| sort(false, false, 'footerOrder') %}
+				{%- for entry in collections.all | eleventyNavigation | sort(false, false, 'footerOrder') %}
 				<li class="footer-nav-item">
 					<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
 				</li>
