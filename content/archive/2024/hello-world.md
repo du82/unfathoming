@@ -20,7 +20,9 @@ To free my mind from the chaos of life, and break the feedback loop, I need some
 ## Why the name "Unfathoming"?
 {% callout "note", "Definition of Unfathoming:<br>Unfathoming: Synonym of Unfathomable. Present tense. To find hard to believe, not in a way rooted in skepticism, but because it is a difficult reality to process."%}
 
-I picked this name because it's a word that represents my life and who I am. I'm one of those people who has a boring life on the surface, but go a little deeper and you'll find that it's anything but boring. I was going to go for "Unfathomed" but I like to live in the present, not in the past, so I went with Unfathoming. Plus the .ing exists and the word wasn't taken yet.
+I chose the name "Unfathoming" because it encapsulates both my personal life and the essence of this blog. On the surface, my life might seem like that of an ordinary programmer, but beneath that exists a world of complexity that I even struggle to comprehend at times. This duality mirrors the topics I'll explore and stories I'll share. 
+
+The name "Unfathoming" also hints at the depth of analysis I aim to provide. While many sources might scratch the surface of complex topics such as the dark web, often presenting a sanitized or sensationalized narrative for clicks and views, I intend to dive deep into these subjects and offer honest, unfiltered opinions and thoughts as I go{% sidenote "Primarily through the use of sidenotes like this one." %}. My goal is to provide insights based on my decade of hands-on experience in computer science, challenging the mainstream and discussing topics that the media deliberately avoids.
 
 ## Why a website?
 
