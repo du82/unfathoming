@@ -17,7 +17,7 @@ As I see it, content creation (especially writing) is [the antithesis of content
 
 I've always wanted to improve my English skills, and maintaining a blog is a way to achieve that in a relatively low-stakes environment, away from the noise, trendiness, and engagement-seeking of the rest of the internet. This is also why my blog lacks a comment section or any way to contact me{% sidenote "I actively avoid social media and I don't have any accounts. If you see someone claiming to be me, they are lying." %}.
 
-The IT industry is evolving, and much of the resulting output cannot be considered finished. There's always new updates to be shipped and new releases to follow. I was drawn towards writing for the exact opposite reason; when you're done writing and you hit the "commit changes" button, you can move on to the next topic.
+The IT industry is evolving, and much of the resulting output cannot be considered finished. There's always new updates to be shipped and new releases to follow. I was drawn towards writing for the exact opposite reason; when you're done writing and you hit the "Commit & Push" button, you can move on to the next topic.
 
 ## Why the name "Unfathoming"?
 {% callout "note", "Definition of Unfathoming:<br>Unfathoming: Synonym of Unfathomable. Present tense. To find hard to believe, not in a way rooted in skepticism, but because it is a difficult reality to process."%}
