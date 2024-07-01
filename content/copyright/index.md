@@ -1,9 +1,6 @@
 ---
 title: Copyright
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Copyright
-  footerOrder: 7
 ---
 The copyright text:
 {% callout "tip", "Copyright © 2024 all text, images, videos, graphs, datasets, files, and other resources unless otherwise noted. I retain full rights over my content and while I do respect fair use, I will go after AI scraper companies and freeloaders." %}
