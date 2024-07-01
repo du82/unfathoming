@@ -461,7 +461,7 @@ header nav {
     left: 0;
     right: 0;
     height: 3px;
-    background-color: #fff;
+    background-color: var(--background-color);
     display: block;
 }
 
@@ -512,7 +512,7 @@ footer {
     left: 0;
     right: 0;
     height: 3px;
-    background-color: #fff;
+    background-color: var(--background-color);
     display: block;
 }
 
