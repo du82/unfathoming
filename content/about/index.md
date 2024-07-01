@@ -3,7 +3,7 @@ title: About Me
 layout: layouts/base.njk
 eleventyNavigation:
   key: About Me
-  order: 3
+  order: 4
 ---
 As stated on the homepage, I am an aspiring generalist in the field of computer science. I've worked with [most](/archive/2024/why-linux/) technologies that a consumer could access with a budget of $10,000. I encourage you to check out [my programming journey](/archive/2024/my-programming-journey) and [my research journey](archive/2024/my-research-journey) for more detailed information.
 

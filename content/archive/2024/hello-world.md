@@ -15,7 +15,7 @@ Here, I'll explore and share my thoughts, research, and experiences on a variety
 ## Why?
 As I see it, content creation (especially writing) is [the antithesis of content consumption](/archive/2024/the-antithesis-of-content-consumption), as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense to outsiders.
 
-I've always wanted to improve my English skills, and maintaining a blog is a way to achieve that in a relatively low-stakes environment, away from the noise, trendiness, and engagement-seeking of the rest of the internet. This is also why my blog lacks a comment section or any way to contact me.
+I've always wanted to improve my English skills, and maintaining a blog is a way to achieve that in a relatively low-stakes environment, away from the noise, trendiness, and engagement-seeking of the rest of the internet. This is also why my blog lacks a comment section or any way to contact me{% sidenote "I actively avoid social media and I don't have any accounts." %}.
 
 The IT industry is evolving, and much of the resulting output cannot be considered finished. There's always new updates to be shipped and new releases to follow. I was drawn towards writing for the exact opposite reason; when you're done writing and you hit the "commit changes" button, you can move on to the next topic.
 
