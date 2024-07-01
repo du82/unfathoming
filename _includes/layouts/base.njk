@@ -51,11 +51,12 @@
 			</div>
 		</main>
 		<footer>
-			<i>Lore runs deep, secrets run deeper.</i>
 			<nav>
 				<ul class="footer-nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="footer-nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+				{%- for entry in collections.all | eleventyNavigation | sort(false, false, 'footerOrder') %}
+				<li class="footer-nav-item">
+					<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+				</li>
 				{%- endfor %}
 				</ul>
 			</nav>
