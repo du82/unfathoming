@@ -202,6 +202,7 @@ blockquote p {
 /* Sidebar styles */
 .content-wrapper {
 	margin-top: 1.5em;
+	margin-bottom: 1.5em;
     display: flex;
     gap: 2em;
 }
