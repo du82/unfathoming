@@ -112,7 +112,7 @@ module.exports = function(eleventyConfig) {
 		);
 	});
 
-	// Footer frontmatter
+	// Footer frontmatter.
 	eleventyConfig.addFilter("footerNavigation", function(collection) {
 		return collection
 		  .filter(item => item.data.footerNavigation)
