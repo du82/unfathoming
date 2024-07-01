@@ -15,12 +15,14 @@ Here, I'll explore and share my thoughts, research, and experiences on a variety
 ## Why?
 As I see it, content creation (especially writing) is [the antithesis of content consumption](/archive/2024/the-antithesis-of-content-consumption), as it takes a conscious effort to compile your thoughts, feelings, and ideas in a way that makes sense to outsiders.
 
-To free my mind from the chaos of life, and break the feedback loop, I need something productive to do that has a tangible output, like writing an article. So much of what goes on in my life currently is intangible. I write code that others use, and the only thing I receive in return is the potential that my code is used to work towards overseas projects.
+I've always wanted to improve my English skills, and maintaining a blog is a way to achieve that in a relatively low-stakes environment, away from the noise, trendiness, and engagement-seeking of the rest of the internet. This is also why my blog lacks a comment section or any way to contact me.
+
+The IT industry is evolving, and much of the resulting output cannot be considered finished. There's always new updates to be shipped and new releases to follow. I was drawn towards writing for the exact opposite reason; when you're done writing and you hit the "commit changes" button, you can move on to the next topic.
 
 ## Why the name "Unfathoming"?
 {% callout "note", "Definition of Unfathoming:<br>Unfathoming: Synonym of Unfathomable. Present tense. To find hard to believe, not in a way rooted in skepticism, but because it is a difficult reality to process."%}
 
-I chose the name "Unfathoming" because it encapsulates both my personal life and the essence of this blog. On the surface, my life might seem like that of an ordinary programmer, but beneath that exists a world of complexity that I even struggle to comprehend at times.
+I chose the name "Unfathoming" because it encapsulates both my personal life and the essence of the topics I plan to discuss on this blog. On the surface, my life might seem like that of an ordinary computer nerd, but beneath that exists a world of complexity that I even struggle to comprehend at times.
 
 The name "Unfathoming" also hints at the depth of analysis I aim to provide. While many sources barely scratch the surface of complex topics such as the dark web while offering a sanitized or sensationalized narrative for clicks and views, I intend to dive deep into these subjects and offer honest, unfiltered opinions and thoughts as I go{% sidenote "Primarily through the use of sidenotes like this one." %}. My goal is to provide insights based on my decade of hands-on experience in computer science, challenging the mainstream and discussing topics that the media deliberately avoids.
 
