@@ -137,17 +137,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
-		<lastmod>2024-07-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/privacy/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/sovereignty/</loc>
+		<lastmod>2024-07-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
@@ -162,12 +162,12 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/beginnings/</loc>
+		<loc>https://unfathom.ing/tags/surveillance/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/surveillance/</loc>
+		<loc>https://unfathom.ing/tags/beginnings/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 	
@@ -198,11 +198,6 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/design/</loc>
-		<lastmod>2024-07-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/footernav/</loc>
 		<lastmod>2024-07-01</lastmod>
 	</url>
 </urlset>
