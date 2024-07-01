@@ -109,6 +109,9 @@ html {
 body {
 	max-width: 60em;
 }
+h2 {
+	border-bottom: 1px solid var(--quote-accent);
+}
 img {
 	max-width: 100%;
 	height: auto;
