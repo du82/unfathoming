@@ -53,9 +53,9 @@
 		<footer>
 			<nav>
 				<ul class="footer-nav">
-				{%- for entry in collections.all | eleventyNavigation | sort(false, false, 'footerOrder') %}
+				{%- for entry in collections.all | filterFooterNavigation | sort(false, false, 'data.footerNavigation.order') %}
 				<li class="footer-nav-item">
-					<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+					<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.data.footerNavigation.key }}</a>
 				</li>
 				{%- endfor %}
 				</ul>

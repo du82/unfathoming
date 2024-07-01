@@ -112,21 +112,10 @@ module.exports = function(eleventyConfig) {
 		);
 	});
 
-	// Add FooterOrder to navigation
-	eleventyConfig.addCollection("footerNav", function(collection) {
-		// Get all items with eleventyNavigation
-		let nav = collection.getAll().filter(item => item.data.eleventyNavigation);
-	
-		// Sort items based on footerOrder
-		nav.sort((a, b) => {
-		  let orderA = a.data.eleventyNavigation.footerOrder || 9999;
-		  let orderB = b.data.eleventyNavigation.footerOrder || 9999;
-		  return orderA - orderB;
-		});
-	
-		// Filter out items without footerOrder
-		return nav.filter(item => item.data.eleventyNavigation.footerOrder);
-	  });
+	// Footer frontmatter
+	eleventyConfig.addFilter("filterFooterNavigation", function(collection) {
+		return collection.filter(item => item.data.footerNavigation);
+	});
 	
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
