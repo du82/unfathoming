@@ -1,6 +1,6 @@
 ---
 title: About Me
-date: 2024-1-1
+date: 2024-01-01
 layout: layouts/base.njk
 eleventyNavigation:
   key: About Me
