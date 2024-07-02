@@ -324,15 +324,6 @@ blockquote p {
   .dropdown summary::-webkit-details-marker {
 	display: none;
   }
-  
-  .dropdown summary::after {
-	content: '▼';
-	float: right;
-  }
-  
-  .dropdown[open] summary::after {
-	content: '▲';
-  }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
