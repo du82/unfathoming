@@ -257,11 +257,9 @@ The funny thing is that in a year or two, AI will be normalized just as the clou
 		<link href="https://unfathom.ing/archive/2024/daily-driving-qubes-os/"/>
 		<updated>2024-05-01T00:00:00Z</updated>
 		<id>https://unfathom.ing/archive/2024/daily-driving-qubes-os/</id>
-		<content type="html">&lt;p&gt;I&#39;ve been trying out &lt;a href=&quot;https://qubes-os.org&quot;&gt;Qubes OS&lt;/a&gt;, an operating system built around virtual machines with security in mind. Any of you that know me will know that I love virtual machines and I use them for just about everything.&lt;/p&gt;
-&lt;p&gt;This blog post is written using Qubes, and every post after for the next year at least will be as well. I&#39;ll try to keep this updated with my progress.&lt;/p&gt;
-&lt;h2 id=&quot;why-qubes&quot; tabindex=&quot;-1&quot;&gt;Why Qubes? &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/daily-driving-qubes-os/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I am a cybersecurity researcher who has a reputation for angering China, so I need to protect myself from threats from a wide variety of bad actors. Historically, my security hasn&#39;t been up to standard for the kind of work I do, and this is my attempt to fix that. Qubes seemed like the perfect option since it is both usable and secure. Win win!&lt;/p&gt;
-&lt;p&gt;I also like the design, with VM windows not being confined to the guest&#39;s display, and allowed to freely coexist with windows from the host. It just works well for my workflow and thought process.&lt;/p&gt;
+		<content type="html">&lt;p&gt;As a cybersecurity researcher who has found myself in the crosshairs of various foreign state actors, I&#39;ve recently made the switch to &lt;a href=&quot;https://qubes-os.org&quot;&gt;Qubes OS&lt;/a&gt;. This operating system, built around the concept of security through isolation using virtual machines, aligns perfectly with my love for virtualization and my need for excellent security.&lt;/p&gt;
+&lt;p&gt;My work in cybersecurity often involves researching sensitive topics (like the complex politics in China) that can attract unwanted attention. Historically, my security measures haven&#39;t been as robust as they should be, given the nature of my research. Qubes OS presented itself as an ideal solution to my China problem, and offered practical usability and containerization.&lt;/p&gt;
+&lt;p&gt;One of the features that makes Qubes OS stand out is its seamless integration of VM windows within the host environment. Unlike traditional VMs where windows are confined to a single guest display, Qubes allows windows from different VMs to coexist side by side. This design choice has many practical applications for me, primarily being able to isolate each area of research into its own VM.&lt;/p&gt;
 &lt;p&gt;My requirements include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Signal messenger&lt;/li&gt;
