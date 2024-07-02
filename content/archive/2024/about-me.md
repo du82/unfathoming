@@ -19,10 +19,14 @@ I've written, deployed, and secured two full-stack mobile apps on the Google Pla
 On the topic of infrastructure, I also have experience in virtualization (VMware, Proxmox), real-time communication (Matrix), and building my own cloud from scratch (hardware and software).
 
 ## Languages
-I'm fluent in American English and know some domain-specific Mandarin.
-<br>As for programming languages, I am reasonably good at: Rust, Dart, JavaScript, Kotlin, and Crystal.
+I'm fluent in American English and know some domain-specific Mandarin, particularly related to technology and dark web business negotiations.
+As for programming languages, I am reasonably proficient in:
 
-{% dropdown "Heres the header", "And heres what goes inside the content of the dropdown" %}
+- **Rust**: Developed a search engine in pure Rust, including spider, indexer, and dynamic HTML generator (without any JavaScript).
+- **Dart**: Built two cross-platform mobile apps using Flutter, including a privacy-focused messaging app and a superapp.
+- **JavaScript**: Created this website.
+- **Kotlin**: Developed three native Android apps, including two seperate clients for a Minecraft content viewer and a peer-to-peer chat app.
+- **Crystal**: Reimplemented all of my finance calculators and two backend services related, which resulted in a 3x speed increase.
 
 ## Current occupation
 Seeking full-time employment
