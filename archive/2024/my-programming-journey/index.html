@@ -722,6 +722,9 @@ footer {
 	padding-left: 1.5rem;
 }
 .postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
@@ -732,37 +735,27 @@ footer {
 	line-height: 100%;
 	text-align: right;
 	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
 	color: var(--color-gray-90);
-}
-.postlist-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	flex-wrap: wrap;
 }
 .postlist-date {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
 	word-spacing: -0.5px;
 }
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
-	flex-grow: 1;
-	padding-right: 0.5em;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
 	text-underline-position: from-font;
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
 }
 .postlist-item-active .postlist-link {
 	font-weight: bold;
-}
-.postlist-description {
-	flex-basis: 100%;
-	margin-top: 0.5em;
-	font-size: 0.9em;
-	color: var(--color-gray-70);
 }
 
 /* Tags */
@@ -990,6 +983,6 @@ I have been building a programmatic search engine from scratch in Rust with an a
 			</nav>
 			<i>Lore runs deep, secrets run deeper.</i>
 		</footer>
-		<!-- This page `/archive/2024/my-programming-journey/` was built on 2024-07-02T18:36:28.461Z -->
+		<!-- This page `/archive/2024/my-programming-journey/` was built on 2024-07-02T18:41:15.636Z -->
 	</body>
 </html>
