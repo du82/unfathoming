@@ -11,6 +11,8 @@ Most traditional banks are not just storing your money; they're harvesting some 
 
 The Fourth Amendment protects us from unreasonable searches by the government, yet most people roll over and give up when private entities essentially conduct invasive searches of their financial lives. They treat it as part of the cost of doing business in modern America, or they believe it is necessary for fraud prevention.
 
-While it can be beneficial in a minority of fraud cases, it is largely unnecessary and a gross violation of privacy that actively works to exploit you for all of your worth. This is not a system I want to be involved in
+While proponents argue that financial surveillance *can* help prevent fraud, this benefit is vastly outweighed by what I call the "assumed consent" model, where agreements from decades ago are used to assume consent into new privacy-invading initiatives. The current banking system actively works to squeeze every bit of value from your personal data, sharing it with insurance companies, tech giants, and advertisers.
 
-I use Monero as a way of voicing my disapproval of this surveillance capitalism which most banks are engaged in. I don't want insurance companies knowing when my vehicle needs repairs, or facebook knowing what my favorite food is, the same way you probably don't want the government knowing which political party you donate to.
+Monero offers an alternative to this invasive and exploitative assumed consent model. Its privacy-focused design ensures that my financial transactions remain just that - mine. It's not about having something to hide; it's about maintaining the basic right to privacy in an increasingly invasive digital world. It's a way to voice my disapproval of the surveillance capitalism model which most banks are engaged in.
+
+## The tangibility of surveillance capitalism
