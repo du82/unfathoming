@@ -12,11 +12,11 @@ I'm Du Cheng, an aspiring generalist in the vast world of computer science. My j
 One of my guiding principles has been to gain hands-on experience with as many technologies as possible. I've worked with nearly every consumer-accessible tech within a $1,000 budget, as I believe strongly that practical experience is the best teacher. This approach has given me a unique perspective on the strengths and limitations of various tools and platforms.
 
 ## Skills and expertise
-I have an extensive background in computer networking, both physically as well as in software. I currently specialize in the field of covert communications.
+I specialize in covert communications with extensive experience in computer networking, both hardware and software.. My achievements include:
 
-I've written, deployed, and secured two full-stack mobile apps on the Google Play store with a combined 900,000 download count. That network was also open to third-party clients, of which there were over 20 million installs connecting back to my infrastructure.
-
-On the topic of infrastructure, I also have experience in virtualization (VMware, Proxmox), real-time communication (Matrix), and building my own cloud from scratch (hardware and software).
+- Developed and shipped three full-stack mobile apps on Google Play, amassing 1.2 million downloads.
+- Managed a network infrastructure supporting 20 million third-party client connections.
+- Expertise in virtualization (VMware, Proxmox), real-time communication (Matrix), and custom cloud infrastructure development.
 
 ## Languages
 I'm fluent in American English and know some domain-specific Mandarin, particularly related to technology and dark web business negotiations.
@@ -46,7 +46,7 @@ I like reading blogs and websites mostly, so here's a list of my favorites: [Tri
 I have a cat named Scout. I found him outside in the freezing cold when I went to let my dog out. The dog ran over and sniffed a pile of snow which I thought was odd, so I ran over in the snow (barefoot of course) and found a scrawny kitten, only a week or two old, freezing to death. I brought him back to life and he's been my companion for a few years now.
 
 ## Awards or achievements
-My work has appeared in a local newspaper and I've successfully completed a few bug bounties.
+My work has appeared in a local newspaper{% sidenote "I wasn't too thrilled with their finished article, It didn't capture the ideas and reasons for doing what I do that were discussed in the interview." %} and I've successfully completed a few priate bug bounties.
 
 ## Cultural background
 
