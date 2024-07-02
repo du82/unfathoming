@@ -312,13 +312,13 @@ blockquote p {
   }
   
   .dropdown summary {
-	padding: 1rem;
+	padding: 0.5em;
 	cursor: pointer;
 	font-weight: bold;
   }
   
   .dropdown-content {
-	padding: 1rem;
+	padding: 0.5em;
   }
   
   .dropdown summary::-webkit-details-marker {
