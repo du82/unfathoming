@@ -7,14 +7,11 @@ tags:
   - learning
   - evergreen
 ---
-I've been trying out [Qubes OS](https://qubes-os.org), an operating system built around virtual machines with security in mind. Any of you that know me will know that I love virtual machines and I use them for just about everything.
+As a cybersecurity researcher who has found myself in the crosshairs of various foreign state actors, I've recently made the switch to [Qubes OS](https://qubes-os.org). This operating system, built around the concept of security through isolation using virtual machines, aligns perfectly with my love for virtualization and my need for excellent security.
 
-This blog post is written using Qubes, and every post after for the next year at least will be as well. I'll try to keep this updated with my progress.
+My work in cybersecurity often involves researching sensitive topics (like the complex politics in China) that can attract unwanted attention. Historically, my security measures haven't been as robust as they should be, given the nature of my research. Qubes OS presented itself as an ideal solution to my China problem, and offered practical usability and containerization.
 
-## Why Qubes?
-I am a cybersecurity researcher who has a reputation for angering China, so I need to protect myself from threats from a wide variety of bad actors. Historically, my security hasn't been up to standard for the kind of work I do, and this is my attempt to fix that. Qubes seemed like the perfect option since it is both usable and secure. Win win!
-
-I also like the design, with VM windows not being confined to the guest's display, and allowed to freely coexist with windows from the host. It just works well for my workflow and thought process.
+One of the features that makes Qubes OS stand out is its seamless integration of VM windows within the host environment. Unlike traditional VMs where windows are confined to a single guest display, Qubes allows windows from different VMs to coexist side by side. This design choice has many practical applications for me, primarily being able to isolate each area of research into its own VM.
 
 My requirements include:
 * Signal messenger
