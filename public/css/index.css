@@ -305,6 +305,35 @@ blockquote p {
 	}
 }
 
+.dropdown {
+	background-color: var(--quote-background);
+	border: 1px solid var(--color-gray-20);
+	margin-bottom: 1rem;
+  }
+  
+  .dropdown summary {
+	padding: 1rem;
+	cursor: pointer;
+	font-weight: bold;
+  }
+  
+  .dropdown-content {
+	padding: 1rem;
+  }
+  
+  .dropdown summary::-webkit-details-marker {
+	display: none;
+  }
+  
+  .dropdown summary::after {
+	content: '▼';
+	float: right;
+  }
+  
+  .dropdown[open] summary::after {
+	content: '▲';
+  }
+
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
 	clip: rect(0 0 0 0);

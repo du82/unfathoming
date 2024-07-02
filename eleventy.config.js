@@ -84,6 +84,18 @@ module.exports = function(eleventyConfig) {
 	// Get current year with {% year %}
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+	// Dropdown cards
+	eleventyConfig.addShortcode("dropdown", function(header, content) {
+		return `
+		  <details class="dropdown">
+			<summary>${header}</summary>
+			<div class="dropdown-content">
+			  ${content}
+			</div>
+		  </details>
+		`;
+	  });
+
 	// Callout cards
 	// Example: {% callout "info", "This is an info callout." %}
 	eleventyConfig.addShortcode("callout", function(type, content) {

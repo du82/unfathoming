@@ -22,6 +22,8 @@ On the topic of infrastructure, I also have experience in virtualization (VMware
 I'm fluent in American English and know some domain-specific Mandarin.
 <br>As for programming languages, I am reasonably good at: Rust, Dart, JavaScript, Kotlin, and Crystal.
 
+{% dropdown "Heres the header", "And heres what goes inside the content of the dropdown" %}
+
 ## Current occupation
 Seeking full-time employment
 
