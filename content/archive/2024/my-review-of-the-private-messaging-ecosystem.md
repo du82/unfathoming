@@ -7,8 +7,7 @@ tags:
   - security
   - software
 ---
-
-> Commentary: I have considered lots of factors, including reviewing the latest data from the privacy spredsheet, but the content in this post is opinion, not fact.
+{% callout "note", "I have considered lots of factors, including reviewing the latest data from the privacy spredsheet, but the content in this post is opinion, not fact." %}
 
 I've been watching the state of private messaging for years, and have seen new companies enter with fresh ideas, which makes me excited to try out their products. I've used just about every private messenger out there, and here's my review of them.
 
