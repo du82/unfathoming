@@ -1,5 +1,5 @@
 ---
-title: Why I choose Monero: Privacy in the age of surveillance capitalism
+title: Embracing Monero as banks betray our privacy
 date: 2024-07-02
 tags:
   - privacy
