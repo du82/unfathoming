@@ -4,12 +4,25 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-06-28T00:00:00Z</updated>
+	<updated>2024-07-02T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>Embracing Monero as banks betray our privacy</title>
+		<link href="https://unfathom.ing/archive/2024/embracing-monero/"/>
+		<updated>2024-07-02T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/embracing-monero/</id>
+		<content type="html">&lt;p&gt;Many people have asked me why I use Monero and care so much about privacy, so here&#39;s my answer.&lt;/p&gt;
+&lt;p&gt;Most traditional banks are not just storing your money; they&#39;re harvesting some of the most sensitive data about you. Every transaction you make paints a picture of your life - your habits, your preferences, your politics, and more than you could ever imagine. Banks coordinate with insurance companies and advertising agencies to analyze our transaction data in search of ways to charge us more or manipulate our buying behavior.&lt;/p&gt;
+&lt;p&gt;The Fourth Amendment protects us from unreasonable searches by the government, yet most people roll over and give up when private entities essentially conduct invasive searches of their financial lives. They treat it as part of the cost of doing business in modern America, or they believe it is necessary for fraud prevention.&lt;/p&gt;
+&lt;p&gt;While it can be beneficial in a minority of fraud cases, it is largely unnecessary and a gross violation of privacy that actively works to exploit you for all of your worth. This is not a system I want to be involved in&lt;/p&gt;
+&lt;p&gt;I use Monero as a way of voicing my disapproval of this surveillance capitalism which most banks are engaged in. I don&#39;t want insurance companies knowing when my vehicle needs repairs, or facebook knowing what my favorite food is, the same way you probably don&#39;t want the government knowing which political party you donate to.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Operating in hostile computing environments</title>
