@@ -640,14 +640,15 @@ Funny how that works, isn&#39;t it.&lt;/p&gt;
 &lt;p&gt;I&#39;ve written, deployed, and secured two full-stack mobile apps on the Google Play store with a combined 900,000 download count. That network was also open to third-party clients, of which there were over 20 million installs connecting back to my infrastructure.&lt;/p&gt;
 &lt;p&gt;On the topic of infrastructure, I also have experience in virtualization (VMware, Proxmox), real-time communication (Matrix), and building my own cloud from scratch (hardware and software).&lt;/p&gt;
 &lt;h2 id=&quot;languages&quot; tabindex=&quot;-1&quot;&gt;Languages &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/about-me/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I&#39;m fluent in American English and know some domain-specific Mandarin.
-&lt;br&gt;As for programming languages, I am reasonably good at: Rust, Dart, JavaScript, Kotlin, and Crystal.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
-&lt;summary&gt;Heres the header&lt;/summary&gt;
-&lt;div class=&quot;dropdown-content&quot;&gt;
-And heres what goes inside the content of the dropdown
-&lt;/div&gt;
-&lt;/details&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;m fluent in American English and know some domain-specific Mandarin, particularly related to technology and dark web business negotiations.
+As for programming languages, I am reasonably proficient in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rust&lt;/strong&gt;: Developed a search engine in pure Rust, including spider, indexer, and dynamic HTML generator (without any JavaScript).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dart&lt;/strong&gt;: Built two cross-platform mobile apps using Flutter, including a privacy-focused messaging app and a superapp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;: Created this website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kotlin&lt;/strong&gt;: Developed three native Android apps, including two seperate clients for a Minecraft content viewer and a peer-to-peer chat app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crystal&lt;/strong&gt;: Reimplemented all of my finance calculators and two backend services related, which resulted in a 3x speed increase.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;current-occupation&quot; tabindex=&quot;-1&quot;&gt;Current occupation &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/about-me/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Seeking full-time employment&lt;/p&gt;
 &lt;h2 id=&quot;personal-values&quot; tabindex=&quot;-1&quot;&gt;Personal values &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/about-me/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
