@@ -23,8 +23,10 @@ Despite the claims by the company that “Discord loves open-source” they in f
 
 Those that have attempted to reverse engineer and re-implement the Discord technology stack in an open-source way have been hit with legal notices. Just look at what they did to Fosscord and other projects that are re-implementations of their specification.
 
+{% callout "note", "While proprietary software has its place, when it comes to something as sensitive as personal or work communications, the transparency offered by open-source software is invaluable. It provides a level of scrutiny and trust that closed systems simply cannot match." %}
+
 ## Server operators are powerless
-As a server operator, you are powerless against the platform. You have no say in what features they decide to add or remove, and what other things they do. There have been instances where Discord have purposely made the platform worse for some users as an April Fools joke{% sidenote "Like the time they tried to force light mode on users for a day", "note1" %}. Is that the kind of platform you want to rely on?
+As a server operator, you are powerless against the platform. You have no say in what features they decide to add or remove, and what other things they do. There have been instances where Discord have purposely made the platform worse for some users as an April Fools joke{% sidenote "Like the time they tried to force light mode on users for a day" %}. Is that the kind of platform you want to rely on?
 
 ## Moderators have no say
 When the company introduces new features, they are typically Nitro (their 10 dollar monthly subscription) exclusive, or severely limited unless you pay. To access some of these features, your community must be paying for Nitro in order to get “Boosts” which can be used to make your server significantly more useful to everyone. The main problem? This collectively costs 140 dollars per month for the highest tier, and it is on a per-server basis. Every server that wants a decent experience must expect their members to collectively cough up $140 a month.
@@ -41,7 +43,7 @@ Neither do their communities. For the communities that are intentionally private
 As an end user, you have no power or control over the platform. Just like server operators, you have no say in what features the company chooses to add or remove, and without using a custom client, you have no way to fix the intentionally bad design unless you pay for the Nitro monthly or yearly subscription.
 
 ## Users have no say
-As a user of Discord, you have absolutely zero say in how the platform is run. In fact, the platform is designed to push users towards its Nitro subscription by restricting users who don’t pay, and imposing artificial limitations upon them.
+As a user of Discord, you have absolutely zero say in how the platform is run. In fact, the platform is designed to push users towards its Nitro subscription by restricting users who don’t pay, and imposing artificial limitations upon them{% sidenote "This is known as enshittification. It's what companies do when they get desperate." %}.
 
 A good example of this is themes. Users have been using tools like BetterDiscord to customize the look and feel of the platform. Some users do this for accessibility, although most do it because the default experience is just plain awful. What does Discord do in this case? They add themes for 10 dollars a month and start banning users who openly talk about their use of client modifications.
 
