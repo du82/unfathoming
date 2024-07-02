@@ -643,6 +643,12 @@ Funny how that works, isn&#39;t it.&lt;/p&gt;
 &lt;h2 id=&quot;languages&quot; tabindex=&quot;-1&quot;&gt;Languages &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/about-me/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I&#39;m fluent in American English and know some domain-specific Mandarin.
 &lt;br&gt;As for programming languages, I am reasonably good at: Rust, Dart, JavaScript, Kotlin, and Crystal.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
+&lt;summary&gt;Heres the header&lt;/summary&gt;
+&lt;div class=&quot;dropdown-content&quot;&gt;
+And heres what goes inside the content of the dropdown
+&lt;/div&gt;
+&lt;/details&gt;&lt;p&gt;&lt;/p&gt;
 &lt;h2 id=&quot;current-occupation&quot; tabindex=&quot;-1&quot;&gt;Current occupation &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/about-me/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Seeking full-time employment&lt;/p&gt;
 &lt;h2 id=&quot;personal-values&quot; tabindex=&quot;-1&quot;&gt;Personal values &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/about-me/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
