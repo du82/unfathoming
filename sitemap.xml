@@ -107,7 +107,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/archive/2024/irc-is-dead-long-live-matrix/</loc>
+		<loc>https://unfathom.ing/archive/2024/protocol-death/</loc>
 		<lastmod>2024-07-03</lastmod>
 	</url>
 	
@@ -187,16 +187,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/analysis/</loc>
-		<lastmod>2024-07-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/deep-dive/</loc>
-		<lastmod>2024-07-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-07-03</lastmod>
 	</url>
@@ -213,6 +203,16 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/guides/</loc>
+		<lastmod>2024-07-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/analysis/</loc>
+		<lastmod>2024-07-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/deep-dive/</loc>
 		<lastmod>2024-07-03</lastmod>
 	</url>
 	
