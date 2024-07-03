@@ -593,13 +593,17 @@ footer {
 
 /* Tags list */
 .post-metadata {
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: .5em;
-	list-style: none;
-	padding: 0;
-	margin: 0;
+    border: 1px solid var(--quote-accent);
+    background-color: var(--quote-background);
+    list-style-type: none;
+    width: 100%;
+    padding: 0.2em 0.5em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    margin: 0;
 }
+
 .post-metadata time {
 	margin-right: 1em;
 }
