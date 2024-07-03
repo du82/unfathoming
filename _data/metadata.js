@@ -6,6 +6,6 @@ module.exports = {
 	author: {
 		name: "Du Cheng",
 		email: "493@tuta.io",
-		url: "https://unfathom.ing/about-me/"
+		url: "https://unfathom.ing/archive/2024/about-me"
 	}
 }

@@ -64,20 +64,17 @@ The college has blocked multiple of my domains (only about 7% of them lol), whic
 I contacted the registrar who told me "they'll be in contact"{% sidenote "Who is They? Does she mean the assistant dean? Or is it enrollment?", "note3" %}. After pushing again, I recieved the exact same response. I was also locked out of my school accounts shortly after, as well as the place to download my transcripts, and told that I'd still need to pay $1100 for classes *that I couldn't attend, drop, or do anything with*.
 
 The conversation goes as follows, word-for-word:
-> Her: "I'm calling you back about your situation with your tuition and dropping classes, I did talk to a couple people so I emailed them. Everybody has all their information and I'm sure they will get back to you, Ok?"
+{% callout "warning", "I'm calling you back about your situation with your tuition and dropping classes, I did talk to a couple people so I emailed them. Everybody has all their information and I'm sure they will get back to you, Ok?"%}
+{% callout "quote", "Okay"%}
+{% callout "warning", "Alright?"%}
+{% callout "quote", "So what is that... [gets cut off]"%}
+{% callout "warning", "They'll get back to you"%}{% sidenote "Again, who is they?" %}
+{% callout "quote", "Okay, so they'll let me know what's up? or"%}
+{% callout "warning", "Yes, they will"%}
+{% callout "quote", "Alright, I appreciate it"%}
 
-> Me: "Okay"
+This call just left me with more questions than answers. So far, I keep getting bounced around to different people, and they are likely trying to screw me over.
 
-> Her: "Alright"
-
-> Me: "So what is that"
-
-> Her: "They'll get back to you"{% sidenote "Again, who is they?" %}
-
-> Me: "Okay, so they'll let me know what's up? or"
-
-> Her: "Yes, they will."
-
-> Me: "Alright, I appreciate it"
-
-This call just left me with more questions than answers. So far, I keep getting bounced around to different people, and they've definitely 
+---
+## Update #2 28/6/2024
+After calling a few more people, I finally got a call back from someone who actually understood my problem and was willing to help me out. I believe the college chaos is now over until I return to finish my degree, and I will update this post if/when that happens.
