@@ -23,4 +23,4 @@ For those who don't know what makes a Chinese keyboard different from a regular 
   <li><strong>Dynamic updating:</strong> As the user continues typing or selects characters, the predictions are continuously refined.</li>
 </ol>" %}
 
-Chinese is a uniquely complex language. There are currently 8105 汉字 (hanzi) which I'll refer to as glyphs for simplicity sake.
+Chinese is a uniquely complex language. There are currently 8105 汉字 (hanzi) which I'll refer to as glyphs for simplicity sake. The ability to turn something like "nihao" into "你好" is surprisingly difficult to implement correctly and effiecently. This has led to a problem where only sufficiently resourced organizations have taken on the task of developing and implementing such algorithms.
