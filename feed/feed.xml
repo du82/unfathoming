@@ -17,9 +17,9 @@
 		<updated>2024-07-03T00:00:00Z</updated>
 		<id>https://unfathom.ing/archive/2024/chinese-keyboards/</id>
 		<content type="html">&lt;p&gt;In the digital age, the keyboards on our phones serve as the primary interface between our thoughts and the online world. For Chinese speakers, this interface comes with a hidden cost. Every known proprietary Chinese input method monitors user behavior, and without reasonably useful open source offerings, users are forced to self-censor to avoid detection.&lt;/p&gt;
-&lt;p&gt;For those who don&#39;t know what makes a Chinese keyboard different from a regular QWERTY keyboard (they use the same layout), most Chinese keyboard software includes a PinYin inference algorithm that attempts to figure out the best glyph for the latin letters typed.&lt;/p&gt;
+&lt;p&gt;For those who don&#39;t know what makes a Chinese keyboard different from a regular QWERTY keyboard (they use the same layout), most Chinese keyboard software includes a PinYin input method editor that attempts to figure out the best glyph for the latin letters typed.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
-&lt;summary&gt;How Pinyin interpreters work&lt;/summary&gt;
+&lt;summary&gt;How Pinyin input method editors work&lt;/summary&gt;
 &lt;div class=&quot;dropdown-content&quot;&gt;
 &lt;ol&gt;&lt;p&gt;&lt;/p&gt;
   &lt;li&gt;&lt;strong&gt;Input parsing:&lt;/strong&gt; The system breaks down the Pinyin input into syllables.&lt;/li&gt;
@@ -33,6 +33,7 @@
 &lt;/ol&gt;
 			&lt;/div&gt;
 		  &lt;/details&gt;
+&lt;p&gt;Chinese is a uniquely complex language. There are currently 8105 汉字 (hanzi) which I&#39;ll refer to as glyphs for simplicity sake.&lt;/p&gt;
 </content>
 	</entry>
 	
