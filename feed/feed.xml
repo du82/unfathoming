@@ -12,6 +12,16 @@
 	</author>
 	
 	<entry>
+		<title>Some interesting Matrix data</title>
+		<link href="https://unfathom.ing/archive/2024/matrix-data/"/>
+		<updated>2024-07-03T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/matrix-data/</id>
+		<content type="html">&lt;p&gt;Here&#39;s some interesting data I thought I&#39;d share while analyzing the attack records of my comms network&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.avif 1490w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.webp 1490w&quot;&gt;&lt;img alt=&quot;Matrix disconnections based on TLD&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.png&quot; width=&quot;1490&quot; height=&quot;790&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>The Chinese keyboard problem</title>
 		<link href="https://unfathom.ing/archive/2024/chinese-keyboards/"/>
 		<updated>2024-07-03T00:00:00Z</updated>
