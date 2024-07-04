@@ -33,7 +33,7 @@
 &lt;/ol&gt;
 			&lt;/div&gt;
 		  &lt;/details&gt;
-&lt;p&gt;Chinese is a uniquely complex language. There are currently 8105 汉字 (hanzi) which I&#39;ll refer to as glyphs for simplicity sake.&lt;/p&gt;
+&lt;p&gt;Chinese is a uniquely complex language. There are currently 8105 汉字 (hanzi) which I&#39;ll refer to as glyphs for simplicity sake. The ability to turn something like &amp;quot;nihao&amp;quot; into &amp;quot;你好&amp;quot; is surprisingly difficult to implement correctly and effiecently. This has led to a problem where only sufficiently resourced organizations have taken on the task of developing and implementing such algorithms.&lt;/p&gt;
 </content>
 	</entry>
 	
