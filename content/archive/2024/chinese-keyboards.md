@@ -24,3 +24,9 @@ For those who don't know what makes a Chinese keyboard different from a regular 
 </ol>" %}
 
 Chinese is a uniquely complex language. There are currently 8105 汉字 (hanzi) which I'll refer to as glyphs for simplicity sake. The ability to turn something like "nihao" into "你好" is surprisingly difficult to implement correctly and effiecently. This has led to a problem where only sufficiently resourced organizations have taken on the task of developing and implementing such algorithms.
+
+The fundamental technology required to communicate effectively on Android devices is gate kept by three large organizations, namely, Alibaba, Tencent, and Huawei. Like every large technology company in the world, these three hand over all data about a user at the request of the government.
+
+## One-sided surveillance
+Every word that is typed or spoken into the keyboards developed by the three companies listed above is transmitted back to those companies for processing{% sidenote "This is not unique to Chinese apps. Gboard and SwiftKey also do the same thing." %} by opaque neural networks that look for patterns of potential banned phrases. If that wasn't bad enough, these keyboard apps have also been used to sidestep end-to-end encryption in apps like Signal and Element, allowing authorities to view conversations from one perspective and make life-changing decisions without having the whole story.
+
