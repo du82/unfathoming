@@ -11,14 +11,6 @@
 	},
 	"items": [
 		{
-			"id": "https://unfathom.ing/archive/2024/matrix-data/",
-			"url": "https://unfathom.ing/archive/2024/matrix-data/",
-			"title": "Some interesting Matrix data",
-			"content_html": "<p>Here's some interesting data I thought I'd share while analyzing the attack records of my comms network</p>\n<p><picture><source type=\"image/avif\" srcset=\"https://unfathom.ing/img/k15Pie6TnZ-1490.avif 1490w\"><source type=\"image/webp\" srcset=\"https://unfathom.ing/img/k15Pie6TnZ-1490.webp 1490w\"><img alt=\"Matrix disconnections based on TLD\" loading=\"lazy\" decoding=\"async\" src=\"https://unfathom.ing/img/k15Pie6TnZ-1490.png\" width=\"1490\" height=\"790\"></picture></p>\n",
-			"date_published": "2024-07-03T00:00:00Z"
-		}
-		,
-		{
 			"id": "https://unfathom.ing/archive/2024/chinese-keyboards/",
 			"url": "https://unfathom.ing/archive/2024/chinese-keyboards/",
 			"title": "The Chinese keyboard problem",
