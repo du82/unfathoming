@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Operating in hostile computing environments</title>
+		<title>The Chinese keyboard problem</title>
 		<meta name="description" content="A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Unfathoming">
@@ -831,23 +831,36 @@ h2 + .header-anchor {
 			<div class="content-wrapper">
 				<div class="main-content">
 					
-<h2 class="title">Operating in hostile computing environments</h2>
+<h2 class="title">The Chinese keyboard problem</h2>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-06-28">28 June 2024</time></li>
-  <li><a href="https://archive.ph/http://unfathom.ing/archive/2024/operating-in-hostile-computing-environments/" target="_blank">View Archived</a><li>
+	<li><time datetime="2024-07-03">03 July 2024</time></li>
+  <li><a href="https://archive.ph/http://unfathom.ing/archive/2024/chinese-keyboards/" target="_blank">View Archived</a><li>
+	<li><a href="/tags/privacy/" class="post-tag">privacy</a>, </li>
 	<li><a href="/tags/security/" class="post-tag">security</a>, </li>
-	<li><a href="/tags/musing/" class="post-tag">musing</a></li>
+	<li><a href="/tags/surveillance/" class="post-tag">surveillance</a>, </li>
+	<li><a href="/tags/china/" class="post-tag">china</a></li>
 </ul>
 
-<div class="callout quote">Given a restrictive computing environment, it is reasonable to assume that a bored end user will seek or create some semblance of freedom within.</div>
-<p>Ever since graduating high school, I've thought a lot about what's possible within restrictive computing environments, and I've been the type to go as far as to discover new vulnerabilities in well known software so I can play video games on devices that I shouldn't be able to.</p>
-<p>Let's assume the adversary is particularly litigious, making privilege escalation a risky maneuver. Let's also assume the device has access to most of the internet, besides a few NSFW sites What can be done within the boundaries? Quite a lot actually.</p>
-<h2 id="webviews" tabindex="-1">WebViews <a class="header-anchor" href="#webviews">#</a></h2>
-<p>The first thing that probably comes to mind is web browsers, or more specifically WebViews. Everything from a printer to a Nintendo Switch has one, and the web is a very versatile tool.</p>
-<p>This is usually my favorite course of action; get into a webview and from there I can connect to the web GUI of my Proxmox VE instance hosted at home to access a full Linux-based OS that is actually mine.</p>
+<p>In the digital age, the keyboards on our phones serve as the primary interface between our thoughts and the online world. For Chinese speakers, this interface comes with a hidden cost. Every known proprietary Chinese input method monitors user behavior, and without reasonably useful open source offerings, users are forced to self-censor to avoid detection.</p>
+<p>For those who don't know what makes a Chinese keyboard different from a regular QWERTY keyboard (they use the same layout), most Chinese keyboard software includes a PinYin inference algorithm that attempts to figure out the best glyph for the latin letters typed.</p>
+<p><details class="dropdown">
+<summary>How Pinyin interpreters work</summary>
+<div class="dropdown-content">
+<ol></p>
+  <li><strong>Input parsing:</strong> The system breaks down the Pinyin input into syllables.</li>
+  <li><strong>Character matching:</strong> For each syllable, the system identifies all possible matching Chinese characters.</li>
+  <li><strong>Contextual analysis:</strong> The interpreter examines the surrounding context, including previously entered characters and partial phrases.</li>
+  <li><strong>Frequency analysis:</strong> Common words and phrases are given higher priority based on usage statistics.</li>
+  <li><strong>User history:</strong> The system considers the user's past choices and typing patterns.</li>
+  <li><strong>Predictive modeling:</strong> Machine learning algorithms predict the most likely character or word combinations based on all available data.</li>
+  <li><strong>Ranking and display:</strong> The system presents a ranked list of potential character combinations, with the most likely options appearing first.</li>
+  <li><strong>Dynamic updating:</strong> As the user continues typing or selects characters, the predictions are continuously refined.</li>
+</ol>
+			</div>
+		  </details>
 
-<ul class="links-nextprev"><li>Previous: <a href="/archive/2024/the-new-site-design/">The new site design</a></li><li>Next: <a href="/archive/2024/embracing-monero/">Embracing Monero as banks betray our privacy</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/archive/2024/embracing-monero/">Embracing Monero as banks betray our privacy</a></li>
 </ul>
 
 				</div>
@@ -952,6 +965,6 @@ h2 + .header-anchor {
 			</nav>
 			<i>Lore runs deep, secrets run deeper.</i>
 		</footer>
-		<!-- This page `/archive/2024/operating-in-hostile-computing-environments/` was built on 2024-07-04T01:42:04.004Z -->
+		<!-- This page `/archive/2024/chinese-keyboards/` was built on 2024-07-04T01:42:03.954Z -->
 	</body>
 </html>
