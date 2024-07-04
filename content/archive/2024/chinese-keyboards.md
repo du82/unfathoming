@@ -6,7 +6,7 @@ tags:
   - security
   - surveillance
   - china
-draft: true
+draft: false
 ---
 In the digital age, the keyboards on our phones serve as the primary interface between our thoughts and the online world. For Chinese speakers, this interface comes with a hidden cost. Every known proprietary Chinese input method monitors user behavior, and without reasonably useful open source offerings, users are forced to self-censor to avoid detection.
 
