@@ -47,9 +47,9 @@ I like reading blogs and websites mostly, so here's a list of my favorites: [Tri
 I have a cat named Scout. I found him outside in the freezing cold when I went to let my dog out. The dog ran over and sniffed a pile of snow which I thought was odd, so I ran over in the snow (barefoot of course) and found a scrawny kitten, only a week or two old, freezing to death. I brought him back to life and he's been my companion for a few years now.
 
 ## Social media usage
-I don't use social media. None at all {% sidenote "I really [hate Discord](/archive/2024/the-tragedy-of-discord) with a passion" %} due to the destruction of mental wellbeing that's resulted from its use. I am [against social media](/archive/2024/against-social-media) and if you find people claiming to be me on Reddit or whatever, they are liars.
+I don't use social media. None at all{% sidenote "I really [hate Discord](/archive/2024/the-tragedy-of-discord) with a passion" %} due to the destruction of society's collective mental wellbeing that's resulted from its use. I am [against social media](/archive/2024/against-social-media) and if you find people claiming to be me on Reddit or whatever, they are liars.
 
 ## Fun facts or quirks
-I struggle with insomnia, often finding myself caught in that [liminal space](/archive/2024/liminal-spaces) between alertness and exhaustion. During these nocturnal hours, I often write code, chat with people on Dread, and occasionally dictate thoughts into [Obsidian](https://obsidian.md) which form the basis of these blog posts. It's become my creative outlet for those twilight moments when my mind refuses to quiet but lacks the focus for more demanding tasks.
+I struggle with insomnia, often finding myself caught in that [liminal space](/archive/2024/liminal-spaces) between alertness and exhaustion. During these nocturnal hours, I often write code, chat with people on Dread, and occasionally dictate thoughts into [Obsidian](https://obsidian.md) which form the basis of these blog posts.
 
 ## Cultural background
