@@ -1,5 +1,6 @@
 ---
-title: Copyright
+title: 
+date: 2024-01-04
 layout: layouts/base.njk
 footerNavigation:
   - key: Copyright
