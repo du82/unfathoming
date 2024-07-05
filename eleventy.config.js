@@ -124,12 +124,16 @@ module.exports = function(eleventyConfig) {
 		);
 	});
 
-	// Footer frontmatter.
+	// Footer 
 	eleventyConfig.addFilter("footerNavigation", function(collection) {
 		return collection
-		  .filter(item => item.data.footerNavigation)
-		  .sort((a, b) => ((a.data.footerNavigation.order || 0) - (b.data.footerNavigation.order || 0)));
-	  });
+			.filter(item => item.data.footerNavigation)
+			.sort((a, b) => {
+				const orderA = item.data.footerNavigation.find(nav => nav.order)?.order || 0;
+				const orderB = item.data.footerNavigation.find(nav => nav.order)?.order || 0;
+				return orderA - orderB;
+			});
+	});
 	
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
