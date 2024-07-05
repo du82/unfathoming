@@ -17,6 +17,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/archive/2024/on-copyright/</loc>
+		<lastmod>2024-01-04</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/archive/2024/the-tragedy-of-discord/</loc>
 		<lastmod>2024-01-05</lastmod>
 	</url>
@@ -117,11 +122,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/copyright/</loc>
-		<lastmod>2024-07-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/donate/</loc>
 		<lastmod>2024-07-05</lastmod>
 	</url>
@@ -152,12 +152,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
+		<loc>https://unfathom.ing/tags/privacy/</loc>
 		<lastmod>2024-07-05</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/privacy/</loc>
+		<loc>https://unfathom.ing/tags/sovereignty/</loc>
+		<lastmod>2024-07-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
 		<lastmod>2024-07-05</lastmod>
 	</url>
 	
@@ -168,11 +173,6 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/china/</loc>
-		<lastmod>2024-07-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/sovereignty/</loc>
 		<lastmod>2024-07-05</lastmod>
 	</url>
 	
@@ -197,11 +197,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/musing/</loc>
-		<lastmod>2024-07-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-07-05</lastmod>
 	</url>
@@ -213,6 +208,11 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/design/</loc>
+		<lastmod>2024-07-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/musing/</loc>
 		<lastmod>2024-07-05</lastmod>
 	</url>
 </urlset>
