@@ -1,7 +1,6 @@
 ---
-title: 
+title: Copyright
 date: 2024-01-04
-layout: layouts/base.njk
 footerNavigation:
   - key: Copyright
   - order: 1
