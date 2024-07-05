@@ -7,12 +7,12 @@ eleventyNavigation:
   key: About Me
   order: 4
 ---
-I'm Du Cheng, an aspiring generalist in the vast world of computer science. My journey began with being introduced to Linux when I was eight years old, and since then, I've been on a mission to understand as much of the tech landscape as possible. This curiosity has led me to explore a wide variety of technologies, from [mobile app development](/archive/2024/my-programming-journey/) to building a [privacy focused search engine from scratch](/archive/2024/building-a-search-engine).
+I'm Du, an aspiring generalist in the vast world of computer science. My journey began with being introduced to Linux when I was eight years old, and since then, I've been on a mission to understand as much of the tech landscape as possible. This curiosity has led me to explore a wide variety of technologies, from [mobile app development](/archive/2024/my-programming-journey/) to building a [privacy focused search engine from scratch](/archive/2024/building-a-search-engine).
 
 One of my guiding principles has been to gain hands-on experience with as many technologies as possible. I've worked with nearly every consumer-accessible tech within a $1,000 budget, as I believe strongly that practical experience is the best teacher. This approach has given me a unique perspective on the strengths and limitations of various tools and platforms.
 
 ## Skills and expertise
-I specialize in covert communications with extensive experience in computer networking, both hardware and software.. My achievements include:
+I specialize in covert communications with extensive experience in computer networking, both hardware and software. My achievements include:
 
 - Developed and shipped three full-stack mobile apps on Google Play, amassing 1.2 million downloads.
 - Managed a network infrastructure supporting 20 million third-party client connections.
