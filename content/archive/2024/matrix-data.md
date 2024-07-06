@@ -13,14 +13,14 @@ com    1616.0
 de     1126.0
 net    1007.0
 org     826.0
-xyz     635.0
-dtype: float64</pre>" %}
+xyz     635.0</pre>" %}
 {% dropdown "Percentage change in failures (last 4 weeks vs previous 4 weeks)", "<pre>
 com   -100.000000
 de     -75.000000
 net    -81.818182
 org    -50.000000
-xyz    -57.142857
-dtype: float64</pre>" %}
+xyz    -57.142857</pre>" %}
 
 {% image "g6.png", "Top 20 TLDs: Count and Percentage" %}
+
+The chart above shows *why* Matrix is the best protocol for censorship resistant communication. The ability to shut down over 15000 domains from different regions of the world under different governments is an impossible task.
