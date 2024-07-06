@@ -8,6 +8,8 @@ I was recently analyzing network traffic on my communications network to see if 
 I thought that some of you might be interested to visually see what attacks from state actors look like on an encrypted communications network, so I have compiled a variety of graphs from various data sources within my network and what follows is a series of graphs along with explanations as to why this data is important, what I've learned from it. Here's some interesting data I thought I'd share.
 
 ## Cyberattacks rendered based on peer-to-peer disconnections
+This graph visualizes the occurrence of cyberattacks by tracking when multiple domains become simultaneously unreachable, indicating widespread downtime while also naturally filtering out isolated incidents of misconfigurations or power outages. Cyberattacks with any degree of effectiveness will target multiple servers concurrently, making them stand out on the graphs.
+
 {% image "g4.png", "Matrix disconnections based on TLD" %}
 {% dropdown "Total failures for top 5 TLDs", "<pre>
 com    1616.0
@@ -26,3 +28,26 @@ xyz    -57.142857</pre>" %}
 The chart below shows *why* Matrix is the best protocol for censorship resistant communication. The ability to shut down over 15000 domains from different regions of the world under different governments is an impossible task.
 
 {% image "g6.png", "Top 20 TLDs: Count and Percentage" %}
+{% dropdown "Top 20 TLDs", "<pre>
+com: 1991 domains (12.88%)
+de: 1509 domains (9.76%)
+net: 1319 domains (8.54%)
+org: 1098 domains (7.10%)
+xyz: 750 domains (4.85%)
+dev: 477 domains (3.09%)
+me: 464 domains (3.00%)
+io: 395 domains (2.56%)
+eu: 359 domains (2.32%)
+host: 305 domains (1.97%)
+fr: 229 domains (1.48%)
+chat: 227 domains (1.47%)
+space: 219 domains (1.42%)
+uk: 184 domains (1.19%)
+ch: 170 domains (1.10%)
+nl: 168 domains (1.09%)
+im: 142 domains (0.92%)
+tech: 140 domains (0.91%)
+ru: 138 domains (0.89%)
+cloud: 137 domains (0.89%)
+Total number of domains: 15454
+Number of unique TLDs: 418</pre>" %}
