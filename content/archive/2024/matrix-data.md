@@ -54,10 +54,10 @@ cloud: 137 domains (0.89%)
 Total number of domains: 15454
 Number of unique TLDs: 418</pre>" %}
 
-## Tracking potentially malicious people
-Being an organization with a lot of adversaries, we operate our own "Wanted List" of sorts and track, interact with, and gather intelligence data from thousands of users across a dozen platforms by utilizing bridges and custom clients. Here's the top
+## Tracking potentially malicious (PoMa) people
+Being an organization with a lot of adversaries, we operate our own "Wanted List" of sorts and track, interact with, and gather intelligence data from thousands of users across a dozen platforms by utilizing Matrix bridges and custom clients. Here's the top five:
 
-{% dropdown "Number of users on the wanted list", "<pre>Telegram users: 4149
+{% dropdown "Number of users on the PoMa list", "<pre>Telegram users: 4149
 Discord users: 914
 WeChat users: 82
 Signal users: 59
