@@ -11,6 +11,14 @@
 	},
 	"items": [
 		{
+			"id": "https://unfathom.ing/archive/2024/matrix-data/",
+			"url": "https://unfathom.ing/archive/2024/matrix-data/",
+			"title": "Some interesting Matrix data",
+			"content_html": "<p>I was recently analyzing network traffic on my communications network to see if a campaign against attacks was beneficial in the first part of March. From that, I realized that out of 15,497 servers, the campaign made a noticeable impact on the frequency and type of attack.</p>\n<p>I thought that some of you might be interested to visually see what attacks from state actors look like on an encrypted communications network, so I have compiled a variety of graphs from various data sources within my network and what follows is a series of graphs along with explanations as to why this data is important, what I've learned from it. Here's some interesting data I thought I'd share.</p>\n<p><picture><source type=\"image/avif\" srcset=\"https://unfathom.ing/img/k15Pie6TnZ-1490.avif 1490w\"><source type=\"image/webp\" srcset=\"https://unfathom.ing/img/k15Pie6TnZ-1490.webp 1490w\"><img alt=\"Matrix disconnections based on TLD\" loading=\"lazy\" decoding=\"async\" src=\"https://unfathom.ing/img/k15Pie6TnZ-1490.png\" width=\"1490\" height=\"790\"></picture></p>\n<p></p><details class=\"dropdown\">\n<summary>Total failures for top 5 TLDs</summary>\n<div class=\"dropdown-content\">\n<pre>\ncom    1616.0\nde     1126.0\nnet    1007.0\norg     826.0\nxyz     635.0\ndtype: float64</pre>\n</div>\n</details><p></p>\n<p></p><details class=\"dropdown\">\n<summary>Percentage change in failures (last 4 weeks vs previous 4 weeks)</summary>\n<div class=\"dropdown-content\">\n<pre>\ncom   -100.000000\nde     -75.000000\nnet    -81.818182\norg    -50.000000\nxyz    -57.142857\ndtype: float64</pre>\n</div>\n</details><p></p>\n<p><picture><source type=\"image/avif\" srcset=\"https://unfathom.ing/img/0myj8NOAuz-1489.avif 1489w\"><source type=\"image/webp\" srcset=\"https://unfathom.ing/img/0myj8NOAuz-1489.webp 1489w\"><img alt=\"Top 20 TLDs: Count and Percentage\" loading=\"lazy\" decoding=\"async\" src=\"https://unfathom.ing/img/0myj8NOAuz-1489.png\" width=\"1489\" height=\"790\"></picture></p>\n",
+			"date_published": "2024-07-03T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://unfathom.ing/archive/2024/chinese-keyboards/",
 			"url": "https://unfathom.ing/archive/2024/chinese-keyboards/",
 			"title": "The Chinese keyboard problem",

@@ -12,6 +12,42 @@
 	</author>
 	
 	<entry>
+		<title>Some interesting Matrix data</title>
+		<link href="https://unfathom.ing/archive/2024/matrix-data/"/>
+		<updated>2024-07-03T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/matrix-data/</id>
+		<content type="html">&lt;p&gt;I was recently analyzing network traffic on my communications network to see if a campaign against attacks was beneficial in the first part of March. From that, I realized that out of 15,497 servers, the campaign made a noticeable impact on the frequency and type of attack.&lt;/p&gt;
+&lt;p&gt;I thought that some of you might be interested to visually see what attacks from state actors look like on an encrypted communications network, so I have compiled a variety of graphs from various data sources within my network and what follows is a series of graphs along with explanations as to why this data is important, what I&#39;ve learned from it. Here&#39;s some interesting data I thought I&#39;d share.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.avif 1490w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.webp 1490w&quot;&gt;&lt;img alt=&quot;Matrix disconnections based on TLD&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.png&quot; width=&quot;1490&quot; height=&quot;790&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
+&lt;summary&gt;Total failures for top 5 TLDs&lt;/summary&gt;
+&lt;div class=&quot;dropdown-content&quot;&gt;
+&lt;pre&gt;
+com    1616.0
+de     1126.0
+net    1007.0
+org     826.0
+xyz     635.0
+dtype: float64&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/details&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
+&lt;summary&gt;Percentage change in failures (last 4 weeks vs previous 4 weeks)&lt;/summary&gt;
+&lt;div class=&quot;dropdown-content&quot;&gt;
+&lt;pre&gt;
+com   -100.000000
+de     -75.000000
+net    -81.818182
+org    -50.000000
+xyz    -57.142857
+dtype: float64&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/details&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/0myj8NOAuz-1489.avif 1489w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/0myj8NOAuz-1489.webp 1489w&quot;&gt;&lt;img alt=&quot;Top 20 TLDs: Count and Percentage&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/0myj8NOAuz-1489.png&quot; width=&quot;1489&quot; height=&quot;790&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>The Chinese keyboard problem</title>
 		<link href="https://unfathom.ing/archive/2024/chinese-keyboards/"/>
 		<updated>2024-07-03T00:00:00Z</updated>
