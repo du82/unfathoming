@@ -17,9 +17,9 @@
 		<updated>2024-07-03T00:00:00Z</updated>
 		<id>https://unfathom.ing/archive/2024/matrix-data/</id>
 		<content type="html">&lt;p&gt;I was recently analyzing network traffic on my communications network to see if a campaign against attacks was beneficial in the first part of March. From that, I realized that out of 15,497 servers, the campaign made a noticeable impact on the frequency and type of attack.&lt;/p&gt;
-&lt;p&gt;I thought that some of you might be interested to visually see what attacks from state actors look like on an encrypted communications network, so I have compiled a variety of graphs from various data sources within my network and what follows is a series of graphs along with explanations as to why this data is important, what I&#39;ve learned from it. Here&#39;s some interesting data I thought I&#39;d share.&lt;/p&gt;
+&lt;p&gt;I thought that some of you might be interested to visually see what attacks from state actors look like on an encrypted communications network, so I have compiled a variety of graphs from various data sources within my network and what follows is a series of graphs generated using MatPlotLib, along with explanations as to why this data is important and what I&#39;ve learned from it. Here&#39;s some interesting data I thought I&#39;d share.&lt;/p&gt;
 &lt;h2 id=&quot;cyberattacks-rendered-based-on-peer-to-peer-disconnections&quot; tabindex=&quot;-1&quot;&gt;Cyberattacks rendered based on peer-to-peer disconnections &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/matrix-data/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This graph visualizes the occurrence of cyberattacks by tracking when multiple domains become simultaneously unreachable, indicating widespread downtime while also naturally filtering out isolated incidents of misconfigurations or power outages. Cyberattacks with any degree of effectiveness will target multiple servers concurrently, making them stand out on the graphs.&lt;/p&gt;
+&lt;p&gt;This graph visualizes the occurrence of cyberattacks by tracking when multiple domains become simultaneously unreachable, indicating widespread downtime while also naturally filtering out isolated incidents of misconfigurations, power outages, and individual cases of censorship. Cyberattacks with any degree of effectiveness will target multiple servers concurrently, making them stand out on the graphs.&lt;/p&gt;
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.avif 1490w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.webp 1490w&quot;&gt;&lt;img alt=&quot;Matrix disconnections based on TLD&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://unfathom.ing/img/k15Pie6TnZ-1490.png&quot; width=&quot;1490&quot; height=&quot;790&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
 &lt;summary&gt;Total failures for top 5 TLDs&lt;/summary&gt;
@@ -72,6 +72,18 @@ ru: 138 domains (0.89%)
 cloud: 137 domains (0.89%)
 Total number of domains: 15454
 Number of unique TLDs: 418&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/details&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tracking-potentially-malicious-people&quot; tabindex=&quot;-1&quot;&gt;Tracking potentially malicious people &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/matrix-data/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Being an organization with a lot of adversaries, we operate our own &amp;quot;Wanted List&amp;quot; of sorts and track, interact with, and gather intelligence data from thousands of users across a dozen platforms by utilizing bridges and custom clients. Here&#39;s the top&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
+&lt;summary&gt;Number of users on the wanted list&lt;/summary&gt;
+&lt;div class=&quot;dropdown-content&quot;&gt;
+&lt;pre&gt;Telegram users: 4149
+Discord users: 914
+WeChat users: 82
+Signal users: 59
+Snapchat users: 6&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/details&gt;&lt;p&gt;&lt;/p&gt;
 </content>
