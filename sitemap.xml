@@ -192,6 +192,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/tags/musing/</loc>
+		<lastmod>2024-07-06</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-07-06</lastmod>
 	</url>
@@ -202,7 +207,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/musing/</loc>
+		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-07-06</lastmod>
 	</url>
 	
@@ -213,11 +218,6 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/design/</loc>
-		<lastmod>2024-07-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-07-06</lastmod>
 	</url>
 </urlset>
