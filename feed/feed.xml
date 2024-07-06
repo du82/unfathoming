@@ -74,10 +74,10 @@ Total number of domains: 15454
 Number of unique TLDs: 418&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/details&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h2 id=&quot;tracking-potentially-malicious-people&quot; tabindex=&quot;-1&quot;&gt;Tracking potentially malicious people &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/matrix-data/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Being an organization with a lot of adversaries, we operate our own &amp;quot;Wanted List&amp;quot; of sorts and track, interact with, and gather intelligence data from thousands of users across a dozen platforms by utilizing bridges and custom clients. Here&#39;s the top&lt;/p&gt;
+&lt;h2 id=&quot;tracking-potentially-malicious-poma-people&quot; tabindex=&quot;-1&quot;&gt;Tracking potentially malicious (PoMa) people &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/matrix-data/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Being an organization with a lot of adversaries, we operate our own &amp;quot;Wanted List&amp;quot; of sorts and track, interact with, and gather intelligence data from thousands of users across a dozen platforms by utilizing Matrix bridges and custom clients. Here&#39;s the top five:&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;details class=&quot;dropdown&quot;&gt;
-&lt;summary&gt;Number of users on the wanted list&lt;/summary&gt;
+&lt;summary&gt;Number of users on the PoMa list&lt;/summary&gt;
 &lt;div class=&quot;dropdown-content&quot;&gt;
 &lt;pre&gt;Telegram users: 4149
 Discord users: 914
