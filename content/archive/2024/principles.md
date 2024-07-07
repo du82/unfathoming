@@ -1,19 +1,24 @@
 ---
-title: Principles of a free being
+title: Principles for a free being
 date: 2024-07-07
 tags:
   - privacy
-  - security
-draft: true
+  - sovereignty
+eleventyNavigation:
+  key: Principles
+  order: 4
 ---
-- **Digital Autonomy:** In a world where every action is tracked and monetized, maintaining control over ones digital footprint becomes a form of [resistance](/archive/2024/embracing-monero/). Those who protect their privacy now will retain the ability to think and act freely, without the suffocating influence of algorithms (often controlled by governments) predicting and manipulating their every move.
+These are the principles for a free being; 
+- **Digital Autonomy:** In a world where every action is tracked and monetized, maintaining control over one's digital footprint becomes a form of [resistance](/archive/2024/embracing-monero/). Those who protect their privacy retain the ability to think and act freely, without the suffocating influence of algorithms (often controlled by powerful entities) predicting and manipulating their every move.
 
-- **Mental Sanctuary:** Those who've preserved their privacy will have a mental refuge—a space free from the constant pressure to perform and conform. They'll avoid the soul-crushing fate of modern influencers, whose entire existence has become ad space to fuel the capitalist machine.
+- **Mental Sanctuary:** Individuals who preserve their privacy maintain a mental refuge—a space free from the constant pressure to perform and conform. They avoid the soul-crushing fate of those whose entire existence becomes ad space, fueling an insatiable system of consumption.
 
-- **Identity Prison:** Your established identity creates a feedback loop, where others expectations shape your behavior, which reinforces their expectations. This cycle can trap you in a narrowing version of yourself. Anonymity disrupts this loop, providing freedom to explore new thoughts and actions without being constrained to the identity prison.
+- **Identity Liberation:** An established identity creates a feedback loop where others' expectations shape behavior, reinforcing those expectations. This cycle can trap one in a narrowing version of oneself. Anonymity disrupts this loop, providing freedom to explore new thoughts and actions without being constrained by an identity prison.
 
-- **Freedom from Algorithmic Control:** By limiting data collection now, you can escape the hyper-personalized manipulation that plagues society online and is increasingly creeping into physical spaces. You'll retain genuine choice in a society where most are unknowingly guided by AI-driven suggestions.
+- **Algorithmic Independence:** By limiting data collection, one can escape the hyper-personalized manipulation that permeates digital spaces and increasingly infiltrates physical realms. This preserves genuine choice in a world where many are unknowingly guided by AI-driven suggestions.
 
-- **Emotional Well-being:** As mental health crises caused by the feedback loop devastate the generations most influenced by technology, those who've preserved their privacy will maintain healthier psychological boundaries. They'll avoid the constant desire to buy and retain intellectual independence.
+- **Psychological Resilience:** As technology-induced mental health crises impact generations, those who maintain privacy develop healthier psychological boundaries. They avoid the constant desire for external validation and retain intellectual independence.
 
-- **Intellectual Independence:** In the reality we live in, where thoughts are monitored and dissent is silenced, the ability to communicate anonymously is crucial. Those who've mastered privacy tools will be able to share ideas without oversight, freeing their minds and improving critical thinking in an increasingly controlled information landscape.
+- **Intellectual Freedom:** In an era where [thoughts are monitored](/archive/2024/chinese-keyboards) and dissent is suppressed, the ability to communicate anonymously is crucial. Those who master privacy tools can share ideas without oversight, fostering critical thinking in an increasingly controlled information landscape.
+
+*Embrace privacy, free your being.*

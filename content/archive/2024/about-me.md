@@ -4,8 +4,8 @@ date: 2024-01-02
 tags:
   - beginnings
 eleventyNavigation:
-  key: About Me
-  order: 4
+  key: Me
+  order: 5
 ---
 I'm Du, an aspiring generalist in the world of computer science. My journey began with being introduced to Linux when I was eight years old, and since then, I've been on a mission to understand as much of the tech landscape as possible. This curiosity has led me to explore a wide variety of technologies, from [mobile app development](/archive/2024/my-programming-journey/) to building a [privacy focused search engine from scratch](/archive/2024/building-a-search-engine).
 
