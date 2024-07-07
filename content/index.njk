@@ -9,16 +9,7 @@ numberOfLatestPostsToShow: 3
 <p>I'm an aspiring generalist in the field of computer science with a focus on offensive cybersecurity. I care a lot about privacy and freedom, and I write (usually open source) software that helps restore and improve privacy.</p>
 <p>This site, Unfathoming, is a capsule of my thoughts and ideas over time so that others may benefit from the things that float around in my head. In the event that I disappear, this site will serve as a reference as to who I am/was.</p>
 <p>I recommend reading on a device with a large screen if you can. It gives you the ability to see the sidebar as well as sidenotes and other things that you might enjoy.</p>
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h3>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h3>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
+{% callout "info", "Please visit the site on a device with a large screen, lots of context is missing on mobile due to lacking the width required for sidenotes." %}
 <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/archive/">the archive</a>.</p>
 {% endif %}
 
