@@ -4,12 +4,42 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-07-03T00:00:00Z</updated>
+	<updated>2024-07-07T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>Principles for a free being</title>
+		<link href="https://unfathom.ing/archive/2024/principles/"/>
+		<updated>2024-07-07T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/principles/</id>
+		<content type="html">&lt;p&gt;These are the principles for a free being;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Digital Autonomy:&lt;/strong&gt; In a world where every action is tracked and monetized, maintaining control over one&#39;s digital footprint becomes a form of &lt;a href=&quot;https://unfathom.ing/archive/2024/embracing-monero/&quot;&gt;resistance&lt;/a&gt;. Those who protect their privacy retain the ability to think and act freely, without the suffocating influence of algorithms (often controlled by powerful entities) predicting and manipulating their every move.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mental Sanctuary:&lt;/strong&gt; Individuals who preserve their privacy maintain a mental refuge—a space free from the constant pressure to perform and conform. They avoid the soul-crushing fate of those whose entire existence becomes ad space, fueling an insatiable system of consumption.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identity Liberation:&lt;/strong&gt; An established identity creates a feedback loop where others&#39; expectations shape behavior, reinforcing those expectations. This cycle can trap one in a narrowing version of oneself. Anonymity disrupts this loop, providing freedom to explore new thoughts and actions without being constrained by an identity prison.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Algorithmic Independence:&lt;/strong&gt; By limiting data collection, one can escape the hyper-personalized manipulation that permeates digital spaces and increasingly infiltrates physical realms. This preserves genuine choice in a world where many are unknowingly guided by AI-driven suggestions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Psychological Resilience:&lt;/strong&gt; As technology-induced mental health crises impact generations, those who maintain privacy develop healthier psychological boundaries. They avoid the constant desire for external validation and retain intellectual independence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Intellectual Freedom:&lt;/strong&gt; In an era where &lt;a href=&quot;https://unfathom.ing/archive/2024/chinese-keyboards&quot;&gt;thoughts are monitored&lt;/a&gt; and dissent is suppressed, the ability to communicate anonymously is crucial. Those who master privacy tools can share ideas without oversight, fostering critical thinking in an increasingly controlled information landscape.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Embrace privacy, free your being.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Some interesting Matrix data</title>
