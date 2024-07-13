@@ -38,10 +38,10 @@ I value privacy and self-sovereignty above all. I believe that you should have t
 As a libertarian, I prioritize individual liberty and the free flow of information. My views are rooted in principles rather than partisan politics or fringe ideologies. I'm an advocate for fundamental freedoms, including those of speech, press, and assembly. I value objectivity and truth, even when it challenges prevailing narratives or social norms.
 
 ## Awards or achievements
-My work has appeared in a local newspaper{% sidenote "I wasn't too thrilled with their finished article, It didn't capture the ideas and reasons for doing what I do that were discussed in the interview." %} and I've successfully completed a few privately ran bug bounties.
+My work has appeared in a local newspaper{% sidenote "I wasn't too thrilled with their finished article, It didn't capture the ideas and reasons for doing what I do that were discussed in the interview." %} and I've successfully completed a few privately ran bug bounties. I'm also the person behind the [Privacy Spreadsheet](/archive/2024/privacy-spreadsheet) project, which aims to provide a comprehensive breakdown of the privacy of a variety of software and services.
 
 ## Favorite books, movies, or music
-I like reading blogs and websites mostly, so here's a list of my favorites: [Trilema](https://trilema.com), [Gwern.net](https://gwern.net), [LessWrong](https://lesswrong.com)
+I like reading blogs and websites mostly, so here's a list of my favorites: [Trilema](https://trilema.com), [Gwern.net](https://gwern.net), [Less Wrong](https://lesswrong.com). I don't watch movies or TV shows, but I do listen to music and podcasts, primarily in Chinese. I've never liked Western music, but I do enjoy the occasional classical piece.
 
 ## Pets
 I have a cat named Scout. I found him outside in the freezing cold when I went to let my dog out. The dog ran over and sniffed a pile of snow which I thought was odd, so I ran over in the snow (barefoot of course) and found a scrawny kitten, only a week or two old, freezing to death. I brought him back to life and he's been my companion for a few years now.
