@@ -12,11 +12,10 @@
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		<style>{% getBundle "css" %}</style>
 		<script data-goatcounter="https://unfathoming.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-		<script defer data-domain="unfathom.ing" src="https://plausible.io/js/script.js"></script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
-		<header background-image: url('/assets/banners/{% if banner %}{{ banner }}{% else %}https://images.unsplash.com/photo-1720811118401-0c947249988c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D{% endif %}');>
+		<header background-image: url('/assets/banners/{% if banner %}{{ banner }}{% else %}default.png{% endif %}');>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
