@@ -8,6 +8,8 @@ function relativeToInputPath(relativeFilePath) {
         basePath = "assets/graphs";
     } else if (relativeFilePath.startsWith('i')) {
         basePath = "assets/images";
+    } else if (relativeFilePath.startsWith('b')) {
+        basePath = "assets/banners";
     } else {
         // Default to assets if it doesn't start with 'g' or 'i'
         basePath = "assets";
