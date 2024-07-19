@@ -5,6 +5,7 @@ tags:
   - rant
   - ai
   - learning
+banner: college.jpeg
 ---
 I thought I'd reflect on the past two years of college and share the thoughts with you all.
 
