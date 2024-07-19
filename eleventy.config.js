@@ -13,7 +13,7 @@ const pluginImages = require("./eleventy.config.images.js");
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
-	// For example, `./public/css/` ends up in `_site/css/`
+	// For example, `./public/css/` ends up in `_site/css/` TEST
 	eleventyConfig.addPassthroughCopy({
 		"./assets/": "/assets",
 		"./public/": "/",
