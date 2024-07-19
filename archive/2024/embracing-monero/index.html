@@ -604,20 +604,42 @@ code {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     border-bottom: 3px double var(--color-gray-20);
-    padding: 0 1em;
-	margin-top: 0.5em;
+    padding: 1em;
+    margin-top: 0.5em;
+    background-image: url('https://uploads.golmedia.net/uploads/articles/article_media/2703091781623526834gol1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 200px; /* Adjust as needed */
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%; /* Adjust for fade height */
+    background: linear-gradient(to bottom, rgba(var(--background-color-rgb), 0), var(--background-color));
+    pointer-events: none;
 }
 
 .home-link {
-    font-size: 16px;
+    font-size: 24px; /* Adjust as needed */
     font-weight: 700;
     text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    position: relative;
+    z-index: 1;
 }
 
 header nav {
-    margin-left: auto; /* This pushes the nav to the right */
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .nav {
@@ -636,16 +658,18 @@ header nav {
     border: 1px solid var(--color-gray-20);
     border-bottom: none;
     padding: 5px 20px;
-    background-color: var(--quote-background);
+    background-color: rgba(var(--quote-background-rgb), 0.7);
     cursor: pointer;
     font-size: 16px;
     transition: all 0.3s ease;
     position: relative;
     text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
 }
 
 .nav-item a:hover {
-    background-color: #e8e8e8;
+    background-color: rgba(var(--quote-background-rgb), 0.9);
 }
 
 .nav-item a[aria-current="page"] {
@@ -980,6 +1004,6 @@ h2 + .header-anchor {
 				</ul>
 			</nav>
 		</footer>
-		<!-- This page `/archive/2024/embracing-monero/` was built on 2024-07-13T17:21:58.568Z -->
+		<!-- This page `/archive/2024/embracing-monero/` was built on 2024-07-19T03:24:01.541Z -->
 	</body>
 </html>
