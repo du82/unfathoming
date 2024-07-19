@@ -410,7 +410,7 @@ header {
     align-items: flex-end;
     padding: 0 1em;
     margin-top: 0.5em;
-    background-image: url('https://uploads.golmedia.net/uploads/articles/article_media/2703091781623526834gol1.jpg');
+    /* background-image: url('https://uploads.golmedia.net/uploads/articles/article_media/2703091781623526834gol1.jpg'); */
     background-size: cover;
     background-position: center;
     position: relative;
