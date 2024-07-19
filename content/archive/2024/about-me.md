@@ -3,6 +3,7 @@ title: About Me
 date: 2024-01-02
 tags:
   - beginnings
+banner: b1.jpg
 eleventyNavigation:
   key: Me
   order: 5
