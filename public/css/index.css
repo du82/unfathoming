@@ -435,6 +435,7 @@ header::after {
     color: var(--text-color);
     position: relative;
     z-index: 1;
+	margin-bottom: 0.2em;
 }
 
 header nav {
