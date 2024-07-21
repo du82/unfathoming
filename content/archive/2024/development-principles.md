@@ -6,6 +6,7 @@ tags:
   - design
   - development
   - learning
+draft: true
 ---
 Since many people have asked about the unconventional ways in which I design software, I thought I'd share my list of software development principles and why I pick them.
 
