@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My attempt to daily drive Qubes OS</title>
+		<title>My software development principles</title>
 		<meta name="description" content="A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Unfathoming">
@@ -836,35 +836,32 @@ h2 + .header-anchor {
 			<div class="content-wrapper">
 				<div class="main-content">
 					
-<h2 class="title">My attempt to daily drive Qubes OS</h2>
+<h2 class="title">My software development principles</h2>
 
 <ul class="post-metadata">
-	<li><time datetime="2024-05-01">01 May 2024</time></li>
-  <li><a href="https://archive.ph/http://unfathom.ing/archive/2024/daily-driving-qubes-os/" target="_blank">View Archived</a><li>
-	<li><a href="/tags/privacy/" class="post-tag">privacy</a>, </li>
-	<li><a href="/tags/security/" class="post-tag">security</a>, </li>
-	<li><a href="/tags/learning/" class="post-tag">learning</a>, </li>
-	<li><a href="/tags/evergreen/" class="post-tag">evergreen</a></li>
+	<li><time datetime="2020-07-20">20 July 2020</time></li>
+  <li><a href="https://archive.ph/http://unfathom.ing/archive/2024/development-principles/" target="_blank">View Archived</a><li>
+	<li><a href="/tags/design/" class="post-tag">design</a>, </li>
+	<li><a href="/tags/development/" class="post-tag">development</a>, </li>
+	<li><a href="/tags/learning/" class="post-tag">learning</a></li>
 </ul>
 
-<p>As a cybersecurity researcher who has found myself in the crosshairs of various foreign state actors, I've recently made the switch to <a href="https://qubes-os.org">Qubes OS</a>. This operating system, built around the concept of security through isolation using virtual machines, aligns perfectly with my love for virtualization and my need for excellent security.</p>
-<p>My work in cybersecurity often involves researching sensitive topics (like the complex politics in China) that can attract unwanted attention. Historically, my security measures haven't been as robust as they should be, given the nature of my research. Qubes OS presented itself as an ideal solution to my China problem, and offered practical usability and containerization.</p>
-<p>One of the features that makes Qubes OS stand out is its seamless integration of VM windows within the host environment. Unlike traditional VMs where windows are confined to a single guest display, Qubes allows windows from different VMs to coexist side by side. This design choice has many practical applications for me, primarily being able to isolate each area of research into its own VM.</p>
-<p>My requirements include:</p>
-<ul>
-<li>Signal messenger</li>
-<li>Monero GUI wallet</li>
-<li>VS Code or Lapce editor</li>
-<li>A variety of programming languages</li>
-<li>All of my scripts must run just fine</li>
-<li>Tor (service) and Tor Browser - both included</li>
-</ul>
-<hr>
-<h2 id="update-1-03-may" tabindex="-1">Update #1 - 03 May <a class="header-anchor" href="#update-1-03-may">#</a></h2>
-<p>I've spent some time with Qubes now, and all of my requirements have been met. The only thing that doesn't quite work is voice calling on Signal. I'm writing this blog post on Qubes, and it's working great so far.</p>
-<p>I like Qubes so much that I decided to buy dedicated hardware for it, since the 16gb of memory in my current laptop just doesn't quite cut it, and the performance of a laptop is significantly less than that of a desktop. The new system has 32gb of memory with the option to upgrade to 64 later on, as well as</p>
+<p>Since many people have asked about the unconventional ways in which I design software, I thought I'd share my list of software development principles and why I pick them.</p>
+<p>First, I think it's important to share <em>why</em> I design software in the first place. Unlike most people who are motivated by money, I design software because I think better alternatives to the status quo <em>can</em> exist. This is fundamentally different from the doomer mentality in that I try to go beyond worrying and create something the way I see fit.</p>
+<h2 id="minimal-dependencies-decreased-attack-surface" tabindex="-1">Minimal dependencies = decreased attack surface <a class="header-anchor" href="#minimal-dependencies-decreased-attack-surface">#</a></h2>
+<p>This is a fairly straightforward concept; the more third-party code inside of your project, greater the chance of a vulnerability. It also comes with other benefits, like the reduction of dependency hell, and increased longevity. I've found that the more code I write myself, the longer the project I'm working on will last and the more stable it will be.</p>
+<h2 id="zero-js-or-php-fuckin-ew" tabindex="-1">Zero JS or PHP. Fuckin' ew! <a class="header-anchor" href="#zero-js-or-php-fuckin-ew">#</a></h2>
+<p>If there's something so important that it needs to run on <em>my</em> machine, why don't you run it on your server and give me its results when you're done processing whatever it is? I get that some fun effects rely on JavaScript, but are they really necessary?</p>
+<p>As for PHP, we're not in 1995, its currently , you can do better, I know you can. Give Rust or Go a try please. They'll save you a security headache.</p>
+<h2 id="analytics-can-be-good-if-done-right" tabindex="-1">Analytics can be good if done right <a class="header-anchor" href="#analytics-can-be-good-if-done-right">#</a></h2>
+<p>This is somewhat of a controversial one, but analytics <em>can</em> be a good thing if implemented correctly, being careful to select a provider that is both open-source <strong>and</strong> privacy respecting. Analytics can offer useful insight, especially when dealing with bots.</p>
+<h2 id="no-connections-to-third-party-providers-except-bot-logger-especially-social-media-sites" tabindex="-1">No connections to third party providers (except bot logger), especially social media sites <a class="header-anchor" href="#no-connections-to-third-party-providers-except-bot-logger-especially-social-media-sites">#</a></h2>
+<p>You don't need Google Fonts. Please re-host the fonts on your own server or find a free CDN, there's a dozen out there that are more private than Google services. This is mainly an issue of tracking, but it can also improve load time consistency since there'll only be one server to make requests to, not a dozen or so servers.</p>
+<p>This also allows you to maintain full control over the user experience and reduce dependance on third-party providers that may change or remove things without your knowledge or consent.</p>
+<h2 id="must-work-on-tor-s-strictest-settings-with-all-cookies-and-scripts-blocked" tabindex="-1">MUST work on Tor's strictest settings with all cookies and scripts blocked <a class="header-anchor" href="#must-work-on-tor-s-strictest-settings-with-all-cookies-and-scripts-blocked">#</a></h2>
+<p>As someone who regulary uses Tor, I try to design my sites to last</p>
 
-<ul class="links-nextprev"><li>Previous: <a href="/archive/2024/pgp-beginners-guide/">A beginner&#39;s guide to PGP</a></li><li>Next: <a href="/archive/2024/my-review-of-the-private-messaging-ecosystem/">My review of the private messaging ecosystem</a></li>
+<ul class="links-nextprev"><li>Next: <a href="/archive/2024/hello-world/">Hello World!</a></li>
 </ul>
 
 				</div>
@@ -984,6 +981,6 @@ h2 + .header-anchor {
 				</ul>
 			</nav>
 		</footer>
-		<!-- This page `/archive/2024/daily-driving-qubes-os/` was built on 2024-07-21T04:50:56.428Z -->
+		<!-- This page `/archive/2024/development-principles/` was built on 2024-07-21T04:50:56.432Z -->
 	</body>
 </html>

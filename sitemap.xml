@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://unfathom.ing/archive/2024/development-principles/</loc>
+		<lastmod>2020-07-20</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/archive/2024/hello-world/</loc>
 		<lastmod>2024-01-01</lastmod>
 	</url>
@@ -217,12 +222,12 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/guides/</loc>
+		<loc>https://unfathom.ing/tags/musing/</loc>
 		<lastmod>2024-07-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/musing/</loc>
+		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-07-21</lastmod>
 	</url>
 </urlset>

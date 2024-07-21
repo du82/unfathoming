@@ -849,4 +849,26 @@ As for programming languages, I am reasonably proficient in:&lt;/p&gt;
 &lt;p&gt;If you enjoy the content I offer, you can stay updated through my &lt;a href=&quot;https://unfathom.ing/feed/feed.xml&quot;&gt;RSS feed&lt;/a&gt;. Feel free to add it to your preferred feed reader. Keep in mind that my writing is often iterative, meaning posts may be updated or expanded over time. If you find value in my work and wish to support it, you can &lt;a href=&quot;https://unfathom.ing/donate&quot;&gt;donate Monero&lt;/a&gt;. However, please note that donations are entirely optional and won&#39;t affect the quality or frequency of my content.&lt;/p&gt;
 </content>
 	</entry>
+	
+	<entry>
+		<title>My software development principles</title>
+		<link href="https://unfathom.ing/archive/2024/development-principles/"/>
+		<updated>2020-07-20T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/development-principles/</id>
+		<content type="html">&lt;p&gt;Since many people have asked about the unconventional ways in which I design software, I thought I&#39;d share my list of software development principles and why I pick them.&lt;/p&gt;
+&lt;p&gt;First, I think it&#39;s important to share &lt;em&gt;why&lt;/em&gt; I design software in the first place. Unlike most people who are motivated by money, I design software because I think better alternatives to the status quo &lt;em&gt;can&lt;/em&gt; exist. This is fundamentally different from the doomer mentality in that I try to go beyond worrying and create something the way I see fit.&lt;/p&gt;
+&lt;h2 id=&quot;minimal-dependencies-decreased-attack-surface&quot; tabindex=&quot;-1&quot;&gt;Minimal dependencies = decreased attack surface &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a fairly straightforward concept; the more third-party code inside of your project, greater the chance of a vulnerability. It also comes with other benefits, like the reduction of dependency hell, and increased longevity. I&#39;ve found that the more code I write myself, the longer the project I&#39;m working on will last and the more stable it will be.&lt;/p&gt;
+&lt;h2 id=&quot;zero-js-or-php-fuckin-ew&quot; tabindex=&quot;-1&quot;&gt;Zero JS or PHP. Fuckin&#39; ew! &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If there&#39;s something so important that it needs to run on &lt;em&gt;my&lt;/em&gt; machine, why don&#39;t you run it on your server and give me its results when you&#39;re done processing whatever it is? I get that some fun effects rely on JavaScript, but are they really necessary?&lt;/p&gt;
+&lt;p&gt;As for PHP, we&#39;re not in 1995, its currently , you can do better, I know you can. Give Rust or Go a try please. They&#39;ll save you a security headache.&lt;/p&gt;
+&lt;h2 id=&quot;analytics-can-be-good-if-done-right&quot; tabindex=&quot;-1&quot;&gt;Analytics can be good if done right &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is somewhat of a controversial one, but analytics &lt;em&gt;can&lt;/em&gt; be a good thing if implemented correctly, being careful to select a provider that is both open-source &lt;strong&gt;and&lt;/strong&gt; privacy respecting. Analytics can offer useful insight, especially when dealing with bots.&lt;/p&gt;
+&lt;h2 id=&quot;no-connections-to-third-party-providers-except-bot-logger-especially-social-media-sites&quot; tabindex=&quot;-1&quot;&gt;No connections to third party providers (except bot logger), especially social media sites &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You don&#39;t need Google Fonts. Please re-host the fonts on your own server or find a free CDN, there&#39;s a dozen out there that are more private than Google services. This is mainly an issue of tracking, but it can also improve load time consistency since there&#39;ll only be one server to make requests to, not a dozen or so servers.&lt;/p&gt;
+&lt;p&gt;This also allows you to maintain full control over the user experience and reduce dependance on third-party providers that may change or remove things without your knowledge or consent.&lt;/p&gt;
+&lt;h2 id=&quot;must-work-on-tor-s-strictest-settings-with-all-cookies-and-scripts-blocked&quot; tabindex=&quot;-1&quot;&gt;MUST work on Tor&#39;s strictest settings with all cookies and scripts blocked &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As someone who regulary uses Tor, I try to design my sites to last&lt;/p&gt;
+</content>
+	</entry>
 </feed>
