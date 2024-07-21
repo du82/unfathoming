@@ -849,48 +849,4 @@ As for programming languages, I am reasonably proficient in:&lt;/p&gt;
 &lt;p&gt;If you enjoy the content I offer, you can stay updated through my &lt;a href=&quot;https://unfathom.ing/feed/feed.xml&quot;&gt;RSS feed&lt;/a&gt;. Feel free to add it to your preferred feed reader. Keep in mind that my writing is often iterative, meaning posts may be updated or expanded over time. If you find value in my work and wish to support it, you can &lt;a href=&quot;https://unfathom.ing/donate&quot;&gt;donate Monero&lt;/a&gt;. However, please note that donations are entirely optional and won&#39;t affect the quality or frequency of my content.&lt;/p&gt;
 </content>
 	</entry>
-	
-	<entry>
-		<title>My software development principles</title>
-		<link href="https://unfathom.ing/archive/2024/development-principles/"/>
-		<updated>2020-07-20T00:00:00Z</updated>
-		<id>https://unfathom.ing/archive/2024/development-principles/</id>
-		<content type="html">&lt;p&gt;Since many people have asked about the unconventional ways in which I design software, I thought I&#39;d share my list of software development principles and why I pick them.&lt;/p&gt;
-&lt;h2 id=&quot;minimal-dependencies-decreased-attack-surface&quot; tabindex=&quot;-1&quot;&gt;Minimal dependencies = decreased attack surface &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Reduces potential vulnerabilities introduced by third-party code&lt;/li&gt;
-&lt;li&gt;Simplifies maintenance and updates&lt;/li&gt;
-&lt;li&gt;Improves overall security posture&lt;/li&gt;
-&lt;li&gt;Easier to audit and understand the entire codebase&lt;/li&gt;
-&lt;li&gt;You&#39;re not completely screwed when someone stops maintaining something 5 layers deep.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;zero-js-or-php-fuckin-ew&quot; tabindex=&quot;-1&quot;&gt;Zero JS or PHP. Fuckin ew! &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Avoids common security pitfalls associated with these languages&lt;/li&gt;
-&lt;li&gt;Potentially improves performance, especially on low-end devices&lt;/li&gt;
-&lt;li&gt;Forces focus on server-side rendering and progressive enhancement&lt;/li&gt;
-&lt;li&gt;Consider alternative technologies like Rust, Go, or static site generators&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;analytics-are-only-to-be-used-to-prevent-bots-open-source-analytics-provider-must-be-chosen-if-one-is-selected&quot; tabindex=&quot;-1&quot;&gt;Analytics are only to be used to prevent bots. Open source analytics provider must be chosen if one is selected. &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Respects user privacy by limiting data collection&lt;/li&gt;
-&lt;li&gt;Focuses on security rather than marketing or user tracking&lt;/li&gt;
-&lt;li&gt;Open source options ensure transparency and auditability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;no-connections-to-third-party-providers-except-bot-logger-especially-social-media-sites&quot; tabindex=&quot;-1&quot;&gt;No connections to third party providers (except bot logger), especially social media sites &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Enhances user privacy by not sharing data with external entities&lt;/li&gt;
-&lt;li&gt;Reduces potential for cross-site tracking&lt;/li&gt;
-&lt;li&gt;Improves load times by eliminating external requests&lt;/li&gt;
-&lt;li&gt;Maintains full control over the user experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;must-work-on-tor-s-strictest-settings-with-all-cookies-and-scripts-blocked&quot; tabindex=&quot;-1&quot;&gt;MUST work on Tor&#39;s strictest settings with all cookies and scripts blocked &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/development-principles/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Ensures maximum accessibility for privacy-conscious users&lt;/li&gt;
-&lt;li&gt;Forces development of robust, JavaScript-free solutions&lt;/li&gt;
-&lt;li&gt;Improves overall security by designing for the most restrictive environments&lt;/li&gt;
-&lt;li&gt;Potentially improves performance on low-bandwidth connections&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-	</entry>
 </feed>
