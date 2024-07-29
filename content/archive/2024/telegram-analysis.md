@@ -2,20 +2,19 @@
 title: Analysis of Telegram's design
 date: 2020-06-22
 tags:
-  - privacy
-  - security
-  - sovereignty
-  - surveillance
+  - analysis
+  - design
 draft: false
 ---
 Telegram is a messsaging app that was founded in 2013 by Nikolai and Pavel Durov. It's become a phenomenon in most of the world, with 950 million monthly active users. What I think is most interesting about it is its simple and intutitive, yet powerful design.
 
 ## User Interface
-The user interface of Telegram is like that of most other messengers; a simple list of chats that can be opened to show a timeline of messages. What fascinates me about the design is the elegance to which Telegram hides complexity. For example, the ability to send a message to yourself is hidden behind the "Saved Messages" chat. This is a feature that I use often, but it's not something that I need to see all the time.
+The user interface of Telegram is like that of most other messengers; a simple list of chats that can be opened to show a timeline of messages. What fascinates me about the design is how it elegantly conceals complex actions behind an ordinary chat interface. For example, the ability to send a message to yourself is hidden behind the "Saved Messages" chat, which you won't see until the first time you try to forward a message. This is a feature that I use often, but it's not something that I need to see all the time.
 
 Another feature that's commonly overlooked is the ability to utilize bots to automate tasks. This isn't groundbreaking for a messaging app, almost all messaging apps have an SDK for automated interaction. The difference is that Telegram has a large community of developers that have created bots for almost every use case imaginable, and the company has made it easy to find and interact with these bots. The thing that makes Telegram bots even more special is their ability to display in-line UI elements such as buttons and images. This makes the bots feel more deeply integrated and more akin to a control panel of sorts rather than a pre-programmed set of `/commands` to be typed by the user, which reduces friction.
 
 ## Features and Functionality
+Telegram is attempting to become a superapp; an app with many functions in one. It has a built-in photo editor, a file manager, a video player, a music player, a voice recorder, a voice call feature, a video call feature, a group chat feature, a channel feature, a bot feature, a sticker feature, a gif feature, a location sharing feature, a contact sharing feature, a payment feature, a games feature, a poll
 
 ## Security and Privacy
 
