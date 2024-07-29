@@ -849,4 +849,25 @@ As for programming languages, I am reasonably proficient in:&lt;/p&gt;
 &lt;p&gt;If you enjoy the content I offer, you can stay updated through my &lt;a href=&quot;https://unfathom.ing/feed/feed.xml&quot;&gt;RSS feed&lt;/a&gt;. Feel free to add it to your preferred feed reader. Keep in mind that my writing is often iterative, meaning posts may be updated or expanded over time. If you find value in my work and wish to support it, you can &lt;a href=&quot;https://unfathom.ing/donate&quot;&gt;donate Monero&lt;/a&gt;. However, please note that donations are entirely optional and won&#39;t affect the quality or frequency of my content.&lt;/p&gt;
 </content>
 	</entry>
+	
+	<entry>
+		<title>Analysis of Telegram&#39;s design</title>
+		<link href="https://unfathom.ing/archive/2024/telegram-analysis/"/>
+		<updated>2020-06-22T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/telegram-analysis/</id>
+		<content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Telegram is a messsaging app that was founded in 2013 by Nikolai and Pavel Durov. It&#39;s become a phenomenon in most of the world, with 950 million monthly active users. What I think is most interesting about it is its simple and intutitive, yet powerful design.&lt;/p&gt;
+&lt;h2 id=&quot;user-interface&quot; tabindex=&quot;-1&quot;&gt;User Interface &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The user interface of Telegram is like that of most other messengers; a simple list of chats that can be opened to show a timeline of messages. What fascinates me about the design is the elegance to which Telegram hides complexity. For example, the ability to send a message to yourself is hidden behind the &amp;quot;Saved Messages&amp;quot; chat. This is a feature that I use often, but it&#39;s not something that I need to see all the time.&lt;/p&gt;
+&lt;h2 id=&quot;features-and-functionality&quot; tabindex=&quot;-1&quot;&gt;Features and Functionality &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;security-and-privacy&quot; tabindex=&quot;-1&quot;&gt;Security and Privacy &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;cross-platform-experience&quot; tabindex=&quot;-1&quot;&gt;Cross-platform Experience &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;customization&quot; tabindex=&quot;-1&quot;&gt;Customization &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;performance&quot; tabindex=&quot;-1&quot;&gt;Performance &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;comparison-with-competitors&quot; tabindex=&quot;-1&quot;&gt;Comparison with Competitors &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;user-experience&quot; tabindex=&quot;-1&quot;&gt;User Experience &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;future-design-directions&quot; tabindex=&quot;-1&quot;&gt;Future Design Directions &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/telegram-analysis/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+</content>
+	</entry>
 </feed>

@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://unfathom.ing/archive/2024/telegram-analysis/</loc>
+		<lastmod>2020-06-22</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/archive/2024/hello-world/</loc>
 		<lastmod>2024-01-01</lastmod>
 	</url>
@@ -177,12 +182,12 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/surveillance/</loc>
+		<loc>https://unfathom.ing/tags/design/</loc>
 		<lastmod>2024-07-29</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/china/</loc>
+		<loc>https://unfathom.ing/tags/development/</loc>
 		<lastmod>2024-07-29</lastmod>
 	</url>
 	
@@ -197,6 +202,16 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/tags/surveillance/</loc>
+		<lastmod>2024-07-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/china/</loc>
+		<lastmod>2024-07-29</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-07-29</lastmod>
 	</url>
@@ -207,22 +222,12 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/design/</loc>
-		<lastmod>2024-07-29</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/development/</loc>
+		<loc>https://unfathom.ing/tags/musing/</loc>
 		<lastmod>2024-07-29</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/guides/</loc>
-		<lastmod>2024-07-29</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/musing/</loc>
 		<lastmod>2024-07-29</lastmod>
 	</url>
 </urlset>
