@@ -15,12 +15,12 @@ The user interface of Telegram is like that of most other messengers; a simple l
 Another feature that's commonly overlooked is the ability to utilize bots to automate tasks. This isn't groundbreaking for a messaging app, almost all messaging apps have an SDK for automated interaction. The difference is that Telegram has a large community of developers that have created bots for almost every use case imaginable, and the company has made it easy to find and interact with these bots. The thing that makes Telegram bots even more special is their ability to display in-line UI elements such as buttons and images. This makes the bots feel more deeply integrated and more akin to a control panel of sorts rather than a pre-programmed set of `/commands` to be typed by the user, which reduces friction.
 
 ## Features and Functionality
-Telegram is attempting to become a superapp; an app with many functions in one. It has a built-in photo editor, a file manager, a video player, a music player, a voice recorder, a voice call feature, a video call feature, a group chat feature, a channel feature, a bot feature, a sticker feature, a gif feature, a location sharing feature, a contact sharing feature, a payment feature, a games feature, a poll
+Telegram has evolved far beyond a simple messaging app, steadily transforming itself into what's known as a "superapp" - a single application that houses a multitude of diverse functions. This strategic expansion has resulted in a rich ecosystem of features within Telegram's app, including:
 
-* **Communication Suite:** Traditional messaging capabilities such as voice and video calling, group chat, and public channels for broader content distribution.
-* **Multimedia Hub:** An array of deeply integrated tools including a photo editor, video and music players, voice recorder, and robust file management system.
-* **Interactive Platform:** A diverse range of engagement features such as an extensive bot ecosystem, customizable sticker collections, GIF support, location sharing, and interactive polls.
-* **Productivity and Entertainment Center:** A blend of practical and leisure functionalities, from contact sharing and in-app games to an innovative payment processing system.
+* **Communication:** Traditional messaging capabilities such as voice and video calling, group chat, and public channels for broader content distribution.
+* **Multimedia:** An array of deeply integrated tools including a photo editor, video and music players, voice recorder, and robust file management system.
+* **Social Platform:** A diverse range of engagement features such as an extensive bot ecosystem, customizable sticker collections, GIF support, location sharing, and interactive polls.
+* **Productivity and Entertainment Center:** A well thought out mixture of practical and leisure functionalities, from contact sharing and in-app games to an innovative payment processing system.
 
 ## Security and Privacy
 
