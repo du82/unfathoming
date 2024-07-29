@@ -1,5 +1,6 @@
 ---
 title: Analysis of Telegram's design
+description: This analysis delves into the design philosophy behind Telegram, exploring how the messaging app elegantly balances simplicity with powerful features.
 date: 2020-06-22
 tags:
   - analysis
