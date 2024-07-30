@@ -23,6 +23,7 @@ Telegram has evolved far beyond a simple messaging app, steadily transforming it
 * **Productivity and Entertainment Center:** A well thought out mixture of practical and leisure functionalities, from contact sharing and in-app games to an innovative payment processing system.
 
 ## Security and Privacy
+Telegram has a checkered history with security and privacy. The app has been criticized for its use of custom-built cryptography and its cooperation with authoritarian regimes. Telegram has end-to-end encryption, but it is severely limited in scope and only available in secret chats. The app has also been criticized for its lack of transparency and accountability in handling user data.
 
 ## Cross-platform Experience
 
