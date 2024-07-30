@@ -25,11 +25,12 @@ Telegram has evolved far beyond a simple messaging app, steadily transforming it
 ## Security and Privacy
 Telegram has a checkered history with security and privacy. The app has been rightfully criticized for its use of custom-built cryptography{% sidenote "Generally, it is better to use established cryptographic frameworks instead of rolling your own cryptography." %} and its cooperation with authoritarian regimes{% sidenote "See: [India](https://techcrunch.com/2022/11/29/telegram-shares-data-of-users-accused-of-copyright-violation-following-court-order/), [Russia](https://www.reuters.com/world/europe/navalny-allies-accuse-telegram-censorship-russian-election-2021-09-18/)" %}. Telegram has end-to-end encryption, but it is severely limited in scope and only available in secret chats. The app has also been criticized for its lack of transparency and accountability in handling user data.
 
-The privacy benefits of Telegram over something like Discord are clear, but the app is not without its flaws. The app is not transparent with its data collection and storage policies, but it is generally considered to be more private due to the fact that it does not use any of the existing cloud providers which are susceptible to government-issued subpoenas{% sidenote "I set up my platform in a similar manner for the same reasons." %}.
+The privacy benefits of Telegram over something like Discord are clear, but the app is not without its flaws. The app is not transparent with its data collection and storage policies, but it is generally considered to be more private due to the fact that it does not use any of the existing cloud providers which are susceptible to government-issued subpoenas{% sidenote "I set up my platform in a similar manner for the same reasons." %}. Still, if you're looking for a truly private messaging app, you should look elsewhere.
 
 ## Cross-platform Experience
 
 ## Customization
+This is one of the more interesting aspects of Telegram. The app is highly customizable, with a wide range of themes, stickers, and bots available to users. This level of customization is rare in messaging apps, and it's one of the more notable reasons why Telegram has such a dedicated user base. Other apps like [Discord](/archive/2024/the-tragedy-of-discord) have a set experience that can't be changed without custom clients, but Telegram allows users to change almost every aspect of the app.
 
 ## Performance
 
