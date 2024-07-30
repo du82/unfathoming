@@ -1,9 +1,6 @@
 {%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
 
 {% set currentMonth = "" %}
-{% set totalPosts = postslist.length %}
-
-<ol reversed class="postlist" start="{{ totalPosts }}">
 {% for post in postslist | reverse %}
     {% set postMonth = post.date | readableDate("LLLL yyyy") %}
 
@@ -13,9 +10,7 @@
         {% endif %}
 
         <h2>{{ postMonth }}</h2>
-        {% if not loop.first %}
-            <ol reversed class="postlist" start="{{ totalPosts - loop.index0 + 1 }}">
-        {% endif %}
+        <ol reversed class="postlist">
         {% set currentMonth = postMonth %}
     {% endif %}
 
