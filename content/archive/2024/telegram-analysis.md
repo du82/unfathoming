@@ -28,6 +28,8 @@ Telegram has a checkered history with security and privacy. The app has been rig
 
 The privacy benefits of Telegram over something like Discord are clear, but the app is not without its flaws. The app is not transparent with its data collection and storage policies, but it is generally considered to be more private due to the fact that it does not use any of the existing cloud providers which are susceptible to government-issued subpoenas{% sidenote "I set up my platform in a similar manner for the same reasons." %}. Still, if you're looking for a truly private messaging app, you should look elsewhere.
 
+{% dropdown "Personal experience", "My personal experience with Telegram has been less than ideal. I've had multiple accounts hacked, used for malicious activity (usually scamming), then deleted. I've even had users export messages for all chats and approve the request to export data despite not having access to my physical phone. Especially since Telegram has very limited end-to-end encryption, this is very concerning." %}
+
 ## Cross-platform Experience
 This is where Telegram truly excels, for the wrong reasons. Due to the lack of end-to-end encryption on most messages, there are no sync or encryption issues between devices. This is contrary to apps like [Signal](/archive/2024/signal-analysis) and [SimpleX Chat](/archive/2024/simplex-analysis), which have to deal with the complexities of end-to-end encryption. Telegram's lack of encryption is a double-edged sword, as it allows for a seamless cross-platform experience but also leaves users at the mercy of the Telegram company and their refusal to comply with government requests for user data.
 
