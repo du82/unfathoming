@@ -8,37 +8,3 @@ eleventyNavigation:
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
-
-{% set posts = collections.post %}
-{% set postsByYearAndMonth = {} %}
-
-{# Group posts by year and month #}
-{% for post in posts %}
-  {% set year = post.date | date("yyyy") %}
-  {% set month = post.date | date("MMMM") %}
-
-  {% if not postsByYearAndMonth[year] %}
-    {% set postsByYearAndMonth = (postsByYearAndMonth.update({(year): {}})) %}
-  {% endif %}
-
-  {% if not postsByYearAndMonth[year][month] %}
-    {% set postsByYearAndMonth = (postsByYearAndMonth.update({(year): postsByYearAndMonth[year].update({(month): []})})) %}
-  {% endif %}
-
-  {% set postsByYearAndMonth = (postsByYearAndMonth.update({(year): postsByYearAndMonth[year].update({(month): (postsByYearAndMonth[year][month].push(post), postsByYearAndMonth[year][month])[-1]})})) %}
-{% endfor %}
-
-{# Display posts by year and month #}
-{% set years = postsByYearAndMonth | keys | sort | reverse %}
-{% set months = ["December", "November", "October", "September", "August", "July", "June", "May", "April", "March", "February", "January"] %}
-
-{% for year in years %}
----------------- **{{ year }}** ----------------
-{% for month in months %}
-  {% if postsByYearAndMonth[year][month] %}
-    {{- month }} ({{ postsByYearAndMonth[year][month] | length }})
-    {%- if not loop.last and not loop.first %} ; {% endif %}
-  {% endif %}
-{% endfor %}
-
-{% endfor %}
