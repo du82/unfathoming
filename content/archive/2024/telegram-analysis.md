@@ -39,7 +39,7 @@ This is one of the more interesting aspects of Telegram. The app is highly custo
 ## Performance
 
 ## Comparison with Competitors
-
+Telegram generally has far more features than apps like Signal, WhatsApp, and SimpleX Chat. This is both a blessing and a curse, as it allows for a more feature-rich experience but also makes the app more complex for those who wish to take advantage of all of its features. Telegram tends to innovate faster, but many of its new features are behind the *Telegram Premium* paywall, which is a subscription service that unlocks additional features and removes advertising from public channels.
 
 ## User Experience
 
