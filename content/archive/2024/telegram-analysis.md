@@ -31,14 +31,16 @@ The privacy benefits of Telegram over something like Discord are clear, but the 
 ## Cross-platform Experience
 
 ## Customization
-This is one of the more interesting aspects of Telegram. The app is highly customizable, with a wide range of themes, stickers, and bots available to users. This level of customization is rare in messaging apps, and it's one of the more notable reasons why Telegram has such a dedicated user base. Other apps like [Discord](/archive/2024/the-tragedy-of-discord) have a set experience that can't be changed without custom clients, but Telegram allows users to change almost every aspect of the app. If you aren't happy with the default experience, you can even create your own client using the Telegram API.
+This is one of the more interesting aspects of Telegram. The app is highly customizable, with a wide range of themes, stickers, and bots available to users. This level of customization is rare in messaging apps, and it's one of the more notable reasons why Telegram has such a dedicated user base. Other apps like [Discord](/archive/2024/the-tragedy-of-discord) have a set experience that can't be changed without custom clients, but Telegram allows users to change almost every aspect of the app. If you aren't happy with the default experience, you can even create your own client{% sidenote "The Telegram apps are all open-source under the GPLv3 license." %} using the Telegram API.
 
 ## Performance
 
 ## Comparison with Competitors
 
+
 ## User Experience
 
 ## Future Design Directions
+Telegram is focusing heavily on becoming a superapp. This is clear from the company's recent moves, such as the introduction of mini-programs and the expansion of the bot ecosystem to integrate with mini-programs. The company is also working on integrating more features into the app, such as a payment processing system and a more robust file management system.
 
 ## Conclusion
