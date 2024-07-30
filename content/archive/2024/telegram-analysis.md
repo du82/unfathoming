@@ -1,10 +1,11 @@
 ---
-title: Analysis of Telegram's design
+title: Telegram's Design: An In-Depth Analysis
 description: This analysis delves into the design philosophy behind Telegram, exploring how the messaging app elegantly balances simplicity with powerful features.
 date: 2020-06-22
 tags:
   - analysis
   - design
+banner: telegram.png
 draft: false
 ---
 Telegram is a messsaging app that was founded in 2013 by Nikolai and Pavel Durov. It's become a phenomenon in most of the world, with 950 million monthly active users. What I think is most interesting about it is its simple and intutitive, yet powerful design.
@@ -30,7 +31,7 @@ The privacy benefits of Telegram over something like Discord are clear, but the 
 ## Cross-platform Experience
 
 ## Customization
-This is one of the more interesting aspects of Telegram. The app is highly customizable, with a wide range of themes, stickers, and bots available to users. This level of customization is rare in messaging apps, and it's one of the more notable reasons why Telegram has such a dedicated user base. Other apps like [Discord](/archive/2024/the-tragedy-of-discord) have a set experience that can't be changed without custom clients, but Telegram allows users to change almost every aspect of the app.
+This is one of the more interesting aspects of Telegram. The app is highly customizable, with a wide range of themes, stickers, and bots available to users. This level of customization is rare in messaging apps, and it's one of the more notable reasons why Telegram has such a dedicated user base. Other apps like [Discord](/archive/2024/the-tragedy-of-discord) have a set experience that can't be changed without custom clients, but Telegram allows users to change almost every aspect of the app. If you aren't happy with the default experience, you can even create your own client using the Telegram API.
 
 ## Performance
 
