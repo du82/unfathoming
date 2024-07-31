@@ -4,11 +4,12 @@ date: 2024-07-07
 tags:
   - privacy
   - sovereignty
+  - philosophy
 eleventyNavigation:
   key: Principles
   order: 4
 ---
-These are the principles for a free being; 
+These are the principles for a free being;
 ## Digital Autonomy
 In a world where every action is tracked and monetized, maintaining control over one's digital footprint becomes a form of [resistance](/archive/2024/embracing-monero/). Those who protect their privacy retain the ability to think and act freely, without the suffocating influence of algorithms (often controlled by powerful entities) predicting and manipulating their every move.
 
