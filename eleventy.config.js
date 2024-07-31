@@ -129,8 +129,8 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  // Boxout cards
-  eleventyConfig.addPairedShortcode("box", function (content) {
+  // Content inside of a box
+  eleventyConfig.addShortcode("box", function (content) {
     return `<div class="content-box">${content}</div>`;
   });
 
