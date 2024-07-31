@@ -56,3 +56,4 @@ I struggle with insomnia, often finding myself caught in that [liminal space](/a
 ## Cultural background
 
 {% box "This is a testing message inside of a box shortcode" %}
+{% callout "info", "This is a testing messagine inside of a callout shortcode" %}
