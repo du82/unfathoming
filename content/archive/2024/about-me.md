@@ -54,3 +54,5 @@ I don't use social media. None at all{% sidenote "I really [hate Discord](/archi
 I struggle with insomnia, often finding myself caught in that [liminal space](/archive/2024/liminal-spaces) between alertness and exhaustion. During these nocturnal hours, I often write code, chat with people on Dread, and occasionally dictate thoughts into [Obsidian](https://obsidian.md) which form the basis of these blog posts.
 
 ## Cultural background
+
+{% box "This is a testing message inside of a box shortcode" %}

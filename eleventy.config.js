@@ -11,83 +11,87 @@ const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
-module.exports = function(eleventyConfig) {
-	// Copy the contents of the `public` folder to the output folder
-	// For example, `./public/css/` ends up in `_site/css/` TEST
-	eleventyConfig.addPassthroughCopy({
-		"./assets/": "/assets",
-		"./public/": "/",
-		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css",
-		"./content/robots.txt": "/robots.txt",
-		"./public/favicon.ico": "/favicon.ico"
-	});
+module.exports = function (eleventyConfig) {
+  // Copy the contents of the `public` folder to the output folder
+  // For example, `./public/css/` ends up in `_site/css/` TEST
+  eleventyConfig.addPassthroughCopy({
+    "./assets/": "/assets",
+    "./public/": "/",
+    "./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css",
+    "./content/robots.txt": "/robots.txt",
+    "./public/favicon.ico": "/favicon.ico",
+  });
 
-	// Run Eleventy when these files change:
-	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+  // Run Eleventy when these files change:
+  // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
-	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("assets/**/*.{svg,webp,png,jpeg}");
+  // Watch content images for the image pipeline.
+  eleventyConfig.addWatchTarget("assets/**/*.{svg,webp,png,jpeg}");
 
-	// App plugins
-	eleventyConfig.addPlugin(pluginDrafts);
-	eleventyConfig.addPlugin(pluginImages);
+  // App plugins
+  eleventyConfig.addPlugin(pluginDrafts);
+  eleventyConfig.addPlugin(pluginImages);
 
-	// Official plugins
-	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-		preAttributes: { tabindex: 0 }
-	});
-	eleventyConfig.addPlugin(pluginNavigation);
-	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(pluginBundle);
+  // Official plugins
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginSyntaxHighlight, {
+    preAttributes: { tabindex: 0 },
+  });
+  eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(pluginBundle);
 
-	// Filters
-	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
-	});
+  // Filters
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
+      format || "dd LLLL yyyy",
+    );
+  });
 
-	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
-	});
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
 
-	// Get the first `n` elements of a collection.
-	eleventyConfig.addFilter("head", (array, n) => {
-		if(!Array.isArray(array) || array.length === 0) {
-			return [];
-		}
-		if( n < 0 ) {
-			return array.slice(n);
-		}
+  // Get the first `n` elements of a collection.
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (!Array.isArray(array) || array.length === 0) {
+      return [];
+    }
+    if (n < 0) {
+      return array.slice(n);
+    }
 
-		return array.slice(0, n);
-	});
+    return array.slice(0, n);
+  });
 
-	// Return the smallest number argument
-	eleventyConfig.addFilter("min", (...numbers) => {
-		return Math.min.apply(null, numbers);
-	});
+  // Return the smallest number argument
+  eleventyConfig.addFilter("min", (...numbers) => {
+    return Math.min.apply(null, numbers);
+  });
 
-	// Return all the tags used in a collection
-	eleventyConfig.addFilter("getAllTags", collection => {
-		let tagSet = new Set();
-		for(let item of collection) {
-			(item.data.tags || []).forEach(tag => tagSet.add(tag));
-		}
-		return Array.from(tagSet);
-	});
+  // Return all the tags used in a collection
+  eleventyConfig.addFilter("getAllTags", (collection) => {
+    let tagSet = new Set();
+    for (let item of collection) {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    }
+    return Array.from(tagSet);
+  });
 
-	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
-	});
+  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+    return (tags || []).filter(
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1,
+    );
+  });
 
-	// Get current year with {% year %}
-	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  // Get current year with {% year %}
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-	// Dropdown cards
-	eleventyConfig.addShortcode("dropdown", function(header, content) {
-		return `
+  // Dropdown cards
+  eleventyConfig.addShortcode("dropdown", function (header, content) {
+    return `
 		  <details class="dropdown">
 			<summary>${header}</summary>
 			<div class="dropdown-content">
@@ -95,103 +99,107 @@ module.exports = function(eleventyConfig) {
 			</div>
 		  </details>
 		`;
-	  });
+  });
 
-	// Callout cards
-	// Example: {% callout "info", "This is an info callout." %}
-	eleventyConfig.addShortcode("callout", function(type, content) {
+  // Callout cards
+  // Example: {% callout "info", "This is an info callout." %}
+  eleventyConfig.addShortcode("callout", function (type, content) {
     return `<div class="callout ${type}">${content}</div>`;
-	});
+  });
 
-		// Sidenotes
-	const pageCounters = {};
+  // Sidenotes
+  const pageCounters = {};
 
-	eleventyConfig.addShortcode("sidenote", function(content) {
-		// Get a unique identifier for the current page
-		const pageId = this.page.inputPath;
+  eleventyConfig.addShortcode("sidenote", function (content) {
+    // Get a unique identifier for the current page
+    const pageId = this.page.inputPath;
 
-		// Initialize the counter for this page if it doesn't exist
-		if (!pageCounters[pageId]) {
-		pageCounters[pageId] = 0;
-		}
+    // Initialize the counter for this page if it doesn't exist
+    if (!pageCounters[pageId]) {
+      pageCounters[pageId] = 0;
+    }
 
-		// Increment the counter for this page
-		const counter = ++pageCounters[pageId];
-		const id = `sn${counter}`;
+    // Increment the counter for this page
+    const counter = ++pageCounters[pageId];
+    const id = `sn${counter}`;
 
-		return (
-				`<a class="sidenote-anchor" href="#${id}">${counter}</a>` +
-				`<span class="sidenote" aria-describedby="${id}"><a class="sidenote-number" id="${id}" href="#${id}">${counter}</a>${content}</span>`
-		);
-	});
+    return (
+      `<a class="sidenote-anchor" href="#${id}">${counter}</a>` +
+      `<span class="sidenote" aria-describedby="${id}"><a class="sidenote-number" id="${id}" href="#${id}">${counter}</a>${content}</span>`
+    );
+  });
 
-	// Footer frontmatter.
-	eleventyConfig.addFilter("footerNavigation", function(collection) {
-		return collection
-		  .filter(item => item.data.footerNavigation)
-		  .sort((a, b) => ((a.data.footerNavigation.order || 0) - (b.data.footerNavigation.order || 0)));
-	  });
-	
-	// Customize Markdown library settings:
-	eleventyConfig.amendLibrary("md", mdLib => {
-		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor",
-				symbol: "#",
-				ariaHidden: false,
-			}),
-			level: [1,2,3,4],
-			slugify: eleventyConfig.getFilter("slugify")
-		});
-	});
+  // Boxout cards
+  eleventyConfig.addPairedShortcode("box", function (content) {
+    return `<div class="content-box">${content}</div>`;
+  });
 
-	eleventyConfig.addShortcode("currentBuildDate", () => {
-		return (new Date()).toISOString();
-	})
+  // Footer frontmatter.
+  eleventyConfig.addFilter("footerNavigation", function (collection) {
+    return collection
+      .filter((item) => item.data.footerNavigation)
+      .sort(
+        (a, b) =>
+          (a.data.footerNavigation.order || 0) -
+          (b.data.footerNavigation.order || 0),
+      );
+  });
 
-	// Features to make your build faster (when you need them)
+  // Customize Markdown library settings:
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.ariaHidden({
+        placement: "after",
+        class: "header-anchor",
+        symbol: "#",
+        ariaHidden: false,
+      }),
+      level: [1, 2, 3, 4],
+      slugify: eleventyConfig.getFilter("slugify"),
+    });
+  });
 
-	// If your passthrough copy gets heavy and cumbersome, add this line
-	// to emulate the file copy on the dev server. Learn more:
-	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
+  eleventyConfig.addShortcode("currentBuildDate", () => {
+    return new Date().toISOString();
+  });
 
-	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+  // Features to make your build faster (when you need them)
 
-	return {
-		// Control which files Eleventy will process
-		// e.g.: *.md, *.njk, *.html, *.liquid
-		templateFormats: [
-			"md",
-			"njk",
-			"html",
-			"liquid",
-		],
+  // If your passthrough copy gets heavy and cumbersome, add this line
+  // to emulate the file copy on the dev server. Learn more:
+  // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
-		// Pre-process *.md files with: (default: `liquid`)
-		markdownTemplateEngine: "njk",
+  // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
-		// Pre-process *.html files with: (default: `liquid`)
-		htmlTemplateEngine: "njk",
+  return {
+    // Control which files Eleventy will process
+    // e.g.: *.md, *.njk, *.html, *.liquid
+    templateFormats: ["md", "njk", "html", "liquid"],
 
-		// These are all optional:
-		dir: {
-			input: "content",          // default: "."
-			includes: "../_includes",  // default: "_includes"
-			data: "../_data",          // default: "_data"
-			output: "_site"
-		},
+    // Pre-process *.md files with: (default: `liquid`)
+    markdownTemplateEngine: "njk",
 
-		// -----------------------------------------------------------------
-		// Optional items:
-		// -----------------------------------------------------------------
+    // Pre-process *.html files with: (default: `liquid`)
+    htmlTemplateEngine: "njk",
 
-		// If your site deploys to a subdirectory, change `pathPrefix`.
-		// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+    // These are all optional:
+    dir: {
+      input: "content", // default: "."
+      includes: "../_includes", // default: "_includes"
+      data: "../_data", // default: "_data"
+      output: "_site",
+    },
 
-		// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-		// it will transform any absolute URLs in your HTML to include this
-		// folder name and does **not** affect where things go in the output folder.
-		pathPrefix: "/",
-	};
+    // -----------------------------------------------------------------
+    // Optional items:
+    // -----------------------------------------------------------------
+
+    // If your site deploys to a subdirectory, change `pathPrefix`.
+    // Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+
+    // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
+    // it will transform any absolute URLs in your HTML to include this
+    // folder name and does **not** affect where things go in the output folder.
+    pathPrefix: "/",
+  };
 };
