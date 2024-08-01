@@ -10,6 +10,8 @@ eleventyNavigation:
 ---
 I'm Du, an aspiring generalist in the world of computer science. My journey began with being introduced to Linux when I was eight years old, and since then, I've been on a mission to understand as much of the tech landscape as possible. This curiosity has led me to explore a wide variety of technologies, from [mobile app development](/archive/2024/my-programming-journey/) to building a [privacy focused search engine from scratch](/archive/2024/building-a-search-engine).
 
+I'm an advocate for privacy-enhancing technologies, particularly Monero and Tor, for their critical role in preserving financial privacy and anonymity online. My support for Monero stems from its technical merits, including ring signatures, stealth addresses, and confidential transactions, which offer [unparalleled privacy](/archive/2024/embracing-monero) in the cryptocurrency space. Similarly, I value Tor for its ability to protect user identity and circumvent censorship through onion routing, opening up new possibilities for trade and information distribution that would otherwise be life threatening or impossible.
+
 One of my guiding principles has been to gain hands-on experience with as many technologies as possible. I've worked with nearly every consumer-accessible tech within a $1,000 budget, as I believe strongly that practical experience is the best teacher. This approach has given me a unique perspective on the strengths and limitations of various tools and platforms.
 
 ## Skills and expertise
