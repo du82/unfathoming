@@ -30,3 +30,10 @@ The fundamental technology required to communicate effectively on Android device
 ## One-sided surveillance
 [Every word](https://citizenlab.ca/2023/08/vulnerabilities-in-sogou-keyboard-encryption/) that is typed or spoken into the keyboards developed by the three companies listed above is transmitted back to those companies for processing{% sidenote "This is not unique to Chinese apps. Gboard and SwiftKey also do the same thing." %} by opaque neural networks that look for patterns of potential banned phrases. If that wasn't bad enough, these keyboard apps have also been used to sidestep end-to-end encryption in apps like Signal and Element, allowing authorities to view conversations from one perspective and make life-changing decisions without having the whole story.
 
+*Who is watching the watchers?*
+
+## Self-censorship
+This is a very real problem in China{% sidenote "Also in the West with netizens saying things like unalive instead of kill to keep advertising revenue." %} which is partially caused by the keyboard. If everything you ever type will be analyzed, and there's no easy open-source alternative, you will most certainly censor yourself to keep the machine happy and stay under the radar.
+
+## Workarounds
+Currently there's not many workarounds that are viable for long-term use. Trime on Android is the closest option, but the barrier to entry is still much higher than tapping install and having it immediately available. Currently Trime requires you to install LibRime on Linux and extract the dictionary files required to do the automatic suggestions.
