@@ -7,7 +7,7 @@ tags:
 This is a list of 50 topics that I believe are worth exploring. I likely won't cover all of them, but the ones I select to write about, I will like to the respective article on the topic.
 
 ## 1. The Dark Web
-- The Silk Road and its impact on the rise of cryptomarkets
+- The Silk Road and its impact on the rise of darknet markets
 - Tor and its use in anonymity and privacy
 - Hidden services and their potential for secure communication
 - Illegal activities on the dark web and their impact on society
