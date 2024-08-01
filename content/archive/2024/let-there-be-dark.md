@@ -1,6 +1,7 @@
 ---
 title: Let there be dark
 date: 2024-06-22
+banner: darkness.jpeg
 tags:
   - privacy
   - security
