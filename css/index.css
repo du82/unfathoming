@@ -421,7 +421,8 @@ header {
     align-items: flex-end;
     padding: 0 1em;
     margin-top: 0.5em;
-    overflow-y: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     background-size: cover;
     background-position: center;
     position: relative;
