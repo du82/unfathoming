@@ -14,6 +14,12 @@ I'm an advocate for privacy-enhancing technologies, particularly Monero and Tor,
 
 One of my guiding principles has been to gain hands-on experience with as many technologies as possible. I've worked with nearly every consumer-accessible tech within a $1,000 budget, as I believe strongly that practical experience is the best teacher. This approach has given me a unique perspective on the strengths and limitations of various tools and platforms.
 
+## Personal values
+
+I firmly believe in meritocracy, rationality, privacy, and self-sovereignty. I hold that everyone deserves an equal opportunity to succeed based on their individual merits and efforts{% sidenote "Not based on government handouts because you believe that you're disadvantaged. Unless you are missing limbs, or your IQ is below 80, you aren't." %}. Rational thought and decision-making are pivotal for personal growth and societal advancement in my eyes. Additionally, I strongly advocate for the right of individuals to control their information and lives, free from external interference or undue influence.
+
+My political leanings are rooted in libertarianism, prioritizing individual liberty and the free exchange of information. I value the fundamental freedoms of speech, press, and assembly, believing that they are integral to a healthy society. My views are grounded in objectivity and a pursuit of truth, encouraging critical thinking and a rejection of dogmatic beliefs.
+
 ## Skills and expertise
 I specialize in covert communications with extensive experience in computer networking, both hardware and software. I have:
 
@@ -33,12 +39,6 @@ As for programming languages, I have worked with many languages, including but n
 
 ## Current occupation
 Seeking full-time employment
-
-## Personal values
-I value privacy and self-sovereignty above all. I believe that you should have the right to do as you wish, but also that you should accept the consequences (good or bad) for whatever you do, so you should consider those consequences before doing as you wish.
-
-## Political lean
-As a libertarian, I prioritize individual liberty and the free flow of information. My views are rooted in principles rather than partisan politics or fringe ideologies. I'm an advocate for fundamental freedoms, including those of speech, press, and assembly. I value objectivity and truth, even when it challenges prevailing narratives or social norms.
 
 ## Awards or achievements
 My work has appeared in a local newspaper{% sidenote "I wasn't too thrilled with their finished article, It didn't capture the ideas and reasons for doing what I do that were discussed in the interview." %} and I've successfully completed a few privately ran bug bounties. I'm also the person behind the [Privacy Spreadsheet](/archive/2024/privacy-spreadsheet) project, which aims to provide a comprehensive breakdown of the privacy of a variety of software and services.
