@@ -46,7 +46,7 @@ Telegram generally has far more features than apps like Signal, WhatsApp, and Si
 ## Paid features
 Telegram has added paid features to help subsidize cost of operation, and according to Pavel Durov, the company is already profitible. This is interesting to me considering their subscription is $2.99 USD, far cheaper than the competition (Discord)'s offerings.
 
-The Premium subscription feels like extortion. Lots of previously free features were put behind the paywall and are nolonger accessible to free users, now taking them to a page advertising the benefits of Premium.
+The Premium subscription feels like extortion. Lots of previously free features were put behind the paywall{% sidenote "The company also sneakily removed the mentions of the app being completely free in the marketing materials." %} and are nolonger accessible to free users, now taking them to a page advertising the benefits of Premium.
 
 ## Future design directions
 Telegram is focusing heavily on becoming a superapp. This is clear from the company's recent moves, such as the introduction of mini-programs and the expansion of the bot ecosystem to integrate with mini-programs. The company is also working on integrating more features into the app, such as a payment processing system and a more robust file management system.
