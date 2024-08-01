@@ -132,6 +132,11 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/archive/2024/500-topics/</loc>
+		<lastmod>2024-08-01</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/archive/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
@@ -152,7 +157,7 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/beginnings/</loc>
+		<loc>https://unfathom.ing/tags/musing/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 	
@@ -163,6 +168,11 @@
 	
 	<url>
 		<loc>https://unfathom.ing/tags/software/</loc>
+		<lastmod>2024-08-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/beginnings/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 	
@@ -192,22 +202,22 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/design/</loc>
-		<lastmod>2024-08-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/development/</loc>
-		<lastmod>2024-08-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/learning/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/evergreen/</loc>
+		<lastmod>2024-08-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/design/</loc>
+		<lastmod>2024-08-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/development/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 	
@@ -222,22 +232,17 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/musing/</loc>
-		<lastmod>2024-08-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/analysis/</loc>
+		<loc>https://unfathom.ing/tags/philosophy/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/philosophy/</loc>
+		<loc>https://unfathom.ing/tags/analysis/</loc>
 		<lastmod>2024-08-01</lastmod>
 	</url>
 </urlset>
