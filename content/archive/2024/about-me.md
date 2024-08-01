@@ -16,7 +16,7 @@ One of my guiding principles has been to gain hands-on experience with as many t
 
 ## Personal values
 
-I firmly believe in meritocracy, rationality, privacy, and self-sovereignty. I hold that everyone deserves an equal opportunity to succeed based on their individual merits and efforts{% sidenote "Not based on government handouts because you believe that you're disadvantaged. Unless you are missing limbs, or your IQ is below 80, you aren't." %}. Rational thought and decision-making are pivotal for personal growth and societal advancement in my eyes. Additionally, I strongly advocate for the right of individuals to control their information and lives, free from external interference or undue influence.
+I firmly believe in meritocracy, rationality, privacy, and self-sovereignty. I hold that everyone deserves an equal opportunity to succeed based on their individual merits and efforts{% sidenote "Not based on government handouts because you believe that you're disadvantaged. Unless you are missing limbs, or your IQ is below 80, you aren't." %}. Rational thought and decision-making are pivotal for personal growth and societal advancement in my eyes. Additionally, I strongly advocate for the right of individuals to control their information and lives, free from external interference.
 
 My political leanings are rooted in libertarianism, prioritizing individual liberty and the free exchange of information. I value the fundamental freedoms of speech, press, and assembly, believing that they are integral to a healthy society. My views are grounded in objectivity and a pursuit of truth, encouraging critical thinking and a rejection of dogmatic beliefs.
 
