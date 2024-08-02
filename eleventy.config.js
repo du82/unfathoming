@@ -143,7 +143,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("TOC", function(content) {
     const headingRegex = /<h([2-6])[^>]*>(.*?)<\/h\1>/g;
     const headings = [];
-    let tocHtml = '<h2>Table of Contents</h2>\n<ul class="toc">\n';
+    let tocHtml = '<ul class="toc">';
 
     let match;
     while ((match = headingRegex.exec(content)) !== null) {
