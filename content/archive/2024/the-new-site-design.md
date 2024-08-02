@@ -40,5 +40,8 @@ Sidenotes automatically attach themselves to the right side of the text and scro
 Callouts (also known as callout cards) are also added as a way to draw attention to something specific. Eleventy doesn't support sidenotes or callout cards by default but it was very simple to implement them.
 {% callout "info", "I'm a callout card!" %}
 
+## Inspiration
+Inspiration for the design of this website comes from [Trilema](http://trilema.com), [Wesley’s Notebook](https://notebook.wesleyac.com/), [Jeff Huang](https://jeffhuang.com/), [Gwern](https://gwern.net), [were](http://werc.cat-v.org/), [The Gameshelf](http://gameshelf.jmac.org/), with thanks to [Corey Petty](https://x.com/corpetty) for the encouragement in starting and continuing the site.
+
 ## What else
 I'm not sure yet, it's still in development, but this is what has been added on the third revision of the site. I'll update this post if more is added or changed.
