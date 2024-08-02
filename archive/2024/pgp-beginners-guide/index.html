@@ -837,7 +837,7 @@ h2 + .header-anchor {
 		<header style="background-image: url('/assets/banners/default.jpeg');">
 			<a href="/" class="home-link">Unfathoming</a>
 			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<h2 id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/archive/2024/hello-world/">Intro</a></li>
@@ -851,7 +851,7 @@ h2 + .header-anchor {
 			<div class="content-wrapper">
 				<div class="main-content">
 					
-<h2 class="title">A beginner&#39;s guide to PGP</h2>
+<h2 id="a-beginner39s-guide-to-pgp">A beginner&#39;s guide to PGP</h2>
 
 <ul class="post-metadata">
 	<li><time datetime="2024-04-23">23 April 2024</time></li>
@@ -862,10 +862,10 @@ h2 + .header-anchor {
 
 <p>Here's my guide on how to set up and use PGP via Gnu Privacy Guard (GPG) to create keys, sign messages, add other's public keys, and verify the integrity of their messages. I couldn't find any simple instructions on how to use it, so I decided to write my own that is easier to understand.</p>
 <p>I'll assume that you're using Debian Linux or a derivative, since this blog post is meant for beginners, and Ubuntu is typically what people start out with.</p>
-<h2 id="install-gnu-privacy-guard" tabindex="-1">Install GNU Privacy Guard <a class="header-anchor" href="#install-gnu-privacy-guard">#</a></h2>
+<h2 id="install-gnu-privacy-guard">Install GNU Privacy Guard <a class="header-anchor" href="#install-gnu-privacy-guard">#</a></h2>
 <p>This command installs <code>gnupg2</code> which is the Debian package for GNU Privacy Guard.</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> gnupg2 <span class="token parameter variable">-y</span></code></pre>
-<h3 id="generate-a-new-key" tabindex="-1">Generate a new key <a class="header-anchor" href="#generate-a-new-key">#</a></h3>
+<h3 id="generate-a-new-key">Generate a new key <a class="header-anchor" href="#generate-a-new-key">#</a></h3>
 <p>Now we need to create a key.</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">gpg --full-gen-key</code></pre>
 <p>This will give you a list of options. Here's my recommendation:</p>
@@ -880,7 +880,7 @@ h2 + .header-anchor {
 <p>Type the letter <code>O</code> and it will give you a prompt to create a password.</p>
 <p><strong>Type a strong password</strong> since this will be the thing that secures your key. Don't reuse passwords from other accounts. Then press continue or <code>Enter</code>.</p>
 <p>Congrats! You now have a PGP key!</p>
-<h3 id="extracting-your-public-key" tabindex="-1"><a href="#publickey"></a>Extracting your public key <a class="header-anchor" href="#extracting-your-public-key">#</a></h3>
+<h3 id="extracting-your-public-key"><a href="#publickey"></a>Extracting your public key <a class="header-anchor" href="#extracting-your-public-key">#</a></h3>
 <p>You should now have a page that looks something like this:</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">public and secret key created and signed.
 
@@ -890,17 +890,17 @@ pub   rsa3072 <span class="token number">2024</span>-04-24 <span class="token pu
 <p>Type the following, but replace <code>MYPUBLICKEY</code> with whatever string you got under the &quot;pub&quot; section (which is known as a key fingerprint).</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">gpg <span class="token parameter variable">--armor</span> <span class="token parameter variable">--export</span> MYPUBLICKEY <span class="token operator">></span> pubkey.asc</code></pre>
 <p>This is now saved to the file called <code>pubkey.asc</code>. To view the contents of the file, type <code>cat pubkey.asc</code>. You can share this with friends or put it on your website.</p>
-<h3 id="signing-data" tabindex="-1"><a href="#signing"></a>Signing data <a class="header-anchor" href="#signing-data">#</a></h3>
+<h3 id="signing-data"><a href="#signing"></a>Signing data <a class="header-anchor" href="#signing-data">#</a></h3>
 <p>First we need some data to sign, so create a new text file (you can use <code>nano</code> command to do this), enter something, then save it.</p>
 <p>The following command will let you sign a message and attach its signature inside of the file. This is great for text, but not great for pictures or data that relies on the formatting of the data within. Make sure to replace <code>FILENAME</code> with the actual name of your file or you'll just get junk.</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">gpg <span class="token parameter variable">--clearsign</span> FILENAME</code></pre>
 <p>To generate the signature and store it separately, you can type the following:</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">gpg --detach-sig FILENAME</code></pre>
-<h3 id="importing-another-s-public-key" tabindex="-1">Importing another's public key <a class="header-anchor" href="#importing-another-s-public-key">#</a></h3>
+<h3 id="importing-anothers-public-key">Importing another's public key <a class="header-anchor" href="#importing-another-s-public-key">#</a></h3>
 <p>You probably want to be able to verify another person's message to know if it's a successful match for their key. This is useful because it proves the authenticity and integrity of the data, basically that the person who signed it is the person who holds the private key that you trust.</p>
 <p>To do this, type the following, but replace <code>THEIRKEY.asc</code> with the actual filename.</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">gpg <span class="token parameter variable">--import</span> THEIRKEY.asc</code></pre>
-<h2 id="verifying-data" tabindex="-1">Verifying data <a class="header-anchor" href="#verifying-data">#</a></h2>
+<h2 id="verifying-data">Verifying data <a class="header-anchor" href="#verifying-data">#</a></h2>
 <p>The main purpose of PGP is to be able to verify the integrity of data, so lets do that.</p>
 <p>To verify someones data, type the following, but make sure to replace <code>SIGFILE</code> with the signature file and <code>FILENAME</code> with the name of the file to verify.</p>
 <pre class="language-shell" tabindex="0"><code class="language-shell">gpg <span class="token parameter variable">--verify</span> SIGFILE FILENAME</code></pre>
@@ -911,7 +911,7 @@ pub   rsa3072 <span class="token number">2024</span>-04-24 <span class="token pu
 
 				</div>
 				<div class="sidebar">
-					<h3>Recent Articles</h3>
+					<h3 id="recent-articles">Recent Articles</h3>
 					<ul>
 							
 								<li><a href="/archive/2024/500-topics/">500 Topics worth exploring</a></li>
@@ -951,7 +951,7 @@ pub   rsa3072 <span class="token number">2024</span>-04-24 <span class="token pu
 							
 							
 					</ul>
-					<h3>Tags</h3>
+					<h3 id="tags">Tags</h3>
 					<div class="tag-cloud">
 						
 						
@@ -1033,6 +1033,6 @@ pub   rsa3072 <span class="token number">2024</span>-04-24 <span class="token pu
 				</ul>
 			</nav>
 		</footer>
-		<!-- This page `/archive/2024/pgp-beginners-guide/` was built on 2024-08-01T22:39:58.186Z -->
+		<!-- This page `/archive/2024/pgp-beginners-guide/` was built on 2024-08-02T03:44:09.024Z -->
 	</body>
 </html>

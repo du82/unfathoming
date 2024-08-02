@@ -837,7 +837,7 @@ h2 + .header-anchor {
 		<header style="background-image: url('/assets/banners/default.jpeg');">
 			<a href="/" class="home-link">Unfathoming</a>
 			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<h2 id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/archive/2024/hello-world/">Intro</a></li>
@@ -851,7 +851,7 @@ h2 + .header-anchor {
 			<div class="content-wrapper">
 				<div class="main-content">
 					
-<h2 class="title">The new site design</h2>
+<h2 id="the-new-site-design">The new site design</h2>
 
 <ul class="post-metadata">
 	<li><time datetime="2024-06-25">25 June 2024</time></li>
@@ -862,25 +862,25 @@ h2 + .header-anchor {
 </ul>
 
 <p>Welcome to the new Unfathoming. I've gone through three notable iterations of the site now, first on <a href="">quartz</a> by Jacky Zhao, second entirely static, with me manually writing HTML for every single page (and dealing with the consequences of trying to keep 50+ pages looking consistent), and thirdly (hopefully finally) what you're looking at right now.</p>
-<h2 id="user-interface-and-user-experience" tabindex="-1">User interface &amp; user experience <a class="header-anchor" href="#user-interface-and-user-experience">#</a></h2>
+<h2 id="user-interface-amp-user-experience">User interface &amp; user experience <a class="header-anchor" href="#user-interface-and-user-experience">#</a></h2>
 <p>I want my site design to be timeless, consistent, accessible, and work well on all types of content, from super serious topics like privacy to relaxed topics like how I found my cat. It doesn't need to be boring, but it does need to be a stable design.</p>
 <p>My usual style has all the rounded corners, drop shadows, and fancy stuff you see on most modern sites, but within 10 years my usual design style will feel stale and outdated, which is fine because the products can evolve, but I want my personal website to stay the same, so it requires a design that will look good in 50 years.</p>
-<h2 id="architecture" tabindex="-1">Architecture <a class="header-anchor" href="#architecture">#</a></h2>
+<h2 id="architecture">Architecture <a class="header-anchor" href="#architecture">#</a></h2>
 <p>The new site is written with the <a href="https://11ty.dev">Eleventy</a> static site generator because it's super simple with few dependencies and it is something I could learn in a <a href="/archive/2024/a-rainy-saturday-morning">morning before sunrise</a>.</p>
 <p><picture><source type="image/avif" srcset="/img/NLOiXGUdVO-1019.avif 1019w"><source type="image/webp" srcset="/img/NLOiXGUdVO-1019.webp 1019w"><img alt="diagram showing the workflow from source code to website" loading="lazy" decoding="async" src="/img/NLOiXGUdVO-1019.png" width="1019" height="344"></picture></p>
 <p>While most people use WordPress, I hate how long simple actions take. Even just loading a page can take a long time, and I didn't want to deal with the security nightmare of WordPress either. I've operated WP sites in the past, and every single one of them was compromised in some form or another, despite having what I thought was above average security. I guess that's just part of the PHP plague.</p>
 <p>Something interesting about the site is that if I want to show the graph above, I type out the following:</p>
 <pre class="language-js" tabindex="0"><code class="language-js"><span class="token punctuation">{</span><span class="token punctuation">.</span><span class="token operator">%</span> image <span class="token string">"g2.png"</span> <span class="token operator">%</span><span class="token punctuation">.</span><span class="token punctuation">}</span></code></pre>
 <p>and it knows to pull the rendered and optimized image from <code>/assets/graphs/g2.png</code>. How? It looks for the first letter <code>g</code> and knows that's associated with a graph, then looks at the number to determine which numbered graph to use, and the file extension is there to tell it which to render the final output in. I could've just as easily made it say <code>png2</code> or something else, but I like how natural it feels. <code>g2.png</code> isn't actually the name of the file, its a way of locating and displaying the file.</p>
-<h2 id="no-javascript-almost" tabindex="-1">No JavaScript (almost) <a class="header-anchor" href="#no-javascript-almost">#</a></h2>
+<h2 id="no-javascript-almost">No JavaScript (almost) <a class="header-anchor" href="#no-javascript-almost">#</a></h2>
 <p>The site has no javascript. Well, it does have one tracking thing from CloudFlare, but its not necessary and only helps me figure out how AI scrapers are getting around the firewall.</p>
-<h2 id="sidenotes" tabindex="-1">Sidenotes <a class="header-anchor" href="#sidenotes">#</a></h2>
+<h2 id="sidenotes">Sidenotes <a class="header-anchor" href="#sidenotes">#</a></h2>
 <p>I've also written a sidenotes mechanism similar to how <a href="https://gwern.net">Gwern</a> does it. It's nice to be able to add additional commentary that doesn't fit the text well enough, or share my thoughts on what someone has said.<a class="sidenote-anchor" href="#sn1">1</a><span class="sidenote" aria-describedby="sn1"><a class="sidenote-number" id="sn1" href="#sn1">1</a>Isn't this neat? It can be as long as it needs to be, or it can even contain images, although I doubt I'd ever do something like that.</span></p>
 <p>Sidenotes automatically attach themselves to the right side of the text and scroll with the content, which also could act as a nice way to show a timeline of thoughts throughout writing an article or events through a story that didn't make the cut. The sidenotes are only available on devices with large screens. A desktop, laptop, or iPad should work just fine.</p>
-<h2 id="callouts" tabindex="-1">Callouts <a class="header-anchor" href="#callouts">#</a></h2>
+<h2 id="callouts">Callouts <a class="header-anchor" href="#callouts">#</a></h2>
 <p>Callouts (also known as callout cards) are also added as a way to draw attention to something specific. Eleventy doesn't support sidenotes or callout cards by default but it was very simple to implement them.</p>
 <div class="callout info">I'm a callout card!</div>
-<h2 id="what-else" tabindex="-1">What else <a class="header-anchor" href="#what-else">#</a></h2>
+<h2 id="what-else">What else <a class="header-anchor" href="#what-else">#</a></h2>
 <p>I'm not sure yet, it's still in development, but this is what has been added on the third revision of the site. I'll update this post if more is added or changed.</p>
 
 <ul class="links-nextprev"><li>Previous: <a href="/archive/2024/let-there-be-dark/">Let there be dark</a></li><li>Next: <a href="/archive/2024/operating-in-hostile-computing-environments/">Operating in hostile computing environments</a></li>
@@ -888,7 +888,7 @@ h2 + .header-anchor {
 
 				</div>
 				<div class="sidebar">
-					<h3>Recent Articles</h3>
+					<h3 id="recent-articles">Recent Articles</h3>
 					<ul>
 							
 								<li><a href="/archive/2024/500-topics/">500 Topics worth exploring</a></li>
@@ -928,7 +928,7 @@ h2 + .header-anchor {
 							
 							
 					</ul>
-					<h3>Tags</h3>
+					<h3 id="tags">Tags</h3>
 					<div class="tag-cloud">
 						
 						
@@ -1010,6 +1010,6 @@ h2 + .header-anchor {
 				</ul>
 			</nav>
 		</footer>
-		<!-- This page `/archive/2024/the-new-site-design/` was built on 2024-08-01T22:39:58.216Z -->
+		<!-- This page `/archive/2024/the-new-site-design/` was built on 2024-08-02T03:44:09.071Z -->
 	</body>
 </html>
