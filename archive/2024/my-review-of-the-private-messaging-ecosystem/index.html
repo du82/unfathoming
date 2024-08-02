@@ -570,8 +570,18 @@ table th {
     padding-right: 1em;
 }
 
-pre,
-code {
+code,kbd,samp{
+    border-width:1px;
+    border-color:var(--quote-background);
+    background-color:var(--color-gray-20);
+    padding:var(--spacing-2,.5rem) var(--spacing-3,.75rem);
+    font-size:var(--font-size-sm,.875rem);
+    font-family: var(--font-family-monospace);
+    line-height:var(--font-size-sm--line-height,1.25rem);
+    overflow-x:auto
+}
+
+pre {
     font-family: var(--font-family-monospace);
 }
 pre:not([class*="language-"]) {
@@ -588,9 +598,6 @@ pre:not([class*="language-"]) {
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
-}
-code {
-    word-break: break-all;
 }
 
 /* Header */
@@ -1015,6 +1022,6 @@ h2 + .header-anchor {
 				</ul>
 			</nav>
 		</footer>
-		<!-- This page `/archive/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-08-02T17:28:34.077Z -->
+		<!-- This page `/archive/2024/my-review-of-the-private-messaging-ecosystem/` was built on 2024-08-02T17:32:52.628Z -->
 	</body>
 </html>
