@@ -32,7 +32,9 @@ and it knows to pull the rendered and optimized image from `/assets/graphs/g2.pn
 The site has no javascript. Well, it does have one tracking thing from CloudFlare, but its not necessary and only helps me figure out how AI scrapers are getting around the firewall.
 
 ## Sidenotes
-One of the key features of the new design is the use of sidenotes. These interactive notes provide additional context, commentary, a definition or clarification for a technical term, or to include a related fact or statistic that supports the main text without disrupting the flow or forcing the user to scroll to the bottom to read a footnote. They are designed to be a subtle addition, appearing on the right side of the screen, and can be easily accessed by users who wish to explore further.
+One of the key features of the new design is the use of sidenotes{% sidenote "Gwern did a [good article](https://gwern.net/sidenote) on sidenotes in web design." %}. These interactive notes provide additional context, commentary, a definition or clarification for a technical term, or to include a related fact or statistic that supports the main text without disrupting the flow or forcing the user to break their current context by scrolling to the bottom to read a footnote.
+
+My implementation of sidenotes is purely CSS, in-line with the requirement of having no JS on the site. I've gone with the `<span>` method of sidenotes, which I believe to be superior due to the ease of reading by screen readers and archival software.
 
 ## Callouts
 Callouts (also known as callout cards) are also added as a way to draw attention to something specific. Eleventy doesn't support sidenotes or callout cards by default but it was very simple to implement them.
