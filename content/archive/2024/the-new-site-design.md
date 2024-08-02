@@ -32,9 +32,7 @@ and it knows to pull the rendered and optimized image from `/assets/graphs/g2.pn
 The site has no javascript. Well, it does have one tracking thing from CloudFlare, but its not necessary and only helps me figure out how AI scrapers are getting around the firewall.
 
 ## Sidenotes
-I've also written a sidenotes mechanism similar to how [Gwern](https://gwern.net) does it. It's nice to be able to add additional commentary that doesn't fit the text well enough, or share my thoughts on what someone has said.{% sidenote "Isn't this neat? It can be as long as it needs to be, or it can even contain images, although I doubt I'd ever do something like that.", "note1" %}
-
-Sidenotes automatically attach themselves to the right side of the text and scroll with the content, which also could act as a nice way to show a timeline of thoughts throughout writing an article or events through a story that didn't make the cut. The sidenotes are only available on devices with large screens. A desktop, laptop, or iPad should work just fine.
+One of the key features of the new design is the use of sidenotes. These interactive notes provide additional context, commentary, a definition or clarification for a technical term, or to include a related fact or statistic that supports the main text without disrupting the flow or forcing the user to scroll to the bottom to read a footnote. They are designed to be a subtle addition, appearing on the right side of the screen, and can be easily accessed by users who wish to explore further.
 
 ## Callouts
 Callouts (also known as callout cards) are also added as a way to draw attention to something specific. Eleventy doesn't support sidenotes or callout cards by default but it was very simple to implement them.
