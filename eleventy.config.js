@@ -129,6 +129,50 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Function to generate a slug from text
+  function slugify(text) {
+    return text.toString().toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  }
+
+  // Shortcode to generate TOC
+  eleventyConfig.addShortcode("TOC", function(content) {
+    const headingRegex = /<h([2-6])[^>]*>(.*?)<\/h\1>/g;
+    const headings = [];
+    let tocHtml = '<h2>Table of Contents</h2>\n<ul class="toc">\n';
+
+    let match;
+    while ((match = headingRegex.exec(content)) !== null) {
+      const level = parseInt(match[1]);
+      const text = match[2].replace(/<[^>]+>/g, ''); // Remove any HTML tags inside the heading
+      const slug = slugify(text);
+      
+      headings.push({ level, text, slug });
+      
+      tocHtml += `  <li class="toc-level-${level}"><a href="#${slug}">${text}</a></li>\n`;
+    }
+
+    tocHtml += '</ul>';
+
+    return tocHtml;
+  });
+
+  // Transform to add ids to headings
+  eleventyConfig.addTransform("addHeadingIds", function(content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const headingRegex = /<h([2-6])[^>]*>(.*?)<\/h\1>/g;
+      return content.replace(headingRegex, (match, level, text) => {
+        const slug = slugify(text.replace(/<[^>]+>/g, ''));
+        return `<h${level} id="${slug}">${text}</h${level}>`;
+      });
+    }
+    return content;
+  });
+
   // Content inside of a box
   eleventyConfig.addShortcode("box", function (content) {
     return `<div class="content-box">${content}</div>`;
