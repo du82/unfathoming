@@ -316,6 +316,50 @@ blockquote p {
     display: inline;
 }
 
+/* Basic table styling */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Header styling */
+  thead {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  /* Body styling */
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Cell borders */
+  td, th {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
 /* Callout cards */
 .callout {
     background: var(--quote-background);
@@ -1045,6 +1089,6 @@ pub   rsa3072 <span class="token number">2024</span>-04-24 <span class="token pu
 				</ul>
 			</nav>
 		</footer>
-		<!-- This page `/archive/2024/pgp-beginners-guide/` was built on 2024-08-02T17:38:35.982Z -->
+		<!-- This page `/archive/2024/pgp-beginners-guide/` was built on 2024-08-04T15:28:52.089Z -->
 	</body>
 </html>
