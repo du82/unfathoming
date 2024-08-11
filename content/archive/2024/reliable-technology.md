@@ -18,7 +18,7 @@ I use a customized *[Launch Heavy](https://system76.com/accessories/launch)* key
 
 I went with the Kailh Box Jades initially but they turned out to be too clicky and they didn't have enough resistance, so I swapped them out for [Kailh Speed Pro Heavy](https://keychron.com.es/products/kailh-speed-pro-heavy-switch) switches.
 
-{% image "p1.jpeg", "sentiment quiz" %}
+{% image "p1.jpeg", "my System76 keyboard" %}
 
 ## Mouse
 I use a [*MX Master 3S*](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006556.html) which I actually think is a downgrade from the original MX Master mouse because it doesn't fit as nicely in my hand as the original. I have one of the original MX Master mice as well, but for whatever reason it gets very dirty quickly and is not easy to clean compared to the 3S.
