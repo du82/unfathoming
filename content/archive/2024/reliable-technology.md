@@ -3,7 +3,7 @@ title: The tech that stuck (2023)
 date: 2024-03-23
 tags:
   - none
-draft: false
+draft: true
 ---
 This is a list of computer related products that have stuck with me and I can confidently recommend them. Nothing is sponsored / referral, all links are direct to product pages.
 
