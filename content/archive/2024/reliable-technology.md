@@ -3,7 +3,7 @@ title: The tech that stuck (2023)
 date: 2024-03-23
 tags:
   - none
-draft: true
+draft: false
 ---
 This is a list of computer related products that have stuck with me and I can confidently recommend them. Nothing is sponsored / referral, all links are direct to product pages.
 
@@ -11,8 +11,15 @@ This is a list of computer related products that have stuck with me and I can co
 Instead of a desktop, I went with a dual laptop setup. My main laptop is a *Lenovo Legion Y740-17IRH* and it has so far been a great laptop for me. It works well with Linux, and has enough ports for everything I do. Now it sits on my desk right under my networking switch and rarely moves, but when I used to travel with it, it was amazing for that.
 
 I don't demand much of this laptop beyond finding ways to [[Conquer the stack]], it just needs to be able to compile code, run the Tor browser, and run Minecraft as well sometimes. I got it during COVID when computers were relatively cheap for the specifications that you could get, so I got one that would last me 10-15 years with room to grow.
+{% dropdown "Laptop specifications", "
+<ol>
+  <li>OS: Pop!_OS 22.04 LTS x86_64</li>
+  <li>Host: 81UG Lenovo Legion Y740</li>
+  <li>CPU: Intel i7-9750H (12) @ 4.50GHz</li>
+  <li>GPU:</li>
+  <li>GPU:</li>
+</ol>" %}
 
-![[big-laptop-specs-2024.png]]
 ## Keyboard
 I use a customized *[Launch Heavy](https://system76.com/accessories/launch)* keyboard from System76 that's got a layout meant specifically for me, since all of the joints in my fingers are double jointed and hitting backspace and other keys in their usual places causes pain after prolonged use. The backspace key is to the *left* of the space bar, see photo below. The keyboard also has firmware modifications so I can type Chinese characters with the number pad by remembering a series of codes that are associated with sounds. This truly is a 10/10 keyboard for programmers and hackers.
 
