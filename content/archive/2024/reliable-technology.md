@@ -1,5 +1,5 @@
 ---
-title: The tech that stuck (2023)
+title: Reliable technology that has stood the test of time and torture
 date: 2024-03-23
 tags:
   - none
