@@ -16,8 +16,9 @@ I don't demand much of this laptop beyond finding ways to [[Conquer the stack]],
   <li>OS: Pop!_OS 22.04 LTS x86_64</li>
   <li>Host: 81UG Lenovo Legion Y740</li>
   <li>CPU: Intel i7-9750H (12) @ 4.50GHz</li>
-  <li>GPU:</li>
-  <li>GPU:</li>
+  <li>GPU:Intel CoffeeLake-H GT2 [UHD Graphics 630]</li>
+  <li>GPU: NVIDIA GeForce GTX 1660 Ti Mobile</li>
+  <li>Memory: 15856Mib</li>
 </ol>" %}
 
 ## Keyboard
