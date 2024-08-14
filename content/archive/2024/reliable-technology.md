@@ -5,7 +5,7 @@ tags:
   - none
 draft: false
 ---
-This is a list of computer related products that have stuck with me and I can confidently recommend them. Nothing is sponsored / referral, all links are direct to product pages.
+{% callout "info", "This is a list of computer related products that have stuck with me and I can confidently recommend them. Nothing is sponsored / referral, all links are direct to product pages."%}
 
 ## Main laptop
 Instead of a desktop, I went with a dual laptop setup. My main laptop is a *Lenovo Legion Y740-17IRH* and it has so far been a great laptop for me. It works well with Linux, and has enough ports for everything I do. Now it sits on my desk right under my networking switch and rarely moves, but when I used to travel with it, it was amazing for that.
