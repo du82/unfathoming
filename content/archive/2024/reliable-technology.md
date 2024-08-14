@@ -34,7 +34,7 @@ I use a [*MX Master 3S*](https://www.logitech.com/en-us/products/mice/mx-master-
 My small laptop is a *Lenovo Yoga 14" 2018 edition*. It was a gift from my family since my previous computer died and I lacked the skills to repair it at the time. It's been the laptop I've taken with me on all of my trips, and it's been the one I've used to make the majority of the Minecraft content that I've sold over the years. Currently it has a dual boot config with debloated Windows 10 (only for Minecraft) and Pop!_OS (for everything else).
 
 ## Game console
-I love playing games, and I want a game console that doesn't lock me into its ecosystem, so I went with a maxxed out Steam Deck; the one with the frosted glass screen and the nicer case. I've got a dock for it as well, and it suits my lifestyle well.
+I sometimes{% sidenote "Not as much as I used to or would like to" %} play games, and I want a game console that doesn't lock me into its ecosystem, so I went with a maxxed out Steam Deck; the one with the frosted glass screen and the nicer case. I've got a dock for it as well, and it suits my lifestyle well.
 
 ## Phones
 I recently got an unlocked [Google Pixel 7a](https://store.google.com/product/pixel_7a) (running [GrapheneOS](https://grapheneos.org/) due to the #privacy benefits it brings) after being told that being a cybersecurity professional with a phone that's years out of date (in terms of security) is unacceptable, especially with the kinds of services that I host and being a political target. I have two old phones that I still keep around for various things (like checking WeChat) but they rarely leave home.
