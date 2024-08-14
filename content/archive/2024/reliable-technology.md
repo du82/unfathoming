@@ -2,7 +2,7 @@
 title: Reliable technology that has stood the test of time and torture
 date: 2024-03-23
 tags:
-  - none
+  - guides
 draft: false
 ---
 {% callout "info", "This is a list of computer related products that have stuck with me and I can confidently recommend them. Nothing is sponsored / referral, all links are direct to product pages."%}
@@ -12,14 +12,14 @@ Instead of a desktop, I went with a dual laptop setup. My main laptop is a *Leno
 
 I don't demand much of this laptop beyond finding ways to [[Conquer the stack]], it just needs to be able to compile code, run the Tor browser, and run Minecraft as well sometimes. I got it during COVID when computers were relatively cheap for the specifications that you could get, so I got one that would last me 10-15 years with room to grow.
 {% dropdown "Laptop specifications", "
-<ol>
+<ul>
   <li>OS: Pop!_OS 22.04 LTS x86_64</li>
   <li>Host: 81UG Lenovo Legion Y740</li>
   <li>CPU: Intel i7-9750H (12) @ 4.50GHz</li>
   <li>GPU:Intel CoffeeLake-H GT2 [UHD Graphics 630]</li>
   <li>GPU: NVIDIA GeForce GTX 1660 Ti Mobile</li>
   <li>Memory: 15856Mib</li>
-</ol>" %}
+</ul>" %}
 
 ## Keyboard
 I use a customized *[Launch Heavy](https://system76.com/accessories/launch)* keyboard from System76 that's got a layout meant specifically for me, since all of the joints in my fingers are double jointed and hitting backspace and other keys in their usual places causes pain after prolonged use. The backspace key is to the *left* of the space bar, see photo below. The keyboard also has firmware modifications so I can type Chinese characters with the number pad by remembering a series of codes that are associated with sounds. This truly is a 10/10 keyboard for programmers and hackers.
