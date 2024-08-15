@@ -4,7 +4,7 @@ date: 2024-08-14
 tags:
   - ai
 ---
-{% callout "info", "The point is, those with AI have a significant advantage over those without AI." %}
+{% callout "warning", "This post is in progress" %}
 
 Here's a practical example. You are paid to do research and write 5 reports every day. It doesn't matter how you spend your time, you are paid only if you turn in each of the reports at the end of the day.
 
@@ -13,3 +13,5 @@ The first person meticulously researches and writes out all of the information, 
 This leads to a statistically unfair advantage for the person who chooses to manually research and write out all of the reports.
 
 Similar to how tractors largely replaced manual farming in developed nations, AI is replacing traditional, time-consuming, and often error-prone manual tasks. For example, in finance, machine learning algorithms can analyze market trends, predict stock prices, and automate investment strategies. This happens thousands of times faster than a human could do it, and modern neural netowrks are able to pull from millions of data points on a given topic, leading to often times more accurate outcomes than a human could achieve.
+
+Why does this matter?
