@@ -4,7 +4,7 @@ date: 2024-08-14
 tags:
   - ai
 ---
-{% callout "The point is, those with AI have a significant advantage over those without AI." %}
+{% callout "note", "The point is, those with AI have a significant advantage over those without AI." %}
 
 Here's a practical example. You are paid to do research and write 5 reports every day. It doesn't matter how you spend your time, you are paid only if you turn in each of the reports at the end of the day.
 
