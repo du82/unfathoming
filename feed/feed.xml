@@ -4,12 +4,25 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-08-01T00:00:00Z</updated>
+	<updated>2024-08-14T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>You&#39;re getting AI wrong</title>
+		<link href="https://unfathom.ing/archive/2024/youre-getting-ai-wrong/"/>
+		<updated>2024-08-14T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/youre-getting-ai-wrong/</id>
+		<content type="html">&lt;div class=&quot;callout The point is, those with AI have a significant advantage over those without AI.&quot;&gt;undefined&lt;/div&gt;
+&lt;p&gt;Here&#39;s a practical example. You are paid to do research and write 5 reports every day. It doesn&#39;t matter how you spend your time, you are paid only if you turn in each of the reports at the end of the day.&lt;/p&gt;
+&lt;p&gt;The first person meticulously researches and writes out all of the information, creating drafts and compiling it into a final report. This takes seven and a half hours and takes the majority of their workday to complete.&lt;/p&gt;
+&lt;p&gt;The second person inputs the reference material into an AI model and it outputs the completed research as well as the five reports for that day. Reviewing the final product takes them two hours to complete, and they go home before noon.&lt;/p&gt;
+&lt;p&gt;This leads to a statistically unfair advantage for the person who chooses to manually research and write out all of the reports.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>500 Topics worth exploring</title>
