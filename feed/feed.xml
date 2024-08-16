@@ -4,26 +4,12 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-08-14T00:00:00Z</updated>
+	<updated>2024-08-01T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
-	
-	<entry>
-		<title>Tractors and stocks and tractor stocks</title>
-		<link href="https://unfathom.ing/archive/2024/tractor-stocks/"/>
-		<updated>2024-08-14T00:00:00Z</updated>
-		<id>https://unfathom.ing/archive/2024/tractor-stocks/</id>
-		<content type="html">&lt;div class=&quot;callout warning&quot;&gt;This post is in progress&lt;/div&gt;
-&lt;p&gt;Here&#39;s a practical example. You are paid to do research and write 5 reports every day. It doesn&#39;t matter how you spend your time, you are paid only if you turn in each of the reports at the end of the day.&lt;/p&gt;
-&lt;p&gt;The first person meticulously researches and writes out all of the information, creating drafts and compiling it into a final report. This takes seven and a half hours and takes the majority of their workday to complete. The second person inputs the reference material into an AI model and it outputs the completed research as well as the five reports for that day. Reviewing the final product takes them two hours to complete, and they go home before noon.&lt;/p&gt;
-&lt;p&gt;This leads to a statistically unfair advantage for the person who chooses to manually research and write out all of the reports.&lt;/p&gt;
-&lt;p&gt;Similar to how tractors largely replaced manual farming in developed nations, AI is replacing traditional, time-consuming, and often error-prone manual tasks. For example, in finance, machine learning algorithms can analyze market trends, predict stock prices, and automate investment strategies. This happens thousands of times faster than a human could do it, and modern neural netowrks are able to pull from millions of data points on a given topic, leading to often times more accurate outcomes than a human could achieve.&lt;/p&gt;
-&lt;p&gt;Why does this matter?&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>500 Topics worth exploring</title>
