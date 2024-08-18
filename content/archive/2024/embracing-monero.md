@@ -25,6 +25,12 @@ Monero correctly implements{% sidenote "Zcash does not correctly implement these
 
 This creates a layer of plausible deniability, making it nearly impossible to trace transactions back to their origin. Unlike [surveillance coins](/archive/2024/the-bitcoiners-were-wrong), Monero obscures transaction amounts, sender and receiver addresses, and the transaction history, providing users with a level of financial privacy that closely mirrors cash transactions in the physical world.
 
+| Feature    | Bitcoin        | Ethereum     | Monero      | Wire Transfer     |
+| ---------- | -------------- | ------------ | ----------- | ----------------- |
+| Speed      | 10-120 minutes | 6-10 minutes | 1-3 minutes | 1-5 business days |
+| Cost       | $1-10          | $1-20        | $0.01-$0.06 | $25-50            |
+| Efficiency | Moderate       | High         | Very High   | Low               |
+
 ## Challenges and considerations
 Most governments aren't too pleased with the privacy that Monero offers, and as a result of that, it's become increasingly difficult to obtain the coin{% sidenote "Ever since the shutdown of LocalMonero, I've switched to peer-to-peer trades despite the risks." %}, as it's been delisted from all major exchanges. This difficulty in obtaining and trading has led to a situation where there's much demand and little supply.
 
