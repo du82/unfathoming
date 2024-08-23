@@ -23,4 +23,4 @@ The divergence in superapp adoption between East and West is deeply rooted in cu
 
 | Western design                                                                                  | Eastern design                                                                                       |
 | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| I don't want my banking app knowing everything about my life. A bank is a bank, not a chat app. | I want to be able to send money to all of my friends, so it's good that the bank knows who they are. |
+| I don't want my banking app knowing everything about my life{% sidenote "I [wrote about](/archive/2024/embracing-monero) this as well." %}. A bank is a bank, not a chat app. | I want to be able to send money to all of my friends, so it's good that the bank knows who they are. |
