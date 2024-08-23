@@ -195,6 +195,14 @@
 		}
 		,
 		{
+			"id": "https://unfathom.ing/archive/2024/superapp-design/",
+			"url": "https://unfathom.ing/archive/2024/superapp-design/",
+			"title": "The western world fundamentally misunderstands superapps",
+			"content_html": "<p>The western world is misunderstanding superapps. As someone who's developed two of them and worked for a Chinese company that develops one, I feel qualified to write about this topic.</p>\n<p>Superapps were created to achieve three primary goals: Reduce context shift between apps by offering a consistant user interface, lock users into a walled garden therefore increasing retention, and sidestep restrictions on Apple's app store by offering web-based apps inside of a specialized browser with deep integration.</p>\n<p>This naturally works towards a philosophy of centralized control over the experience, or in simple terms; everything you can imagine in one app.</p>\n<table>\n<thead>\n<tr>\n<th>Western design</th>\n<th>Eastern design</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Many app screens, one function each with loose integration.</td>\n<td>One app, many small functions that call upon each other as needed.</td>\n</tr>\n</tbody>\n</table>\n",
+			"date_published": "2024-01-23T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://unfathom.ing/archive/2024/the-tragedy-of-discord/",
 			"url": "https://unfathom.ing/archive/2024/the-tragedy-of-discord/",
 			"title": "The tragedy of Discord",
