@@ -1608,8 +1608,13 @@ Speed&lt;/p&gt;
 		<link href="https://unfathom.ing/archive/2024/superapp-design/"/>
 		<updated>2024-01-23T00:00:00Z</updated>
 		<id>https://unfathom.ing/archive/2024/superapp-design/</id>
-		<content type="html">&lt;p&gt;The western world is misunderstanding superapps. As someone who&#39;s developed two of them and worked for a Chinese company that develops one, I feel qualified to write about this topic.&lt;/p&gt;
-&lt;p&gt;Superapps were created to achieve three primary goals: Reduce context shift between apps by offering a consistant user interface, lock users into a walled garden therefore increasing retention, and sidestep restrictions on Apple&#39;s app store by offering web-based apps inside of a specialized browser with deep integration.&lt;/p&gt;
+		<content type="html">&lt;p&gt;As a mobile app developer who has created two superapps and worked for a Chinese company developing another, I&#39;ve gained unique insights into a phenomenon that the Western world often misinterprets: superapps. I&#39;d like to share my thoughts and findings on the topic.&lt;/p&gt;
+&lt;p&gt;Superapps were conceived with three primary objectives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To minimize context switching by providing a consistent user interface across various functions.&lt;/li&gt;
+&lt;li&gt;To increase user retention by creating a comprehensive digital ecosystem that&#39;s hard to escape.&lt;/li&gt;
+&lt;li&gt;To circumvent app store restrictions by offering deeply integrated web-based applications within a specialized browser.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;This naturally works towards a philosophy of centralized control over the experience, or in simple terms; everything you can imagine in one app.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1622,6 +1627,21 @@ Speed&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;Many app screens, one function each with loose integration.&lt;/td&gt;
 &lt;td&gt;One app, many small functions that call upon each other as needed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The divergence in superapp adoption between East and West is deeply rooted in cultural differences. Eastern cultures, particularly in countries like China, tend to value convenience and efficiency over privacy concerns. This cultural inclination has allowed superapps to flourish, offering a one-stop solution for daily digital needs. In contrast, Western users often prioritize individual choice and data privacy, leading to a more fragmented app ecosystem.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Western design&lt;/th&gt;
+&lt;th&gt;Eastern design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I don&#39;t want my banking app knowing everything about my life. A bank is a bank, not a chat app.&lt;/td&gt;
+&lt;td&gt;I want to be able to send money to all of my friends, so it&#39;s good that the bank knows who they are.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
