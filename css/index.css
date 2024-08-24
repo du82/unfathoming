@@ -56,7 +56,7 @@ footer {
 .content {
     flex-grow: 1;
     padding: 20px;
-    max-width: 43em;
+    max-width: 45em;
     position: relative;
     border-left: 1px solid #ccc;
 }
