@@ -147,6 +147,10 @@ table {
 /* Mobile view */
 @media (max-width: 768px) {
 
+    nav{
+        margin-left: 10px;
+    }
+    
     .sidebar {
         display: none;
     }
