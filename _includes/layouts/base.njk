@@ -34,11 +34,10 @@
             </ul>
             <h1>Tags</h1>
             <ul>
-                {%- for tag in collections.all | getAllTags | filterTagList %}
-                    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-                    {% set postsCount = collections[tag] | length %}
-                    <li><a href="{{ tagUrl }}">{{ tag }} ({{ postsCount }})</a></li>
-                {%- endfor %}
+                {% for tag in collections.all | getAllTags | filterTagList | sort %}
+                {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+                    <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+                {% endfor %}
             </ul>
         </aside>
         <main class="content">
