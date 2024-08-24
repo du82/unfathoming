@@ -38,13 +38,6 @@ header nav a[aria-current="page"] {
     display: flex;
     min-height: calc(100vh - 41px); /* Subtract header height */
 }
-.sidebar {
-    width: 241px;
-    min-width: 241px;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-left: 1px solid #ccc;
-}
 .content {
     flex-grow: 1;
     padding: 20px;
@@ -55,9 +48,19 @@ header nav a[aria-current="page"] {
 .content p {
     text-align: justify;
 }
+.post-meta {
+    
+}
 h1, h2 {
     color: #333;
 border-bottom: 1px solid #ccc
+}
+.sidebar {
+    width: 241px;
+    min-width: 241px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-left: 1px solid #ccc;
 }
 .sidebar ul {
     list-style-type: none;
