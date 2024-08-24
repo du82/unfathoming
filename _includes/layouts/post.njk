@@ -4,7 +4,7 @@ layout: layouts/base.njk
 {# Only include the syntax highlighter CSS on blog posts #}
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
-<h2 class="title">{{ title }}</h2>
+<h2 class="post-title">{{ title }}</h2>
 
 <div class="post-metadata">
 	<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>, <a href="https://archive.ph/http://unfathom.ing{{ page.url }}" target="_blank">View Archived</a>, 
