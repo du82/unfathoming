@@ -277,19 +277,24 @@ border-bottom: 1px solid #ccc
     border-left: 1px solid #ccc;
     border-top: 1px solid #ccc;
     padding: 5px;
+    padding-top: 25px; /* Add space at the top for the number */
 }
+
 .sidenote-number {
     text-decoration: none;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0; /* Change from right: 0 to left: 0 */
     color: #333;
     padding: 2px 6px;
     font-size: 0.9em;
     font-weight: bold;
-    border-left: 3px double #ccc;
+    border-left: none; /* Remove left border */
     border-right: 3px double #ccc;
     border-bottom: 3px double #ccc;
+    display: inline-block; /* Allow the element to grow with content */
+    min-width: 20px; /* Set a minimum width */
+    text-align: center; /* Center the text */
 }
 sup {
     color: #0066cc;
@@ -515,5 +520,5 @@ table {
     </div>
     
 </body>
-<!-- This page `/archive/2024/chinese-keyboards/` was built on 2024-08-24T20:31:35.416Z -->
+<!-- This page `/archive/2024/chinese-keyboards/` was built on 2024-08-24T20:42:20.662Z -->
 </html>
