@@ -24,7 +24,7 @@
     <div class="container">
 
         <aside class="sidebar">
-            <h3>Recent Articles</h3>
+            <h1>Recent Posts</h1>
             <ul>
                 {%- for post in collections.posts | reverse %}
                     {% if loop.index <= 5 %}
@@ -32,7 +32,7 @@
                     {% endif %}
                 {%- endfor %}
             </ul>
-            <h3>Tags</h3>
+            <h1>Tags</h1>
             <ul>
                 {%- for tag in collections.all | getAllTags | filterTagList | sort %}
                 {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
