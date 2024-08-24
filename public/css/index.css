@@ -49,7 +49,7 @@ header nav a[aria-current="page"] {
     text-align: justify;
 }
 .post-meta {
-    
+    margin-top: 0;
 }
 h1, h2 {
     color: #333;
@@ -86,4 +86,45 @@ sup {
     font-weight: bold;
     cursor: help;
 }
-</style>
+
+/* Basic table styling */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Header styling */
+  thead {
+    background-color: var(--quote-background);
+    border-bottom: 3px double #ccc;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  /* Body styling */
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Cell borders */
+  td, th {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
