@@ -48,7 +48,7 @@ header nav a[aria-current="page"] {
 .content p {
     text-align: justify;
 }
-.post-meta {
+.post-metadata {
     margin-top: 0;
 }
 h1, h2 {
