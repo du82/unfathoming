@@ -30,7 +30,8 @@ header nav a {
     top: 1px;
 }
 header nav a[aria-current="page"] {
-    background-color: var(--background-color);
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
     z-index: 2;
 }
 .container {
