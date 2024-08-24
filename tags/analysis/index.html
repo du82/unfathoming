@@ -61,7 +61,7 @@ header nav a[aria-current="page"] {
     text-align: justify;
 }
 .post-meta {
-    
+    margin-top: 0;
 }
 h1, h2 {
     color: #333;
@@ -98,7 +98,48 @@ sup {
     font-weight: bold;
     cursor: help;
 }
-</style></style>
+
+/* Basic table styling */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Header styling */
+  thead {
+    background-color: var(--quote-background);
+    border-bottom: 3px double #ccc;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  /* Body styling */
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Cell borders */
+  td, th {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }</style>
     <script data-goatcounter="https://unfathoming.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -250,5 +291,5 @@ sup {
         </main>
     </div>
 </body>
-<!-- This page `/tags/analysis/` was built on 2024-08-24T18:32:12.923Z -->
+<!-- This page `/tags/analysis/` was built on 2024-08-24T18:44:34.600Z -->
 </html>
