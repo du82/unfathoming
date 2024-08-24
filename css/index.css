@@ -143,3 +143,15 @@ table {
   tbody tr:last-child td {
     border-bottom: none;
   }
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .sidenote {
+        display: none;
+    }
+}
