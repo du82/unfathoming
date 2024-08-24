@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Hello World!</title>
-		<meta name="description" content="A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.">
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Unfathoming">
-		<meta name="generator" content="Eleventy v2.0.1">
-		<style>/**
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <meta name="description" content="A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Unfathoming">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Unfathoming">
+    <meta name="generator" content="Eleventy v2.0.1">
+    <style>/**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
@@ -879,26 +879,192 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
     font-size: 1.5em;
 }</style>
-		<script data-goatcounter="https://unfathoming.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-	</head>
-	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
-		<header style="background-image: url('/assets/banners/default.jpeg');">
-			<a href="/" class="home-link">Unfathoming</a>
-			<nav>
-				<ul class="nav">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/archive/2024/hello-world/" aria-current="page">Intro</a></li>
-					<li class="nav-item"><a href="/archive/">Archive</a></li>
-					<li class="nav-item"><a href="/archive/2024/principles/">Principles</a></li>
-					<li class="nav-item"><a href="/archive/2024/about-me/">Me</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main id="skip">
-			<div class="content-wrapper">
-				<div class="main-content">
-					
+    <script data-goatcounter="https://unfathoming.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: "Noto Sans", sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 0;
+            text-align: left;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+        }
+        header nav {
+            display: flex;
+            margin-left: 240px;
+            margin-top: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        header nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 20px;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            border-radius: 0;
+            margin-right: 5px;
+            position: relative;
+            top: 1px;
+        }
+        header nav a:hover, header nav a.active {
+            background-color: #fff;
+            border-bottom: 1px solid #fff;
+        }
+        .container {
+            display: flex;
+            min-height: calc(100vh - 41px); /* Subtract header height */
+        }
+        .sidebar {
+            width: 200px;
+	    min-width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-left: 1px solid #ccc;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            max-width: 40em;
+            position: relative;
+            border-left: 1px solid #ccc;
+        }
+        .content p {
+            text-align: justify;
+        }
+        h1, h2 {
+            color: #333;
+	    border-bottom: 1px solid #ccc
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+        }
+        .sidenote {
+            font-size: 0.9em;
+            color: #666;
+            position: absolute;
+            right: -220px;
+            width: 200px;
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+        sup {
+            color: #0066cc;
+            font-weight: bold;
+            cursor: help;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/archive/2024/hello-world/" aria-current="page">Intro</a>
+            <a href="/archive/">Archive</a>
+            <a href="/archive/2024/principles/">Principles</a>
+            <a href="/archive/2024/about-me/">Me</a>
+        </nav>
+    </header>
+    <div class="container">
+
+        <aside class="sidebar">
+            <h3 id="recent-articles">Recent Articles</h3>
+            <ul>
+                    
+                        <li><a href="/archive/2024/500-topics/">500 Topics worth exploring</a></li>
+                    
+                    
+                        <li><a href="/archive/2024/telegram-analysis/">Telegram&#39;s Design: An In-Depth Analysis</a></li>
+                    
+                    
+                        <li><a href="/archive/2024/principles/">Principles for a free being</a></li>
+                    
+                    
+                        <li><a href="/archive/2024/matrix-data/">Some interesting Matrix data</a></li>
+                    
+                    
+                        <li><a href="/archive/2024/chinese-keyboards/">The Chinese keyboard problem</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            </ul>
+            <h3 id="tags">Tags</h3>
+            <ul>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+                
+                    <li><a href=""></a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            
 <h2 id="hello-world">Hello World!</h2>
 
 <ul class="post-metadata">
@@ -928,138 +1094,8 @@ h2 + .header-anchor {
 <ul class="links-nextprev"><li>Next: <a href="/archive/2024/about-me/">About Me</a></li>
 </ul>
 
-				</div>
-				<div class="sidebar">
-					<h3 id="recent-articles">Recent Articles</h3>
-					<ul>
-							
-								<li><a href="/archive/2024/500-topics/">500 Topics worth exploring</a></li>
-							
-							
-								<li><a href="/archive/2024/telegram-analysis/">Telegram&#39;s Design: An In-Depth Analysis</a></li>
-							
-							
-								<li><a href="/archive/2024/principles/">Principles for a free being</a></li>
-							
-							
-								<li><a href="/archive/2024/matrix-data/">Some interesting Matrix data</a></li>
-							
-							
-								<li><a href="/archive/2024/chinese-keyboards/">The Chinese keyboard problem</a></li>
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-					</ul>
-					<h3 id="tags">Tags</h3>
-					<div class="tag-cloud">
-						
-						
-							<a href="/tags/ai/" class="post-tag">ai</a>
-						
-						
-							<a href="/tags/analysis/" class="post-tag">analysis</a>
-						
-						
-							<a href="/tags/beginnings/" class="post-tag">beginnings</a>
-						
-						
-							<a href="/tags/china/" class="post-tag">china</a>
-						
-						
-							<a href="/tags/design/" class="post-tag">design</a>
-						
-						
-							<a href="/tags/development/" class="post-tag">development</a>
-						
-						
-							<a href="/tags/evergreen/" class="post-tag">evergreen</a>
-						
-						
-							<a href="/tags/guides/" class="post-tag">guides</a>
-						
-						
-							<a href="/tags/learning/" class="post-tag">learning</a>
-						
-						
-							<a href="/tags/musing/" class="post-tag">musing</a>
-						
-						
-							<a href="/tags/philosophy/" class="post-tag">philosophy</a>
-						
-						
-							<a href="/tags/privacy/" class="post-tag">privacy</a>
-						
-						
-							<a href="/tags/projects/" class="post-tag">projects</a>
-						
-						
-							<a href="/tags/rant/" class="post-tag">rant</a>
-						
-						
-							<a href="/tags/security/" class="post-tag">security</a>
-						
-						
-							<a href="/tags/software/" class="post-tag">software</a>
-						
-						
-							<a href="/tags/sovereignty/" class="post-tag">sovereignty</a>
-						
-						
-							<a href="/tags/surveillance/" class="post-tag">surveillance</a>
-						
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer>
-			<nav>
-				<ul class="footer-nav">
-				<li class="footer-nav-item">
-					<a href="#">
-						<svg version="1.1" viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18">
-						<g stroke-linecap="round" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linejoin="round">
-						<path d="M12.01 4.51v14.99"></path>
-						<path d="M6.023 10.514l5.977-6.016 5.977 6.016"></path>
-						</g>
-						<path fill="none" d="M0 0h24v24h-24Z"></path>
-						</svg>
-					</a>
-				</li>
-				<li class="footer-nav-item">
-					<a href="/archive/2024/on-copyright/">Copyright</a>
-				</li>
-				<li class="footer-nav-item">
-					<a href="/donate/">Donate</a>
-				</li>
-				<li class="footer-nav-item">
-					<a href="/tags/">Tags</a>
-				</li>
-				<i style="margin-left: auto;">Lore runs deep, secrets run deeper.</i>
-				</ul>
-			</nav>
-		</footer>
-		<!-- This page `/archive/2024/hello-world/` was built on 2024-08-23T17:58:53.402Z -->
-	</body>
+        </main>
+    </div>
+</body>
+<!-- This page `/archive/2024/hello-world/` was built on 2024-08-24T17:55:50.928Z -->
 </html>
