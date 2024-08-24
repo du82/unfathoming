@@ -34,6 +34,9 @@ header nav a[aria-current="page"] {
     border-bottom: 1px solid #fff;
     z-index: 2;
 }
+footer {
+    background-color: #f0f0f0;
+}
 .home-link {
     font-size: 24px;
     font-weight: 700;
