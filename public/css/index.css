@@ -117,6 +117,10 @@ sup {
     font-weight: bold;
     cursor: help;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Basic table styling */
 table {
