@@ -7,7 +7,7 @@ tags:
 
 As a mobile app developer who has created two superapps and worked for a Chinese company developing another, I've gained unique insights into a phenomenon that the Western world often misinterprets: superapps. I'd like to share my thoughts and findings on the topic.
 
-Superapps were conceived with three primary objectives:
+Superapps were conceived with three primary objectives{% sidenote "Notice that 'To be good to the end user' is not an objective. Superapps tend to be very exploitative by design." %}:
 
 - To minimize context switching by providing a consistent user interface across various functions.
 - To increase user retention by creating a comprehensive digital ecosystem that's hard to escape.
