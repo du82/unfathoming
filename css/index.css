@@ -14,7 +14,7 @@ header {
 header nav {
     display: flex;
     margin-left: 240px;
-    margin-right: 240px;
+    /* margin-right: 240px; */
     margin-top: 10px;
     border-bottom: 1px solid #ccc;
 }
