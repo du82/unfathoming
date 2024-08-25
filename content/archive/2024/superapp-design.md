@@ -19,6 +19,8 @@ This naturally works towards a philosophy of centralized control over the experi
 | ----------------------------------------------------------- | ------------------------------------------------------------------ |
 | Many app screens, one function each with loose integration. | One app, many small functions that call upon each other as needed. |
 
+Here's another way to explain it:
+
 | Platform | Experience                    |
 | -------- | ----------------------------- |
 | Snapchat | Maps OR Chat OR Videos        |
