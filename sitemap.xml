@@ -172,16 +172,6 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/rant/</loc>
-		<lastmod>2024-08-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/beginnings/</loc>
-		<lastmod>2024-08-25</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://unfathom.ing/tags/security/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
@@ -192,7 +182,12 @@
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/projects/</loc>
+		<loc>https://unfathom.ing/tags/beginnings/</loc>
+		<lastmod>2024-08-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/rant/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
 	
@@ -207,22 +202,17 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/tags/projects/</loc>
+		<lastmod>2024-08-25</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/tags/surveillance/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://unfathom.ing/tags/china/</loc>
-		<lastmod>2024-08-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/design/</loc>
-		<lastmod>2024-08-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://unfathom.ing/tags/development/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
 	
@@ -237,17 +227,27 @@
 	</url>
 	
 	<url>
+		<loc>https://unfathom.ing/tags/design/</loc>
+		<lastmod>2024-08-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://unfathom.ing/tags/development/</loc>
+		<lastmod>2024-08-25</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://unfathom.ing/tags/ai/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/philosophy/</loc>
+		<loc>https://unfathom.ing/tags/guides/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://unfathom.ing/tags/guides/</loc>
+		<loc>https://unfathom.ing/tags/philosophy/</loc>
 		<lastmod>2024-08-25</lastmod>
 	</url>
 	
