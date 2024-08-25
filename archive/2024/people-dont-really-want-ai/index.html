@@ -232,12 +232,19 @@ footer {
 .post-title {
     margin-bottom: 0.3em;
 }
-.content {
+.content-body {
+    flex-grow: 1;
+    padding: 20px;
+    max-width: 100%;
+    position: relative;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.content-body {
     flex-grow: 1;
     padding: 20px;
     max-width: 45em;
     position: relative;
-    border-left: 1px solid #ccc;
 }
 .content p {
     text-align: justify;
@@ -254,7 +261,6 @@ border-bottom: 1px solid #ccc
     min-width: 241px;
     background-color: #f0f0f0;
     padding: 20px;
-    border-left: 1px solid #ccc;
 }
 .sidebar ul {
     list-style-type: none;
@@ -358,12 +364,6 @@ table {
         display: none;
     }
 
-    /* Right sidebar */
-    .sidebar:last-of-type {
-        right: 0;
-        border-left: 1px solid #ccc;
-    }
-
     .sidenote {
         display: none;
     }
@@ -411,7 +411,7 @@ table {
     </header>
     <div class="container">
 
-        <aside class="sidebar">
+        <aside class="sidebar left">
             <h1>Recent Posts</h1>
             <ul>
                     
@@ -513,7 +513,8 @@ table {
             </ul>
         </aside>
         <main class="content">
-            
+            <div class="content-body">
+                
 <h2 id="people-don39t-really-want-ai">People don&#39;t really want AI</h2>
 
 <div class="post-metadata">
@@ -551,8 +552,9 @@ table {
 <ul class="links-nextprev"><li>Previous: <a href="/archive/2024/why-linux/">Why I use Linux</a></li><li>Next: <a href="/archive/2024/my-programming-journey/">My programming journey</a></li>
 </ul>
 
+            </div>
         </main>
-        <aside class="sidebar">
+        <aside class="sidebar right">
             <h1>Recent Posts</h1>
             <ul>
                     
@@ -656,5 +658,5 @@ table {
     </div>
     
 </body>
-<!-- This page `/archive/2024/people-dont-really-want-ai/` was built on 2024-08-25T17:49:01.858Z -->
+<!-- This page `/archive/2024/people-dont-really-want-ai/` was built on 2024-08-25T18:00:28.596Z -->
 </html>

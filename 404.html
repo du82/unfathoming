@@ -64,12 +64,19 @@ footer {
 .post-title {
     margin-bottom: 0.3em;
 }
-.content {
+.content-body {
+    flex-grow: 1;
+    padding: 20px;
+    max-width: 100%;
+    position: relative;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.content-body {
     flex-grow: 1;
     padding: 20px;
     max-width: 45em;
     position: relative;
-    border-left: 1px solid #ccc;
 }
 .content p {
     text-align: justify;
@@ -86,7 +93,6 @@ border-bottom: 1px solid #ccc
     min-width: 241px;
     background-color: #f0f0f0;
     padding: 20px;
-    border-left: 1px solid #ccc;
 }
 .sidebar ul {
     list-style-type: none;
@@ -190,12 +196,6 @@ table {
         display: none;
     }
 
-    /* Right sidebar */
-    .sidebar:last-of-type {
-        right: 0;
-        border-left: 1px solid #ccc;
-    }
-
     .sidenote {
         display: none;
     }
@@ -243,7 +243,7 @@ table {
     </header>
     <div class="container">
 
-        <aside class="sidebar">
+        <aside class="sidebar left">
             <h1>Recent Posts</h1>
             <ul>
                     
@@ -345,7 +345,8 @@ table {
             </ul>
         </aside>
         <main class="content">
-            
+            <div class="content-body">
+                
 <h1 id="content-not-found" tabindex="-1">Content not found. <a class="header-anchor" href="#content-not-found">#</a></h1>
 <p>The content you're looking for may have changed its URL with the site redesign, check the <a href="/archive">archive</a> to see if it's there.</p>
 <p>You can also go <a href="/">home</a>, or get the <a href="/feed/feed.xml">RSS feed</a></p>
@@ -361,8 +362,9 @@ This will work for both GitHub pages and Netlify:
 -->
 
 
+            </div>
         </main>
-        <aside class="sidebar">
+        <aside class="sidebar right">
             <h1>Recent Posts</h1>
             <ul>
                     
@@ -466,5 +468,5 @@ This will work for both GitHub pages and Netlify:
     </div>
     
 </body>
-<!-- This page `/404.html` was built on 2024-08-25T17:49:01.992Z -->
+<!-- This page `/404.html` was built on 2024-08-25T18:00:28.729Z -->
 </html>
