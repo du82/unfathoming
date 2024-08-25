@@ -23,7 +23,7 @@
     </header>
     <div class="container">
 
-        <aside class="sidebar">
+        <aside class="sidebar left">
             <h1>Recent Posts</h1>
             <ul>
                 {%- for post in collections.posts | reverse %}
@@ -42,9 +42,11 @@
             </ul>
         </aside>
         <main class="content">
-            {{ content | safe }}
+            <div class="content-body">
+                {{ content | safe }}
+            </div>
         </main>
-        <aside class="sidebar">
+        <aside class="sidebar right">
             <h1>Recent Posts</h1>
             <ul>
                 {%- for post in collections.posts | reverse %}
