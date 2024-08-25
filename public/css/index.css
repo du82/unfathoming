@@ -179,6 +179,12 @@ table {
         display: none;
     }
 
+    /* Right sidebar */
+    .sidebar:last-of-type {
+        right: 0;
+        border-left: 1px solid #ccc;
+    }
+
     .sidenote {
         display: none;
     }
