@@ -19,8 +19,10 @@ This naturally works towards a philosophy of centralized control over the experi
 | ----------------------------------------------------------- | ------------------------------------------------------------------ |
 | Many app screens, one function each with loose integration. | One app, many small functions that call upon each other as needed. |
 
-The divergence in superapp adoption between East and West is deeply rooted in cultural differences. Eastern cultures, particularly in countries like China, tend to value convenience and efficiency over privacy concerns. This cultural inclination has allowed superapps to flourish, offering a one-stop solution for daily digital needs. In contrast, Western users often prioritize individual choice and data privacy, leading to a more fragmented app ecosystem.
+The disparity in superapp adoption between Eastern and Western markets can be traced to fundamental cultural differences. In Eastern societies, the quest for convenience and efficiency frequently outweighs privacy concerns. Eastern cultures tend to be more collectivist in nature, alongside having a greater susceptibility to peer influence{% sidenote "I believe this is the reason why shopping livestreams are so popular on Douyin." %}. This pushes users towards a select few widely-adopted apps. Western societies tend to be more individualistic, which leads to a fragmented ecosystem.
 
-| Western design                                                                                  | Eastern design                                                                                       |
+Here's a chart to show the mindset that users in both regions might have, based on prior experience developing superapps:
+
+| Western mindset                                                                                  | Eastern mindset                                                                                       |
 | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | I don't want my banking app knowing everything about my life{% sidenote "I [wrote about](/archive/2024/embracing-monero) this as well." %}. A bank is a bank, not a chat app. | I want to be able to send money to all of my friends, so it's good that the bank knows who they are. |
