@@ -4,12 +4,57 @@
 	<subtitle>A blog about the life experiences, thoughts, and ideas of a computer scientist with a strange life.</subtitle>
 	<link href="https://unfathom.ing/feed/feed.xml" rel="self"/>
 	<link href="https://unfathom.ing/"/>
-	<updated>2024-08-01T00:00:00Z</updated>
+	<updated>2024-08-23T00:00:00Z</updated>
 	<id>https://unfathom.ing/</id>
 	<author>
 		<name>Du Cheng</name>
 		<email>493@tuta.io</email>
 	</author>
+	
+	<entry>
+		<title>The western world fundamentally misunderstands superapps</title>
+		<link href="https://unfathom.ing/archive/2024/superapp-design/"/>
+		<updated>2024-08-23T00:00:00Z</updated>
+		<id>https://unfathom.ing/archive/2024/superapp-design/</id>
+		<content type="html">&lt;p&gt;As a mobile app developer who has created two superapps and worked for a Chinese company developing another, I&#39;ve gained unique insights into a phenomenon that the Western world often misinterprets: superapps. I&#39;d like to share my thoughts and findings on the topic.&lt;/p&gt;
+&lt;p&gt;Superapps were conceived with three primary objectives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To minimize context switching by providing a consistent user interface across various functions.&lt;/li&gt;
+&lt;li&gt;To increase user retention by creating a comprehensive digital ecosystem that&#39;s hard to escape.&lt;/li&gt;
+&lt;li&gt;To circumvent app store restrictions by offering deeply integrated web-based applications within a specialized browser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This naturally works towards a philosophy of centralized control over the experience, or in simple terms; everything you can imagine in one app.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Western design&lt;/th&gt;
+&lt;th&gt;Eastern design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Many app screens, one function each with loose integration.&lt;/td&gt;
+&lt;td&gt;One app, many small functions that call upon each other as needed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The divergence in superapp adoption between East and West is deeply rooted in cultural differences. Eastern cultures, particularly in countries like China, tend to value convenience and efficiency over privacy concerns. This cultural inclination has allowed superapps to flourish, offering a one-stop solution for daily digital needs. In contrast, Western users often prioritize individual choice and data privacy, leading to a more fragmented app ecosystem.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Western design&lt;/th&gt;
+&lt;th&gt;Eastern design&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I don&#39;t want my banking app knowing everything about my life&lt;a class=&quot;sidenote-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;&lt;a class=&quot;sidenote-number&quot; id=&quot;sn1&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;I &lt;a href=&quot;https://unfathom.ing/archive/2024/embracing-monero&quot;&gt;wrote about&lt;/a&gt; this as well.&lt;/span&gt;. A bank is a bank, not a chat app.&lt;/td&gt;
+&lt;td&gt;I want to be able to send money to all of my friends, so it&#39;s good that the bank knows who they are.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>500 Topics worth exploring</title>
@@ -1600,51 +1645,6 @@ Speed&lt;/p&gt;
 &lt;p&gt;I created my spreadsheet to be simple to parse. The more green boxes below the product name, the more private it is.&lt;/p&gt;
 &lt;h2 id=&quot;objective-criteria&quot; tabindex=&quot;-1&quot;&gt;Objective criteria &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/privacy-spreadsheet/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;All of the criteria (on the left side) is objective facts that can be proven. I&#39;ve done my best to keep opinion and politics out of the dataset, and this helps keep the data factual rather than based on opinion. Is Facebook Messenger creepy spyware? Absolutely. Is it the worst option according to the data? No. Let the data speak for itself.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>The western world fundamentally misunderstands superapps</title>
-		<link href="https://unfathom.ing/archive/2024/superapp-design/"/>
-		<updated>2024-01-23T00:00:00Z</updated>
-		<id>https://unfathom.ing/archive/2024/superapp-design/</id>
-		<content type="html">&lt;p&gt;As a mobile app developer who has created two superapps and worked for a Chinese company developing another, I&#39;ve gained unique insights into a phenomenon that the Western world often misinterprets: superapps. I&#39;d like to share my thoughts and findings on the topic.&lt;/p&gt;
-&lt;p&gt;Superapps were conceived with three primary objectives:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;To minimize context switching by providing a consistent user interface across various functions.&lt;/li&gt;
-&lt;li&gt;To increase user retention by creating a comprehensive digital ecosystem that&#39;s hard to escape.&lt;/li&gt;
-&lt;li&gt;To circumvent app store restrictions by offering deeply integrated web-based applications within a specialized browser.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This naturally works towards a philosophy of centralized control over the experience, or in simple terms; everything you can imagine in one app.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Western design&lt;/th&gt;
-&lt;th&gt;Eastern design&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Many app screens, one function each with loose integration.&lt;/td&gt;
-&lt;td&gt;One app, many small functions that call upon each other as needed.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;The divergence in superapp adoption between East and West is deeply rooted in cultural differences. Eastern cultures, particularly in countries like China, tend to value convenience and efficiency over privacy concerns. This cultural inclination has allowed superapps to flourish, offering a one-stop solution for daily digital needs. In contrast, Western users often prioritize individual choice and data privacy, leading to a more fragmented app ecosystem.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Western design&lt;/th&gt;
-&lt;th&gt;Eastern design&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;I don&#39;t want my banking app knowing everything about my life&lt;a class=&quot;sidenote-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;&lt;a class=&quot;sidenote-number&quot; id=&quot;sn1&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;I &lt;a href=&quot;https://unfathom.ing/archive/2024/embracing-monero&quot;&gt;wrote about&lt;/a&gt; this as well.&lt;/span&gt;. A bank is a bank, not a chat app.&lt;/td&gt;
-&lt;td&gt;I want to be able to send money to all of my friends, so it&#39;s good that the bank knows who they are.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </content>
 	</entry>
 	
