@@ -1,6 +1,6 @@
 ---
 title: The western world fundamentally misunderstands superapps
-date: 2024-01-23
+date: 2024-08-23
 tags:
   - design
 ---
