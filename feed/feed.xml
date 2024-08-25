@@ -38,6 +38,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&quot;you-can-t-force-culture&quot; tabindex=&quot;-1&quot;&gt;You can&#39;t force culture &lt;a class=&quot;header-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The disparity in superapp adoption between Eastern and Western markets can be traced to fundamental cultural differences. In Eastern societies, the quest for convenience and efficiency frequently outweighs privacy concerns. Eastern cultures tend to be more collectivist in nature, alongside having a greater susceptibility to peer influence&lt;a class=&quot;sidenote-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;2&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn2&quot;&gt;&lt;a class=&quot;sidenote-number&quot; id=&quot;sn2&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;2&lt;/a&gt;I believe this is the reason why shopping livestreams are so popular on Douyin.&lt;/span&gt;. This pushes users towards a select few widely-adopted apps. Western societies tend to be more individualistic, which leads to a fragmented ecosystem.&lt;/p&gt;
 &lt;p&gt;Here&#39;s a chart to show the mindset that users in both regions might have, based on prior experience developing superapps:&lt;/p&gt;
 &lt;table&gt;
@@ -54,6 +55,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;Snapchat: Maps OR Chat OR Videos
+Twitter: Feed OR Jobs OR Spaces
+Status: Chat OR Communities OR Payment
+WeChat: Chat AND Payment AND Video... all possible at the same time, which is quite common for group shopping and betting&lt;/p&gt;
 </content>
 	</entry>
 	
