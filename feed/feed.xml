@@ -17,7 +17,7 @@
 		<updated>2024-08-23T00:00:00Z</updated>
 		<id>https://unfathom.ing/archive/2024/superapp-design/</id>
 		<content type="html">&lt;p&gt;As a mobile app developer who has created two superapps and worked for a Chinese company developing another, I&#39;ve gained unique insights into a phenomenon that the Western world often misinterprets: superapps. I&#39;d like to share my thoughts and findings on the topic.&lt;/p&gt;
-&lt;p&gt;Superapps were conceived with three primary objectives:&lt;/p&gt;
+&lt;p&gt;Superapps were conceived with three primary objectives&lt;a class=&quot;sidenote-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;&lt;a class=&quot;sidenote-number&quot; id=&quot;sn1&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;Notice that &#39;To be good to the end user&#39; is not an objective. Superapps tend to be very exploitative by design.&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;To minimize context switching by providing a consistent user interface across various functions.&lt;/li&gt;
 &lt;li&gt;To increase user retention by creating a comprehensive digital ecosystem that&#39;s hard to escape.&lt;/li&gt;
@@ -48,7 +48,7 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;I don&#39;t want my banking app knowing everything about my life&lt;a class=&quot;sidenote-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;&lt;a class=&quot;sidenote-number&quot; id=&quot;sn1&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;1&lt;/a&gt;I &lt;a href=&quot;https://unfathom.ing/archive/2024/embracing-monero&quot;&gt;wrote about&lt;/a&gt; this as well.&lt;/span&gt;. A bank is a bank, not a chat app.&lt;/td&gt;
+&lt;td&gt;I don&#39;t want my banking app knowing everything about my life&lt;a class=&quot;sidenote-anchor&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;2&lt;/a&gt;&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn2&quot;&gt;&lt;a class=&quot;sidenote-number&quot; id=&quot;sn2&quot; href=&quot;https://unfathom.ing/archive/2024/superapp-design/&quot;&gt;2&lt;/a&gt;I &lt;a href=&quot;https://unfathom.ing/archive/2024/embracing-monero&quot;&gt;wrote about&lt;/a&gt; this as well.&lt;/span&gt;. A bank is a bank, not a chat app.&lt;/td&gt;
 &lt;td&gt;I want to be able to send money to all of my friends, so it&#39;s good that the bank knows who they are.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
