@@ -109,7 +109,7 @@ html {
     overflow-y: scroll;
 }
 body {
-    max-width: 60em;
+    max-width: 70em;
 }
 h2 {
     border-bottom: 1px dashed var(--color-gray-20);
